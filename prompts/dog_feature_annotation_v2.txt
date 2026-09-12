@@ -1,0 +1,5 @@
+目标类别：dog。只评价 A 框指定的 target_1。
+
+输入为原图、A 框标记图和未标记原图裁剪放大图；不得更换目标或选择框外对象。严格按照 dog_feature_schema_v2.json 输出 20 个字段，不得添加、删除、改名或合并字段。只能使用枚举值，无法判断时使用 unknown。边界外属于 truncation，不属于其他物体遮挡。pose 描述身体姿势，action_state 描述可观察动作。不得推断品种、身份、健康或性格。
+
+每个字段必须有 evidence。证据必须描述直接可见的视觉事实，不能只重复枚举值。unknown 也必须说明无法判断的原因；证据不得包含 URL、文件名、COCO 标签或虚构来源。只输出：{"schema_version":"dog_v2","image_id":"...","target_instance_id":"target_1","features":{},"evidence":{}}。

@@ -1,0 +1,25 @@
+{
+  "protocol_version": "baseline-candidates-v1",
+  "prediction_dir": "../data/full_gpu_20260905",
+  "source_audit_dir": "../data/source_audit",
+  "archive": null,
+  "baseline_group": "val/val_100_per_class",
+  "expected_count": 1000,
+  "scoring_models": ["resnet50", "swin_t"],
+  "validation_models": ["clip"],
+  "model_role_status": "exploratory_not_formal",
+  "role_rationale": "ResNet-50 and Swin-T share supported classes but differ in architecture. CLIP is excluded from scoring and used only as an auxiliary validator with unknown training membership.",
+  "source_policy": "unresolved_overlap_exploratory_only",
+  "historical_predictions_already_examined": true,
+  "random_review_per_class": 5,
+  "review_seed": 20260907,
+  "diagnostic_band_edges": [0.0, 0.25, 0.5, 0.75, 1.0],
+  "calibration": {
+    "method": "scalar_temperature_nll",
+    "min_per_part": 100,
+    "min_per_class": 5,
+    "min_errors_per_model": 5,
+    "temperature_bounds": [0.05, 20.0],
+    "acceptance": "Held-out calibration NLL and multiclass Brier must not worsen; boundary optimum is rejected. These are operational guards, not proof of validity."
+  }
+}

@@ -1,0 +1,2 @@
+# CPU-only audit/scoring; model inference dependencies are not required.
+Pillow==12.3.0

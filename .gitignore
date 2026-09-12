@@ -46,3 +46,8 @@ out/
 .agents/
 .codex/
 
+# Large datasets, model checkpoints, and generated experiment outputs
+data/
+artifacts/
+output/
+models/*.pth

@@ -1,0 +1,1 @@
+请识别图中[A]框指定的对象。输入依次为原图、A框标记图和同一目标的放大裁剪图。只能从候选类别列表中选择一个类别；如果无法判断输出unknown。不要选择框外对象。不要输出真实标签、特征结果或正确率，只输出合法JSON：{"image_id":"...","target_instance_id":"target_1","predicted_class":"dog","prediction_status":"ok","evidence":"..."}。

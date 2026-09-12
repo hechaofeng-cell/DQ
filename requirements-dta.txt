@@ -1,0 +1,9 @@
+# CUDA-enabled torch is environment-specific and must be installed separately.
+numpy==2.5.2
+Pillow==12.3.0
+pandas==3.0.5
+pyarrow==25.0.1
+pydantic==2.13.5
+scikit-learn==1.9.0
+scipy==1.18.1
+segment-anything

@@ -1,0 +1,30 @@
+{
+  "schema_version": "dog_v2",
+  "category": "dog",
+  "feature_count": 20,
+  "universal_features": [
+    {"feature_id":"coat_primary_color","value_type":"enum","possible_values":["black","white","brown","gray","tan","golden","cream","red","mixed","other","unknown"]},
+    {"feature_id":"coat_pattern","value_type":"enum","possible_values":["solid","bicolor","tricolor","spotted","striped","patchy","unknown"]},
+    {"feature_id":"coat_length","value_type":"enum","possible_values":["short","medium","long","hairless_or_not_visible","unknown"]},
+    {"feature_id":"coat_texture","value_type":"enum","possible_values":["smooth","wavy","curly","wiry","fluffy","unknown"]},
+    {"feature_id":"white_marking_presence","value_type":"enum","possible_values":["none","small","moderate","large","unknown"]},
+    {"feature_id":"head_visibility","value_type":"enum","possible_values":["clear","partial","not_visible","unknown"]},
+    {"feature_id":"ear_shape","value_type":"enum","possible_values":["upright","floppy","semi_upright","folded","not_visible","unknown"]},
+    {"feature_id":"ear_position","value_type":"enum","possible_values":["forward","sideways","backward","mixed","not_visible","unknown"]},
+    {"feature_id":"muzzle_visibility","value_type":"enum","possible_values":["clear","partial","not_visible","unknown"]},
+    {"feature_id":"eye_visibility","value_type":"enum","possible_values":["both","one","none","unknown"]},
+    {"feature_id":"tail_visibility","value_type":"enum","possible_values":["clear","partial","not_visible","unknown"]},
+    {"feature_id":"tail_position","value_type":"enum","possible_values":["up","down","curved","extended","unknown"]},
+    {"feature_id":"leg_visibility","value_type":"enum","possible_values":["four_or_more","two_or_three","one","none","unknown"]},
+    {"feature_id":"body_shape","value_type":"enum","possible_values":["slender","average","stocky","puppy_like","unknown"]},
+    {"feature_id":"orientation","value_type":"enum","possible_values":["front","back","left_side","right_side","three_quarter","unknown"]},
+    {"feature_id":"pose","value_type":"enum","possible_values":["standing","sitting","lying","walking","running","jumping","unknown"]},
+    {"feature_id":"action_state","value_type":"enum","possible_values":["stationary","walking","running","playing","eating","drinking","interacting","unknown"]},
+    {"feature_id":"occlusion_level","value_type":"enum","possible_values":["none","partial","heavy","unknown"]},
+    {"feature_id":"truncation_level","value_type":"enum","possible_values":["none","partial","heavy","unknown"]},
+    {"feature_id":"outline_visibility","value_type":"enum","possible_values":["clear","partial","unclear","unknown"]}
+  ],
+  "category_specific_features": [],
+  "difficulty_rules": {"candidate_factors":["small_target","occlusion","truncation","low_contrast","blur","complex_background","unusual_pose","missing_key_parts"],"not_for_formal_grouping":true},
+  "validation_checks":["feature_id_unique","feature_count_20","enum_values_closed","unknown_allowed"]
+}

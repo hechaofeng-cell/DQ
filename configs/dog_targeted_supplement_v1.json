@@ -1,0 +1,49 @@
+{
+  "experiment_id": "dog-targeted-supplement-v1-20260912",
+  "protocol_version": "dog-supplement-v1",
+  "seed": 20260912,
+  "selection_count": 100,
+  "excluded_state_values": ["unknown", "other"],
+  "state_targets": {
+    "missing_or_sparse": 10,
+    "weak": 30
+  },
+  "band_weights": {
+    "missing": 3.0,
+    "sparse": 2.0,
+    "weak": 1.0
+  },
+  "completion_weight": 10.0,
+  "candidate_strata": [
+    "tiny_target",
+    "small_target",
+    "multiple_dogs",
+    "boundary_target",
+    "person_cooccurrence"
+  ],
+  "stratum_minimum": 15,
+  "stratum_maximum": 30,
+  "review_random_count": 30,
+  "confirmed_nonliving_candidate_ids": [
+    "000000244215",
+    "000000249619",
+    "000000275268",
+    "000000516265"
+  ],
+  "baseline_audit_flags": {
+    "000000140444": "dog figurine on cake",
+    "000000246880": "dog figurine in display",
+    "000000446990": "plush dog",
+    "000000471513": "dog sculpture"
+  },
+  "paths": {
+    "schema": "configs/dog_feature_schema_v2.json",
+    "baseline_manifest": "artifacts/dog_feature_pipeline_v2_1_inputs_20260912/target_manifest.csv",
+    "baseline_results": "artifacts/dog_feature_pipeline_v2_1_upscaled_20260912/results",
+    "baseline_score": "artifacts/dog_feature_pipeline_v2_1_upscaled_20260912/baseline_evaluation_20260912/baseline_score.json",
+    "candidate_target_manifest": "artifacts/dog_candidate400_v2_1_inputs_20260912/target_manifest.csv",
+    "candidate_metadata_manifest": "data/coco2017/dog_candidate400_20260912/candidate_manifest.csv",
+    "candidate_results": "artifacts/dog_candidate400_features_v2_1_20260912/results",
+    "output": "artifacts/dog_targeted_supplement_v1_20260912"
+  }
+}

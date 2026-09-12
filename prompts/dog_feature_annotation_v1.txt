@@ -1,0 +1,3 @@
+目标类别：dog。
+
+请只评价带有[A]标记的目标实例。输入依次为原图、A框标记图和从未标记原图裁剪并放大的目标图。原图用于查看整体场景、遮挡来源和画面边界，裁剪图用于观察目标局部细节；裁剪放大不会增加原始图像信息。不要选择框外对象，不要读取或猜测COCO标注文件内容。严格按照给定dog_feature_schema_v1.json填写，不得添加、删除或修改特征，只能使用possible_values中的取值，无法判断时填写unknown。画面边界外属于truncation，不属于其他物体遮挡；背对镜头不自动等于被遮挡。只输出合法JSON。输出必须是 {"schema_version":"dog_v1","image_id":"...","target_instance_id":"target_1","features":{},"evidence":{}}；features 中每个 feature_id 恰好一次，evidence 中也必须逐字段给出直接可见的文字证据。integer 必须是整数，set 必须是数组。证据不得包含 URL、文件名、COCO 标签或虚构来源。
