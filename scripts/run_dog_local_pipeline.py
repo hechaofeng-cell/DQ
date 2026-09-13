@@ -97,11 +97,20 @@ def validate_feature(result, row, schema):
             raise ValueError(f"invalid_feature_value:{key}")
         if definition["value_type"] == "set" and (not isinstance(value, list) or any(v not in allowed for v in value)):
             raise ValueError(f"invalid_feature_value:{key}")
+        if definition["value_type"] == "set":
+            if not value or len(value) != len(set(value)):
+                raise ValueError(f"invalid_feature_value:{key}")
+            if any(exclusive in value for exclusive in definition.get("exclusive_values", [])) and len(value) != 1:
+                raise ValueError(f"invalid_feature_value:{key}")
     evidence = result.get("evidence")
     if not isinstance(evidence, dict) or set(evidence) != set(features):
         raise ValueError("evidence_fields_mismatch")
     if any(not isinstance(value, str) or not value.strip() or re.search(r"https?://|www\\.", value, re.I) for value in evidence.values()):
         raise ValueError("invalid_evidence")
+    if features.get("mouth_visibility") == "not_visible" and (features.get("mouth_state") != "unknown" or features.get("tongue_visibility") != "unknown"):
+        raise ValueError("mouth_dependency_mismatch")
+    if features.get("tail_visibility") == "not_observable" and features.get("tail_posture") != "unknown":
+        raise ValueError("tail_dependency_mismatch")
     return result
 
 
@@ -155,6 +164,7 @@ def main():
     ap.add_argument("--output", type=Path, default=Path("artifacts/dog_feature_pipeline_v1/results"))
     ap.add_argument("--url", default="http://localhost:11434/api/chat")
     ap.add_argument("--model", default="qwen3-vl:30b-a3b-instruct")
+    ap.add_argument("--num-predict", type=int, default=2200)
     ap.add_argument("--resume", action="store_true")
     ap.add_argument("--limit", type=int, default=0, help="only process the first N rows")
     ap.add_argument("--stages", choices=("all", "features", "classifier"), default="all")
@@ -166,7 +176,7 @@ def main():
     compact_schema = {"schema_version": schema["schema_version"], "category": schema["category"], "features": [{k: item.get(k, True) for k in ("feature_id", "value_type", "possible_values", "allow_unknown")} for item in schema["universal_features"] + schema.get("category_specific_features", [])]}
     feature_prompt = args.feature_prompt.read_text(encoding="utf-8") + "\n特征字典如下：\n" + json.dumps(compact_schema, ensure_ascii=False)
     class_prompt = args.class_prompt.read_text(encoding="utf-8") + "\n候选类别列表：" + json.dumps(COCO_CANDIDATES, ensure_ascii=False)
-    config = {"url": args.url, "model": args.model, "num_ctx": 8192, "num_predict": 1000, "timeout_seconds": 900, "max_retries": 3, "retry_wait_seconds": 20, "seed": 20260911}
+    config = {"url": args.url, "model": args.model, "num_ctx": 8192, "num_predict": args.num_predict, "timeout_seconds": 900, "max_retries": 3, "retry_wait_seconds": 20, "seed": 20260911}
     for sub in ("raw/features", "raw/classifier", "parsed/features", "parsed/classifier"):
         (args.output / sub).mkdir(parents=True, exist_ok=True)
     status_path = args.output / "pipeline_status.json"
