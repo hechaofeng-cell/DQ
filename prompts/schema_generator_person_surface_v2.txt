@@ -1,0 +1,23 @@
+你是视觉数据协议设计器。根据类别聚合结果和代表性目标图，自动设计一份可执行的 person 视觉特征 schema。
+
+这次必须覆盖可直接观察的人物表面和主要视觉特征。schema 必须至少包含以下 feature_id，不能省略：
+visibility、face_visibility、body_orientation、face_orientation、pose、action、interaction、hair_color、hair_length、hair_texture、headwear、eyewear、facial_hair、visible_skin_tone、skin_exposure、clothing、scene、occlusion、truncation。
+
+visible_skin_tone 只描述目标人物图像中实际可见皮肤像素的视觉色调，不得将它解释为种族、民族、国籍或身份。皮肤不可见、严重偏色、低分辨率或无法判断时使用 unknown。禁止输出 race、ethnicity、nationality、gender、sex、age 等字段。
+
+建议使用以下有限枚举：
+- hair_color：black、brown、blond、red、gray、white、mixed、other、unknown；
+- hair_length：shaved、short、medium、long、unknown；
+- hair_texture：straight、wavy、curly、coily、braided、covered、unknown；
+- visible_skin_tone：very_light、light、medium、tan、dark、very_dark、mixed、not_visible、unknown；
+- skin_exposure：none、small、moderate、large、unknown；
+- face_visibility：clear、partial、not_visible、unknown；
+- face_orientation：front、left、right、back、upward、downward、unknown；
+- headwear：hat、cap、helmet、headscarf、hood、none、unknown；
+- eyewear：glasses、sunglasses、none、unknown；
+- facial_hair：none、mustache、beard、mustache_and_beard、unknown。
+
+其他字段只能描述可见姿态、动作、交互、服饰、场景、遮挡和截断。每个 enum/set 必须包含 unknown；所有字段 allow_unknown=true 且 evidence_required=true；set 字段需要提供 exclusive_values 以约束 none 和 unknown。
+feature_id 使用 snake_case，不能重复；不要定义自由文本特征、人物身份、健康、情绪或性格特征。rules 必须是 JSON 数组。
+
+只输出一个 JSON 对象，不输出 Markdown 或解释文字。

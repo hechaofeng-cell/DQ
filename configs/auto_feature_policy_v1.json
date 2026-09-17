@@ -1,0 +1,24 @@
+{
+  "policy_version": "auto_feature_policy_v1",
+  "min_features": 8,
+  "max_features": 30,
+  "value_types": ["enum", "set", "number", "integer"],
+  "schema_sample_size": 12,
+  "max_feature_validation_attempts": 3,
+  "min_category_consensus": 0.8,
+  "min_category_confidence": 0.6,
+  "sensitive_attributes": [
+    "age", "gender", "sex", "race", "ethnicity", "identity", "name",
+    "occupation", "health", "disability", "emotion", "personality",
+    "attractiveness", "income", "religion", "nationality"
+  ],
+  "person_feature_groups": [
+    "visibility", "orientation", "pose", "action", "interaction",
+    "clothing", "scene", "occlusion", "truncation"
+  ],
+  "program_fields": [
+    "target_bbox", "target_area_ratio", "target_center_x", "target_center_y",
+    "image_width", "image_height", "truncation_level_from_bbox",
+    "feature_unknown_count"
+  ]
+}

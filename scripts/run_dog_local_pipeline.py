@@ -75,7 +75,14 @@ def feature_schema(schema_path: Path):
     fields = {}
     for item in schema["universal_features"] + schema.get("category_specific_features", []):
         kind = {"set": "array", "integer": "integer", "number": "number"}.get(item["value_type"], "string")
-        fields[item["feature_id"]] = {"type": kind}
+        definition = {"type": kind}
+        if item.get("possible_values"):
+            if kind == "array":
+                definition["items"] = {"type": "string", "enum": item["possible_values"]}
+                definition["uniqueItems"] = True
+            else:
+                definition["enum"] = item["possible_values"]
+        fields[item["feature_id"]] = definition
     return {"type": "object", "properties": {"schema_version": {"type": "string"}, "image_id": {"type": "string"}, "target_instance_id": {"type": "string"}, "features": {"type": "object", "properties": fields, "additionalProperties": False}, "evidence": {"type": "object", "additionalProperties": {"type": "string"}}}, "required": ["schema_version", "image_id", "target_instance_id", "features", "evidence"], "additionalProperties": False}
 
 

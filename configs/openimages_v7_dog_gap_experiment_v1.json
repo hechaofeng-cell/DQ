@@ -1,0 +1,73 @@
+{
+  "experiment_id": "openimages-v7-dog-gap-v1-20260917",
+  "dataset": "Open Images V7",
+  "task": "five-class oracle target-region classification",
+  "classes": {
+    "dog": "/m/0bt9lr",
+    "cat": "/m/01yrx",
+    "horse": "/m/03k3r",
+    "sheep": "/m/07bgp",
+    "person": "/m/01g317"
+  },
+  "class_labels": {
+    "dog": 0,
+    "cat": 1,
+    "horse": 2,
+    "sheep": 3,
+    "person": 4
+  },
+  "counts": {
+    "train_base_by_class": {
+      "dog": 1500,
+      "cat": 1500,
+      "horse": 1500,
+      "sheep": 800,
+      "person": 1500
+    },
+    "train_dog_candidate": 3000,
+    "validation_per_class": 30,
+    "test_per_class": 100,
+    "difficulty_test_dog": 100,
+    "supplement_budget": 300
+  },
+  "selection_seed": 20260917,
+  "box_filters": {
+    "confidence": 1,
+    "is_group_of": 0,
+    "is_depiction": 0,
+    "is_inside": 0,
+    "minimum_area_ratio": 0.001
+  },
+  "conditions": [
+    "base",
+    "random300",
+    "gap300"
+  ],
+  "models": [
+    "resnet18",
+    "convnext_tiny",
+    "maxvit_t",
+    "efficientnet_v2_s"
+  ],
+  "training_seeds": [20260916, 20260917, 20260918],
+  "samples_per_epoch": 6800,
+  "feature_protocol": "dog_v3.1",
+  "primary_metrics": [
+    "macro_f1",
+    "dog_f1"
+  ],
+  "secondary_metrics": [
+    "accuracy",
+    "macro_precision",
+    "macro_recall",
+    "dog_precision",
+    "dog_recall"
+  ],
+  "official_urls": {
+    "train_boxes": "https://storage.googleapis.com/openimages/v6/oidv6-train-annotations-bbox.csv",
+    "validation_boxes": "https://storage.googleapis.com/openimages/v5/validation-annotations-bbox.csv",
+    "test_boxes": "https://storage.googleapis.com/openimages/v5/test-annotations-bbox.csv",
+    "class_descriptions": "https://storage.googleapis.com/openimages/v7/oidv7-class-descriptions-boxable.csv",
+    "downloader": "https://raw.githubusercontent.com/openimages/dataset/master/downloader.py"
+  }
+}

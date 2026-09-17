@@ -2,6 +2,10 @@
 
 Project workspace for QE.
 
+## 自动类别与特征流水线
+
+对于已有目标标注的数据集，可不再手写类别特征字典。流程会先用 VLM 独立判断类别，再自动生成、校验并冻结 schema，最后进行特征识别。首版 person 策略和输入协议见 [自动特征流程](docs/auto_feature_workflow.md)。
+
 ## DTA 第一阶段
 
 `qe_quality.dta` 在 Imagenette 100 张上运行本地 Qwen3-VL、SAM vit_h 和在线
