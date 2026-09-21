@@ -172,6 +172,7 @@ def main():
     ap.add_argument("--url", default="http://localhost:11434/api/chat")
     ap.add_argument("--model", default="qwen3-vl:30b-a3b-instruct")
     ap.add_argument("--num-predict", type=int, default=2200)
+    ap.add_argument("--seed", type=int, default=20260911, help="VLM generation seed for reproducible retries")
     ap.add_argument("--resume", action="store_true")
     ap.add_argument("--limit", type=int, default=0, help="only process the first N rows")
     ap.add_argument("--stages", choices=("all", "features", "classifier"), default="all")
@@ -183,7 +184,7 @@ def main():
     compact_schema = {"schema_version": schema["schema_version"], "category": schema["category"], "features": [{k: item.get(k, True) for k in ("feature_id", "value_type", "possible_values", "allow_unknown")} for item in schema["universal_features"] + schema.get("category_specific_features", [])]}
     feature_prompt = args.feature_prompt.read_text(encoding="utf-8") + "\n特征字典如下：\n" + json.dumps(compact_schema, ensure_ascii=False)
     class_prompt = args.class_prompt.read_text(encoding="utf-8") + "\n候选类别列表：" + json.dumps(COCO_CANDIDATES, ensure_ascii=False)
-    config = {"url": args.url, "model": args.model, "num_ctx": 8192, "num_predict": args.num_predict, "timeout_seconds": 900, "max_retries": 3, "retry_wait_seconds": 20, "seed": 20260911}
+    config = {"url": args.url, "model": args.model, "num_ctx": 8192, "num_predict": args.num_predict, "timeout_seconds": 900, "max_retries": 3, "retry_wait_seconds": 20, "seed": args.seed}
     for sub in ("raw/features", "raw/classifier", "parsed/features", "parsed/classifier"):
         (args.output / sub).mkdir(parents=True, exist_ok=True)
     status_path = args.output / "pipeline_status.json"

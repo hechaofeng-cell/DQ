@@ -1,0 +1,74 @@
+{
+  "experiment_id": "openimages-v7-cua-vsl-v1-20260918",
+  "data": "/home/hcf/project/QE/data/openimages_v7_dog_gap_v1",
+  "schema": "/home/hcf/project/QE/configs/dog_feature_schema_v3_1.json",
+  "base_features": "/home/hcf/project/QE/artifacts/openimages_v7_dog_base_features_v1/results.csv",
+  "candidate_features": "/home/hcf/project/QE/artifacts/openimages_v7_dog_candidate_features_v1/results.csv",
+  "output": "/home/hcf/project/QE/artifacts/openimages_v7_cua_vsl_v1",
+  "models": [
+    "resnet18",
+    "convnext_tiny",
+    "maxvit_t",
+    "efficientnet_v2_s"
+  ],
+  "utility_reference_models": [
+    "resnet18",
+    "convnext_tiny"
+  ],
+  "utility_folds": 3,
+  "utility_fold_seed": 20260918,
+  "utility_training_seeds": [
+    20260921,
+    20260922,
+    20260923
+  ],
+  "training_seeds_minimum": [
+    20260916,
+    20260917,
+    20260918
+  ],
+  "coverage_cap": 30,
+  "utility_shrinkage_beta": 10.0,
+  "supplement_budget": 300,
+  "cua_selection": {
+    "method": "two_stage_gap_then_utility_novelty",
+    "gap_stage_budget": 200,
+    "utility_stage_budget": 100,
+    "utility_score": "mean(smoothed_state_error / sqrt(current_state_count + 1))",
+    "status": "frozen_by_user_20260918"
+  },
+  "random_selection_seeds": [
+    20260931,
+    20260932,
+    20260933,
+    20260934,
+    20260935
+  ],
+  "epochs": 20,
+  "samples_per_epoch": 6800,
+  "batch_size": 64,
+  "optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001
+  },
+  "state_test_min_support": 5,
+  "smoke_only_hyperparameters": {
+    "lambda_state": 0.3,
+    "sample_alpha": 1.0,
+    "state_weight_alpha": 1.0,
+    "max_multiplier": 3.0,
+    "status": "not_frozen_for_formal_training"
+  },
+  "conditions": {
+    "E0": {"data": "random300_r0", "sampling": "ordinary", "state_auxiliary": "none"},
+    "E1": {"data": "gap300", "sampling": "ordinary", "state_auxiliary": "none"},
+    "E2": {"data": "random300_r0", "sampling": "ordinary", "state_auxiliary": "uniform"},
+    "E3": {"data": "gap300", "sampling": "ordinary", "state_auxiliary": "uniform"},
+    "E4": {"data": "gap300", "sampling": "coverage", "state_auxiliary": "none"},
+    "E5": {"data": "gap300", "sampling": "coverage", "state_auxiliary": "coverage"},
+    "E6": {"data": "gap300", "sampling": "utility", "state_auxiliary": "utility"},
+    "E7": {"data": "cua300", "sampling": "coverage", "state_auxiliary": "coverage"},
+    "E8": {"data": "cua300", "sampling": "utility", "state_auxiliary": "utility"}
+  }
+}

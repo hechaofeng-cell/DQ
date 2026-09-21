@@ -108,13 +108,15 @@ def main() -> None:
                      f"{delta(model, 'macro_f1')} | {delta(model, 'dog_f1')} | "
                      f"{delta(model, 'dog_recall')} | {wins}/{len(config['training_seeds'])} |")
     lines += ["", "## Difficulty Test", "",
-              "The 100 dog-only images include overlapping groups: 42 small (<3%), 10 tiny (<1%), "
-              "36 occluded, and 32 truncated dogs. These are not included in the five-class main test.", "",
-              "| Model | random300 small dog Recall | gap300 small dog Recall | random300 occluded dog Recall | gap300 occluded dog Recall |",
-              "|---|---:|---:|---:|---:|"]
+              "The 100 dog-only images include overlapping groups: 32 small-only (1%-3%), 10 tiny (<1%), "
+              "42 total below 3%, 36 occluded, and 32 truncated dogs. These are not included in the five-class main test.", "",
+              "| Model | random300 small-only Recall | gap300 small-only Recall | random300 tiny Recall | gap300 tiny Recall | random300 occluded Recall | gap300 occluded Recall |",
+              "|---|---:|---:|---:|---:|---:|---:|"]
     for model in config["models"]:
         lines.append(f"| {DISPLAY_NAMES[model]} | {score(model, 'random300', 'difficulty_small_dog_recall')} | "
                      f"{score(model, 'gap300', 'difficulty_small_dog_recall')} | "
+                     f"{score(model, 'random300', 'difficulty_tiny_dog_recall')} | "
+                     f"{score(model, 'gap300', 'difficulty_tiny_dog_recall')} | "
                      f"{score(model, 'random300', 'difficulty_occluded_dog_recall')} | "
                      f"{score(model, 'gap300', 'difficulty_occluded_dog_recall')} |")
     lines += ["", "## Model Size", "", "| Model | Total parameters | FP32 parameters |", "|---|---:|---:|"]

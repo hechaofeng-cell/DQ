@@ -1,0 +1,39 @@
+{
+  "schema_version": "cat_v1.0",
+  "category": "cat",
+  "feature_count": 23,
+  "universal_features": [
+    {"feature_id":"coat_primary_color","feature_name_zh":"毛发主色","group":"毛发","value_type":"enum","possible_values":["black","white","brown","gray","tan","golden","cream","orange","mixed","other","unknown"],"allow_unknown":true},
+    {"feature_id":"coat_pattern","feature_name_zh":"毛发图案","group":"毛发","value_type":"enum","possible_values":["solid","bicolor","tricolor","tabby","spotted","colorpoint","tortoiseshell","patchy","other","unknown"],"allow_unknown":true},
+    {"feature_id":"coat_texture","feature_name_zh":"毛发质地","group":"毛发","value_type":"enum","possible_values":["short_smooth","long_fluffy","curly","hairless","other","unknown"],"allow_unknown":true},
+    {"feature_id":"head_visibility","feature_name_zh":"头部可见性","group":"头部面部","value_type":"enum","possible_values":["clear","partial","not_visible","unknown"],"allow_unknown":true},
+    {"feature_id":"ear_posture","feature_name_zh":"耳朵姿态","group":"头部面部","value_type":"enum","possible_values":["upright","sideways","flattened","folded","asymmetric","not_visible","unknown"],"allow_unknown":true},
+    {"feature_id":"muzzle_visibility","feature_name_zh":"口鼻部可见性","group":"头部面部","value_type":"enum","possible_values":["clear","partial","not_visible","unknown"],"allow_unknown":true},
+    {"feature_id":"mouth_visibility","feature_name_zh":"嘴部可见性","group":"头部面部","value_type":"enum","possible_values":["clear","partial","not_visible","unknown"],"allow_unknown":true},
+    {"feature_id":"eye_state","feature_name_zh":"眼睛状态","group":"头部面部","value_type":"enum","possible_values":["both_open","both_closed","one_open","one_closed","mixed","not_visible","unknown"],"allow_unknown":true},
+    {"feature_id":"mouth_state","feature_name_zh":"嘴部状态","group":"头部面部","value_type":"enum","possible_values":["closed","open","yawning","vocalizing","unknown"],"allow_unknown":true},
+    {"feature_id":"tongue_visibility","feature_name_zh":"舌头可见性","group":"头部面部","value_type":"enum","possible_values":["visible","not_visible","unknown"],"allow_unknown":true},
+    {"feature_id":"head_orientation","feature_name_zh":"头部朝向","group":"头部面部","value_type":"enum","possible_values":["front","left","right","back","upward","downward","unknown"],"allow_unknown":true},
+    {"feature_id":"body_shape","feature_name_zh":"身体外形","group":"身体","value_type":"enum","possible_values":["slender","average","broad","rounded","kitten_like","unknown"],"allow_unknown":true},
+    {"feature_id":"body_orientation","feature_name_zh":"身体朝向","group":"身体","value_type":"enum","possible_values":["front","back","left_side","right_side","left_front_three_quarter","right_front_three_quarter","left_back_three_quarter","right_back_three_quarter","unknown"],"allow_unknown":true},
+    {"feature_id":"leg_visibility_count","feature_name_zh":"腿部可见数量","group":"身体","value_type":"enum","possible_values":["four_or_more","two_or_three","one","none","unknown"],"allow_unknown":true},
+    {"feature_id":"tail_visibility","feature_name_zh":"尾巴可见性","group":"身体","value_type":"enum","possible_values":["clear","partial","not_observable","unknown"],"allow_unknown":true},
+    {"feature_id":"tail_posture","feature_name_zh":"尾巴姿态","group":"身体","value_type":"enum","possible_values":["raised","curved","straight","tucked","curled","unknown"],"allow_unknown":true},
+    {"feature_id":"posture_action_state","feature_name_zh":"姿态动作状态","group":"身体","value_type":"enum","possible_values":["standing","sitting","lying","crouching","walking","running","jumping","climbing","grooming","eating","drinking","playing","interacting","sleeping","unknown"],"allow_unknown":true},
+    {"feature_id":"occlusion_level","feature_name_zh":"遮挡程度","group":"遮挡截断","value_type":"enum","possible_values":["none","partial","heavy","unknown"],"allow_unknown":true},
+    {"feature_id":"occlusion_parts","feature_name_zh":"遮挡部位","group":"遮挡截断","value_type":"set","possible_values":["head","torso","legs","tail","none","unknown"],"allow_unknown":true,"exclusive_values":["none","unknown"]},
+    {"feature_id":"truncation_level","feature_name_zh":"画面截断程度","group":"遮挡截断","value_type":"enum","possible_values":["none","partial","heavy","unknown"],"allow_unknown":true},
+    {"feature_id":"truncation_parts","feature_name_zh":"截断部位","group":"遮挡截断","value_type":"set","possible_values":["head","torso","legs","tail","none","unknown"],"allow_unknown":true,"exclusive_values":["none","unknown"]},
+    {"feature_id":"cat_recognizability","feature_name_zh":"猫体可识别性","group":"遮挡截断","value_type":"enum","possible_values":["reliably_identifiable","partially_identifiable","not_identifiable","unknown"],"allow_unknown":true},
+    {"feature_id":"scene","feature_name_zh":"场景","group":"整体环境","value_type":"enum","possible_values":["indoor_home","indoor_pet_store_or_clinic","indoor_other","outdoor_grass","outdoor_street","outdoor_park","outdoor_forest_or_wild","outdoor_beach","outdoor_snow","outdoor_water","outdoor_other","vehicle","multiple_scenes","unknown"],"allow_unknown":true}
+  ],
+  "category_specific_features": [],
+  "rules": {
+    "posture_action_priority":["eating","drinking","grooming","playing","interacting","climbing","jumping","running","walking","sleeping","standing","sitting","lying","crouching","unknown"],
+    "mouth_rule":"mouth_visibility=not_visible时mouth_state和tongue_visibility必须为unknown。",
+    "tail_rule":"tail_visibility=not_observable时tail_posture必须为unknown。",
+    "parts_exclusive_values":"none和unknown不能与其他部位同时出现。",
+    "scene_fallback_rule":"已知室内但无法细分使用indoor_other；已知室外但无法细分使用outdoor_other；只有无法判断室内外时使用unknown。"
+  },
+  "validation_checks":["feature_id_unique","feature_count_23","enum_values_closed","set_values_are_arrays","exclusive_parts_valid","unknown_allowed","dependency_rules_valid"]
+}
