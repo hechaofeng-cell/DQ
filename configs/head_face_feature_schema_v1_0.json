@@ -1,0 +1,209 @@
+{
+  "schema_version": "head_face_v1.0",
+  "category": "face",
+  "features": [
+    {
+      "feature_id": "head_scale",
+      "group": "target_geometry",
+      "value_type": "enum",
+      "possible_values": ["small", "medium", "large", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "face_count_context",
+      "group": "target_geometry",
+      "value_type": "enum",
+      "possible_values": ["single", "multiple_nonoverlapping", "multiple_overlapping", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "head_completeness",
+      "group": "target_geometry",
+      "value_type": "enum",
+      "possible_values": ["complete", "lightly_truncated", "severely_truncated", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "head_truncation_parts",
+      "group": "target_geometry",
+      "value_type": "set",
+      "possible_values": ["none", "top", "left", "right", "bottom", "multiple", "unknown"],
+      "exclusive_values": ["none", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "yaw",
+      "group": "pose",
+      "value_type": "enum",
+      "possible_values": ["frontal", "left_three_quarter", "right_three_quarter", "left_profile", "right_profile", "rear_or_face_absent", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "pitch",
+      "group": "pose",
+      "value_type": "enum",
+      "possible_values": ["up", "level", "down", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "roll",
+      "group": "pose",
+      "value_type": "enum",
+      "possible_values": ["upright", "slight", "large", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "face_visibility",
+      "group": "part_visibility",
+      "value_type": "enum",
+      "possible_values": ["clear", "partial", "minimal", "not_visible", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "eye_visibility",
+      "group": "part_visibility",
+      "value_type": "enum",
+      "possible_values": ["both", "left_only", "right_only", "none", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "nose_visibility",
+      "group": "part_visibility",
+      "value_type": "enum",
+      "possible_values": ["clear", "partial", "not_visible", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "mouth_visibility",
+      "group": "part_visibility",
+      "value_type": "enum",
+      "possible_values": ["clear", "partial", "not_visible", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "occlusion_level",
+      "group": "occlusion",
+      "value_type": "enum",
+      "possible_values": ["none", "light", "moderate", "severe", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "occluder_types",
+      "group": "occlusion",
+      "value_type": "set",
+      "possible_values": ["none", "mask", "eyewear", "hair", "hand", "object", "other_person", "multiple", "unknown"],
+      "exclusive_values": ["none", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "eyewear",
+      "group": "accessories",
+      "value_type": "enum",
+      "possible_values": ["none", "clear_glasses", "tinted_glasses", "sunglasses", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "head_covering",
+      "group": "accessories",
+      "value_type": "enum",
+      "possible_values": ["none", "hat", "hood", "headscarf", "helmet", "other", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "hair_visibility",
+      "group": "hair",
+      "value_type": "enum",
+      "possible_values": ["clear", "partial", "not_visible", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "hair_presence",
+      "group": "hair",
+      "value_type": "enum",
+      "possible_values": ["present", "bald_or_shaved", "covered", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "hair_color",
+      "group": "hair",
+      "value_type": "enum",
+      "possible_values": ["black", "dark_brown", "light_brown", "blond", "red", "gray_or_white", "dyed_or_multicolor", "not_visible", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "hair_texture",
+      "group": "hair",
+      "value_type": "enum",
+      "possible_values": ["straight", "wavy", "curly", "coily", "not_visible", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "visible_skin_tone",
+      "group": "skin_surface",
+      "value_type": "enum",
+      "possible_values": ["mst_01", "mst_02", "mst_03", "mst_04", "mst_05", "mst_06", "mst_07", "mst_08", "mst_09", "mst_10", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "skin_tone_confidence",
+      "group": "skin_surface",
+      "value_type": "enum",
+      "possible_values": ["high", "medium", "low", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "blur_level",
+      "group": "quality",
+      "value_type": "enum",
+      "possible_values": ["clear", "mild", "severe", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "illumination",
+      "group": "quality",
+      "value_type": "enum",
+      "possible_values": ["normal", "low_light", "backlit", "strong_shadow", "overexposed", "colored_light", "mixed_light", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "background_complexity",
+      "group": "scene",
+      "value_type": "enum",
+      "possible_values": ["simple", "moderate", "complex", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    },
+    {
+      "feature_id": "head_recognizability",
+      "group": "overall",
+      "value_type": "enum",
+      "possible_values": ["high", "medium", "low", "unrecognizable", "unknown"],
+      "allow_unknown": true,
+      "evidence_required": true
+    }
+  ],
+  "rules": []
+}

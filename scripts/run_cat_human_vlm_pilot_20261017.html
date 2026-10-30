@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>猫类视觉状态 · 独立人工盲审</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6fa;color:#163050;font:15px system-ui,sans-serif}header{position:sticky;top:0;z-index:2;padding:16px 24px;background:#fff;border-bottom:1px solid #dce4ed;display:flex;gap:14px;align-items:center;flex-wrap:wrap}h1{font-size:20px;margin:0}button,select,input,textarea{font:inherit;border:1px solid #becbd9;border-radius:7px;padding:9px;background:white}button{cursor:pointer;background:#1268c8;color:white;border:0}button:disabled{opacity:.4}main{padding:20px;max-width:1700px;margin:auto}.intro{background:#eaf3ff;border:1px solid #c7defa;border-radius:12px;padding:18px;margin-bottom:18px;line-height:1.7}.layout{display:grid;grid-template-columns:1fr 1fr;gap:22px}.views{align-self:start;position:sticky;top:110px}.views figure{margin:0 0 15px;background:#fff;padding:10px;border-radius:10px}.views img{width:100%;max-height:460px;object-fit:contain;cursor:zoom-in}.views figcaption{padding:6px;color:#526880}.form{background:white;padding:20px;border-radius:12px}.field{border-top:1px solid #e0e6ed;padding:14px 0}.field label.name{font-weight:600;display:block;margin-bottom:8px}.field small{font-weight:400;color:#60758c}.field select{width:100%}.set{display:flex;flex-wrap:wrap;gap:8px}.set label{padding:6px;border:1px solid #dce4ed;border-radius:7px}.set input{margin-right:5px}.status{color:#305d45}.missing{outline:2px solid #df7041}.nav{display:flex;gap:10px;margin:12px 0}.footer{padding:20px;background:#fff;margin-top:20px;border-radius:12px}textarea{width:100%;min-height:80px}details{margin:8px 0;line-height:1.8}summary{cursor:pointer;font-weight:bold}dialog{max-width:96vw;max-height:96vh;border:0;padding:8px;border-radius:10px}dialog img{max-width:91vw;max-height:86vh}#progress{margin-left:auto}#message{color:#b3420e}a{color:#1268c8}@media(max-width:900px){.layout{grid-template-columns:1fr}.views{position:static}header{position:static}.views img{max-height:340px}}
+</style>
+<header><h1 id="title"></h1><span id="progress"></span><button id="save">下载标注 JSON</button><label>恢复已导出文件 <input type="file" id="restore" accept=".json" style="width:190px"></label></header>
+<main>
+<section class="intro">
+<strong>请独立看图标注，仅判断带框猫目标。</strong>本页不包含自动标签、模型输出或难度排序。原图判断是否超出画面边界，标记图定位目标，裁剪图观察细节。点图可放大。
+<details open><summary>细粒度状态判定说明</summary>
+字典包括原猫类23字段及共享场景/成像字段和躯干、肢体可见性扩展，共35字段。毛色、纹理、耳姿和动作是描述状态，不自动赋高低风险。<br>
+clear：当前视角下适用部位清楚；partial：仅部分可观察或轮廓存在但细节低清；not_visible：适用部位确因遮挡或原图截断等缺失；unknown / not_observable：无法可靠判断。遮挡需有可见不透明物体，模糊与光照不视为遮挡。<br>
+截断按原图边界判断，不按紧贴的裁剪边界判断；头部和身体朝向分开、左右以目标自身为准。不要把背向正常不可见的部位误记为遮挡。躯干/肢体在此版本不可用not_in_view，无法判断选unknown。<br>
+若mouth_visibility=not_visible，mouth_state和tongue_visibility均选unknown。若tail_visibility=not_observable，tail_posture选unknown。多选字段中none或unknown等排他值不可与其他值共存。<br>
+以下每个字段列出完整合法英文枚举。请仅复核图中细粒度视觉状态，无法确定时选择对应未知值并备注。评分、排序、五等分、配额、选样和模型评价均由程序自动完成。
+</details>
+标注者编号（请用自己的独立编号）：<input id="reviewer" placeholder="如 reviewer-01" autocomplete="off"><br>
+</section>
+<div class="nav"><button id="prev">上一个目标</button><select id="jump"></select><button id="next">下一个目标</button><span id="message"></span></div>
+<div class="layout"><section class="views" id="views"></section><section class="form"><h2 id="sampleTitle"></h2><div id="fields"></div><div class="field"><label>复核状态</label><select id="reviewStatus"><option value="">未完成</option><option value="complete">已独立完成全部字段</option><option value="invalid_target">目标无效（必须备注）</option></select></div><label>本目标备注 / 无法判断原因</label><textarea id="notes"></textarea><p class="status" id="sampleProgress"></p></section></div>
+<section class="footer">请两位标注者在不同设备或浏览器配置中独立填写，勿查看对方答案。答案可暂存在此浏览器，务必下载JSON备份。未完成的草稿也可导出，统计脚本将拒绝不完整结果。</section>
+</main><dialog id="zoom"><button id="closeZoom">关闭大图</button><br><img id="zoomImage"></dialog>
+<script>
+const D=__PAYLOAD__;
+const key=D.pilot_version+'-blind-'+D.role;
+let state={pilot_version:D.pilot_version,role:D.role,schema_sha256:D.schema_sha256,reviewer_id:'',review_scope:'fine-grained visual-state labels only',records:D.tasks.map(t=>({sample_id:t.sample_id,features:{},review_status:'',review_notes:''}))};
+try{const saved=JSON.parse(localStorage.getItem(key));if(saved&&saved.schema_sha256===D.schema_sha256)state=saved}catch(e){}
+let pos=0;
+const $=s=>document.getElementById(s);
+function persist(){try{localStorage.setItem(key,JSON.stringify(state))}catch(e){$('message').textContent='浏览器未提供本地存储，请及时下载JSON备份'}status()}
+function record(){return state.records.find(r=>r.sample_id===D.tasks[pos].sample_id)}
+function present(r,f){const v=r.features[f.feature_id];return f.value_type==='set'?Array.isArray(v)&&v.length>0:D.fields.find(x=>x===f).possible_values.includes(v)}
+function count(r){return D.fields.filter(f=>present(r,f)).length}
+function status(){const done=state.records.filter(r=>r.review_status==='complete'&&count(r)===D.fields.length).length;$('progress').textContent=`标注者 ${D.role} · ${done}/${D.tasks.length} 完成`;$('sampleProgress').textContent=`当前已填写 ${count(record())}/${D.fields.length} 字段`}
+function label(text,cls){const el=document.createElement('label');el.textContent=text;if(cls)el.className=cls;return el}
+function render(){const t=D.tasks[pos],r=record();$('sampleTitle').textContent=`目标 ${pos+1} / ${D.tasks.length}`;$('views').replaceChildren();['原图：判断原始画面边界','目标标记图：只描述框中猫','放大裁剪：观察局部'].forEach((name,i)=>{const fig=document.createElement('figure'),img=new Image(),cap=document.createElement('figcaption');img.src=t.views[i];img.alt=name;img.onclick=()=>{$('zoomImage').src=t.views[i];$('zoom').showModal()};cap.textContent=name;fig.append(img,cap);$('views').append(fig)});
+$('fields').replaceChildren();D.fields.forEach((f,i)=>{const box=document.createElement('div');box.className='field';const name=label(`${i+1}. ${f.feature_name_zh||f.feature_id} `,'name'),small=document.createElement('small');small.textContent=f.feature_id;name.append(small);box.append(name);
+if(f.value_type==='set'){const group=document.createElement('div');group.className='set';f.possible_values.forEach(v=>{const lab=label(''),input=document.createElement('input');input.type='checkbox';input.value=v;input.checked=(r.features[f.feature_id]||[]).includes(v);input.onchange=()=>{let values=[...group.querySelectorAll('input:checked')].map(x=>x.value);const exclusive=f.exclusive_values||[];if(input.checked&&exclusive.includes(v))values=[v];else if(input.checked)values=values.filter(x=>!exclusive.includes(x));r.features[f.feature_id]=values;group.querySelectorAll('input').forEach(x=>x.checked=values.includes(x.value));persist()};lab.append(input,document.createTextNode(String(v)));group.append(lab)});box.append(group)}else{const s=document.createElement('select'),blank=document.createElement('option');blank.value='';blank.textContent='请选择（无默认值）';s.append(blank);f.possible_values.forEach(v=>{const o=document.createElement('option');o.value=String(v);o.textContent=String(v);s.append(o)});s.value=r.features[f.feature_id]===undefined?'':String(r.features[f.feature_id]);s.onchange=()=>{if(s.value==='')delete r.features[f.feature_id];else r.features[f.feature_id]=f.possible_values.find(v=>String(v)===s.value);persist()};box.append(s)}$('fields').append(box)});
+$('notes').value=r.review_notes;$('reviewStatus').value=r.review_status;$('jump').value=pos;$('prev').disabled=pos===0;$('next').disabled=pos===D.tasks.length-1;status()}
+function validateCurrent(){const r=record();if(r.review_status!=='complete')return true;const missing=D.fields.filter(f=>!present(r,f));if(missing.length){$('message').textContent=`尚有 ${missing.length} 个字段未填，已保留草稿` ;return false}const f=r.features;if(f.mouth_visibility==='not_visible'&&(f.mouth_state!=='unknown'||f.tongue_visibility!=='unknown')){$('message').textContent='嘴部不可见时，嘴部状态和舌头可见性均应为unknown';return false}if(f.tail_visibility==='not_observable'&&f.tail_posture!=='unknown'){$('message').textContent='尾巴无法观察时，尾姿应为unknown';return false}$('message').textContent='';return true}
+$('title').textContent=`猫类视觉状态 · 人工盲审 ${D.role}`;
+D.tasks.forEach((t,i)=>{const o=document.createElement('option');o.value=i;o.textContent=`目标 ${i+1}`;$('jump').append(o)});
+$('prev').onclick=()=>{validateCurrent();pos--;render()};$('next').onclick=()=>{validateCurrent();pos++;render()};$('jump').onchange=e=>{validateCurrent();pos=Number(e.target.value);render()};
+$('notes').oninput=e=>{record().review_notes=e.target.value;persist()};$('reviewStatus').onchange=e=>{record().review_status=e.target.value;validateCurrent();persist()};
+for(const [id,k] of [['reviewer','reviewer_id']]){$(id).value=state[k];$(id).oninput=e=>{state[k]=e.target.value;persist()}}
+$('closeZoom').onclick=()=>$('zoom').close();
+$('save').onclick=()=>{validateCurrent();state.exported_at=new Date().toISOString();const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`cat_blind_${D.role}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),5000)};
+$('restore').onchange=async e=>{try{const d=JSON.parse(await e.target.files[0].text());if(d.pilot_version!==D.pilot_version||d.role!==D.role||d.schema_sha256!==D.schema_sha256)throw Error('版本、标注者角色或字典不匹配');if(!Array.isArray(d.records)||d.records.length!==D.tasks.length||new Set(d.records.map(r=>r.sample_id)).size!==D.tasks.length||d.records.some(r=>!D.tasks.some(t=>t.sample_id===r.sample_id)))throw Error('目标清单不匹配');state=d;persist();for(const [id,k] of [['reviewer','reviewer_id']])$(id).value=state[k];render()}catch(err){alert('恢复失败：'+err.message)}};
+render();
+</script></html>

@@ -2,6 +2,22 @@
 
 Project workspace for QE.
 
+## 整合后的六分类试运行
+
+2026-10-09 在此目录完成小规模验证：现有55项单元测试通过；B池缓存分层复算通过；三确认池各抽六类目标各一个，用八种架构各一份已有权重实际推理，144次分类预测与历史缓存一致。
+
+```bash
+OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 .venv/bin/python scripts/run_scale_only_confirmation.py \
+  --input artifacts/scale_only_confirmation_20261007/portable_inputs \
+  --output artifacts/my_integration_check/scale --smoke
+OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 .venv/bin/python scripts/check_integrated_workspace.py \
+  --output artifacts/my_integration_check/inference --device cuda
+```
+
+第二个命令要求输出目录尚不存在。它检查三池图片路径、抽样图片哈希、八架构权重加载及推理；不重新训练或调用VLM。抽样使用18个不同目标，补齐到历史96输入批次，补齐样本不计入144次对照。CUDA/TF32设置下此次分类一致，不代表不同设备、精度或批次下logits逐位相同；CPU/小批次探测曾出现一条边界预测差异。
+
+历史冻结清单仍保存旧工作目录的绝对路径。此检查在内存中转换路径，并将新清单另存到输出目录，不改写历史清单和哈希记录。旧全量入口尚未全部迁移为只依赖新目录；本次通过不等于全工程迁移完成。详细记录见 [整合后试运行记录](docs/整合后试运行记录_20261009.md)。
+
 ## 自动类别与特征流水线
 
 对于已有目标标注的数据集，可不再手写类别特征字典。流程会先用 VLM 独立判断类别，再自动生成、校验并冻结 schema，最后进行特征识别。首版 person 策略和输入协议见 [自动特征流程](docs/auto_feature_workflow.md)。

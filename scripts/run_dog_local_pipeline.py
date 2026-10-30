@@ -83,7 +83,9 @@ def feature_schema(schema_path: Path):
             else:
                 definition["enum"] = item["possible_values"]
         fields[item["feature_id"]] = definition
-    return {"type": "object", "properties": {"schema_version": {"type": "string"}, "image_id": {"type": "string"}, "target_instance_id": {"type": "string"}, "features": {"type": "object", "properties": fields, "additionalProperties": False}, "evidence": {"type": "object", "additionalProperties": {"type": "string"}}}, "required": ["schema_version", "image_id", "target_instance_id", "features", "evidence"], "additionalProperties": False}
+    required = list(fields)
+    evidence = {key: {"type": "string"} for key in required}
+    return {"type": "object", "properties": {"schema_version": {"type": "string"}, "image_id": {"type": "string"}, "target_instance_id": {"type": "string"}, "features": {"type": "object", "properties": fields, "required": required, "additionalProperties": False}, "evidence": {"type": "object", "properties": evidence, "required": required, "additionalProperties": False}}, "required": ["schema_version", "image_id", "target_instance_id", "features", "evidence"], "additionalProperties": False}
 
 
 def validate_feature(result, row, schema):
@@ -173,6 +175,7 @@ def main():
     ap.add_argument("--model", default="qwen3-vl:30b-a3b-instruct")
     ap.add_argument("--num-predict", type=int, default=2200)
     ap.add_argument("--seed", type=int, default=20260911, help="VLM generation seed for reproducible retries")
+    ap.add_argument("--semantic-retries", type=int, default=2)
     ap.add_argument("--resume", action="store_true")
     ap.add_argument("--limit", type=int, default=0, help="only process the first N rows")
     ap.add_argument("--stages", choices=("all", "features", "classifier"), default="all")
@@ -201,7 +204,30 @@ def main():
               if args.resume and feature_file.exists():
                   value = json.loads(feature_file.read_text(encoding="utf-8")); result = validate_feature(value, row, schema)
               else:
-                  result = validate_feature(ask(config, feature_prompt, row, [Path(row["image_path"]), Path(row["marked_image_path"]), Path(row["crop_image_path"])], args.output / "raw/features" / f"{key}.json", feature_schema(args.schema)), row, schema)
+                  validation_error = None
+                  result = None
+                  for semantic_attempt in range(1, args.semantic_retries + 2):
+                      correction = ""
+                      if validation_error:
+                          correction = (
+                              "\n上一份JSON未通过严格校验，错误为：" + validation_error
+                              + "。请重新检查全部字段及依赖规则后输出完整JSON。"
+                          )
+                      candidate = ask(
+                          config,
+                          feature_prompt + correction,
+                          row,
+                          [Path(row["image_path"]), Path(row["marked_image_path"]), Path(row["crop_image_path"])],
+                          args.output / "raw/features" / f"{key}_semantic{semantic_attempt}.json",
+                          feature_schema(args.schema),
+                      )
+                      try:
+                          result = validate_feature(candidate, row, schema)
+                          break
+                      except ValueError as error:
+                          validation_error = str(error)
+                  if result is None:
+                      raise ValueError(validation_error or "semantic_validation_failed")
                   atomic_json(feature_file, result)
               features[key] = result
               print(f"[features] {index}/{len(rows)} {key} ok", flush=True)

@@ -1,0 +1,12 @@
+{
+  "policy_version": "head_face_v1.0",
+  "min_features": 25,
+  "max_features": 25,
+  "value_types": ["enum", "set"],
+  "max_feature_validation_attempts": 4,
+  "sensitive_attributes": [
+    "age", "gender", "sex", "race", "ethnicity", "identity", "name",
+    "occupation", "health", "disability", "emotion", "personality",
+    "attractiveness", "income", "religion", "nationality"
+  ]
+}

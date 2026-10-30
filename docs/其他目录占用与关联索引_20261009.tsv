@@ -1,0 +1,1919 @@
+绝对路径	实际分配字节	可读大小	计量来源	用途或关系
+/home/hcf	429513846784	400.02 GiB	2026-10-09 前序全盘扫描（合并前总计，不代表当前项目分布）	家目录总计（前序扫描）
+/home/hcf/.aris	8192	8.00 KiB	2026-10-09 前序全盘扫描	研究工具配置
+/home/hcf/.astropy	8192	8.00 KiB	2026-10-09 前序全盘扫描	第三方库配置，未证实属于 QE 主线
+/home/hcf/.astropy/config	4096	4.00 KiB	2026-10-09 前序全盘扫描	第三方库配置，未证实属于 QE 主线
+/home/hcf/.cache	11069747200	10.31 GiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/Microsoft	45056	44.00 KiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/Microsoft/DeveloperTools	40960	40.00 KiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/black	32768	32.00 KiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/black/staged-bugsinpy	28672	28.00 KiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/clip	353988608	337.59 MiB	2026-10-09 前序全盘扫描	与视觉模型相关；本次未确认每份权重由哪个实验使用
+/home/hcf/.cache/copilot	8192	8.00 KiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/fontconfig	520192	508.00 KiB	2026-10-09 前序全盘扫描	共享绘图/文档环境
+/home/hcf/.cache/gdown	8192	8.00 KiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/gh	16384	16.00 KiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/gh/84	12288	12.00 KiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/huggingface	5029646336	4.68 GiB	2026-10-09 前序全盘扫描	QE 基础模型脚本使用 from_pretrained；具体模型子目录见目录索引
+/home/hcf/.cache/huggingface/datasets	81903616	78.11 MiB	2026-10-09 前序全盘扫描	QE 基础模型脚本使用 from_pretrained；具体模型子目录见目录索引
+/home/hcf/.cache/huggingface/hub	4946403328	4.61 GiB	2026-10-09 前序全盘扫描	QE 基础模型脚本使用 from_pretrained；具体模型子目录见目录索引
+/home/hcf/.cache/huggingface/modules	57344	56.00 KiB	2026-10-09 前序全盘扫描	QE 基础模型脚本使用 from_pretrained；具体模型子目录见目录索引
+/home/hcf/.cache/huggingface/xet	1269760	1.21 MiB	2026-10-09 前序全盘扫描	QE 基础模型脚本使用 from_pretrained；具体模型子目录见目录索引
+/home/hcf/.cache/matplotlib	90112	88.00 KiB	2026-10-09 前序全盘扫描	QE 绘图使用的工具环境
+/home/hcf/.cache/modelscope	8192	8.00 KiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/modelscope/.lock	4096	4.00 KiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/ms-playwright	676495360	645.16 MiB	2026-10-09 前序全盘扫描	浏览器工具依赖；未发现 QE 主线直接目录引用
+/home/hcf/.cache/ms-playwright/.links	8192	8.00 KiB	2026-10-09 前序全盘扫描	浏览器工具依赖；未发现 QE 主线直接目录引用
+/home/hcf/.cache/ms-playwright/chromium-1228	397393920	378.98 MiB	2026-10-09 前序全盘扫描	浏览器工具依赖；未发现 QE 主线直接目录引用
+/home/hcf/.cache/ms-playwright/chromium_headless_shell-1228	273952768	261.26 MiB	2026-10-09 前序全盘扫描	浏览器工具依赖；未发现 QE 主线直接目录引用
+/home/hcf/.cache/ms-playwright/ffmpeg-1011	5136384	4.90 MiB	2026-10-09 前序全盘扫描	浏览器工具依赖；未发现 QE 主线直接目录引用
+/home/hcf/.cache/pip	1999343616	1.86 GiB	2026-10-09 前序全盘扫描	共享；清理会影响后续离线安装/重装速度
+/home/hcf/.cache/pip/http-v2	1998245888	1.86 GiB	2026-10-09 前序全盘扫描	共享；清理会影响后续离线安装/重装速度
+/home/hcf/.cache/pip/selfcheck	24576	24.00 KiB	2026-10-09 前序全盘扫描	共享；清理会影响后续离线安装/重装速度
+/home/hcf/.cache/pip/wheels	1069056	1.02 MiB	2026-10-09 前序全盘扫描	共享；清理会影响后续离线安装/重装速度
+/home/hcf/.cache/qe_external	50655232	48.31 MiB	2026-10-09 前序全盘扫描	明确关联：perception_models 是 QE 脚本默认 PE_REPO
+/home/hcf/.cache/qe_external/perception_models	50651136	48.30 MiB	2026-10-09 前序全盘扫描	明确关联：perception_models 是 QE 脚本默认 PE_REPO
+/home/hcf/.cache/tectonic	12288	12.00 KiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/tectonic/bundles	8192	8.00 KiB	2026-10-09 前序全盘扫描	共享缓存/归属未确认
+/home/hcf/.cache/torch	1734373376	1.62 GiB	2026-10-09 前序全盘扫描	视觉模型共享缓存，不能仅按“缓存”判为无关
+/home/hcf/.cache/torch/hub	1734369280	1.62 GiB	2026-10-09 前序全盘扫描	视觉模型共享缓存，不能仅按“缓存”判为无关
+/home/hcf/.cache/uv	1224495104	1.14 GiB	2026-10-09 前序全盘扫描	共享安装环境
+/home/hcf/.cache/uv/archive-v0	1180127232	1.10 GiB	2026-10-09 前序全盘扫描	共享安装环境
+/home/hcf/.cache/uv/builds-v0	4096	4.00 KiB	2026-10-09 前序全盘扫描	共享安装环境
+/home/hcf/.cache/uv/environments-v2	8192	8.00 KiB	2026-10-09 前序全盘扫描	共享安装环境
+/home/hcf/.cache/uv/git-v0	16564224	15.80 MiB	2026-10-09 前序全盘扫描	共享安装环境
+/home/hcf/.cache/uv/interpreter-v4	49152	48.00 KiB	2026-10-09 前序全盘扫描	共享安装环境
+/home/hcf/.cache/uv/sdists-v9	1429504	1.36 MiB	2026-10-09 前序全盘扫描	共享安装环境
+/home/hcf/.cache/uv/simple-v22	25317376	24.14 MiB	2026-10-09 前序全盘扫描	共享安装环境
+/home/hcf/.cache/uv/wheels-v6	983040	960.00 KiB	2026-10-09 前序全盘扫描	共享安装环境
+/home/hcf/.codex	5792952320	5.40 GiB	本次复测	混合用途
+/home/hcf/.codex/.tmp	107483136	102.50 MiB	本次复测	工具临时目录；未检查活跃使用情况
+/home/hcf/.codex/.tmp/bundled-marketplaces	266240	260.00 KiB	本次复测	工具临时目录；未检查活跃使用情况
+/home/hcf/.codex/.tmp/git-2bzum9	16384	16.00 KiB	本次复测	工具临时目录；未检查活跃使用情况
+/home/hcf/.codex/.tmp/marketplaces	4096	4.00 KiB	本次复测	工具临时目录；未检查活跃使用情况
+/home/hcf/.codex/.tmp/plugins	107188224	102.22 MiB	本次复测	工具临时目录；未检查活跃使用情况
+/home/hcf/.codex/Auto-claude-code-research-in-sleep	65830912	62.78 MiB	本次复测	protocol-test 的技能清单和 AGENTS.md 直接引用；不同于 QE 数据
+/home/hcf/.codex/Auto-claude-code-research-in-sleep/.git	25366528	24.19 MiB	本次复测	protocol-test 的技能清单和 AGENTS.md 直接引用；不同于 QE 数据
+/home/hcf/.codex/Auto-claude-code-research-in-sleep/.github	36864	36.00 KiB	本次复测	protocol-test 的技能清单和 AGENTS.md 直接引用；不同于 QE 数据
+/home/hcf/.codex/Auto-claude-code-research-in-sleep/aris-monitor	176128	172.00 KiB	本次复测	protocol-test 的技能清单和 AGENTS.md 直接引用；不同于 QE 数据
+/home/hcf/.codex/Auto-claude-code-research-in-sleep/assets	6107136	5.82 MiB	本次复测	protocol-test 的技能清单和 AGENTS.md 直接引用；不同于 QE 数据
+/home/hcf/.codex/Auto-claude-code-research-in-sleep/community_papers	8531968	8.14 MiB	本次复测	protocol-test 的技能清单和 AGENTS.md 直接引用；不同于 QE 数据
+/home/hcf/.codex/Auto-claude-code-research-in-sleep/docs	16023552	15.28 MiB	本次复测	protocol-test 的技能清单和 AGENTS.md 直接引用；不同于 QE 数据
+/home/hcf/.codex/Auto-claude-code-research-in-sleep/mcp-servers	311296	304.00 KiB	本次复测	protocol-test 的技能清单和 AGENTS.md 直接引用；不同于 QE 数据
+/home/hcf/.codex/Auto-claude-code-research-in-sleep/skills	7090176	6.76 MiB	本次复测	protocol-test 的技能清单和 AGENTS.md 直接引用；不同于 QE 数据
+/home/hcf/.codex/Auto-claude-code-research-in-sleep/templates	98304	96.00 KiB	本次复测	protocol-test 的技能清单和 AGENTS.md 直接引用；不同于 QE 数据
+/home/hcf/.codex/Auto-claude-code-research-in-sleep/tests	692224	676.00 KiB	本次复测	protocol-test 的技能清单和 AGENTS.md 直接引用；不同于 QE 数据
+/home/hcf/.codex/Auto-claude-code-research-in-sleep/tools	921600	900.00 KiB	本次复测	protocol-test 的技能清单和 AGENTS.md 直接引用；不同于 QE 数据
+/home/hcf/.codex/app-server-control	8192	8.00 KiB	本次复测	混合用途
+/home/hcf/.codex/app-server-daemon	12288	12.00 KiB	本次复测	混合用途
+/home/hcf/.codex/archived_sessions	299343872	285.48 MiB	本次复测	历史记录，未逐条归属
+/home/hcf/.codex/attachments	2915454976	2.72 GiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/011176b8-cc29-4a6a-8af5-fa82c6cd8117	28672	28.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/034a3ee4-0a02-4f9e-aa0b-06fda0a1bcc4	98304	96.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/0395f64c-f591-4200-b968-f3bc64c68249	110592	108.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/0ab0b50e-8c91-4c54-8c6f-518693e13c94	28672	28.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/0d924bdf-d468-4124-a020-3132f0a2b0fe	1789952	1.71 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/0e305eb8-1f33-4121-bd13-c4992bf6901b	618496	604.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/0f268376-d8ed-4013-98f7-cef3d7891313	180797440	172.42 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/0ff23e23-4972-4a2e-a5db-a65e6b82a58d	106496	104.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/11c33396-093a-42df-97c0-50bbaa1eddde	20480	20.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/131f36dc-19fc-427e-8c9f-ccbe774470c7	1921024	1.83 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/14edc62e-22b2-4254-97f2-3ef0067ccfe1	151552	148.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/15d0bd88-95e1-498c-b3c6-9ecf7c9791f9	69632	68.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/165c224c-3560-484f-9a9a-c92ec5a80632	684032	668.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/1765dc24-c798-48ce-9722-06c86babf4ab	765952	748.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/17946893-d6a6-46d0-98e0-d0cd0a04ad1c	16384	16.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/17f6da49-f430-42b0-b441-9692672ebb0f	172032	168.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/18bfdccf-c558-4a6f-9204-02e68c8f046a	126976	124.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/1d558e96-5f09-4b3b-9c27-6e45c323bf41	28672	28.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/1ded36c6-37a4-4e4f-8035-400b8809428c	241664	236.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/1e351370-0c69-49f9-83b3-24afb5afc17d	24576	24.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/1f13787f-b3ff-45ed-8120-2d090bb07d12	57344	56.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/21fbe4d4-27c5-484f-b335-bef480fe134d	12288	12.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/253a2829-1cb6-4b35-a4ba-3b14cd7d905a	77824	76.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/28992609-837c-48f4-b885-d96e2d66c071	352256	344.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/29dd7baa-2cc5-466f-b296-b687550dcfcb	4096	4.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/2a2b181d-4b21-48d7-8e9a-aa4c419b7426	12288	12.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/2b6d1973-78b3-4302-900a-30788025f783	344064	336.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/2c52bb8f-8085-4445-8c33-3bcc55e19306	163840	160.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/2cc1878a-1a4e-4bb7-9ef4-6ca1d3ee4467	1150976	1.10 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/2e2bd717-e0cf-427b-bd47-408390f2fdbf	57344	56.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/2e9bcb8f-2804-4729-8b52-c349261126dd	1900544	1.81 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/324946a3-e151-4a18-bf34-cc73bea53004	36864	36.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/331f3fb6-134a-42e8-9e80-140f5a5c7373	1327104	1.27 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/3513b989-8566-4dc9-aef9-4643c352df83	135168	132.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/363e9613-eb43-4acb-8306-00f309dd6f51	520192	508.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/37356bb8-634e-4756-ba26-6ca50fc4cb01	233472	228.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/38560523-ff12-4239-8498-2967d92dd608	516096	504.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/3a3be894-5e7e-44b3-ab5c-7b9a6e363819	622592	608.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/3b6a9c09-916c-4422-8db7-c2b5ed703ce7	1880064	1.79 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/3ee293dd-d1f9-4137-bf32-86d4b6322f7d	1564672	1.49 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/43478dd9-ec81-4336-bc8e-76d3ae26e1f9	57344	56.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/455cfa39-11cb-41c1-9a5c-de4cc22a51c9	20480	20.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/46a68ab7-1f08-44da-a73b-7aee7797d28a	16384	16.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/4729af67-5b63-4142-ad76-0ff05c046bda	90112	88.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/474e57b7-c599-4cf0-888a-bc1ffd18fcff	425984	416.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/47bf520a-1812-40b4-a317-a62d15a5ccb5	196608	192.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/48f1249f-81f5-4c5e-87bc-c636e674aa93	1458176	1.39 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/49c62306-9620-45ae-9573-22558053c417	65536	64.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/4cd50224-7802-44a9-9456-b4309fdf7a2c	212992	208.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/4df473b5-3715-417e-bb00-8d6674a7de68	1880064	1.79 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/53b2bcf3-213b-4a63-9fd6-6edf8e4574fa	237568	232.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/57c603d1-2b96-4daa-924b-8efcf25faecc	303104	296.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/58db7be1-f69f-4245-b1bb-c6452abbd569	61440	60.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/58fc6ce2-f543-4eab-a446-57ae90217d3c	1642496	1.57 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/597e8f55-1e62-454b-ae06-d453d48c10ce	1445888	1.38 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/5b25bd07-f4d0-4239-9a48-c64e8d6bcbce	430080	420.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/5b762c90-0540-48b5-b1ed-738a68c5da65	131072	128.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/5bbe6a24-bbd6-4b71-9e24-75e037779b1b	249856	244.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/5cdd44b9-9940-41ab-8de1-1d1a5b57da49	20480	20.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/61113c92-61db-4b33-9c09-673057dfafa7	4886528	4.66 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/644a7161-2437-4e28-86b3-2c3255c203dc	118784	116.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/692559b1-1473-44ab-babe-1e23e43f1ea2	569344	556.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/6982b6c7-406e-4398-8080-947e584dacd6	376832	368.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/6d04924f-9b90-4fbc-8d56-9aac2f7be1b3	143360	140.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/6d23ec47-cc20-4f33-9545-52131dd02cf8	118784	116.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/6e5d558c-13af-4625-9c6d-8ecdbeb090b7	172032	168.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/6fdfd0a3-1b89-44d4-ba49-c4c4625f1152	77824	76.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/7021e53c-8cb1-44fd-a710-37f0272cc320	126976	124.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/706365df-0281-4561-bb96-b6fdff5737a1	1507328	1.44 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/722361bb-3f5c-400e-8551-1d469f0f2dbb	28672	28.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/723a2ca4-0b04-4cce-8353-4de782450f7c	1097728	1.05 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/72ba7a16-8251-4cbb-9755-f1e63669b7b0	1642496	1.57 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/730db7bf-68a5-476f-bece-218474143a45	98304	96.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/77ef978e-f1e4-444b-a7b6-a1a5001a1987	118784	116.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/7d1b10d1-293c-4afb-9686-a6aeeda89030	12288	12.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/7e5d3110-d1d6-408b-bb31-663750f437da	512000	500.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/7e746da0-1da3-4ffb-8932-98be25edbf64	28672	28.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/7eb5cff6-cc46-4ddc-8db1-321bfea9c29e	278528	272.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/80d2ab45-fc76-4e2e-84f4-e18066d6623c	20480	20.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/8285bddd-650e-46fa-af2c-264c8a1e783d	57344	56.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/83f94d1b-6967-409e-b9dd-c2382c0e0667	2635247616	2.45 GiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/8423288e-586c-4c26-b6f0-c78fd4f37747	450560	440.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/8459fc33-8d9e-42a4-a52a-050959839286	176128	172.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/86e7314f-f5cc-4de8-bd63-ab274f54bcbc	57344	56.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/89cd0a7d-8047-40f3-8321-5f6a8bb37e94	20480	20.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/8b031804-3272-46d3-9d1a-7343e2717e4b	1486848	1.42 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/8c972886-339d-4e3c-81df-1c359e1a1c39	262144	256.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/8cc49300-597d-4b31-bc33-48370e4a2727	24576	24.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/905af293-fa5f-4800-9186-41557a673b04	20480	20.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/92fa79d3-9346-4727-a02c-92280f3ce34f	176128	172.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/933afe81-4387-4e8f-b0f8-d63b73799def	237568	232.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/93624fc0-9519-4438-a311-9aceed1aa14d	389120	380.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/93a4dc82-8aca-4c2c-bbbc-465d531d98a4	61440	60.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/945a2a69-5f9d-4c16-9b70-5109cdff36e4	1200128	1.14 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/955cbbbd-f1d8-4136-8f43-fb3ca0b7e54d	122880	120.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/9a230d1c-8e99-48c3-a954-f0096a934bff	241664	236.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/9ad3b096-cec2-49d5-8c30-2242416e6ab9	229376	224.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/a00816be-e2c6-4ec8-8009-69d35782c073	311296	304.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/a2f0635d-18e9-44cf-a1e0-6417a2315b3b	24576	24.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/a3184dd7-2a9a-49bd-87d3-dc67d0e46d5a	299008	292.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/a4003926-1305-4857-ad4c-46f3ccb41d10	16384	16.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/a51ce7bb-a2e6-45bf-9f3f-7b20f6efefb1	20480	20.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/a5771a51-038f-43ee-8239-c5e197bdd4a4	139264	136.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/a5e23930-538b-49bd-b62d-92be833c4670	274432	268.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/a67d6c1c-8edd-4054-8fe3-9fb0def23d6a	2748416	2.62 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/a91339e5-a648-4400-bd73-faff827ccfd3	16384	16.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/a930e5a1-dab7-442d-82c7-393ab8435995	368640	360.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/a9402ce8-056f-4e01-ad0c-6488e1c66be0	274432	268.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/a99bdbfb-d1f5-4d0a-8e13-35cfec6c2eee	163840	160.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/acc9bf4e-778c-4d0e-b435-5c28312b4081	28672	28.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/ada6fd4d-3aab-49a2-a579-70620762e354	1826816	1.74 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/adfef56d-b551-468b-8b0e-5471cdc20054	118784	116.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/afacc58c-de18-4e16-8daa-24998fbd97ab	81920	80.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/b04cd726-177f-40b9-9ffc-232556865fdb	172032	168.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/b0d1d2eb-6b8e-4e26-b052-b0ef455c34af	98304	96.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/b0eb4e11-97c6-4b3b-9c67-3ca42d47ad03	110592	108.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/b1159da1-e568-4c29-a70c-9ecc99be9200	471040	460.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/b1f403e9-8341-45f7-8d05-507e6f082022	16384	16.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/b21eacff-9a3e-47e6-9e27-09ecf54dfd1d	131072	128.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/b6fd5603-4c3f-4d5b-9851-9f84a369763d	32768	32.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/b72f3959-9c1c-4a19-80c3-fd1f3777d95c	176128	172.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/b93d9833-0130-461e-9fd8-6dd21155af19	241664	236.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/baa0911b-14c7-4b6e-8828-05b0cafbeebf	12288	12.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/bae440f1-c1f6-49c9-b603-b0b043e878de	20480	20.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/bcb76a8a-73df-40dd-a726-9b3c45d5b57b	139264	136.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/bd0cd576-6b84-4023-ae84-6eb83cc5efcb	520192	508.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/bf3508b6-cbc0-4749-b53a-82c73fbc7713	98304	96.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/c0311669-8f33-45dc-9e4a-3606ca980989	4096	4.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/c0660926-76fb-40c4-a912-61c024640219	53248	52.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/c0ed81f7-f777-4b94-adc7-9783b84862d2	36864	36.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/c1dbe5c8-cc90-4896-b7a5-0f7e8a3d68b6	352256	344.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/c3f6adcf-8053-4aa9-bd0d-69fdf60b3db2	151552	148.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/c5f373d7-5e2b-4d06-a830-601909798043	1462272	1.39 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/c6444aaa-1d24-4fe2-b163-34e6606188d6	188416	184.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/c7278fac-f7b5-4712-a6e3-9ba1a8e9fcec	15319040	14.61 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/c8c8bb17-a627-4af7-8fa6-bd8f0d2b4273	40960	40.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/cb43e833-35cd-4c15-b9b7-9b0d58efa6f8	274432	268.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/cba5f7d6-08a7-4b93-92b8-5249a8891305	15335424	14.62 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/cbbf772c-1553-4fab-9270-94ef42ff7356	16384	16.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/cc7661de-e5a9-4557-924c-82155b8b4fd9	1327104	1.27 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/ccb4522f-2296-4898-9620-232069f86330	192512	188.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/cd2fe978-22f1-427f-a678-2b5deed1831b	204800	200.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/cf301864-9163-411e-b987-45d602a40351	20480	20.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/cf698d36-c572-4fa5-9a0a-089f7c470404	16384	16.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/d0ff13b6-4a7a-4eb0-84d6-febe5bacb11a	24576	24.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/d26220e9-7dff-4a83-ac7a-3575986bf3b6	385024	376.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/d85c1180-f179-4a2f-b4d7-0e67c7be384d	16384	16.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/da24d50d-7971-47f6-adc2-0781f55b8663	40960	40.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/daacdc45-9f46-48a8-8ca1-e729ff179aa0	102400	100.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/dad2f4c5-e5cb-4051-afca-67370d2ebecf	90112	88.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/dcd8ba51-ea15-42d3-b978-ebcd73a02f8f	73728	72.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/de2e83e2-5018-4867-8c46-fb43dccf4ba2	294912	288.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/de74ee09-cbfe-40cd-9e0f-615bb29f1514	425984	416.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/df74bad8-4bb1-4d7f-832a-855514154462	258048	252.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/e10fec0a-6f35-4aaa-b1f6-fb44ef0b1eaf	20480	20.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/e19a5722-5a36-49aa-8508-94d60f75bf92	696320	680.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/e35cd5a2-42f8-4186-8de1-0f19e88ab8d7	151552	148.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/e3d1b87f-3b00-43ea-bb1d-3f07102ac919	135168	132.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/e46c05de-d691-4c2c-ac75-d2a129c20037	1085440	1.04 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/e473e5a3-6f02-48b9-9a14-a8f6b5980c50	684032	668.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/e7be9203-2512-4a10-b9d8-a06632c46ddd	2027520	1.93 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/e822152d-b3e0-473a-9203-83bacfd1a2a2	16384	16.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/e9844951-bb73-4326-b5b1-e449334d09bf	28672	28.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/eb40d620-7bf1-47b5-8dcd-9cae69175d78	151552	148.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/ecdc1603-2aaf-4e2e-9251-f2ff36991b57	16384	16.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/efe22090-2d0f-40a9-b821-b55377cea732	282624	276.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/f16b8783-b0d5-49ab-874b-066599177b64	118784	116.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/f19e7659-03d0-48f0-a204-cd08105075ab	98304	96.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/f1ba4405-94e4-4edf-978e-42f80c66784e	20480	20.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/f37b90ec-7c7e-492c-a3a3-22bb8d78bcb9	253952	248.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/f39dab85-4716-4cb9-9d7d-f9ebc3e54f20	143360	140.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/f6a51140-5bb6-4fc5-89ab-ecd9ab64df38	24576	24.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/f77fad98-59ac-4e2a-ada6-a18428809478	2973696	2.84 MiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/f835a0df-16de-4781-8d9f-d9be5fd76a26	24576	24.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/f9892f90-0988-4630-ac59-c7ef642bc919	212992	208.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/fa47096a-5da0-4864-8256-26d472e2c1c7	229376	224.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/fe30bdbf-b314-4d69-8f94-0376b8aca499	12288	12.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/fe7328f7-67d0-46ce-8ea0-d7f8440b9bb9	86016	84.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/fe77dbb4-4be9-48e5-ae64-8a65e723c2b9	12288	12.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/attachments/fed85c25-3a5e-47ec-bfe4-3ceadaeee929	53248	52.00 KiB	本次复测	QE 三个 PPT 脚本直接引用其中三处；其他附件归属不能仅凭 ID 判断
+/home/hcf/.codex/bin	28672	28.00 KiB	本次复测	混合用途
+/home/hcf/.codex/bin/__pycache__	16384	16.00 KiB	本次复测	混合用途
+/home/hcf/.codex/cache	11124736	10.61 MiB	本次复测	混合用途
+/home/hcf/.codex/cache/codex_app_directory	3686400	3.52 MiB	本次复测	混合用途
+/home/hcf/.codex/cache/codex_apps_server_info	8192	8.00 KiB	本次复测	混合用途
+/home/hcf/.codex/cache/codex_apps_tools	245760	240.00 KiB	本次复测	混合用途
+/home/hcf/.codex/cache/remote_plugin_catalog	7180288	6.85 MiB	本次复测	混合用途
+/home/hcf/.codex/log	8192	8.00 KiB	本次复测	混合用途
+/home/hcf/.codex/packages	1344319488	1.25 GiB	本次复测	Codex 工具环境
+/home/hcf/.codex/packages/app-server-daemon	1344315392	1.25 GiB	本次复测	Codex 工具环境
+/home/hcf/.codex/plans	32768	32.00 KiB	本次复测	混合用途
+/home/hcf/.codex/plans/01a07a4a-c57c-7d72-9cb7-6c61276bfaa8	8192	8.00 KiB	本次复测	混合用途
+/home/hcf/.codex/plans/01a08a67-4793-7c83-9a0f-3d7bfb4caaf0	12288	12.00 KiB	本次复测	混合用途
+/home/hcf/.codex/plans/01a09a91-6a71-7eb2-877f-56bcb9749885	8192	8.00 KiB	本次复测	混合用途
+/home/hcf/.codex/plugins	27942912	26.65 MiB	本次复测	工具扩展
+/home/hcf/.codex/plugins/.remote-plugin-install-staging	4096	4.00 KiB	本次复测	工具扩展
+/home/hcf/.codex/plugins/cache	27934720	26.64 MiB	本次复测	工具扩展
+/home/hcf/.codex/recovery-backups	128684032	122.72 MiB	本次复测	工具配置/迁移的恢复材料
+/home/hcf/.codex/recovery-backups/20260715-provider-id-migration	108261376	103.25 MiB	本次复测	工具配置/迁移的恢复材料
+/home/hcf/.codex/recovery-backups/20260715-session-sidebar	20418560	19.47 MiB	本次复测	工具配置/迁移的恢复材料
+/home/hcf/.codex/rollout-migrations	4096	4.00 KiB	本次复测	混合用途
+/home/hcf/.codex/secrets	12288	12.00 KiB	本次复测	只记录目录，不读取内容
+/home/hcf/.codex/sessions	610402304	582.12 MiB	本次复测	研究过程/其他聊天的原始记录，未逐条归属
+/home/hcf/.codex/sessions/2026	610398208	582.12 MiB	本次复测	研究过程/其他聊天的原始记录，未逐条归属
+/home/hcf/.codex/shell_snapshots	69632	68.00 KiB	本次复测	混合用途
+/home/hcf/.codex/skills	1736704	1.66 MiB	本次复测	研究/图像/文档工具资源
+/home/hcf/.codex/skills/.system	507904	496.00 KiB	本次复测	研究/图像/文档工具资源
+/home/hcf/.codex/skills/imagen	16384	16.00 KiB	本次复测	研究/图像/文档工具资源
+/home/hcf/.codex/skills/research-figure-composer	151552	148.00 KiB	本次复测	研究/图像/文档工具资源
+/home/hcf/.codex/skills/research-paper-writing-agent	1056768	1.01 MiB	本次复测	研究/图像/文档工具资源
+/home/hcf/.codex/thread-writer-locks	4096	4.00 KiB	本次复测	混合用途
+/home/hcf/.codex/tmp	49152	48.00 KiB	本次复测	混合用途
+/home/hcf/.codex/tmp/arg0	45056	44.00 KiB	本次复测	混合用途
+/home/hcf/.codex/tui-thread-reference-capabilities	4096	4.00 KiB	本次复测	混合用途
+/home/hcf/.codex/venvs	49946624	47.63 MiB	本次复测	包含 imagen 环境，属于工具依赖
+/home/hcf/.codex/venvs/imagen	49942528	47.63 MiB	本次复测	包含 imagen 环境，属于工具依赖
+/home/hcf/.codex/visualizations	974848	952.00 KiB	本次复测	可能包含本次及其他聊天输出；目录索引列出路径
+/home/hcf/.codex/visualizations/2026	970752	948.00 KiB	本次复测	可能包含本次及其他聊天输出；目录索引列出路径
+/home/hcf/.codex/worktrees	8192	8.00 KiB	本次复测	已合并后仅保留兼容符号链接；不再是约 154.81 GiB 的第二份 QE
+/home/hcf/.codex/worktrees/2fec	4096	4.00 KiB	本次复测	已合并后仅保留兼容符号链接；不再是约 154.81 GiB 的第二份 QE
+/home/hcf/.config	73728	72.00 KiB	2026-10-09 前序全盘扫描	通用工具配置
+/home/hcf/.config/Code	20480	20.00 KiB	2026-10-09 前序全盘扫描	通用工具配置
+/home/hcf/.config/Code/agent-host	16384	16.00 KiB	2026-10-09 前序全盘扫描	通用工具配置
+/home/hcf/.config/gh	12288	12.00 KiB	2026-10-09 前序全盘扫描	通用工具配置
+/home/hcf/.config/google-chrome-for-testing	28672	28.00 KiB	2026-10-09 前序全盘扫描	通用工具配置
+/home/hcf/.config/google-chrome-for-testing/Crash Reports	24576	24.00 KiB	2026-10-09 前序全盘扫描	通用工具配置
+/home/hcf/.config/matplotlib	4096	4.00 KiB	2026-10-09 前序全盘扫描	通用工具配置
+/home/hcf/.config/procps	4096	4.00 KiB	2026-10-09 前序全盘扫描	通用工具配置
+/home/hcf/.copilot	98304	96.00 KiB	2026-10-09 前序全盘扫描	通用开发工具
+/home/hcf/.copilot/ide	4096	4.00 KiB	2026-10-09 前序全盘扫描	通用开发工具
+/home/hcf/.copilot/logs	86016	84.00 KiB	2026-10-09 前序全盘扫描	通用开发工具
+/home/hcf/.docker	573440	560.00 KiB	2026-10-09 前序全盘扫描	通用工具；Gate 系列有 Docker 工作流
+/home/hcf/.docker/buildx	561152	548.00 KiB	2026-10-09 前序全盘扫描	通用工具；Gate 系列有 Docker 工作流
+/home/hcf/.docker/buildx/activity	8192	8.00 KiB	2026-10-09 前序全盘扫描	通用工具；Gate 系列有 Docker 工作流
+/home/hcf/.docker/buildx/defaults	4096	4.00 KiB	2026-10-09 前序全盘扫描	通用工具；Gate 系列有 Docker 工作流
+/home/hcf/.docker/buildx/instances	4096	4.00 KiB	2026-10-09 前序全盘扫描	通用工具；Gate 系列有 Docker 工作流
+/home/hcf/.docker/buildx/refs	536576	524.00 KiB	2026-10-09 前序全盘扫描	通用工具；Gate 系列有 Docker 工作流
+/home/hcf/.dotnet	385024	376.00 KiB	2026-10-09 前序全盘扫描	与协议测试开发环境相关；不等同于项目内 .dotnet SDK
+/home/hcf/.dotnet/corefx	380928	372.00 KiB	2026-10-09 前序全盘扫描	与协议测试开发环境相关；不等同于项目内 .dotnet SDK
+/home/hcf/.dotnet/corefx/cryptography	376832	368.00 KiB	2026-10-09 前序全盘扫描	与协议测试开发环境相关；不等同于项目内 .dotnet SDK
+/home/hcf/.fontconfig	12288	12.00 KiB	2026-10-09 前序全盘扫描	通用字体环境
+/home/hcf/.httpie	8192	8.00 KiB	2026-10-09 前序全盘扫描	通用 HTTP 工具
+/home/hcf/.landscape	4096	4.00 KiB	2026-10-09 前序全盘扫描	系统用户环境
+/home/hcf/.local	479227904	457.03 MiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/bin	65937408	62.88 MiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/include	20480	20.00 KiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/include/python3.12	16384	16.00 KiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/lib	258609152	246.63 MiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/lib/python3.12	258605056	246.62 MiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/share	154644480	147.48 MiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/share/NuGet	8192	8.00 KiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/share/Trash	154488832	147.33 MiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/share/man	53248	52.00 KiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/share/nano	4096	4.00 KiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/share/pki	77824	76.00 KiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/share/uv	8192	8.00 KiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/state	12288	12.00 KiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.local/state/gh	8192	8.00 KiB	2026-10-09 前序全盘扫描	通用环境；未逐一验证哪个项目使用哪个包
+/home/hcf/.modelscope	12288	12.00 KiB	2026-10-09 前序全盘扫描	模型工具环境；只记录路径
+/home/hcf/.modelscope/credentials	8192	8.00 KiB	2026-10-09 前序全盘扫描	模型工具环境；只记录路径
+/home/hcf/.npm	213307392	203.43 MiB	2026-10-09 前序全盘扫描	通用安装缓存
+/home/hcf/.npm-global	4096	4.00 KiB	2026-10-09 前序全盘扫描	通用工具目录
+/home/hcf/.npm/_cacache	195031040	186.00 MiB	2026-10-09 前序全盘扫描	通用安装缓存
+/home/hcf/.npm/_cacache/content-v2	191856640	182.97 MiB	2026-10-09 前序全盘扫描	通用安装缓存
+/home/hcf/.npm/_cacache/index-v5	598016	584.00 KiB	2026-10-09 前序全盘扫描	通用安装缓存
+/home/hcf/.npm/_cacache/tmp	2572288	2.45 MiB	2026-10-09 前序全盘扫描	通用安装缓存
+/home/hcf/.npm/_logs	110592	108.00 KiB	2026-10-09 前序全盘扫描	通用安装缓存
+/home/hcf/.npm/_npx	18161664	17.32 MiB	2026-10-09 前序全盘扫描	通用安装缓存
+/home/hcf/.npm/_npx/e41f203b7505f1fb	18157568	17.32 MiB	2026-10-09 前序全盘扫描	通用安装缓存
+/home/hcf/.nv	11776000	11.23 MiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache	11771904	11.23 MiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/0	331776	324.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/1	1044480	1020.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/2	544768	532.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/3	630784	616.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/4	991232	968.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/5	348160	340.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/6	909312	888.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/7	65536	64.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/8	1662976	1.59 MiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/9	806912	788.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/a	884736	864.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/b	1130496	1.08 MiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/c	974848	952.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/d	139264	136.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/e	684032	668.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.nv/ComputeCache/f	614400	600.00 KiB	2026-10-09 前序全盘扫描	GPU 程序的共享运行缓存
+/home/hcf/.ollama	12288	12.00 KiB	2026-10-09 前序全盘扫描	模型服务环境；未发现 QE 代码中的本机目录依赖
+/home/hcf/.ssh	12288	12.00 KiB	2026-10-09 前序全盘扫描	账号/连接环境；只记录路径，不读取内容
+/home/hcf/.vscode-server	5335388160	4.97 GiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/cli	4575170560	4.26 GiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/cli/servers	4574797824	4.26 GiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/data	263503872	251.30 MiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/data/CachedExtensionVSIXs	86003712	82.02 MiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/data/CachedProfilesData	2564096	2.45 MiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/data/Machine	4096	4.00 KiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/data/User	164802560	157.17 MiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/data/agentPlugins	192512	188.00 KiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/data/agentSessionData	692224	676.00 KiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/data/logs	9236480	8.81 MiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/extensions	324968448	309.91 MiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/extensions/cweijan.vscode-office-4.2.0	48381952	46.14 MiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64	45576192	43.46 MiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/extensions/ms-python.python-2026.8.0-linux-x64	68595712	65.42 MiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/extensions/ms-python.vscode-pylance-2026.4.1	120889344	115.29 MiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/.vscode-server/extensions/ms-python.vscode-python-envs-1.38.0-linux-x64	41517056	39.59 MiB	2026-10-09 前序全盘扫描	通用开发环境，不是 QE 实验数据
+/home/hcf/node_modules	339238912	323.52 MiB	2026-10-09 前序全盘扫描	Codex CLI 工具，不是独立 QE 数据
+/home/hcf/node_modules/.bin	4096	4.00 KiB	2026-10-09 前序全盘扫描	Codex CLI 工具，不是独立 QE 数据
+/home/hcf/node_modules/@openai	339226624	323.51 MiB	2026-10-09 前序全盘扫描	Codex CLI 工具，不是独立 QE 数据
+/home/hcf/node_modules/@openai/codex	28672	28.00 KiB	2026-10-09 前序全盘扫描	Codex CLI 工具，不是独立 QE 数据
+/home/hcf/node_modules/@openai/codex-linux-x64	339193856	323.48 MiB	2026-10-09 前序全盘扫描	Codex CLI 工具，不是独立 QE 数据
+/home/hcf/project	240048414720	223.56 GiB	2026-10-09 前序全盘扫描（合并前总计，不代表当前项目分布）	项目总目录
+/home/hcf/project/AiMac	456089600	434.96 MiB	2026-10-09 前序全盘扫描	独立视频项目；字体与 QE 有直接关联
+/home/hcf/project/AiMac/.venv	395579392	377.25 MiB	2026-10-09 前序全盘扫描	独立视频项目；字体与 QE 有直接关联
+/home/hcf/project/AiMac/.venv/bin	98304	96.00 KiB	2026-10-09 前序全盘扫描	独立视频项目；字体与 QE 有直接关联
+/home/hcf/project/AiMac/.venv/include	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立视频项目；字体与 QE 有直接关联
+/home/hcf/project/AiMac/.venv/lib	395464704	377.14 MiB	2026-10-09 前序全盘扫描	独立视频项目；字体与 QE 有直接关联
+/home/hcf/project/AiMac/assets	33452032	31.90 MiB	2026-10-09 前序全盘扫描	独立视频项目；字体与 QE 有直接关联
+/home/hcf/project/AiMac/assets/fonts	33447936	31.90 MiB	2026-10-09 前序全盘扫描	独立视频项目；字体与 QE 有直接关联
+/home/hcf/project/AiMac/output	27013120	25.76 MiB	2026-10-09 前序全盘扫描	独立视频项目；字体与 QE 有直接关联
+/home/hcf/project/AiMac/output/qc_frames	1953792	1.86 MiB	2026-10-09 前序全盘扫描	独立视频项目；字体与 QE 有直接关联
+/home/hcf/project/AiMac/output/work	12902400	12.30 MiB	2026-10-09 前序全盘扫描	独立视频项目；字体与 QE 有直接关联
+/home/hcf/project/GATE-ID2	292192256	278.66 MiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.docker-runtime	20480	20.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.docker-runtime/psf__requests-5414	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.docker-runtime/psf__requests-6028	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.git	11739136	11.20 MiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.git/branches	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.git/hooks	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.git/info	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.git/logs	32768	32.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.git/objects	11206656	10.69 MiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.git/refs	28672	28.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.pytest_cache	32768	32.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.pytest_cache/v	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.target-envs	67653632	64.52 MiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.target-envs/requests-5414-buggy	33525760	31.97 MiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.target-envs/requests-5414-fixed	34123776	32.54 MiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.venv	204288000	194.82 MiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.venv/bin	57344	56.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.venv/include	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/.venv/lib	204214272	194.75 MiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/case_tests	20480	20.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/case_tests/__pycache__	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/data	7868416	7.50 MiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/data/execution_cases	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/data/raw	7790592	7.43 MiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/data/swe_bench_cases	45056	44.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/docker	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/docker/requests_5414	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/outputs	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/results	45056	44.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/results/execution	40960	40.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/scripts	32768	32.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/src	352256	344.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/src/__pycache__	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/src/data	32768	32.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/src/defect	24576	24.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/src/execution	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/src/hypothesis	36864	36.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/src/issue	49152	48.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/src/llm	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/src/pipeline	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/src/schemas	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/src/test_generation	24576	24.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/tests	98304	96.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/GATE-ID2/tests/__pycache__	61440	60.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据/缺陷假设前期流水线
+/home/hcf/project/Gate	91215138816	84.95 GiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate-ID	13253808128	12.34 GiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.git	5877760	5.61 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.git/branches	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.git/hooks	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.git/info	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.git/logs	32768	32.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.git/objects	5586944	5.33 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.git/refs	90112	88.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.pytest_cache	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.pytest_cache/v	53248	52.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.venv	435441664	415.27 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.venv/bin	114688	112.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.venv/include	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/.venv/lib	435310592	415.14 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/SWE-bench Verified	7790592	7.43 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/data	3739648	3.57 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/data/annotation	73728	72.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/data/evaluation	163840	160.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/data/expanded_v1	2646016	2.52 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/data/expanded_v1_retry_01	24576	24.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/data/expanded_v1_retry_02	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/data/gold	229376	224.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/data/raw	77824	76.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/data/review	262144	256.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/data/silver	241664	236.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/docs	73728	72.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/output	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/output/imagegen	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/pre	77824	76.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/pre/prompts	49152	48.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/pre/scripts	24576	24.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/prompts	184320	180.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/prompts/oracle_proposer	94208	92.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/prompts/test_generation	86016	84.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs	145645568	138.90 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/astropy_file_ref_canary_20260722_180148	753664	736.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/django_method_call_canary_20260722_205542	73728	72.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/django_method_call_canary_20260722_205934	745472	728.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/django_method_call_canary_20260722_211720	798720	780.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/django_receiver_regression_20260723	692224	676.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/django_receiver_regression_20260723_v2	57344	56.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/django_receiver_regression_20260723_v3	794624	776.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_docker_environments_01	73728	72.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_docker_environments_02	86016	84.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_docker_recovery_01	49152	48.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_docker_recovery_02	155648	152.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_docker_recovery_03	40960	40.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_docker_recovery_04	32768	32.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_f2p_01	1314816	1.25 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_f2p_02	434176	424.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_f2p_fullenv_01	6934528	6.61 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_f2p_merged_01	65536	64.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_f2p_merged_02	331776	324.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_f2p_recovery_01	1835008	1.75 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_f2p_recovery_02	364544	356.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_generation_01	24592384	23.45 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_generation_input_01	876544	856.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_inference_01	4292608	4.09 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_inference_merged_01	61440	60.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_inference_retry_01	278528	272.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_inference_retry_02	86016	84.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_inference_v12_01	4489216	4.28 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/expanded_v1_pending_01	40960	40.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/f2p_buggy_diagnostic_12907	57344	56.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/f2p_buggy_diagnostic_13453	57344	56.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/f2p_buggy_diagnostic_13579	40960	40.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/f2p_buggy_diagnostic_13579_v2	53248	52.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/f2p_evaluation_v1_formal_12907	282624	276.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/f2p_evaluation_v1_formal_13453	278528	272.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/f2p_evaluation_v1_formal_13579	253952	248.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/f2p_evaluation_v1_single_12907	131072	128.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_full_20260719_auto	1613824	1.54 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_full_20260719_v5_strict_dev	270336	264.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_full_20260719_v6_generation_strict_dev	761856	744.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_full_20260719_v6_strict_dev	286720	280.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_full_20260719_v7_sensenova_generation_strict_dev	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_full_20260719_v7_sensenova_generation_v2_strict_dev	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_full_20260719_v7_sensenova_generation_v3_strict_dev	20480	20.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_full_20260719_v7_sensenova_strict_dev	270336	264.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_full_20260719_v8_typed_f2p_eval_13033_v1	352256	344.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_full_20260719_v8_typed_f2p_eval_14096_v1	335872	328.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_full_20260719_v8_typed_generation_v3_strict_dev	2027520	1.93 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_full_20260719_v8_typed_sensenova_strict_dev	352256	344.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v10_canary_13033	110592	108.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v10_core_dev_inference_01	475136	464.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v11_buggy_01	114688	112.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v11_buggy_14309_docker_01	57344	56.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v11_buggy_docker_01	61440	60.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v11_canary_01	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v11_canary_02	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v11_canary_03	77824	76.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v11_canary_04	106496	104.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v11_core_dev_inference_01	471040	460.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v11_f2p_01	180224	176.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v11_f2p_12907_01	118784	116.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v11_f2p_14309_01	122880	120.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v11_generation_01	2473984	2.36 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v9_core_dev	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/gateid_v9_core_dev_inference_01	319488	312.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/generation_v1_api	1253376	1.20 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/manual_review_experiment	90112	88.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/pilot_auto_v1	126976	124.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/pilot_v1_1	86016	84.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/pilot_v1_1_formal	208896	204.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/pylint_seed_replay_20260722_170735	446464	436.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/pylint_seed_replay_oraclefix_20260722_171138	528384	516.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_20260722_093851	3481600	3.32 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_20260722_104050	5492736	5.24 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_20260722_133332	1130496	1.08 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_after_retry_fix_20260722_174414	569344	556.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_agentless_bundle_f2p_20260722_161320	962560	940.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_agentless_bundle_preflight_20260722	6553600	6.25 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_agentless_json_fallback_20260722_191229	712704	696.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_agentless_split_django_20260722_185630	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_agentless_split_django_20260722_190041	57344	56.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_agentless_symbol_fixed_20260722_190600	57344	56.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_astropy_file_ref_live_20260722_180526	503808	492.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_astropy_file_ref_normalized_20260722_181028	864256	844.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_aux_01	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_candidate_gate_preflight_20260722_04	6078464	5.80 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_django_target_path_fixed_20260722_192848	634880	620.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_f2p_01	286720	280.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_file_ref_fixed_20260722_181337	1912832	1.82 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_generation_01	15630336	14.91 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_preflight_20260722_114227	3969024	3.79 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_preflight_layered_20260722	5844992	5.57 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_preflight_layered_20260722_02	6070272	5.79 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_pylint_fixed_canary_20260722_165600	294912	288.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_quota_rerun_20260722_172136	552960	540.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_recursive_preflight_20260722_03	6144000	5.86 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_smoke5_20260723_01	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_smoke5_20260723_02	1957888	1.87 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_pilot_20_three_candidate_gate_20260722_150020	1454080	1.39 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_requests_bundle_check	307200	300.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_shadow_canary_02	221184	216.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_shadow_canary_03	454656	444.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_shadow_canary_04	462848	452.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_shadow_canary_audit_01	151552	148.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_shadow_docker_probe_01	94208	92.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_shadow_recovery_images_01	24576	24.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_shadow_recovery_images_02	32768	32.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_shadow_recovery_images_03	24576	24.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_shadow_smoke_01	163840	160.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_shadow_smoke_02	2093056	2.00 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_shadow_smoke_03	2002944	1.91 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_shadow_smoke_images_01	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_three_candidate_gate_preflight_20260722	860160	840.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_three_recursive_preflight_20260722	962560	940.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/runs/v5_three_recursive_preflight_20260722_02	962560	940.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/scripts	634880	620.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/scripts/__pycache__	339968	332.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/src	2969600	2.83 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/src/gate_id.egg-info	57344	56.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/src/gateid	2908160	2.77 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/tests	1921024	1.83 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/tests/__pycache__	1441792	1.38 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces	12649312256	11.78 GiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/astropy_file_preflight_20260722_1801	39223296	37.41 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/django_method_call_canary_20260722_205542	64212992	61.24 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/django_method_call_canary_20260722_205934	64212992	61.24 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/django_method_call_canary_20260722_211720	64212992	61.24 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/django_receiver_regression_20260723	64212992	61.24 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/django_receiver_regression_20260723_v2	64212992	61.24 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/django_receiver_regression_20260723_v3	64212992	61.24 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/evaluation_v11	120217600	114.65 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/expanded_v1_f2p_01	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/expanded_v1_f2p_02	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/expanded_v1_f2p_fullenv_01	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/expanded_v1_f2p_recovery_01	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/expanded_v1_f2p_recovery_02	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/expanded_v1_generation_01	1919586304	1.79 GiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/gateid_full_20260719_auto_diagnostic	41476096	39.55 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/gateid_full_20260719_auto_diagnostic_v2	41476096	39.55 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/gateid_full_20260719_auto_f2p	124551168	118.78 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/gateid_full_20260719_auto_generation	41476096	39.55 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/gateid_full_20260719_auto_generation_v2	41476096	39.55 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/gateid_full_20260719_auto_generation_v3	41476096	39.55 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/gateid_full_20260719_auto_generation_v4	41476096	39.55 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/gateid_full_20260719_v6_generation	78884864	75.23 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/gateid_full_20260719_v8_typed_generation	204320768	194.86 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/generation	245575680	234.20 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/local-seed-preparation	14151680	13.50 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/repos	3805184	3.63 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/swebench_harness_4_1_0	440483840	420.08 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/swebench_images_expanded_v1_01	1384448	1.32 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_agentless_bundle_preflight	562528256	536.47 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20	562528256	536.47 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_20260722_093851	562520064	536.46 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_20260722_104050	1131524096	1.05 GiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_20260722_133332	23015424	21.95 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_after_retry_fix_20260722_174414	39223296	37.41 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_agentless_bundle_f2p_20260722_161320	185544704	176.95 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_agentless_json_fallback_20260722_191229	64212992	61.24 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_agentless_split_django_20260722_190041	64212992	61.24 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_agentless_symbol_fixed_20260722_190600	64212992	61.24 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_astropy_file_ref_live_20260722_180526	39223296	37.41 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_astropy_file_ref_normalized_20260722_181028	39223296	37.41 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_candidate_gate_preflight_20260722_04	562520064	536.46 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_django_target_path_fixed_20260722_192848	64212992	61.24 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_file_ref_fixed_20260722_181337	229576704	218.94 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_pylint_fixed_canary_20260722_165600	14155776	13.50 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_quota_rerun_20260722_172136	183599104	175.09 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_recursive_preflight_20260722_03	562520064	536.46 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_smoke5_20260723_02	191954944	183.06 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_pilot_20_three_candidate_gate_20260722_150020	23015424	21.95 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_preflight_20260722_114227	562524160	536.46 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_preflight_layered_20260722	562524160	536.46 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_preflight_layered_20260722_02	562524160	536.46 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_requests_bundle_check	2260992	2.16 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_shadow_canary_02	39223296	37.41 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_shadow_canary_03	156938240	149.67 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_shadow_canary_04	39223296	37.41 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_shadow_canary_audit_01	39223296	37.41 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_shadow_smoke_01	103428096	98.64 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_shadow_smoke_02	1279688704	1.19 GiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_shadow_smoke_03	191950848	183.06 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_three_candidate_gate_preflight_20260722	23011328	21.95 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_three_recursive_preflight_20260722	67911680	64.77 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate-ID/workspaces/v5_three_recursive_preflight_20260722_02	23011328	21.95 MiB	2026-10-09 前序全盘扫描	独立项目：证据约束的 oracle 识别
+/home/hcf/project/Gate/.git	25284608	24.11 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/.git/branches	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/.git/hooks	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/.git/info	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/.git/logs	32768	32.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/.git/objects	24903680	23.75 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/.git/refs	221184	216.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/.pytest_cache	32768	32.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/.pytest_cache/v	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/.venv	16105472	15.36 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/.venv/bin	40960	40.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/.venv/include	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/.venv/lib	16048128	15.30 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate	184541184	175.99 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/.cache	208896	204.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/.pytest_cache	40960	40.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/datasets	46329856	44.18 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/docs	20480	20.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/image_build_logs	73728	72.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/locks	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/output	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/outputs	401408	392.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/prompts	45056	44.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/results	134496256	128.27 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/run_instance_swt_logs	1568768	1.50 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/scripts	53248	52.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/src	643072	628.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/Gate/tests	622592	608.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT	779194368	743.10 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT-datasets	89484238848	83.34 GiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT-datasets/external_raw	45122985984	42.02 GiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT-datasets/staged_benchmarks	44361248768	41.31 GiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/.github	40960	40.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/.pytest_cache	49152	48.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/.venv	341110784	325.31 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/dataset	57344	56.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/docs	9748480	9.30 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/evaluation_results	217088	212.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/figures	131072	128.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/image_build_logs	18198528	17.36 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/legacy_parent_artifacts	154263552	147.12 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/locks	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/run_instance_swt_logs	253538304	241.79 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/src	659456	644.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/SWT/tests	294912	288.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/baseline	5001216	4.77 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/baseline/__pycache__	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/baseline/zero_shot_plus	4984832	4.75 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/image_build_logs	32768	32.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/image_build_logs/instances	28672	28.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/locks	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/output	3760128	3.59 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/output/imagegen	3756032	3.58 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/outputs	114688	112.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/outputs/2026-07-11	110592	108.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/results	21831680	20.82 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/results/2026-07-11	21827584	20.82 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/run_instance_swt_logs	569344	556.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/run_instance_swt_logs/gate-blind-custom-v2-buggy-only	380928	372.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/run_instance_swt_logs/gate-blind-custom-v4-buggy-only	167936	164.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/run_instance_swt_logs/gate-blind-custom-v4-runtime	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache	694079488	661.93 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache/astropy__astropy	81981440	78.18 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache/django__django	123432960	117.71 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache/matplotlib__matplotlib	149606400	142.68 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache/mwaskom__seaborn	4321280	4.12 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache/pallets__flask	5050368	4.82 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache/psf__requests	8564736	8.17 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache/pydata__xarray	23105536	22.04 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache/pylint-dev__pylint	25636864	24.45 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache/pytest-dev__pytest	25300992	24.13 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache/scikit-learn__scikit-learn	65249280	62.23 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache/sphinx-doc__sphinx	51150848	48.78 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/swtbench_repo_cache/sympy__sympy	130674688	124.62 MiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/tmp	323584	316.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/Gate/tmp/imagegen	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：缺陷复现测试生成
+/home/hcf/project/QE	272973791232	254.23 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git	437743616	417.46 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/branches	4096	4.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/hooks	69632	68.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/info	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/logs	36864	36.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/logs/refs	28672	28.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects	437460992	417.20 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/00	4284416	4.09 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/01	544768	532.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/02	532480	520.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/03	3051520	2.91 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/04	1798144	1.71 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/05	45056	44.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/06	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/07	53248	52.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/08	32768	32.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/09	110592	108.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/0a	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/0b	1458176	1.39 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/0c	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/0e	4399104	4.20 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/0f	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/10	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/11	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/12	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/13	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/14	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/15	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/16	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/17	147456	144.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/18	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/19	4329472	4.13 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/1a	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/1b	32768	32.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/1c	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/1d	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/1e	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/1f	3252224	3.10 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/21	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/22	3850240	3.67 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/23	13053952	12.45 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/24	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/25	28672	28.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/26	106496	104.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/27	32768	32.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/28	3276800	3.12 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/29	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/2a	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/2b	61440	60.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/2c	73728	72.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/2d	3035136	2.89 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/2e	28672	28.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/2f	4456448	4.25 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/30	143360	140.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/31	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/32	4268032	4.07 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/33	3919872	3.74 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/34	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/35	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/36	520192	508.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/37	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/38	40960	40.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/39	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/3a	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/3b	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/3c	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/3d	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/3e	84054016	80.16 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/3f	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/40	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/41	4599808	4.39 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/42	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/43	4775936	4.55 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/44	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/45	49152	48.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/46	1388544	1.32 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/47	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/48	3985408	3.80 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/49	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/4a	3432448	3.27 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/4b	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/4c	40960	40.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/4d	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/4e	1155072	1.10 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/4f	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/50	4423680	4.22 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/51	73728	72.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/52	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/53	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/54	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/55	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/56	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/57	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/58	2760704	2.63 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/59	45056	44.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/5a	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/5b	3747840	3.57 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/5c	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/5d	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/5e	45056	44.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/5f	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/60	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/61	139264	136.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/62	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/63	532480	520.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/64	15368192	14.66 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/65	28672	28.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/66	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/67	1888256	1.80 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/68	61440	60.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/69	32768	32.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/6a	61440	60.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/6b	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/6c	65536	64.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/6d	606208	592.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/6e	548864	536.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/6f	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/71	53248	52.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/72	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/73	32768	32.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/74	45056	44.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/75	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/76	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/77	4407296	4.20 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/78	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/79	86016	84.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/7a	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/7b	405504	396.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/7c	45056	44.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/7d	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/7e	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/7f	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/80	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/81	1392640	1.33 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/82	28672	28.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/83	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/84	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/85	49152	48.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/86	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/87	974848	952.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/88	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/89	86016	84.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/8a	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/8b	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/8c	176128	172.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/8d	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/8e	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/8f	28672	28.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/91	32768	32.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/92	6746112	6.43 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/93	1871872	1.79 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/94	45056	44.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/95	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/96	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/97	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/98	3641344	3.47 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/99	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/9a	1982464	1.89 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/9b	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/9c	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/9d	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/9e	36864	36.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/9f	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/a0	4288512	4.09 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/a1	10838016	10.34 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/a2	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/a3	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/a4	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/a5	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/a6	552960	540.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/a7	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/a8	552960	540.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/a9	540672	528.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/aa	28672	28.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ab	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ac	622592	608.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ad	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ae	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/af	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/b0	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/b1	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/b2	512000	500.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/b3	49152	48.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/b4	57344	56.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/b5	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/b6	4898816	4.67 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/b7	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/b8	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ba	606208	592.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/bb	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/bc	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/bd	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/be	528384	516.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/bf	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/c0	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/c1	8847360	8.44 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/c2	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/c3	2723840	2.60 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/c4	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/c5	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/c6	1470464	1.40 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/c7	1892352	1.80 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/c8	45056	44.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/c9	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ca	69632	68.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/cb	225280	220.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/cc	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/cd	2678784	2.55 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ce	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/cf	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/d0	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/d1	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/d2	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/d3	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/d5	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/d6	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/d7	45056	44.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/d8	73728	72.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/d9	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/da	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/dc	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/dd	1957888	1.87 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/de	53248	52.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/df	45056	44.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/e0	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/e1	4272128	4.07 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/e2	118784	116.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/e3	54550528	52.02 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/e4	53248	52.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/e5	663552	648.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/e6	3899392	3.72 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/e7	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/e8	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/e9	49152	48.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ea	3223552	3.07 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/eb	90398720	86.21 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ec	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ed	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ee	1204224	1.15 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ef	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/f0	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/f1	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/f3	28672	28.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/f5	536576	524.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/f6	450560	440.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/f7	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/f8	4272128	4.07 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/f9	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/fa	53248	52.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/fb	8286208	7.90 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/fc	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/fd	843776	824.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/fe	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/ff	1355776	1.29 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/info	4096	4.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/objects/pack	4096	4.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/refs	114688	112.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/refs/agents	4096	4.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/refs/codex	77824	76.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/refs/heads	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/refs/remotes	12288	12.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.git/refs/tags	4096	4.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.pytest_cache	36864	36.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.pytest_cache/v	20480	20.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.pytest_cache/v/cache	16384	16.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.venv	6938288128	6.46 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.venv/bin	245760	240.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.venv/bin/__pycache__	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.venv/include	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.venv/include/python3.12	4096	4.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.venv/lib	6937989120	6.46 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.venv/lib/python3.12	6937985024	6.46 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.venv/share	28672	28.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/.venv/share/man	24576	24.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/artifacts	240587489280	224.06 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/artifacts/automatic_strengthening_20261005	131985408	125.87 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/automatic_strengthening_20261005/audit	13430784	12.81 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/automatic_strengthening_20261005/automatic_audit	1765376	1.68 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/automatic_strengthening_20261005/figures	4612096	4.40 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/automatic_strengthening_20261005/logs	16384	16.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/automatic_strengthening_20261005/metadata	28672	28.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/automatic_strengthening_20261005/processes	20480	20.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/automatic_strengthening_20261005/regression_replay	111480832	106.32 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/automatic_strengthening_20261005/stages	24576	24.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/automatic_strengthening_20261005/statistics	233472	228.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/automatic_strengthening_20261005/statistics_smoke	159744	156.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/candidate_pool_expansion_v2_20260928	286707712	273.43 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/candidate_pool_expansion_v2_20260928/cat	103841792	99.03 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/candidate_pool_expansion_v2_20260928/face_binary	182759424	174.29 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/cat_v1_0_human_review_20260920	98304	96.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/class_stratified_error_controls_20260929	802816	784.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/class_stratified_error_controls_20260929/tables	782336	764.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/class_stratified_error_controls_20260929_smoke	761856	744.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/class_stratified_error_controls_20260929_smoke/tables	753664	736.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/coco_openimages_external_gradient_8_models_20260918	10318053376	9.61 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_external_gradient_8_models_20260918/background	331776	324.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_external_gradient_8_models_20260918/figures	2473984	2.36 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_external_gradient_8_models_20260918/manifests	6131712	5.85 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_external_gradient_8_models_20260918/runs	10308407296	9.60 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_random_gradient_8_models_20260918	45133185024	42.03 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_random_gradient_8_models_20260918/analysis	45056	44.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_random_gradient_8_models_20260918/background	1638400	1.56 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_random_gradient_8_models_20260918/manifests	29310976	27.95 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_random_gradient_8_models_20260918/runs	45098860544	42.00 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_random_gradient_8_models_20260918/selections	1294336	1.23 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_state_response_20260920	31002624	29.57 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_state_response_20260920/figures	348160	340.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_state_response_20260920/runs	27824128	26.54 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/coco_openimages_state_response_20260920/tables	2535424	2.42 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/controlled_risk_distribution_20261005	170221568	162.34 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/controlled_risk_distribution_20261005/clusters	122880	120.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/controlled_risk_distribution_20261005/figures	3338240	3.18 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/controlled_risk_distribution_20261005/raw	150548480	143.57 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/controlled_risk_distribution_20261005/sampling	6025216	5.75 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/controlled_risk_distribution_20261005/smoke	1228800	1.17 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/controlled_risk_distribution_20261005/tables	4464640	4.26 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/coverage_batch_state_attribution_20260920	1146880	1.09 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/coverage_batch_state_attribution_20260920/figures	1015808	992.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/coverage_batch_state_attribution_20260920/tables	86016	84.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/coverage_incremental_value_20260929	802816	784.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/coverage_incremental_value_20260929/figures	475136	464.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/coverage_incremental_value_20260929/tables	294912	288.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/coverage_incremental_value_20260929_smoke	290816	284.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/coverage_incremental_value_20260929_smoke/tables	278528	272.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/coverage_incremental_value_20260929_smoke2	290816	284.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/coverage_incremental_value_20260929_smoke2/tables	278528	272.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/coverage_incremental_value_20260929_smoke3	299008	292.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/coverage_incremental_value_20260929_smoke3/tables	286720	280.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/coverage_incremental_value_20260929_smoke4	778240	760.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/coverage_incremental_value_20260929_smoke4/figures	475136	464.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/coverage_incremental_value_20260929_smoke4/tables	286720	280.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/coverage_result_visualizations_20260921	20783104	19.82 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/coverage_result_visualizations_20260921/__pycache__	45056	44.00 KiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/coverage_result_visualizations_20260921/data	98304	96.00 KiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/coverage_result_visualizations_20260921/figures	4161536	3.97 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/cross_category_balanced_difficulty_20260928	2347008	2.24 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/cross_category_balanced_difficulty_20260928/figures	765952	748.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/cross_category_balanced_difficulty_20260928/manifests	270336	264.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/cross_category_balanced_difficulty_20260928/tables	1273856	1.21 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/cross_state_decoupled_diagnostics_20260928	3842048	3.66 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/cross_state_decoupled_diagnostics_20260928/figures	901120	880.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/cross_state_decoupled_diagnostics_20260928/smoke	1507328	1.44 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/cross_state_decoupled_diagnostics_20260928/tables	1372160	1.31 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/dense_coverage_error_attribution_20260921	7884800	7.52 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dense_coverage_error_attribution_20260921/__pycache__	16384	16.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dense_coverage_error_attribution_20260921/figures	3174400	3.03 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dense_coverage_error_attribution_20260921/review_app	65536	64.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dense_coverage_error_attribution_20260921/tables	4587520	4.38 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/difficulty	35336192	33.70 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/difficulty/baseline_1000_panel_20260907	2727936	2.60 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/difficulty/baseline_20260907	20828160	19.86 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/difficulty/baseline_v1_prepared	8945664	8.53 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/difficulty/baseline_v1_review_sheets	2744320	2.62 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/difficulty/imagenetv2_natural_panel_20260907	86016	84.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/dog500_features_v3_1_20260913	4530176	4.32 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog500_features_v3_1_20260913/distribution	28672	28.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog500_features_v3_1_20260913/parsed	2093056	2.00 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog500_features_v3_1_20260913/raw	2187264	2.09 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog500_features_v3_20260913	4558848	4.35 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog500_features_v3_20260913/distribution	28672	28.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog500_features_v3_20260913/parsed	2093056	2.00 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog500_features_v3_20260913/raw	2129920	2.03 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913	291921920	278.40 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_enum_check	7880704	7.52 MiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_enum_check/classification	36864	36.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_enum_check/crops	2338816	2.23 MiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_enum_check/effective_features	61440	60.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_enum_check/images	2306048	2.20 MiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_enum_check/labels	57344	56.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_enum_check/marked	1937408	1.85 MiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_enum_check/model_features	57344	56.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_enum_check/raw	98304	96.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_enum_check/review_snapshot	614400	600.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_enum_check/source_snapshot	344064	336.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_identity_check	39919616	38.07 MiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_identity_check/classification	274432	268.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_identity_check/crops	13111296	12.50 MiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_identity_check/effective_features	626688	612.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_identity_check/images	12636160	12.05 MiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_identity_check/labels	335872	328.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_identity_check/marked	10997760	10.49 MiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_identity_check/model_features	335872	328.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_identity_check/raw	614400	600.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_identity_check/review_snapshot	614400	600.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913.incomplete_identity_check/source_snapshot	344064	336.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913/classification	2056192	1.96 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913/crops	93990912	89.64 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913/effective_features	4554752	4.34 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913/images	96878592	92.39 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913/labels	2453504	2.34 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913/marked	82919424	79.08 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913/model_features	2469888	2.36 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913/raw	4550656	4.34 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913/review_snapshot	614400	600.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog594_release_v1_20260913/source_snapshot	344064	336.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog596_online_sensenova_20260914	5300224	5.05 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog596_online_sensenova_20260914/parsed	2465792	2.35 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog596_online_sensenova_20260914/raw	2654208	2.53 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_features_v2_1_20260912	3469312	3.31 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_features_v2_1_20260912/results	3395584	3.24 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_features_v2_1_20260912/smoke	53248	52.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_features_v3_1_20260913	3637248	3.47 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_features_v3_1_20260913/distribution	28672	28.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_features_v3_1_20260913/parsed	1683456	1.61 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_features_v3_1_20260913/raw	1740800	1.66 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_features_v3_20260913	3588096	3.42 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_features_v3_20260913/distribution	28672	28.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_features_v3_20260913/parsed	1646592	1.57 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_features_v3_20260913/raw	1712128	1.63 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_v2_1_inputs_20260912	113664000	108.40 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_v2_1_inputs_20260912/crops	57020416	54.38 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_candidate400_v2_1_inputs_20260912/marked	56426496	53.81 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_coverage_gradient_8_models_20260918	47718400	45.51 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/dog_coverage_gradient_8_models_20260918/background	8192	8.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/dog_coverage_gradient_8_models_20260918/manifests	2793472	2.66 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/dog_coverage_gradient_8_models_20260918/runs	44892160	42.81 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v1	102465536	97.72 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v1/crops	24252416	23.13 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v1/marked	69443584	66.23 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v1/results	8339456	7.95 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v1/smoke	61440	60.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v1/smoke2	69632	68.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v1/smoke3	61440	60.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v2_1_inputs_20260912	149258240	142.34 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v2_1_inputs_20260912/crops	79556608	75.87 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v2_1_inputs_20260912/marked	69439488	66.22 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v2_1_upscaled_20260912	8613888	8.21 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v2_1_upscaled_20260912/baseline_evaluation_20260912	65536	64.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v2_1_upscaled_20260912/human_review	45056	44.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v2_1_upscaled_20260912/results	8392704	8.00 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v2_1_upscaled_20260912/smoke	61440	60.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v2_20260911	8642560	8.24 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v2_20260911/results	8372224	7.98 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_feature_pipeline_v2_20260911/smoke	61440	60.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_targeted_supplement_v1_20260912	1056768	1.01 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_targeted_supplement_v1_20260912/human_review	614400	600.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_v3_1_combined_supplement_20260913	516096	504.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_v3_1_combined_supplement_20260913_final	528384	516.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_v3_1_combined_supplement_20260913_final/figures	4096	4.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dog_v3_1_supplement_selection_20260913	32768	32.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910	4575232	4.36 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910/mask_overlays	1667072	1.59 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910/masks	413696	404.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910/parsed	1187840	1.13 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910/raw	974848	952.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_bbox_v1	106496	104.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_bbox_v1/mask_overlays	4096	4.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_bbox_v1/masks	4096	4.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_bbox_v1/parsed	16384	16.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_bbox_v1/raw	24576	24.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_bool_v4	172032	168.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_bool_v4/mask_overlays	40960	40.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_bool_v4/masks	16384	16.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_bool_v4/parsed	32768	32.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_bool_v4/raw	24576	24.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_sam_v2	180224	176.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_sam_v2/mask_overlays	40960	40.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_sam_v2/masks	16384	16.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_sam_v2/parsed	40960	40.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_sam_v2/raw	24576	24.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_sam_v3	180224	176.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_sam_v3/mask_overlays	40960	40.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_sam_v3/masks	16384	16.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_sam_v3/parsed	40960	40.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_sam_v3/raw	24576	24.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_systemd_proxy_v6	184320	180.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_systemd_proxy_v6/mask_overlays	40960	40.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_systemd_proxy_v6/masks	16384	16.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_systemd_proxy_v6/parsed	40960	40.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_failed_systemd_proxy_v6/raw	24576	24.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_smoke_v5	180224	176.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_smoke_v5/mask_overlays	40960	40.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_smoke_v5/masks	16384	16.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_smoke_v5/parsed	40960	40.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_20260910_smoke_v5/raw	24576	24.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_v8_foreground_20260910	4599808	4.39 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_v8_foreground_20260910/mask_overlays	1662976	1.59 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_v8_foreground_20260910/masks	413696	404.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_v8_foreground_20260910/parsed	1241088	1.18 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_v8_foreground_20260910/raw	864256	844.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/dta_phase1_imagenette_v8_foreground_20260910/repairs	12288	12.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/dual_vlm_replacement_pair_20261004	5087232	4.85 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/dual_vlm_replacement_pair_20261004/annotations	61440	60.00 KiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/dual_vlm_replacement_pair_20261004/images	1384448	1.32 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/dual_vlm_replacement_pair_20261004/rendered	1306624	1.25 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/empirical_evidence_strengthening_20261005	1933312	1.84 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/empirical_paper_20260929	53248	52.00 KiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/error_cluster_sensitivity_20260929	348160	340.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/error_cluster_sensitivity_20260929/figures	163840	160.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/error_cluster_sensitivity_20260929/tables	163840	160.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/expanded_pool_selection_benchmark_20260928	454483968	433.43 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/expanded_pool_selection_benchmark_20260928/embeddings	2879488	2.75 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/expanded_pool_selection_benchmark_20260928/figures	462848	452.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/expanded_pool_selection_benchmark_20260928/orders	2240512	2.14 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/expanded_pool_selection_benchmark_20260928/runs	435425280	415.25 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/expanded_pool_selection_benchmark_20260928/smoke	12828672	12.23 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/expanded_pool_selection_benchmark_20260928/tables	589824	576.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/feature_pilot_20260908	1441792	1.38 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/feature_pilot_20260908/__pycache__	184320	180.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/feature_pilot_20260908/clip_review_v1	73728	72.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/feature_pilot_20260908/images	319488	312.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/feature_pilot_20260908/results_flash_distribution_v1	32768	32.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/feature_pilot_20260908/results_flash_practice	24576	24.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/feature_pilot_20260908/runs	237568	232.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/fixed_train_cat_visual_test_adequacy_20260920	44478464	42.42 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/fixed_train_cat_visual_test_adequacy_20260920/figures	364544	356.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/fixed_train_cat_visual_test_adequacy_20260920/manifests	811008	792.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/fixed_train_cat_visual_test_adequacy_20260920/orders	9814016	9.36 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/fixed_train_cat_visual_test_adequacy_20260920/predictions	9826304	9.37 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/fixed_train_cat_visual_test_adequacy_20260920/tables	23265280	22.19 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/fixed_train_visual_test_adequacy_20260920	48238592	46.00 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/fixed_train_visual_test_adequacy_20260920/figures	380928	372.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/fixed_train_visual_test_adequacy_20260920/manifests	778240	760.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/fixed_train_visual_test_adequacy_20260920/orders	9789440	9.34 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/fixed_train_visual_test_adequacy_20260920/predictions	9179136	8.75 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/fixed_train_visual_test_adequacy_20260920/tables	27734016	26.45 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/foundation_model_state_robustness_20260922	49823744	47.52 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/foundation_model_state_robustness_20260922/features	43200512	41.20 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/foundation_model_state_robustness_20260922/figures	323584	316.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/foundation_model_state_robustness_20260922/runs	1007616	984.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/foundation_model_state_robustness_20260922/tables	53248	52.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/foundation_model_state_robustness_20260922/visualizations	5193728	4.95 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/four_model_six_seed_evidence_20260917	65536	64.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/four_models_coco5_gap_vs_random_20260917	2307989504	2.15 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/four_models_coco5_gap_vs_random_20260917/runs	2307854336	2.15 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/four_models_coco5_gap_vs_random_20260917/tables	40960	40.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/geometry_coco128_20260908	10256384	9.78 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/geometry_coco128_20260908/__pycache__	69632	68.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/geometry_coco128_20260908/images	9371648	8.94 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/geometry_coco128_20260908/runs	368640	360.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/geometry_coco128_20260908/source_labels	77824	76.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/geometry_dual_v2_20260908	54374400	51.86 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/geometry_dual_v2_20260908/__pycache__	102400	100.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/geometry_dual_v2_20260908/analysis	12288	12.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/geometry_dual_v2_20260908/data	52449280	50.02 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/geometry_dual_v2_20260908/runs	1671168	1.59 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/head_face_v1_0_20260922	1460174848	1.36 GiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/head_face_v1_0_20260922/annotations	3076096	2.93 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/head_face_v1_0_20260922/figures	1048576	1.00 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/head_face_v1_0_20260922/manifests	1904640	1.82 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/head_face_v1_0_20260922/model_runs	1300377600	1.21 GiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/head_face_v1_0_20260922/orders	10104832	9.64 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/head_face_v1_0_20260922/rendered	142848000	136.23 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/head_face_v1_0_20260922/tables	409600	400.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/high_risk_state_challenge_20260922	1159168	1.11 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/high_risk_state_challenge_20260922/manifests	581632	568.00 KiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/integration_smoke_20261009	10502144	10.02 MiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/integration_smoke_20261009/image_inference	4866048	4.64 MiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/integration_smoke_20261009/image_inference_cuda	4894720	4.67 MiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/integration_smoke_20261009/scale_smoke	716800	700.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/journal_revision_20261006	50479104	48.14 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/journal_revision_20261006/evidence_tables	11837440	11.29 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/journal_revision_20261006/figures	905216	884.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/journal_revision_20261006/latex	233472	228.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/journal_revision_20261006/vendor	37466112	35.73 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/label_disagreement_sensitivity_20261005	3293184	3.14 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/label_disagreement_sensitivity_20261005/figures	241664	236.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/label_disagreement_sensitivity_20261005/tables	561152	548.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/limitations_report_20261006	12288	12.00 KiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/model_comparison_figures_20261008	5656576	5.39 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/model_comparison_figures_20261008/figures	2023424	1.93 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/model_comparison_figures_20261008/rendered	2080768	1.98 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/model_drop_comparison_20261008	2281472	2.18 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/model_drop_comparison_20261008/figures	622592	608.00 KiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/model_drop_comparison_20261008/rendered	1114112	1.06 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/model_results_report_20261008	6373376	6.08 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/model_results_report_20261008/figures	1687552	1.61 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/modern_models_final_positive_all_core_metrics_20260917	20480	20.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/modern_models_final_screen_20260917	2754011136	2.56 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/modern_models_final_screen_20260917/runs	2753921024	2.56 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/modern_models_final_screen_20260917/tables	28672	28.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/modern_models_positive_all_core_metrics_20260917	20480	20.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/modern_models_screen_20260917	3718471680	3.46 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/modern_models_screen_20260917/runs	3718381568	3.46 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/modern_models_screen_20260917/tables	28672	28.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/modern_positive_models_replication_20260917	1225011200	1.14 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/modern_positive_models_replication_20260917/runs	1224949760	1.14 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/modern_positive_models_replication_20260917/tables	20480	20.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/multiclass_failure_atlas_20260929	3543040	3.38 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/multiclass_failure_atlas_20260929/figures	3502080	3.34 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/multiclass_failure_atlas_20260929/tables	24576	24.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/multiclass_object_pool_v1_20260928	688775168	656.87 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/multiclass_object_pool_v1_20260928/annotations	17571840	16.76 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/multiclass_object_pool_v1_20260928/inputs	1093632	1.04 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/multiclass_object_pool_v1_20260928/manifests	1720320	1.64 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/multiclass_object_pool_v1_20260928/rendered	668131328	637.18 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/multiclass_object_pool_v1_20260928/smoke_annotations	106496	104.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/multiclass_object_selection_benchmark_20260928	348131328	332.00 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/multiclass_object_selection_benchmark_20260928/embeddings	5746688	5.48 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/multiclass_object_selection_benchmark_20260928/figures	856064	836.00 KiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/multiclass_object_selection_benchmark_20260928/orders	4263936	4.07 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/multiclass_object_selection_benchmark_20260928/runs	322379776	307.45 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/multiclass_object_selection_benchmark_20260928/smoke	13815808	13.18 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/multiclass_object_selection_benchmark_20260928/tables	1032192	1008.00 KiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/near_duplicate_audit_20260929	24576	24.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/near_duplicate_audit_20260929/tables	12288	12.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005	156640763904	145.88 GiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/annotations	42008576	40.06 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/audit	42786816	40.80 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/benchmark	388939776	370.92 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/comparison	6754304	6.44 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/configs	24576	24.00 KiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/confirmation	5443584	5.19 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/cost	2342912	2.23 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/data	145516617728	135.52 GiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/embeddings	6877184	6.56 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/figures	585728	572.00 KiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/images	984870912	939.25 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/inputs	1212416	1.16 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/logs	1802240	1.72 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/manifests	5746688	5.48 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/metadata	8733888512	8.13 GiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/processes	69632	68.00 KiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/prompts	12288	12.00 KiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/rendered	895877120	854.38 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/robustness	16384	16.00 KiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/selection	2297856	2.19 MiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/stages	49152	48.00 KiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/objects365_independent_confirmation_20261005/transfer	131072	128.00 KiB	本次复测	主线外部确认
+/home/hcf/project/QE/artifacts/online_vlm_reannotation_20260929	3108864	2.96 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/online_vlm_reannotation_20260929/analysis	565248	552.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/online_vlm_reannotation_20260929/parsed	839680	820.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/online_vlm_reannotation_20260929/raw	1445888	1.38 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/online_vlm_reannotation_20260929/smoke	40960	40.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_cat_test_v1	129568768	123.57 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_cat_test_v1/background	40960	40.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_cat_test_v1/features_auto	1822720	1.74 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_cat_test_v1/inputs	127643648	121.73 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_cat_test_v1/smoke_features	53248	52.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_cua_vsl_v1	749166592	714.46 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/openimages_v7_cua_vsl_v1/background	49152	48.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/openimages_v7_cua_vsl_v1/manifests	31244288	29.80 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/openimages_v7_cua_vsl_v1/oof	486854656	464.30 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/openimages_v7_cua_vsl_v1/selections	483328	472.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/openimages_v7_cua_vsl_v1/smoke_runs	136368128	130.05 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/openimages_v7_cua_vsl_v1/state_priority	32768	32.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/openimages_v7_cua_vsl_v1/state_test_features_auto	1863680	1.78 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/openimages_v7_cua_vsl_v1/state_test_inputs	92151808	87.88 MiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/openimages_v7_cua_vsl_v1/tables	73728	72.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/openimages_v7_dog_base_features_v1	13422592	12.80 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_dog_base_features_v1/parsed	6279168	5.99 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_dog_base_features_v1/raw	6516736	6.21 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_dog_candidate_features_v1	26890240	25.64 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_dog_candidate_features_v1/parsed	12599296	12.02 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_dog_candidate_features_v1/raw	13037568	12.43 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_dog_supplements_v1	11632640	11.09 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_dog_supplements_v1/manifests	11583488	11.05 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_dog_supplements_v1/selections	40960	40.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_dog_v3_1_pilot_10	131072	128.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_dog_v3_1_pilot_10/parsed	53248	52.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_dog_v3_1_pilot_10/raw	53248	52.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_execution_logs	4096	4.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/openimages_v7_four_model_experiment_v1	3296047104	3.07 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/openimages_v7_four_model_experiment_v1/figures	41029632	39.13 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/openimages_v7_four_model_experiment_v1/runs	3254902784	3.03 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/openimages_v7_four_model_experiment_v1/tables	53248	52.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/pascal_voc2012_dog_validation_v1	11526144	10.99 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/pascal_voc2012_dog_validation_v1/features_auto	11468800	10.94 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/pascal_voc2012_dog_validation_v1/smoke	53248	52.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/pascal_voc2012_risk_state_validation_20260920	20713472	19.75 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/pascal_voc2012_risk_state_validation_20260920/crops	9601024	9.16 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/pascal_voc2012_risk_state_validation_20260920/figures	122880	120.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/pascal_voc2012_risk_state_validation_20260920/manifests	368640	360.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/pascal_voc2012_risk_state_validation_20260920/predictions	9670656	9.22 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/pascal_voc2012_risk_state_validation_20260920/tables	913408	892.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/person300_auto_feature_failed_start	8192	8.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/person300_auto_feature_surface_v2_cancelled	172032	168.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/person300_auto_feature_surface_v2_cancelled/parsed	8192	8.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/person300_auto_feature_surface_v2_cancelled/raw	49152	48.00 KiB	本次复测	失败/未完成记录
+/home/hcf/project/QE/artifacts/person300_auto_feature_v1	5529600	5.27 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/person300_auto_feature_v1/parsed	2502656	2.39 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/person300_auto_feature_v1/raw	2777088	2.65 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/person300_dataset_v1	126824448	120.95 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/person300_dataset_v1/crops	44183552	42.14 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/person300_dataset_v1/images	40390656	38.52 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/person300_dataset_v1/labels	1241088	1.18 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/person300_dataset_v1/marked	40939520	39.04 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/positive_models_all_core_metrics_20260917	28672	28.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/positive_models_replication_all_core_metrics_20260917	24576	24.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/positive_models_seed_replication_20260917	1600806912	1.49 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/positive_models_seed_replication_20260917/runs	1600733184	1.49 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/positive_models_seed_replication_20260917/tables	20480	20.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/positive_results_report_20261006	1368064	1.30 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/positive_results_report_20261006/figures	1294336	1.23 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/positive_results_report_20261006/tables	16384	16.00 KiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/progress_report_20261008	21196800	20.21 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/progress_report_20261008/figures	9625600	9.18 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/progress_report_20261008/fontcache	512000	500.00 KiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/progress_report_20261008/rendered	5398528	5.15 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/progress_report_20261008/tables	245760	240.00 KiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/random_stratification_ablation_20261006	143376384	136.73 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/random_stratification_ablation_20261006/ablation	352256	344.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/random_stratification_ablation_20261006/figures	634880	620.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/random_stratification_ablation_20261006/random_strata	131207168	125.13 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/random_stratification_ablation_20261006/retained_checks	16384	16.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/random_stratification_ablation_20261006/smoke	1282048	1.22 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/random_stratification_ablation_20261006/smoke_corrected	1388544	1.32 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/random_stratification_ablation_20261006/tables	5951488	5.68 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/ranking_attribute_validation_20261005	10027008	9.56 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/ranking_attribute_validation_20261005/bootstrap	1994752	1.90 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/ranking_attribute_validation_20261005/figures	528384	516.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/ranking_attribute_validation_20261005/tables	3911680	3.73 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/recognition	314740736	300.16 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/recognition/imagenetv2_matched_10000_20260907	313475072	298.95 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/recognition/imagenetv2_matched_10000_smoke_20260907	1261568	1.20 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/requirements_analysis_20260908	319488	312.00 KiB	本次复测	早期方案/方法支线
+/home/hcf/project/QE/artifacts/resnet18_coco5_dog496_vs_dog596_20260916	1340628992	1.25 GiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/resnet18_coco5_dog496_vs_dog596_20260916/comparison	32768	32.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/resnet18_coco5_dog496_vs_dog596_20260916/comparison_with_random	86016	84.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/resnet18_coco5_dog496_vs_dog596_20260916/data	935350272	892.02 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/resnet18_coco5_dog496_vs_dog596_20260916/dog496	134643712	128.41 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/resnet18_coco5_dog496_vs_dog596_20260916/dog596	134647808	128.41 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/resnet18_coco5_dog496_vs_dog596_20260916/dog_random596	134651904	128.41 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/resnet18_dog500_vs_dog596_20260916	468152320	446.46 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/resnet18_dog500_vs_dog596_20260916/comparison	24576	24.00 KiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/resnet18_dog500_vs_dog596_20260916/data	198905856	189.69 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/resnet18_dog500_vs_dog596_20260916/dog500	134541312	128.31 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/resnet18_dog500_vs_dog596_20260916/dog596	134537216	128.30 MiB	本次复测	模型实验/稳健性支线
+/home/hcf/project/QE/artifacts/scale_only_confirmation_20261007	18182144	17.34 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/scale_only_confirmation_20261007/portable_inputs	15413248	14.70 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/scale_only_confirmation_20261007/smoke	716800	700.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/scale_only_confirmation_20261007/tables	2039808	1.95 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/semantic_test_selection_baselines_20260920	41263104	39.35 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/semantic_test_selection_baselines_20260920/deepgini	724992	708.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/semantic_test_selection_baselines_20260920/dsa	724992	708.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/semantic_test_selection_baselines_20260920/figures	966656	944.00 KiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/semantic_test_selection_baselines_20260920/kcenter	1175552	1.12 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/semantic_test_selection_baselines_20260920/tables	37609472	35.87 MiB	本次复测	数据/语义标注/覆盖实验
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004	2046001152	1.91 GiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/annotations	487424	476.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/audit	13160448	12.55 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/benchmark	402714624	384.06 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/configs	16384	16.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/data	103186432	98.41 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/diagnostics	1568768	1.50 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/figures	630784	616.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/holdout	2568192	2.45 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/inputs	184320	180.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/logs	90112	88.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/manifests	2551808	2.43 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/online_car_annotations	3973120	3.79 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/recovery_history	208896	204.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/rendered	204001280	194.55 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/smoke	16551936	15.79 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/smoke_online	57344	56.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/strict	905216	884.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/technical_smoke	3461120	3.30 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/training	1289543680	1.20 GiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_difficulty_supplement_20261004	6279168	5.99 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_difficulty_supplement_20261004/figures	897024	876.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_difficulty_supplement_20261004/tables	2740224	2.61 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_20261004	41324544	39.41 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_20261004/amendment_proposal	2064384	1.97 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_20261004/analysis_smoke	1028096	1004.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_20261004/annotations	30863360	29.43 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_20261004/configs	24576	24.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_20261004/inputs	1282048	1.22 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_20261004/logs	147456	144.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_20261004/manifests	2547712	2.43 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_20261004/prompts	12288	12.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_replaced_20261004	275922944	263.14 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_replaced_20261004/analysis	14704640	14.02 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_replaced_20261004/analysis_smoke	360448	352.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_replaced_20261004/annotations	21274624	20.29 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_replaced_20261004/benchmark	232783872	222.00 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_replaced_20261004/configs	24576	24.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_replaced_20261004/inputs	1277952	1.22 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_replaced_20261004/manifests	2551808	2.43 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_replaced_20261004/prompts	12288	12.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_dual_vlm_replaced_20261004/recovery_history	1105920	1.05 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004	1928142848	1.80 GiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/annotations	43483136	41.47 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/audit	85045248	81.11 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/benchmark	388435968	370.44 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/comparison	7254016	6.92 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/configs	24576	24.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/confirmation	6430720	6.13 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/data	503717888	480.38 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/embeddings	6877184	6.56 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/inputs	1245184	1.19 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/logs	319488	312.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/manifests	7774208	7.41 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/processes	57344	56.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/prompts	12288	12.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/rendered	871325696	830.96 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/robustness	323584	316.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/selection	2392064	2.28 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/stages	45056	44.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/transfer	126976	124.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005	594919424	567.36 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/annotations	10702848	10.21 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/audit	13287424	12.67 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/benchmark	217731072	207.64 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/comparison	4268032	4.07 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/configs	24576	24.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/confirmation	3416064	3.26 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/cost	565248	552.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/data	84467712	80.55 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/embeddings	1724416	1.64 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/inputs	290816	284.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/logs	118784	116.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/manifests	2228224	2.12 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/processes	69632	68.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/prompts	12288	12.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/rendered	253665280	241.91 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/robustness	294912	288.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/selection	790528	772.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/stages	57344	56.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/sixclass_voc_external_confirmation_20261005/transfer	110592	108.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/submission_closeout_20261007	134926336	128.68 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/submission_closeout_20261007/case_inputs	200704	196.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/submission_closeout_20261007/figures	27041792	25.79 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/submission_closeout_20261007/latex	3158016	3.01 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/submission_closeout_20261007/portable	103563264	98.77 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/submission_closeout_20261007/vendor	909312	888.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/submission_freeze_20260929	49152	48.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/visual_state_diagnostic_v1_20260928	10883072	10.38 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/visual_state_diagnostic_v1_20260928/background	12288	12.00 KiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/visual_state_diagnostic_v1_20260928/figures	1196032	1.14 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/visual_state_diagnostic_v1_20260928/manifests	172032	168.00 KiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/visual_state_diagnostic_v1_20260928/orders	8097792	7.72 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/visual_state_diagnostic_v1_20260928/tables	1368064	1.30 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/visual_state_paper_updated_20261006	36864	36.00 KiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/voc2012_confirmation_benchmark_20260929	49414144	47.12 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/voc2012_confirmation_benchmark_20260929/embeddings	1437696	1.37 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/voc2012_confirmation_benchmark_20260929/figures	425984	416.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/voc2012_confirmation_benchmark_20260929/runs	47284224	45.09 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/voc2012_confirmation_benchmark_20260929/tables	237568	232.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/voc2012_confirmation_benchmark_20260929_smoke	2916352	2.78 MiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/voc2012_confirmation_benchmark_20260929_smoke/embeddings	1437696	1.37 MiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/voc2012_confirmation_benchmark_20260929_smoke/figures	372736	364.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/voc2012_confirmation_benchmark_20260929_smoke/runs	1024000	1000.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/voc2012_confirmation_benchmark_20260929_smoke/tables	73728	72.00 KiB	本次复测	冒烟/集成验证
+/home/hcf/project/QE/artifacts/voc2012_confirmation_pool_20260929	201011200	191.70 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/voc2012_confirmation_pool_20260929/images	62394368	59.50 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/voc2012_confirmation_pool_20260929/inputs	290816	284.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/voc2012_confirmation_pool_20260929/manifests	450560	440.00 KiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/voc2012_confirmation_pool_20260929/online_annotations	5586944	5.33 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/voc2012_confirmation_pool_20260929/rendered	132280320	126.15 MiB	本次复测	主线诊断/确认/对照
+/home/hcf/project/QE/artifacts/workload_conclusions_20261008	4132864	3.94 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/workload_conclusions_20261008/rendered	4124672	3.93 MiB	本次复测	论文/汇报/图表
+/home/hcf/project/QE/artifacts/workload_illustrated_20261008	26238976	25.02 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/workload_illustrated_20261008/figures	3592192	3.43 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/workload_illustrated_20261008/fontcache	512000	500.00 KiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/workload_illustrated_20261008/rendered	4190208	4.00 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/workload_illustrated_20261008/source_data	15654912	14.93 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/workload_main_integrated_20261008	11550720	11.02 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/workload_main_integrated_20261008/rendered	7270400	6.93 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/workload_model_gaps_20261008	18956288	18.08 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/workload_model_gaps_20261008/figures	3260416	3.11 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/workload_model_gaps_20261008/rendered	7274496	6.94 MiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/workload_simple_20261008	655360	640.00 KiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/workload_simple_20261008/figures	212992	208.00 KiB	本次复测	QE 材料，待逐项确认
+/home/hcf/project/QE/artifacts/worktree_merge_backup_20261009	26710016	25.47 MiB	本次复测	合并恢复备份
+/home/hcf/project/QE/artifacts/worktree_merge_backup_20261009/git_worktree_metadata	57344	56.00 KiB	本次复测	合并恢复备份
+/home/hcf/project/QE/artifacts/worktree_merge_backup_20261009/original_worktree	26447872	25.22 MiB	本次复测	合并恢复备份
+/home/hcf/project/QE/configs	98304	96.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data	21693313024	20.20 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/__pycache__	98304	96.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/coco128	6987776	6.66 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/coco2017	305569792	291.41 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/coco2017/coco500	86806528	82.79 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/coco2017/dog500	83746816	79.87 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/coco2017/dog500_incomplete_20260911	2424832	2.31 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/coco2017/dog_candidate400_20260912	68407296	65.24 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/coco2017/selected_val_images	15540224	14.82 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/full_gpu_20260905	46526464	44.37 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/imagenetv2	3773304832	3.51 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/imagenetv2/natural_eval_10class_matched_frequency	13369344	12.75 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/images	1056768	1.01 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/images/n01440764	110592	108.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/images/n02102040	110592	108.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/images/n02979186	94208	92.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/images/n03000684	118784	116.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/images/n03028079	110592	108.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/images/n03394916	106496	104.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/images/n03417042	118784	116.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/images/n03425413	106496	104.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/images/n03445777	90112	88.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/images/n03888257	86016	84.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/official_val_pilot	1462272	1.39 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/official_val_pilot/images	1056768	1.01 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/official_val_pilot/predictions	274432	268.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/openimages_v7_dog_gap_v1	7405764608	6.90 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/openimages_v7_dog_gap_v1/annotations	98017280	93.48 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/openimages_v7_dog_gap_v1/crops	1197715456	1.12 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/openimages_v7_dog_gap_v1/dog_tri_view	2073726976	1.93 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/openimages_v7_dog_gap_v1/images	4024795136	3.75 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/openimages_v7_dog_gap_v1/manifests	6365184	6.07 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/pascal_voc2007_external_confirmation_v1	1984098304	1.85 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/pascal_voc2007_external_confirmation_v1/raw	1984094208	1.85 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/pascal_voc2012_dog_validation_v1	4437594112	4.13 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/pascal_voc2012_dog_validation_v1/audit	2334720	2.23 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/pascal_voc2012_dog_validation_v1/manifests	1204224	1.15 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/pascal_voc2012_dog_validation_v1/raw	4066996224	3.79 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/pascal_voc2012_dog_validation_v1/tri_view	367046656	350.04 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/predictions	274432	268.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/source_audit	491520	480.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/widerface_demographics_annotations	15249408	14.54 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/widerface_demographics_annotations/.git	1417216	1.35 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/widerface_demographics_annotations/annotations	13795328	13.16 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/widerface_demographics_annotations/scripts	8192	8.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/widerface_head_v1	3714617344	3.46 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/data/widerface_head_v1/raw	3714613248	3.46 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/docs	314806272	300.22 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/docs/archive	9977856	9.52 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/docs/archive/20261007_before_report_sync	9973760	9.51 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/docs/dog_v3_1_figures	278528	272.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/examples	4096	4.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/models	2939625472	2.74 GiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/output	44806144	42.73 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/output/imagegen	21712896	20.71 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/output/research-figure-composer	23089152	22.02 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/output/research-figure-composer/fonts	21078016	20.10 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/prompts	73728	72.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/qe_quality	557056	544.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/qe_quality/__pycache__	32768	32.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/qe_quality/auto_feature	114688	112.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/qe_quality/auto_feature/__pycache__	65536	64.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/qe_quality/difficulty	200704	196.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/qe_quality/difficulty/__pycache__	114688	112.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/qe_quality/dta	200704	196.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/qe_quality/dta/__pycache__	106496	104.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/reviews	45056	44.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/scripts	16584704	15.82 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/scripts/__pycache__	3170304	3.02 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/scripts/assets	10555392	10.07 MiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/tests	290816	284.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/QE/tests/__pycache__	221184	216.00 KiB	本次复测	QE 项目/研究支持
+/home/hcf/project/gate-agent	24213819392	22.55 GiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.claude	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.git	423186432	403.58 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.git/branches	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.git/hooks	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.git/info	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.git/logs	40960	40.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.git/objects	420130816	400.67 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.git/refs	90112	88.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.pytest_cache	4366336	4.16 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.pytest_cache/v	4349952	4.15 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.venv	778338304	742.28 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.venv/bin	294912	288.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.venv/include	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.venv/lib	778006528	741.96 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.venv/share	20480	20.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/.vscode	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/baseline	376832	368.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/baseline/commit_regression	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/baseline/commit_srg_fusion	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/baseline/graph	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/baseline/patch_srg	65536	64.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/baseline/patch_srg_multi_agent	61440	60.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/baseline/patch_srg_multi_agent_commit_guided	73728	72.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/baseline/plain	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/data	352256	344.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/data/tasks	348160	340.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/datasets	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/docs	2752512	2.62 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/docs/figures	2453504	2.34 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/logs	417792	408.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/notes	487424	476.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/notes/chat_records	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output	500301824	477.12 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output/7-2_result	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output/comparisons	397312	388.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output/figures	17596416	16.78 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output/gate_prompt_repair_smoke_tasks	53248	52.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output/imagegen	21319680	20.33 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output/model_diagrams	692224	676.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output/paper_draft	3727360	3.55 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output/project_scan	126976	124.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output/recent_generated_results_20260622_20260626	453365760	432.36 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output/run_logs	2674688	2.55 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output/tmux	319488	312.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/output/validation	20480	20.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/prompts	73728	72.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw	6552551424	6.10 GiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/BugsInPy_official	13615104	12.98 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/BugsInPy_reproducing	23740416	22.64 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/bugsinpy_reproducible_100	4963926016	4.62 GiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/bugsinpy_reproducible_50	497213440	474.18 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/bugsinpy_shared_cache	738643968	704.43 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/repofixeval_lightweight_160	63545344	60.60 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/repofixeval_openreview_supplementary	44843008	42.77 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/smoke_bugsinpy_cached	139571200	133.11 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/smoke_bugsinpy_repro	14368768	13.70 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/smoke_bugsinpy_repro_no_ansible	29364224	28.00 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/smoke_repofixeval	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/smoke_repofixeval_limited	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repo-raw/swebench_lite_python_subset	14684160	14.00 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repos	21958656	20.94 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repos/graph	626688	612.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repos/patch_srg	1597440	1.52 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repos/quixbugs	638976	624.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repos/raw	18501632	17.64 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/repos/toy	581632	568.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/result_images	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/result_images/test_axes3d	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/result_images/test_axes_grid1	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results	1940484096	1.81 GiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/batch_logs	589824	576.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/batch_runs	2134016	2.04 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/bugsinpy_regression	93626368	89.29 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/clean_no_auto_fallback	39800832	37.96 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/deepseek	97730560	93.20 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/deepseek_ab_real38_contract	21823488	20.81 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/deepseek_ab_real38_no_contract	20865024	19.90 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/deepseek_api	260259840	248.20 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/deepseek_real38_candidate_parallel	24883200	23.73 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/deepseek_real38_commit_guided_candidate_parallel	12546048	11.96 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/deepseek_real38_no_oracle_envbridge	13475840	12.85 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/deepseek_small_validation	4169728	3.98 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/deepseek_swtbench_gold_valid30	62451712	59.56 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/llm_only_no_auto_fallback_small	3346432	3.19 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/local_ollama	148742144	141.85 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/other	570585088	544.15 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/paper_frozen	332582912	317.18 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/patch_srg	18821120	17.95 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/quixbugs	125497344	119.68 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/quixbugs_regression	9502720	9.06 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/real_project_batch20	12115968	11.55 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/real_project_smoke	4804608	4.58 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/repair_policy_smoke	5668864	5.41 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/swtbench_sample50	26034176	24.83 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/swtbench_small	27160576	25.90 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/task_samples	512000	500.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/results/toy	339968	332.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/scripts	946176	924.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/scripts/__pycache__	81920	80.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/scripts/execution	65536	64.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/scripts/framework	692224	676.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/src	1728512	1.65 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/src/__pycache__	1052672	1.00 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks	13983080448	13.02 GiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/bugsinpy	152330240	145.27 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/bugsinpy_reproducible_100	5023358976	4.68 GiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/bugsinpy_reproducible_100_env_blocked_25	180224	176.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/bugsinpy_reproducible_100_env_ready75_runner_exception_24	126976	124.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/bugsinpy_reproducible_100_env_ready_75	413696	404.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/bugsinpy_reproducible_50	475701248	453.66 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/external_raw	7913472	7.55 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/heldout_clean_paper_candidates	4123783168	3.84 GiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/heldout_clean_paper_check	4089290752	3.81 GiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/heldout_clean_paper_pytest	32149504	30.66 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/quixbugs_jkoppel_reproducible	5963776	5.69 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/repofixeval	57106432	54.46 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/staged_benchmarks/swebench_lite_python	14721024	14.04 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/support	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/support/bugsinpy_compat	65536	64.00 KiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/tests	2244608	2.14 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/gate-agent/tests/__pycache__	1921024	1.83 MiB	2026-10-09 前序全盘扫描	独立项目：GATE 智能体
+/home/hcf/project/protocol-test	4087635968	3.81 GiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.agents	28672	28.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.agents/skills	24576	24.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.aris	270336	264.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.aris/meta	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.aris/trace-inputs	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.aris/traces	233472	228.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.cache	42090496	40.14 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.cache/appdata	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.cache/docx-report	65536	64.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.cache/dotnet-cli	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.cache/dotnet-cli-linux	5959680	5.68 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.cache/dotnet-home	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.cache/nuget-packages	29884416	28.50 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.cache/opendbc-upstream-20260729	6062080	5.78 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.cache/png-export	20480	20.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.dotnet	1190785024	1.11 GiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.dotnet/host	598016	584.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.dotnet/metadata	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.dotnet/packs	164790272	157.16 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.dotnet/sdk	808042496	770.61 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.dotnet/sdk-manifests	1110016	1.06 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.dotnet/shared	199761920	190.51 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.dotnet/templates	16318464	15.56 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.git	2658304	2.54 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.git/branches	4096	4.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.git/hooks	69632	68.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.git/info	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.git/logs	32768	32.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.git/objects	2478080	2.36 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.git/refs	28672	28.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.github	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/.github/workflows	8192	8.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts	2388021248	2.22 GiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/baseline-experiment	258048	252.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/dataset-readiness-20260831	1581056	1.51 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/dbc-benchmark-20260730	8437760	8.05 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/debug	233472	228.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/external-traffic-benchmark-20260730	73728	72.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/initial-traffic-detection-20260730	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/latest	311296	304.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/method-validation-20260730	208896	204.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/online-llm-body-data	57344	56.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/opendbc-body-data	61440	60.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-dbc-scale-20260730	1527808	1.46 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-method-20260730-144800	425984	416.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-method-offline-20260730	76500992	72.96 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-method-online-20260730	185360384	176.77 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-method-smoke-final	446464	436.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-method-smoke-llm-final	733184	716.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-method-smoke-llm-network-verified	659456	644.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-method-smoke-llm-verified	471040	460.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-method-smoke-verified	434176	424.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v2-formal-analysis-pict-native-20260902	98988032	94.40 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v2-formal-analysis-pict-native-corrected-20260902	99483648	94.88 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v2-formal-corpus	44380160	42.32 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v2-pilot-analysis-20260901	17637376	16.82 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v2-pilot-analysis-pict-native-20260902	17825792	17.00 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v2-pilot-corpus	16596992	15.83 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v2-pilot-corpus-20260801-rerun	12832768	12.24 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v2-pipeline	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v3-coverage-preserving-fallback-local-formal-20260902	101842944	97.12 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v3-coverage-preserving-fallback-pict-formal-20260902	102027264	97.30 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v3-coverage-preserving-formal-20260902	100896768	96.22 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v3-semantic-catalog-v1-local-20260902	1400832	1.34 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v3-semantic-catalog-v1-pict-20260902	1400832	1.34 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v3-semantic-local-formal-20260902	1286144	1.23 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-ablation-local-20260903	118972416	113.46 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-ablation-pict-20260903	119091200	113.57 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-ablation-semantic-local-20260903	1662976	1.59 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-ablation-semantic-pict-20260903	1662976	1.59 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-ablation-summary-20260903	28672	28.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-final-local-formal-20260902	121716736	116.08 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-final-pict-formal-20260902	122327040	116.66 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-final-semantic-local-20260902	1585152	1.51 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-final-semantic-pict-20260902	1585152	1.51 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-formal-corpus-v3-20260902	19939328	19.02 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-local-formal-20260902	121221120	115.61 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-online-final-local-formal-20260902	116416512	111.02 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-online-final-pict-formal-20260902	116523008	111.12 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-online-final-semantic-local-20260902	1601536	1.53 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-online-final-semantic-pict-20260902	1601536	1.53 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-pict-formal-20260902	121786368	116.14 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-pilot-corpus-v3-20260902	3571712	3.41 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-pilot-online-local-analysis-20260902	17334272	16.53 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-pilot-online-pict-analysis-20260902	17387520	16.58 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-reorder-local-formal-20260902	121327616	115.71 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-reorder-pict-formal-20260902	121876480	116.23 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-reorder-semantic-local-20260902	1585152	1.51 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-reorder-semantic-pict-20260902	1585152	1.51 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-semantic-local-20260902	1585152	1.51 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v4-state-aware-semantic-pict-20260902	1585152	1.51 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-20260903-corpus	77824	76.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-r2-20260903-corpus	155648	152.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-r2-20260903-local	1568768	1.50 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-r2-20260903-pict	1593344	1.52 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-stage1-joint-local	1568768	1.50 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-stage1-joint-pict	1589248	1.52 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-stage1-joint-r2-local	1568768	1.50 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-stage1-joint-r2-pict	1589248	1.52 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-stage1-joint-r3-local	1572864	1.50 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-stage1-joint-r3-pict	1589248	1.52 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-stage1-joint-r4-local	1568768	1.50 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-stage1-joint-r4-pict	1589248	1.52 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-stage1-joint-r5-local	1589248	1.52 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-stage1-joint-r5-pict	1605632	1.53 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-stage1-joint-r6-local	1667072	1.59 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-pilot-stage1-joint-r6-pict	1683456	1.61 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-structural-r1-20260903-corpus	413696	404.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-structural-r1-20260903-local	4317184	4.12 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/paper-v5-semantic-residual-structural-r1-20260903-pict	4337664	4.14 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/pict-body-data	53248	52.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/pict-body-data-budget5	36864	36.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/pict-native-validation-budget10	53248	52.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/pict-native-validation-final	53248	52.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/pict-native-validation-full	73728	72.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/artifacts/pilot-v1-20260730	185905152	177.29 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/datasets	445603840	424.96 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/datasets/external	445571072	424.93 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/datasets/planner-drafts	12288	12.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/datasets/protocols	16384	16.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/docs	368640	360.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/experiments	110592	108.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/output	294912	288.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/output/imagegen	290816	284.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/refine-logs	217088	212.00 KiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/src	8396800	8.01 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/src/ProtocolTesting.Cli	4509696	4.30 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core	3883008	3.70 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/tests	4689920	4.47 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/tests/ProtocolTesting.SelfTests	4685824	4.47 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/tools	3821568	3.64 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/protocol-test/tools/PictBaseline	3796992	3.62 MiB	2026-10-09 前序全盘扫描	独立项目：协议组合测试
+/home/hcf/project/《AssertFlip: Reproducing Bugs via Inversion of LLM-Generated Passing Tests》	4096	4.00 KiB	2026-10-09 前序全盘扫描	空目录

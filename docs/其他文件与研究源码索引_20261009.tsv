@@ -1,0 +1,1312 @@
+绝对路径	类型	文件长度字节	实际分配字节	修改时间	关系	链接目标
+"/home/hcf/(same as ""user"" config, ignored)"	文件	29	4096	2026-10-08T20:01:27+08:00	用户环境/待确认	
+/home/hcf/.bash_history	文件	74631	77824	2026-10-08T20:06:29+08:00	用户环境/待确认	
+/home/hcf/.bash_logout	文件	220	4096	2026-06-22T11:29:50+08:00	用户环境/待确认	
+/home/hcf/.bashrc	文件	4141	8192	2026-10-08T20:01:31+08:00	用户环境/待确认	
+/home/hcf/.bashrc.bak	文件	4061	4096	2026-06-23T10:12:42+08:00	用户环境/待确认	
+/home/hcf/.bashrc.problem	文件	4061	4096	2026-06-23T09:31:09+08:00	用户环境/待确认	
+/home/hcf/.codex/worktrees/2fec/QE	符号链接	20	0	2026-10-09T14:08:54+08:00	已合并后仅保留兼容符号链接；不再是约 154.81 GiB 的第二份 QE	/home/hcf/project/QE
+/home/hcf/.git-credentials	文件	76	4096	2026-10-06T18:49:02+08:00	用户环境/待确认	
+/home/hcf/.gitconfig	文件	88	4096	2026-07-23T10:59:03+08:00	用户环境/待确认	
+/home/hcf/.lesshst	文件	20	4096	2026-09-10T14:02:02+08:00	用户环境/待确认	
+/home/hcf/.motd_shown	文件	0	0	2026-10-09T08:58:27+08:00	用户环境/待确认	
+/home/hcf/.profile	文件	1291	4096	2026-06-23T11:37:18+08:00	用户环境/待确认	
+/home/hcf/.profile.bak	文件	807	4096	2026-06-23T10:12:42+08:00	用户环境/待确认	
+/home/hcf/.profile.problem	文件	807	4096	2026-06-22T11:29:50+08:00	用户环境/待确认	
+/home/hcf/.sudo_as_admin_successful	文件	0	0	2026-06-22T15:19:17+08:00	用户环境/待确认	
+/home/hcf/.wget-hsts	文件	183	4096	2026-10-06T11:09:13+08:00	用户环境/待确认	
+/home/hcf/package-lock.json	文件	3976	4096	2026-09-13T16:11:20+08:00	用户环境/待确认	
+/home/hcf/package.json	文件	60	4096	2026-09-13T16:11:20+08:00	用户环境/待确认	
+/home/hcf/project/AiMac/assets/fonts/NotoSansCJKsc-Bold.otf	文件	17002248	17002496	2026-07-15T10:22:29+08:00	独立视频项目；字体与 QE 有直接关联	
+/home/hcf/project/AiMac/assets/fonts/NotoSansCJKsc-Regular.otf	文件	16437364	16441344	2026-07-15T10:22:24+08:00	独立视频项目；字体与 QE 有直接关联	
+/home/hcf/project/AiMac/generate_video.py	文件	39624	40960	2026-07-15T10:50:01+08:00	独立视频项目；字体与 QE 有直接关联	
+/home/hcf/project/GATE-ID2/.dockerignore	文件	72	4096	2026-07-23T13:48:27+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/.env	文件	0	0	2026-07-23T10:01:54+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/.gitignore	文件	204	4096	2026-07-23T16:32:37+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/=1.0	文件	0	0	2026-07-23T10:02:55+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/=2.0	文件	0	0	2026-07-23T10:02:55+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/README_FRONTEND.md	文件	2019	4096	2026-07-23T15:31:52+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/main.py	文件	1574	4096	2026-07-23T13:27:02+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/requirements.txt	文件	58	4096	2026-07-23T16:32:37+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/scripts/import_issue.py	文件	1708	4096	2026-07-23T15:31:31+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/scripts/import_swe_bench_case.py	文件	2940	4096	2026-07-23T13:24:18+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/scripts/prepare_execution_cases.py	文件	3734	4096	2026-07-23T14:59:52+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/scripts/run_batch.py	文件	3186	4096	2026-07-23T14:49:31+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/scripts/run_issue_pipeline.py	文件	2918	4096	2026-07-23T16:04:04+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/scripts/run_requests_5414_docker.py	文件	5645	8192	2026-07-23T13:50:31+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/__init__.py	文件	0	0	2026-07-23T15:41:00+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/data/__init__.py	文件	192	4096	2026-07-23T10:40:50+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/data/issues/psf__requests-5414.json	文件	652	4096	2026-07-23T16:06:00+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/data/loader.py	文件	3217	4096	2026-07-23T10:40:04+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/defect/__init__.py	文件	74	4096	2026-07-23T15:41:20+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/defect/extractor.py	文件	1780	4096	2026-07-23T15:43:01+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/execution/__init__.py	文件	303	4096	2026-07-23T14:45:01+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/execution/case_runner.py	文件	6518	8192	2026-07-23T14:35:47+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/execution/docker_executor.py	文件	6725	8192	2026-07-23T14:34:59+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/execution/executor.py	文件	0	0	2026-07-23T10:01:54+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/execution/interface.py	文件	1697	4096	2026-07-23T14:33:56+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/execution/oracle.py	文件	0	0	2026-07-23T10:01:54+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/hypothesis/__init__.py	文件	400	4096	2026-07-23T11:30:22+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/hypothesis/generator.py	文件	3175	4096	2026-07-23T11:27:13+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/hypothesis/validator.py	文件	2219	4096	2026-07-23T11:29:00+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/issue/__init__.py	文件	221	4096	2026-07-23T15:56:41+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/issue/errors.py	文件	107	4096	2026-07-23T15:48:00+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/issue/evidence_extractor.py	文件	5031	8192	2026-07-23T15:53:47+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/issue/loader.py	文件	1225	4096	2026-07-23T15:58:14+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/llm/client.py	文件	5066	8192	2026-07-23T15:30:03+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/llm/test_case_generator.py	文件	3077	4096	2026-07-23T15:30:29+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/pipeline/__init__.py	文件	0	0	2026-07-23T10:01:54+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/pipeline/runner.py	文件	0	0	2026-07-23T10:01:54+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/schemas/__init__.py	文件	359	4096	2026-07-23T10:19:48+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/schemas/evidence.py	文件	1984	4096	2026-07-23T10:19:55+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/schemas/hypothesis.py	文件	1636	4096	2026-07-23T10:19:51+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/schemas/issue.py	文件	2273	4096	2026-07-23T15:28:21+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/schemas/result.py	文件	6191	8192	2026-07-23T10:19:44+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/schemas/test_case.py	文件	1491	4096	2026-07-23T10:33:46+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/test_generation/__init__.py	文件	170	4096	2026-07-23T11:30:43+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/src/test_generation/generator.py	文件	1975	4096	2026-07-23T11:30:07+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/tests/test_evidence_loader.py	文件	4121	8192	2026-07-23T10:42:10+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/tests/test_execution_backend.py	文件	4299	8192	2026-07-23T14:39:43+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/tests/test_generation_pipeline.py	文件	2731	4096	2026-07-23T11:31:44+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/tests/test_issue_frontend.py	文件	3277	4096	2026-07-23T15:32:13+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/GATE-ID2/tests/test_schemas.py	文件	6134	8192	2026-07-23T10:30:39+08:00	独立项目：证据/缺陷假设前期流水线	
+/home/hcf/project/Gate-ID/.env	文件	1211	4096	2026-07-22T18:59:22+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/.env.example	文件	1438	4096	2026-07-22T18:48:18+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/.gitignore	文件	91	4096	2026-07-19T22:21:57+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/README.md	文件	29023	32768	2026-07-23T09:24:52+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/docs/PROJECT_DEEP_ANALYSIS.md	文件	36752	36864	2026-07-23T15:24:17+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/docs/VERSIONS.md	文件	1027	4096	2026-07-20T19:53:18+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/docs/candidate_plan_ir_v1.md	文件	8352	12288	2026-07-23T09:19:45+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/docs/decision_policy_v1_3.md	文件	1824	4096	2026-07-20T10:19:24+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/docs/receiver_bound_candidate_plan_design.md	文件	10147	12288	2026-07-23T09:20:03+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/oracle_proposer/proposal_example_relation_v1_3.json	文件	1712	4096	2026-07-19T22:50:05+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/oracle_proposer/proposal_example_v1_3.json	文件	1343	4096	2026-07-19T22:50:05+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/oracle_proposer/schema_v1_2.json	文件	6403	8192	2026-07-19T20:30:37+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/oracle_proposer/schema_v1_3.json	文件	15672	16384	2026-07-19T23:00:56+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/oracle_proposer/system_v1.txt	文件	2067	4096	2026-07-19T17:50:09+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/oracle_proposer/system_v2.txt	文件	2948	4096	2026-07-19T19:13:48+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/oracle_proposer/system_v3.txt	文件	4210	8192	2026-07-19T20:15:14+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/oracle_proposer/system_v4.txt	文件	4005	4096	2026-07-19T22:06:04+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/oracle_proposer/system_v5.txt	文件	7259	8192	2026-07-19T22:50:05+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/oracle_proposer/system_v6.txt	文件	11616	12288	2026-07-20T10:32:10+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/oracle_proposer/system_v7.txt	文件	12583	16384	2026-07-20T19:53:18+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/candidate_plan_example_v1.json	文件	1144	4096	2026-07-21T15:44:51+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/candidate_plan_rejected_dynamic_call_v1.json	文件	600	4096	2026-07-21T15:44:51+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/candidate_plan_rejected_unprovenanced_literal_v1.json	文件	1147	4096	2026-07-21T16:32:54+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/repair_v1.txt	文件	747	4096	2026-07-19T17:50:09+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/repair_v2.txt	文件	728	4096	2026-07-19T19:07:13+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/repair_v3.txt	文件	681	4096	2026-07-19T20:22:22+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/repair_v4.txt	文件	876	4096	2026-07-21T13:49:20+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/repair_v5.txt	文件	860	4096	2026-07-22T15:45:35+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/shadow_repair_v5.txt	文件	831	4096	2026-07-22T15:45:35+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/system_v1.txt	文件	1697	4096	2026-07-19T17:50:09+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/system_v2.txt	文件	2327	4096	2026-07-19T19:07:13+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/system_v3.txt	文件	2187	4096	2026-07-19T20:22:22+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/system_v4.txt	文件	2906	4096	2026-07-21T13:49:20+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/system_v5.txt	文件	4531	8192	2026-07-22T20:14:20+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/user_v1.txt	文件	999	4096	2026-07-18T21:22:40+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/user_v2.txt	文件	1112	4096	2026-07-19T19:07:13+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/user_v3.txt	文件	853	4096	2026-07-19T20:22:22+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/user_v4.txt	文件	1111	4096	2026-07-21T13:49:20+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/prompts/test_generation/user_v5.txt	文件	1486	4096	2026-07-22T20:14:20+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/pyproject.toml	文件	516	4096	2026-07-23T09:21:51+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/pytest.ini	文件	71	4096	2026-07-19T16:56:26+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/requirements-dev.txt	文件	190	4096	2026-07-23T09:21:51+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/__init__.py	文件	58	4096	2026-07-19T16:55:46+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/evaluate_fixed.py	文件	1	4096	2026-07-18T19:09:35+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/evaluate_inference.py	文件	9213	12288	2026-07-20T11:05:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/finalize_gold_v1_3.py	文件	9538	12288	2026-07-20T10:22:19+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/finalize_manual_review.py	文件	7724	8192	2026-07-19T17:35:06+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/generate_tests.py	文件	44208	45056	2026-07-21T16:36:17+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/merge_f2p_runs.py	文件	5833	8192	2026-07-21T13:44:51+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/merge_inference_runs.py	文件	6742	8192	2026-07-20T20:53:45+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/prepare_evaluation_gold.py	文件	2240	4096	2026-07-18T23:07:51+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/prepare_expanded_docker_images.py	文件	12950	16384	2026-07-21T13:03:27+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/prepare_expanded_pending.py	文件	8511	12288	2026-07-20T20:53:45+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/prepare_f2p_recovery_images.py	文件	7653	8192	2026-07-21T19:14:51+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/prepare_generation_input.py	文件	5814	8192	2026-07-20T21:32:55+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/prepare_gold_v1_3_review.py	文件	5678	8192	2026-07-20T10:27:29+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/prepare_manual_review.py	文件	5530	8192	2026-07-19T17:33:13+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/probe_llm_provider.py	文件	4013	4096	2026-07-22T18:48:18+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/run_automatic.py	文件	4079	4096	2026-07-20T19:53:18+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/run_buggy_tests.py	文件	2423	4096	2026-07-18T23:32:43+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/run_end_to_end.py	文件	138	4096	2026-07-18T22:58:21+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/run_f2p_pipeline.py	文件	8601	12288	2026-07-22T09:30:38+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/run_gateid_batch.py	文件	44647	45056	2026-07-22T18:57:48+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/run_gateid_instance.py	文件	22671	24576	2026-07-22T20:58:06+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/run_pilot.py	文件	11170	12288	2026-07-18T18:42:30+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/run_v5_pilot_20_f2p.sh	文件	5963	8192	2026-07-22T18:51:46+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/scripts/smoke_proposal_protocol.py	文件	3299	4096	2026-07-19T23:04:36+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gate_id.egg-info/PKG-INFO	文件	29493	32768	2026-07-23T09:28:06+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gate_id.egg-info/SOURCES.txt	文件	4869	8192	2026-07-23T09:28:06+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gate_id.egg-info/dependency_links.txt	文件	1	4096	2026-07-23T09:28:06+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gate_id.egg-info/requires.txt	文件	111	4096	2026-07-23T09:28:06+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gate_id.egg-info/top_level.txt	文件	7	4096	2026-07-23T09:28:06+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/__init__.py	文件	0	0	2026-07-18T15:42:53+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/adapters/__init__.py	文件	191	4096	2026-07-18T17:51:42+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/adapters/silver_v1_1.py	文件	22595	24576	2026-07-18T17:52:14+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/automatic_pipeline.py	文件	20787	24576	2026-07-20T19:54:06+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/candidate_selection/__init__.py	文件	273	4096	2026-07-21T15:51:43+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/candidate_selection/selector.py	文件	8692	12288	2026-07-22T11:17:44+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/compiler/__init__.py	文件	273	4096	2026-07-18T19:26:43+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/compiler/oracle_compiler.py	文件	15898	16384	2026-07-22T17:10:32+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/context/__init__.py	文件	554	4096	2026-07-22T15:33:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/context/agentless.py	文件	27689	28672	2026-07-23T08:51:50+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/context/repository.py	文件	5107	8192	2026-07-18T19:33:25+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/context/retriever.py	文件	12705	16384	2026-07-22T19:57:26+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/contracts/candidate_construction_bundle.schema.json	文件	1322	4096	2026-07-22T20:25:52+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/contracts/candidate_plan.schema.json	文件	6903	8192	2026-07-22T20:14:20+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/contracts/candidate_plan_policy.schema.json	文件	5027	8192	2026-07-22T20:23:43+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/contracts/instance_feedback_budget.schema.json	文件	898	4096	2026-07-21T15:02:46+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/contracts/localization_package.schema.json	文件	2333	4096	2026-07-21T14:43:16+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/contracts/project_profile.schema.json	文件	2437	4096	2026-07-21T14:43:16+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/contracts/project_profile_v1_1.schema.json	文件	1481	4096	2026-07-21T15:23:12+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/contracts/realization_hypotheses.schema.json	文件	1248	4096	2026-07-21T14:43:16+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/contracts/realization_oracle_view.schema.json	文件	2063	4096	2026-07-21T15:55:39+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/contracts/realization_trigger_context.schema.json	文件	1161	4096	2026-07-21T18:45:27+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/contracts/shadow_feedback.schema.json	文件	929	4096	2026-07-21T16:17:29+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/contracts/shadow_result.schema.json	文件	1271	4096	2026-07-21T16:18:20+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/__init__.py	文件	261	4096	2026-07-18T22:56:50+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/buggy_executor.py	文件	126	4096	2026-07-18T22:54:14+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/command_runner.py	文件	1881	4096	2026-07-18T22:51:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/environment.py	文件	1093	4096	2026-07-21T13:33:07+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/executor.py	文件	15249	16384	2026-07-21T13:33:48+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/f2p.py	文件	219	4096	2026-07-18T22:56:50+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/fixed_executor.py	文件	126	4096	2026-07-18T22:54:14+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/freeze.py	文件	3010	4096	2026-07-21T15:49:56+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/gold_loader.py	文件	2466	4096	2026-07-21T14:43:47+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/integrity.py	文件	1837	4096	2026-07-18T22:49:32+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/metrics.py	文件	12495	16384	2026-07-19T19:11:41+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/models.py	文件	5479	8192	2026-07-21T15:49:56+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/pair_evaluator.py	文件	1563	4096	2026-07-18T22:56:50+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/patch_applier.py	文件	1572	4096	2026-07-18T22:51:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/pipeline.py	文件	24244	24576	2026-07-22T10:31:17+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/preflight.py	文件	3670	4096	2026-07-19T19:06:05+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/pytest_parser.py	文件	2058	4096	2026-07-18T23:00:52+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/runtime_profile.py	文件	2538	4096	2026-07-21T13:33:07+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/shadow.py	文件	29037	32768	2026-07-22T19:23:21+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/stability.py	文件	1125	4096	2026-07-18T22:56:50+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/test_installer.py	文件	839	4096	2026-07-18T22:51:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/evaluation/workspace.py	文件	2462	4096	2026-07-18T22:51:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/execution/__init__.py	文件	1	4096	2026-07-18T19:09:35+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/execution/classifier.py	文件	1	4096	2026-07-18T19:09:35+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/execution/runner.py	文件	1	4096	2026-07-18T19:09:35+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/feedback/__init__.py	文件	597	4096	2026-07-21T15:56:46+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/feedback/budget.py	文件	9165	12288	2026-07-21T15:57:00+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/feedback/models.py	文件	4520	8192	2026-07-21T14:47:08+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/feedback/scheduler.py	文件	1833	4096	2026-07-21T15:56:46+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/__init__.py	文件	1270	4096	2026-07-21T20:12:27+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/attempt_audit.py	文件	11415	12288	2026-07-21T20:06:34+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/cache.py	文件	4506	8192	2026-07-18T21:22:40+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/certificate_guard.py	文件	10759	12288	2026-07-19T20:12:56+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/client.py	文件	26558	28672	2026-07-22T18:46:12+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/config.py	文件	9903	12288	2026-07-22T18:46:12+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/generator.py	文件	13330	16384	2026-07-23T08:49:20+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/input_loader.py	文件	7385	8192	2026-07-18T19:22:49+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/leakage_guard.py	文件	4325	8192	2026-07-21T16:44:10+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/models.py	文件	5352	8192	2026-07-22T15:44:38+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/prompt.py	文件	27840	28672	2026-07-22T20:27:04+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/response_parser.py	文件	12118	12288	2026-07-21T16:20:26+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/generation/static_validator.py	文件	18700	20480	2026-07-21T13:47:39+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/guards/__init__.py	文件	216	4096	2026-07-21T14:41:56+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/guards/gold_access_guard.py	文件	3424	4096	2026-07-21T14:49:11+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/guards/hash_chain.py	文件	654	4096	2026-07-21T14:41:56+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/guards/oracle_boundary.py	文件	2417	4096	2026-07-21T14:44:24+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/guards/realization_view_builder.py	文件	11684	12288	2026-07-22T16:10:38+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/inference/__init__.py	文件	306	4096	2026-07-19T16:56:49+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/inference/evidence_index.py	文件	6615	8192	2026-07-19T20:08:53+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/inference/models.py	文件	1918	4096	2026-07-19T22:04:35+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/inference/oracle_proposer.py	文件	14869	16384	2026-07-20T19:53:18+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/loader/__init__.py	文件	403	4096	2026-07-18T17:01:32+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/loader/__main__.py	文件	154	4096	2026-07-18T17:01:32+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/loader/evaluation_loader.py	文件	8445	12288	2026-07-18T17:52:14+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/loader/inference_loader.py	文件	9455	12288	2026-07-19T16:52:51+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/loader/models.py	文件	5743	8192	2026-07-18T17:52:14+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/loader/pipeline.py	文件	3608	4096	2026-07-18T17:01:32+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/localization/__init__.py	文件	223	4096	2026-07-21T14:41:56+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/localization/models.py	文件	4752	8192	2026-07-21T14:49:11+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/oracle_ir.py	文件	36150	36864	2026-07-19T22:03:31+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/oracle_lock.py	文件	38159	40960	2026-07-20T10:19:24+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/project_profile/__init__.py	文件	492	4096	2026-07-21T15:23:12+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/project_profile/adapter.py	文件	1958	4096	2026-07-21T15:25:32+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/project_profile/models.py	文件	8927	12288	2026-07-21T15:25:32+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/proposal/__init__.py	文件	202	4096	2026-07-19T22:48:58+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/proposal/models_v1_3.py	文件	7238	8192	2026-07-19T22:50:59+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/proposal/schema.py	文件	6744	8192	2026-07-19T22:57:18+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/realization/__init__.py	文件	283	4096	2026-07-21T16:07:40+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/realization/construction.py	文件	53100	53248	2026-07-23T09:05:10+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/realization/integrated.py	文件	24778	28672	2026-07-22T20:46:04+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/realization/models.py	文件	6480	8192	2026-07-21T18:45:27+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/realization/orchestrator.py	文件	23516	24576	2026-07-22T20:39:09+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/realization/plan_ir.py	文件	197841	200704	2026-07-23T09:24:11+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/review/__init__.py	文件	424	4096	2026-07-19T16:10:25+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/review/builder.py	文件	3763	4096	2026-07-19T16:13:00+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/review/finalizer.py	文件	5892	8192	2026-07-19T17:33:13+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/review/models.py	文件	2106	4096	2026-07-19T17:41:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/review/validator.py	文件	11363	12288	2026-07-19T17:41:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/router.py	文件	11978	12288	2026-07-18T17:54:38+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/source_loader.py	文件	3404	4096	2026-07-19T16:50:48+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/summary.py	文件	15310	16384	2026-07-18T18:41:10+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/validation/__init__.py	文件	339	4096	2026-07-19T22:01:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/validation/oracle_direction.py	文件	5612	8192	2026-07-19T23:02:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/validation/oracle_semantics.py	文件	6558	8192	2026-07-19T22:09:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/src/gateid/validator.py	文件	24145	24576	2026-07-18T17:57:02+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/__init__.py	文件	28	4096	2026-07-19T16:55:46+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/generation_helpers.py	文件	4110	8192	2026-07-21T13:47:39+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_agentless_localizer.py	文件	12360	16384	2026-07-23T08:51:50+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_automatic_inference.py	文件	17805	20480	2026-07-20T19:54:32+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_candidate_orchestrator.py	文件	8312	12288	2026-07-22T20:39:46+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_candidate_plan_ir.py	文件	60057	61440	2026-07-23T09:24:18+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_candidate_selection_v2.py	文件	2521	4096	2026-07-22T11:24:23+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_certificate_guard.py	文件	3237	4096	2026-07-19T19:12:33+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_construction_bundle.py	文件	28003	28672	2026-07-23T09:06:02+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_context_retriever.py	文件	2015	4096	2026-07-18T23:45:05+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_evaluate_inference.py	文件	2593	4096	2026-07-20T11:05:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_evidence_index.py	文件	1568	4096	2026-07-19T20:08:53+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_f2p_pipeline.py	文件	10736	12288	2026-07-22T10:35:08+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_feedback_scheduler.py	文件	1272	4096	2026-07-21T15:56:46+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_generate_tests.py	文件	12953	16384	2026-07-21T16:35:47+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_generation_cache.py	文件	1369	4096	2026-07-18T21:47:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_generation_client.py	文件	9622	12288	2026-07-22T18:48:57+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_generation_config.py	文件	7112	8192	2026-07-22T18:49:32+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_generation_generator.py	文件	10053	12288	2026-07-22T17:59:32+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_generation_input_loader.py	文件	2939	4096	2026-07-18T19:30:12+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_generation_leakage_guard.py	文件	879	4096	2026-07-19T18:01:06+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_generation_parser.py	文件	3665	4096	2026-07-19T19:08:16+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_generation_prompt.py	文件	2269	4096	2026-07-18T21:47:15+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_generation_validator.py	文件	4973	8192	2026-07-21T13:47:39+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_gold_v1_3.py	文件	3349	4096	2026-07-20T10:24:10+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_integrated_boundaries.py	文件	12587	16384	2026-07-22T20:44:36+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_integrated_realization_pipeline.py	文件	7333	8192	2026-07-22T20:44:36+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_loader.py	文件	11982	12288	2026-07-18T17:55:47+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_manual_review.py	文件	9680	12288	2026-07-19T17:35:06+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_metrics.py	文件	2312	4096	2026-07-19T19:11:59+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_oracle_compiler.py	文件	5584	8192	2026-07-22T17:10:32+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_oracle_lock.py	文件	10510	12288	2026-07-19T19:20:57+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_oracle_semantics_v1_3.py	文件	7808	8192	2026-07-19T22:11:25+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_pair_evaluator.py	文件	1091	4096	2026-07-18T22:59:41+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_preflight.py	文件	1263	4096	2026-07-19T19:12:33+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_proposal_protocol_v1_3.py	文件	8409	12288	2026-07-20T19:53:18+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_realization_security_v2.py	文件	24007	24576	2026-07-21T18:47:35+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_router.py	文件	5805	8192	2026-07-18T17:55:47+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_run_gateid_batch.py	文件	18327	20480	2026-07-22T20:30:33+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_run_pilot.py	文件	5440	8192	2026-07-18T18:45:49+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_runtime_profile.py	文件	2532	4096	2026-07-21T13:33:48+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_scope_decision_policy.py	文件	6920	8192	2026-07-20T10:24:10+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_summary.py	文件	6918	8192	2026-07-18T18:44:59+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_typed_oracle_ir.py	文件	5571	8192	2026-07-19T22:07:23+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate-ID/tests/test_validator.py	文件	11566	12288	2026-07-18T17:57:02+08:00	独立项目：证据约束的 oracle 识别	
+/home/hcf/project/Gate/.env	符号链接	18	0	2026-07-11T11:30:22+08:00	独立项目：缺陷复现测试生成	../gate-agent/.env
+/home/hcf/project/Gate/.gitignore	文件	180	4096	2026-07-15T16:01:53+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/docs/gate_blind_full_custom_v4_summary.md	文件	12304	16384	2026-07-12T10:22:35+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/prompts/gate_blind/assertion_evidence_critic.txt	文件	3050	4096	2026-07-15T13:48:57+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/prompts/gate_blind/candidate_generation.txt	文件	6042	8192	2026-07-15T23:16:36+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/prompts/gate_blind/fast_candidate_generation.txt	文件	2612	4096	2026-07-16T16:46:35+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/prompts/gate_blind/lite_candidate_generation.txt	文件	1024	4096	2026-07-16T16:51:52+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/prompts/gate_blind/lite_repair.txt	文件	917	4096	2026-07-16T16:51:52+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/prompts/gate_blind/oracle_synthesis.txt	文件	2268	4096	2026-07-15T13:48:57+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/prompts/gate_blind/repair.txt	文件	1974	4096	2026-07-16T15:45:36+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/prompts/gate_blind/weak_test_critic.txt	文件	1578	4096	2026-07-15T13:48:57+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/scripts/run_swtblind.py	文件	279	4096	2026-07-15T13:48:57+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/scripts/swt_buggy_only.py	文件	10689	12288	2026-07-15T13:48:57+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/scripts/swt_runtime_probe.py	文件	2215	4096	2026-07-15T13:48:57+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/__init__.py	文件	583	4096	2026-07-16T16:51:52+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/agent.py	文件	67681	69632	2026-07-16T16:43:19+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/audit.py	文件	2990	4096	2026-07-10T16:54:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/cli.py	文件	17806	20480	2026-07-16T16:58:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/context.py	文件	9971	12288	2026-07-16T15:34:28+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/evidence.py	文件	64805	65536	2026-07-15T19:46:57+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/exporter.py	文件	7549	8192	2026-07-16T15:34:28+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/fast_agent.py	文件	12035	12288	2026-07-16T16:44:25+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/guard.py	文件	27086	28672	2026-07-15T01:40:07+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/lite_agent.py	文件	20396	20480	2026-07-16T16:56:55+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/llm.py	文件	4125	8192	2026-07-15T14:23:18+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/progress.py	文件	3178	4096	2026-07-16T16:46:35+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/runner.py	文件	7928	8192	2026-07-15T11:25:04+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/src/gate/task.py	文件	4100	8192	2026-07-10T16:54:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/tests/test_gate_blind.py	文件	104334	106496	2026-07-16T16:58:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/Gate/tests/test_lite_gate.py	文件	7435	8192	2026-07-16T16:56:55+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/PROJECT_OVERVIEW_ZH.md	文件	15848	16384	2026-07-17T21:23:48+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/__init__.py	文件	49	4096	2026-07-14T10:11:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/README.md	文件	2575	4096	2026-07-14T10:11:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/__init__.py	文件	175	4096	2026-07-14T10:11:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/cli.py	文件	10803	12288	2026-07-14T10:11:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/outputs/2026-07-14/dev20/predictions.jsonl	文件	65577	69632	2026-07-14T10:46:44+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/outputs/2026-07-14/zsp_smoke/predictions.jsonl	文件	3344	4096	2026-07-14T10:17:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/outputs/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/predictions.jsonl	文件	47794	49152	2026-07-16T14:05:29+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/astropy__astropy-13033/prediction.json	文件	2069	4096	2026-07-14T10:44:10+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/astropy__astropy-13033/prompt.txt	文件	82421	86016	2026-07-14T10:43:56+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/astropy__astropy-13033/raw_output.txt	文件	924	4096	2026-07-14T10:44:10+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/astropy__astropy-13033/trace.json	文件	816	4096	2026-07-14T10:44:10+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-13212/prediction.json	文件	4213	8192	2026-07-14T10:38:05+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-13212/prompt.txt	文件	115213	118784	2026-07-14T10:37:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-13212/raw_output.txt	文件	1984	4096	2026-07-14T10:38:05+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-13212/trace.json	文件	810	4096	2026-07-14T10:38:05+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-14034/prediction.json	文件	9525	12288	2026-07-14T10:38:38+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-14034/prompt.txt	文件	117466	118784	2026-07-14T10:38:05+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-14034/raw_output.txt	文件	4537	8192	2026-07-14T10:38:38+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-14034/trace.json	文件	810	4096	2026-07-14T10:38:38+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-14140/prediction.json	文件	4449	8192	2026-07-14T10:39:16+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-14140/prompt.txt	文件	120507	122880	2026-07-14T10:38:38+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-14140/raw_output.txt	文件	2106	4096	2026-07-14T10:39:16+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-14140/trace.json	文件	810	4096	2026-07-14T10:39:16+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-17087/prediction.json	文件	2969	4096	2026-07-14T10:39:46+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-17087/prompt.txt	文件	118100	118784	2026-07-14T10:39:17+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-17087/raw_output.txt	文件	1375	4096	2026-07-14T10:39:46+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/django__django-17087/trace.json	文件	810	4096	2026-07-14T10:39:46+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/experiment.json	文件	629	4096	2026-07-14T10:37:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/matplotlib__matplotlib-20676/prediction.json	文件	2321	4096	2026-07-14T10:41:57+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/matplotlib__matplotlib-20676/prompt.txt	文件	108064	110592	2026-07-14T10:41:42+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/matplotlib__matplotlib-20676/raw_output.txt	文件	1052	4096	2026-07-14T10:41:57+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/matplotlib__matplotlib-20676/trace.json	文件	842	4096	2026-07-14T10:41:57+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/matplotlib__matplotlib-24870/prediction.json	文件	4231	8192	2026-07-14T10:42:09+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/matplotlib__matplotlib-24870/prompt.txt	文件	97789	98304	2026-07-14T10:41:57+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/matplotlib__matplotlib-24870/raw_output.txt	文件	1985	4096	2026-07-14T10:42:09+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/matplotlib__matplotlib-24870/trace.json	文件	841	4096	2026-07-14T10:42:09+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/mwaskom__seaborn-3069/prediction.json	文件	5156	8192	2026-07-14T10:46:31+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/mwaskom__seaborn-3069/prompt.txt	文件	113134	114688	2026-07-14T10:45:52+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/mwaskom__seaborn-3069/raw_output.txt	文件	2386	4096	2026-07-14T10:46:31+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/mwaskom__seaborn-3069/trace.json	文件	814	4096	2026-07-14T10:46:31+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pallets__flask-5014/prediction.json	文件	1714	4096	2026-07-14T10:46:44+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pallets__flask-5014/prompt.txt	文件	116519	118784	2026-07-14T10:46:31+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pallets__flask-5014/raw_output.txt	文件	745	4096	2026-07-14T10:46:44+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pallets__flask-5014/trace.json	文件	805	4096	2026-07-14T10:46:44+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/progress.log	文件	17150	24576	2026-07-14T10:46:44+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/psf__requests-5414/prediction.json	文件	1037	4096	2026-07-14T10:45:52+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/psf__requests-5414/prompt.txt	文件	114846	118784	2026-07-14T10:45:35+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/psf__requests-5414/raw_output.txt	文件	432	4096	2026-07-14T10:45:52+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/psf__requests-5414/trace.json	文件	801	4096	2026-07-14T10:45:52+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pydata__xarray-6461/prediction.json	文件	2056	4096	2026-07-14T10:44:36+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pydata__xarray-6461/prompt.txt	文件	99528	102400	2026-07-14T10:44:10+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pydata__xarray-6461/raw_output.txt	文件	925	4096	2026-07-14T10:44:36+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pydata__xarray-6461/trace.json	文件	804	4096	2026-07-14T10:44:36+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pylint-dev__pylint-4970/prediction.json	文件	4362	8192	2026-07-14T10:45:35+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pylint-dev__pylint-4970/prompt.txt	文件	10107	12288	2026-07-14T10:44:56+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pylint-dev__pylint-4970/raw_output.txt	文件	1994	4096	2026-07-14T10:45:35+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pylint-dev__pylint-4970/trace.json	文件	821	4096	2026-07-14T10:45:35+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pytest-dev__pytest-10081/prediction.json	文件	2201	4096	2026-07-14T10:44:56+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pytest-dev__pytest-10081/prompt.txt	文件	113147	114688	2026-07-14T10:44:36+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pytest-dev__pytest-10081/raw_output.txt	文件	977	4096	2026-07-14T10:44:56+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/pytest-dev__pytest-10081/trace.json	文件	825	4096	2026-07-14T10:44:56+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/scikit-learn__scikit-learn-13328/prediction.json	文件	1467	4096	2026-07-14T10:43:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/scikit-learn__scikit-learn-13328/prompt.txt	文件	114188	114688	2026-07-14T10:43:22+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/scikit-learn__scikit-learn-13328/raw_output.txt	文件	647	4096	2026-07-14T10:43:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/scikit-learn__scikit-learn-13328/trace.json	文件	857	4096	2026-07-14T10:43:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/scikit-learn__scikit-learn-14496/prediction.json	文件	2613	4096	2026-07-14T10:43:56+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/scikit-learn__scikit-learn-14496/prompt.txt	文件	105924	106496	2026-07-14T10:43:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/scikit-learn__scikit-learn-14496/raw_output.txt	文件	1205	4096	2026-07-14T10:43:56+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/scikit-learn__scikit-learn-14496/trace.json	文件	858	4096	2026-07-14T10:43:56+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sphinx-doc__sphinx-10614/prediction.json	文件	6807	8192	2026-07-14T10:42:50+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sphinx-doc__sphinx-10614/prompt.txt	文件	8841	12288	2026-07-14T10:42:09+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sphinx-doc__sphinx-10614/raw_output.txt	文件	3202	4096	2026-07-14T10:42:50+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sphinx-doc__sphinx-10614/trace.json	文件	824	4096	2026-07-14T10:42:50+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sphinx-doc__sphinx-9320/prediction.json	文件	2106	4096	2026-07-14T10:43:22+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sphinx-doc__sphinx-9320/prompt.txt	文件	9187	12288	2026-07-14T10:42:50+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sphinx-doc__sphinx-9320/raw_output.txt	文件	951	4096	2026-07-14T10:43:22+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sphinx-doc__sphinx-9320/trace.json	文件	819	4096	2026-07-14T10:43:22+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/summary.json	文件	1656	4096	2026-07-14T10:46:44+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sympy__sympy-15349/prediction.json	文件	3811	4096	2026-07-14T10:40:27+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sympy__sympy-15349/prompt.txt	文件	75889	77824	2026-07-14T10:39:46+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sympy__sympy-15349/raw_output.txt	文件	1784	4096	2026-07-14T10:40:27+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sympy__sympy-15349/trace.json	文件	801	4096	2026-07-14T10:40:27+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sympy__sympy-17139/prediction.json	文件	807	4096	2026-07-14T10:40:37+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sympy__sympy-17139/prompt.txt	文件	103360	106496	2026-07-14T10:40:28+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sympy__sympy-17139/raw_output.txt	文件	329	4096	2026-07-14T10:40:37+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sympy__sympy-17139/trace.json	文件	801	4096	2026-07-14T10:40:37+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sympy__sympy-23262/prediction.json	文件	1843	4096	2026-07-14T10:41:42+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sympy__sympy-23262/prompt.txt	文件	98876	102400	2026-07-14T10:40:37+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sympy__sympy-23262/raw_output.txt	文件	829	4096	2026-07-14T10:41:42+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/dev20/sympy__sympy-23262/trace.json	文件	800	4096	2026-07-14T10:41:42+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/zsp_smoke/astropy__astropy-12907/prediction.json	文件	3353	4096	2026-07-14T10:17:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/zsp_smoke/astropy__astropy-12907/prompt.txt	文件	105924	106496	2026-07-14T10:17:50+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/zsp_smoke/astropy__astropy-12907/raw_output.txt	文件	1570	4096	2026-07-14T10:17:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/zsp_smoke/astropy__astropy-12907/trace.json	文件	830	4096	2026-07-14T10:17:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/zsp_smoke/experiment.json	文件	637	4096	2026-07-14T10:17:50+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/zsp_smoke/progress.log	文件	547	4096	2026-07-14T10:17:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-14/zsp_smoke/summary.json	文件	503	4096	2026-07-14T10:17:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/astropy__astropy-13579/prediction.json	文件	6423	8192	2026-07-16T14:02:42+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/astropy__astropy-13579/prompt.txt	文件	74099	77824	2026-07-16T14:02:24+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/astropy__astropy-13579/raw_output.txt	文件	3054	4096	2026-07-16T14:02:42+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/astropy__astropy-13579/trace.json	文件	922	4096	2026-07-16T14:02:42+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/astropy__astropy-14539/prediction.json	文件	1891	4096	2026-07-16T13:58:46+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/astropy__astropy-14539/prompt.txt	文件	93101	94208	2026-07-16T13:58:32+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/astropy__astropy-14539/raw_output.txt	文件	849	4096	2026-07-16T13:58:46+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/astropy__astropy-14539/trace.json	文件	921	4096	2026-07-16T13:58:46+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/django__django-11163/prediction.json	文件	2085	4096	2026-07-16T14:03:05+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/django__django-11163/prompt.txt	文件	127070	131072	2026-07-16T14:02:42+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/django__django-11163/raw_output.txt	文件	957	4096	2026-07-16T14:03:05+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/django__django-11163/trace.json	文件	914	4096	2026-07-16T14:03:05+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/django__django-11603/prediction.json	文件	2915	4096	2026-07-16T13:59:04+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/django__django-11603/prompt.txt	文件	112018	114688	2026-07-16T13:58:46+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/django__django-11603/raw_output.txt	文件	1360	4096	2026-07-16T13:59:04+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/django__django-11603/trace.json	文件	915	4096	2026-07-16T13:59:04+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/experiment.json	文件	699	4096	2026-07-16T13:57:24+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/matplotlib__matplotlib-24627/prediction.json	文件	1777	4096	2026-07-16T13:59:21+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/matplotlib__matplotlib-24627/prompt.txt	文件	111905	114688	2026-07-16T13:59:04+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/matplotlib__matplotlib-24627/raw_output.txt	文件	782	4096	2026-07-16T13:59:21+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/matplotlib__matplotlib-24627/trace.json	文件	946	4096	2026-07-16T13:59:21+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/matplotlib__matplotlib-26291/prediction.json	文件	1611	4096	2026-07-16T14:04:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/matplotlib__matplotlib-26291/prompt.txt	文件	110901	114688	2026-07-16T14:03:05+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/matplotlib__matplotlib-26291/raw_output.txt	文件	709	4096	2026-07-16T14:04:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/matplotlib__matplotlib-26291/trace.json	文件	946	4096	2026-07-16T14:04:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/mwaskom__seaborn-3187/prediction.json	文件	1964	4096	2026-07-16T14:01:12+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/mwaskom__seaborn-3187/prompt.txt	文件	111002	114688	2026-07-16T14:00:12+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/mwaskom__seaborn-3187/raw_output.txt	文件	859	4096	2026-07-16T14:01:12+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/mwaskom__seaborn-3187/trace.json	文件	918	4096	2026-07-16T14:01:12+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pallets__flask-5014/prediction.json	文件	630	4096	2026-07-16T13:57:32+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pallets__flask-5014/prompt.txt	文件	116519	118784	2026-07-16T13:57:24+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pallets__flask-5014/raw_output.txt	文件	235	4096	2026-07-16T13:57:32+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pallets__flask-5014/trace.json	文件	910	4096	2026-07-16T13:57:32+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/progress.log	文件	11600	12288	2026-07-16T14:05:29+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/psf__requests-1142/prediction.json	文件	2571	4096	2026-07-16T13:59:54+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/psf__requests-1142/prompt.txt	文件	116909	118784	2026-07-16T13:59:43+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/psf__requests-1142/raw_output.txt	文件	1170	4096	2026-07-16T13:59:54+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/psf__requests-1142/trace.json	文件	907	4096	2026-07-16T13:59:54+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/psf__requests-5414/prediction.json	文件	2775	4096	2026-07-16T14:05:29+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/psf__requests-5414/prompt.txt	文件	114846	118784	2026-07-16T14:04:55+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/psf__requests-5414/raw_output.txt	文件	1253	4096	2026-07-16T14:05:29+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/psf__requests-5414/trace.json	文件	907	4096	2026-07-16T14:05:29+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pydata__xarray-4075/prediction.json	文件	1122	4096	2026-07-16T14:01:24+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pydata__xarray-4075/prompt.txt	文件	104303	106496	2026-07-16T14:01:12+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pydata__xarray-4075/raw_output.txt	文件	475	4096	2026-07-16T14:01:24+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pydata__xarray-4075/trace.json	文件	910	4096	2026-07-16T14:01:24+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pylint-dev__pylint-7080/prediction.json	文件	4902	8192	2026-07-16T14:00:12+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pylint-dev__pylint-7080/prompt.txt	文件	35592	36864	2026-07-16T13:59:54+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pylint-dev__pylint-7080/raw_output.txt	文件	2255	4096	2026-07-16T14:00:12+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pylint-dev__pylint-7080/trace.json	文件	926	4096	2026-07-16T14:00:12+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pytest-dev__pytest-7432/prediction.json	文件	1930	4096	2026-07-16T14:04:55+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pytest-dev__pytest-7432/prompt.txt	文件	111698	114688	2026-07-16T14:04:30+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pytest-dev__pytest-7432/raw_output.txt	文件	850	4096	2026-07-16T14:04:55+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pytest-dev__pytest-7432/trace.json	文件	926	4096	2026-07-16T14:04:55+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pytest-dev__pytest-7982/prediction.json	文件	1678	4096	2026-07-16T13:59:43+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pytest-dev__pytest-7982/prompt.txt	文件	100882	102400	2026-07-16T13:59:21+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pytest-dev__pytest-7982/raw_output.txt	文件	730	4096	2026-07-16T13:59:43+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/pytest-dev__pytest-7982/trace.json	文件	926	4096	2026-07-16T13:59:43+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/scikit-learn__scikit-learn-12585/prediction.json	文件	1499	4096	2026-07-16T13:57:55+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/scikit-learn__scikit-learn-12585/prompt.txt	文件	108771	110592	2026-07-16T13:57:32+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/scikit-learn__scikit-learn-12585/raw_output.txt	文件	658	4096	2026-07-16T13:57:55+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/scikit-learn__scikit-learn-12585/trace.json	文件	962	4096	2026-07-16T13:57:55+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/scikit-learn__scikit-learn-13496/prediction.json	文件	3513	4096	2026-07-16T14:01:38+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/scikit-learn__scikit-learn-13496/prompt.txt	文件	103613	106496	2026-07-16T14:01:24+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/scikit-learn__scikit-learn-13496/raw_output.txt	文件	1634	4096	2026-07-16T14:01:38+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/scikit-learn__scikit-learn-13496/trace.json	文件	963	4096	2026-07-16T14:01:38+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sphinx-doc__sphinx-9591/prediction.json	文件	4666	8192	2026-07-16T13:58:20+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sphinx-doc__sphinx-9591/prompt.txt	文件	9983	12288	2026-07-16T13:57:55+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sphinx-doc__sphinx-9591/raw_output.txt	文件	2155	4096	2026-07-16T13:58:20+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sphinx-doc__sphinx-9591/trace.json	文件	925	4096	2026-07-16T13:58:20+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sphinx-doc__sphinx-9711/prediction.json	文件	2524	4096	2026-07-16T14:02:04+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sphinx-doc__sphinx-9711/prompt.txt	文件	9614	12288	2026-07-16T14:01:38+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sphinx-doc__sphinx-9711/raw_output.txt	文件	1161	4096	2026-07-16T14:02:04+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sphinx-doc__sphinx-9711/trace.json	文件	925	4096	2026-07-16T14:02:04+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/summary.json	文件	1697	4096	2026-07-16T14:05:29+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sympy__sympy-19637/prediction.json	文件	869	4096	2026-07-16T14:02:24+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sympy__sympy-19637/prompt.txt	文件	98907	102400	2026-07-16T14:02:04+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sympy__sympy-19637/raw_output.txt	文件	353	4096	2026-07-16T14:02:24+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sympy__sympy-19637/trace.json	文件	905	4096	2026-07-16T14:02:24+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sympy__sympy-19783/prediction.json	文件	629	4096	2026-07-16T13:58:32+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sympy__sympy-19783/prompt.txt	文件	100907	102400	2026-07-16T13:58:20+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sympy__sympy-19783/raw_output.txt	文件	242	4096	2026-07-16T13:58:32+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/results/2026-07-16/baseline_zsp_stratified20_deepseek_v4_t0/sympy__sympy-19783/trace.json	文件	906	4096	2026-07-16T13:58:32+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/run.py	文件	351	4096	2026-07-14T10:11:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/runner.py	文件	5142	8192	2026-07-14T10:11:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/Gate/baseline/zero_shot_plus/tests/test_zero_shot_plus.py	文件	3527	4096	2026-07-14T10:11:59+08:00	独立项目：缺陷复现测试生成	
+/home/hcf/project/QE/.gitattributes	文件	126	4096	2026-09-04T20:15:39+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/.gitignore	文件	582	4096	2026-09-12T16:51:14+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/README.md	文件	6220	8192	2026-10-09T14:28:28+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/artifacts/dog_v3_1_900.background.log	文件	31774	36864	2026-09-13T16:32:02+08:00	数据/语义标注/覆盖实验	
+/home/hcf/project/QE/artifacts/feature_pilot_20260908.zip	文件	550216	552960	2026-09-08T14:14:13+08:00	早期方案/方法支线	
+/home/hcf/project/QE/artifacts/feature_pilot_sensenova_20260908.zip	文件	563422	565248	2026-09-08T14:30:07+08:00	早期方案/方法支线	
+/home/hcf/project/QE/artifacts/person300_auto_feature_background.log	文件	1021	4096	2026-09-13T20:54:27+08:00	数据/语义标注/覆盖实验	
+/home/hcf/project/QE/artifacts/person300_auto_feature_surface_v2_background.log	文件	39	4096	2026-09-13T21:07:05+08:00	数据/语义标注/覆盖实验	
+/home/hcf/project/QE/configs/auto_feature_policy_head_face_v1_0.json	文件	387	4096	2026-09-22T15:18:50+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/auto_feature_policy_person_surface_v2.json	文件	1253	4096	2026-09-13T21:04:58+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/auto_feature_policy_v1.json	文件	859	4096	2026-09-13T20:51:12+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/cat_feature_schema_v1_0.json	文件	6273	8192	2026-09-20T11:14:59+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/difficulty_baseline_v1.json	文件	1136	4096	2026-09-07T13:21:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/dog_diag_feature_schema_v1_0.json	文件	3842	4096	2026-09-28T00:49:16+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/dog_feature_schema_v1.json	文件	8695	12288	2026-09-11T14:51:55+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/dog_feature_schema_v2.json	文件	3044	4096	2026-09-11T23:01:02+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/dog_feature_schema_v3.json	文件	6419	8192	2026-09-13T13:40:11+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/dog_feature_schema_v3_1.json	文件	6685	8192	2026-09-13T14:49:25+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/dog_targeted_supplement_v1.json	文件	1653	4096	2026-09-12T16:36:15+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/dta_phase1.json	文件	905	4096	2026-09-10T23:10:30+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/head_face_feature_schema_v1_0.json	文件	6656	8192	2026-09-22T15:19:20+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/multiclass_object_state_schema_v1_0.json	文件	4210	8192	2026-09-28T18:23:15+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/openimages_v7_cua_vsl_v1.json	文件	2474	4096	2026-09-18T14:43:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/configs/openimages_v7_dog_gap_experiment_v1.json	文件	1861	4096	2026-09-17T15:50:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/QE_group_meeting_visual_test_adequacy_20260915.pptx	文件	2966077	2969600	2026-09-15T16:08:20+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/QE_group_meeting_visual_test_adequacy_20260915_v3.pptx	文件	1872030	1875968	2026-09-15T12:03:11+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/QE_group_meeting_visual_test_adequacy_20260915_v4.pptx	文件	1872163	1875968	2026-09-15T13:34:35+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/QE_group_meeting_visual_test_adequacy_20260916_final_integrated_motivation.pptx	文件	1952783	1953792	2026-09-15T21:37:09+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/QE_group_meeting_visual_test_adequacy_20260916_final_with_summary.pptx	文件	1398377	1400832	2026-09-15T20:45:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/QE研究思想演变与路线复盘_20261009.md	文件	29690	32768	2026-10-09T14:45:01+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/QE组会汇报演讲稿_20260915.md	文件	22536	24576	2026-09-15T15:55:11+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/QE组会汇报演讲稿_PPT视觉提示版_20260915.md	文件	20652	24576	2026-09-15T18:07:51+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/QE组会汇报演讲稿_方法先行11页版_20260916.md	文件	15851	16384	2026-09-15T18:53:39+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/QE组会汇报演讲稿_最终9页自然过渡版_20260916.md	文件	13764	16384	2026-09-15T21:37:26+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/QE组会论文讲解速记_20260915.md	文件	10326	12288	2026-09-15T15:20:29+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/archive/20261007_before_report_sync/visual_state_testing_journal_en_20261007.docx	文件	4390201	4390912	2026-10-07T10:18:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/archive/20261007_before_report_sync/visual_state_testing_journal_en_20261007.md	文件	54737	57344	2026-10-07T10:18:16+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/archive/20261007_before_report_sync/visual_state_testing_journal_supplement_20261007.docx	文件	64970	65536	2026-10-07T10:18:26+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/archive/20261007_before_report_sync/visual_state_testing_journal_supplement_20261007.md	文件	37253	40960	2026-10-07T10:18:20+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/archive/20261007_before_report_sync/visual_state_testing_journal_zh_20261007.docx	文件	4388387	4390912	2026-10-07T10:18:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/archive/20261007_before_report_sync/visual_state_testing_journal_zh_20261007.md	文件	41131	45056	2026-10-07T10:18:20+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/archive/20261007_before_report_sync/优点.docx	文件	891847	892928	2026-10-06T19:16:29+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/archive/20261007_before_report_sync/优点.md	文件	19017	20480	2026-10-06T19:16:29+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/archive/20261007_before_report_sync/局限性.docx	文件	46819	49152	2026-10-06T19:26:22+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/archive/20261007_before_report_sync/局限性.md	文件	15334	16384	2026-10-06T19:26:22+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/auto_feature_workflow.md	文件	1573	4096	2026-09-13T20:07:01+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/controlled_risk_distribution_protocol_20261005.md	文件	5125	8192	2026-10-05T22:48:58+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/coverage_utility_aligned_visual_state_learning_plan_20260918.md	文件	29796	32768	2026-09-18T14:09:24+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/cua_vsl_execution_plan_20260918.md	文件	19558	20480	2026-09-18T14:08:46+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/current_dog_coverage_experiment_progress_20260918.md	文件	17624	20480	2026-09-20T12:04:10+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/current_results_reporting_20261005.md	文件	11942	12288	2026-10-05T20:47:45+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dataset_license_inventory_20261007.md	文件	2149	4096	2026-10-07T10:18:06+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/difficulty_claim_evidence.md	文件	3319	4096	2026-09-07T13:46:20+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/difficulty_protocol.md	文件	9554	12288	2026-09-07T13:40:14+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/difficulty_research_log.md	文件	4494	8192	2026-09-07T13:46:20+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/difficulty_validation_report.md	文件	5928	8192	2026-09-07T13:46:20+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_dataset_paper_final_zh.docx	文件	1965867	1966080	2026-09-14T11:00:06+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_dataset_paper_revised_zh.docx	文件	43133	45056	2026-09-14T09:31:27+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_dataset_paper_revised_zh.md	文件	15572	16384	2026-09-14T10:59:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_feature_automatic_acceptance_rules_v1.md	文件	1130	4096	2026-09-12T13:44:50+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_feature_pipeline_plan_v1.md	文件	2982	4096	2026-09-11T14:53:46+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_feature_pipeline_plan_v2.md	文件	3863	4096	2026-09-11T18:57:18+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_phase1_mainline_experiment_protocol_20260915.md	文件	16888	20480	2026-09-15T14:31:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_positive_pilot_acceptance_rules_v1.md	文件	1155	4096	2026-09-12T14:11:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_v3_1_claim_evidence.md	文件	1880	4096	2026-09-14T09:52:37+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_v3_1_figures/fig1_coverage_before_after.png	文件	52255	53248	2026-09-14T09:53:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_v3_1_figures/fig2_gap_composition.png	文件	42868	45056	2026-09-14T09:53:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_v3_1_figures/fig3_scene_distribution.png	文件	56239	57344	2026-09-14T09:53:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_v3_1_figures/fig4_unknown_rate.png	文件	64827	65536	2026-09-14T09:53:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_v3_1_figures/fig5_coverage_formula.png	文件	50694	53248	2026-09-14T09:53:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_v3_1_overall_workflow.md	文件	5311	8192	2026-09-13T19:26:18+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_v3_1_paper_draft_zh.docx	文件	1745887	1748992	2026-09-14T09:19:11+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dog_v3_1_paper_draft_zh.md	文件	13048	16384	2026-09-14T09:09:11+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dta_claim_evidence_20260908.md	文件	6586	8192	2026-09-08T11:37:22+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dta_deep_analysis_20260908.md	文件	21460	24576	2026-09-08T11:37:22+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/dta_subject_selection_v8.md	文件	2600	4096	2026-09-10T23:11:25+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/imagenetv2_full_evaluation_log.md	文件	5611	8192	2026-09-07T21:21:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/label_disagreement_sensitivity_protocol_20261005.md	文件	2805	4096	2026-10-05T20:33:50+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/multiclass_object_coverage_protocol_20260928.md	文件	2630	4096	2026-09-28T18:23:16+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/objects365_independent_confirmation_protocol_20261005.md	文件	6781	8192	2026-10-05T15:10:13+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/openimages_v7_dog_gap_experiment_protocol_20260917.md	文件	8685	12288	2026-09-18T10:46:35+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/pascal_voc2012_independent_dog_validation_pool_20260920.md	文件	3134	4096	2026-09-20T17:23:27+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/random_stratification_ablation_protocol_20261006.md	文件	4072	4096	2026-10-06T12:26:11+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/ranking_attribute_validation_protocol_20261005.md	文件	3570	4096	2026-10-05T21:16:16+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/ranking_attribute_validation_technical_amendment_20261005.md	文件	1049	4096	2026-10-05T21:23:33+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/research_summary_for_paper_20261006.docx	文件	45768	49152	2026-10-06T10:27:29+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/research_summary_for_paper_20261006.md	文件	15968	16384	2026-10-06T10:27:29+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/scale_only_confirmation_protocol_20261007.md	文件	3156	4096	2026-10-07T09:49:07+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/semantic_test_adequacy_next_stage_plan_20260920.md	文件	17687	20480	2026-09-20T13:27:41+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/sixclass_car_extension_protocol_20261004.md	文件	4558	8192	2026-10-04T13:09:24+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/sixclass_difficulty_supplement_protocol_20261004.md	文件	2830	4096	2026-10-04T18:11:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/sixclass_dual_vlm_complete_case_amendment_20261004.md	文件	2855	4096	2026-10-04T17:06:06+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/sixclass_dual_vlm_protocol_20261004.md	文件	5579	8192	2026-10-04T14:43:55+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/sixclass_dual_vlm_replacement_protocol_20261004.md	文件	3116	4096	2026-10-04T17:55:25+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/sixclass_dual_vlm_replacement_results_20261004.md	文件	10094	12288	2026-10-04T18:02:40+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/sixclass_independent_confirmation_protocol_20261004.md	文件	7404	8192	2026-10-04T20:26:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/sixclass_voc_external_confirmation_protocol_20261005.md	文件	5880	8192	2026-10-05T10:34:47+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_automatic_evidence_update_20261005.md	文件	8135	8192	2026-10-05T13:38:13+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_automatic_strengthening_protocol_20261005.md	文件	16521	20480	2026-10-05T12:59:28+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_coverage_difficulty_stratified_paper_20261004.docx	文件	634925	638976	2026-10-04T18:36:23+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_coverage_difficulty_stratified_paper_20261004.md	文件	45770	49152	2026-10-04T18:36:23+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_coverage_empirical_study_draft_20260929.md	文件	53800	57344	2026-09-29T12:18:41+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_coverage_empirical_study_revised_20260929.docx	文件	4753934	4755456	2026-09-29T12:19:02+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_coverage_external_evidence_revision_20261005.docx	文件	43939	45056	2026-10-05T11:25:17+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_coverage_external_evidence_revision_20261005.md	文件	14905	16384	2026-10-05T11:25:15+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_paper_strengthening_plan_20261005.md	文件	20261	20480	2026-10-05T12:59:28+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_progressive_difficulty_diagnostic_protocol_20260928.md	文件	14309	16384	2026-09-28T00:36:36+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_stratified_testing_empirical_paper_20261005.md	文件	54207	57344	2026-10-05T13:35:56+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_empirical_paper_integrated_20261005.docx	文件	1046204	1048576	2026-10-05T20:52:07+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_empirical_paper_integrated_20261005.md	文件	70915	73728	2026-10-05T20:51:47+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_empirical_paper_rank_validated_20261005.docx	文件	1342476	1343488	2026-10-05T21:33:18+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_empirical_paper_rank_validated_20261005.md	文件	78785	81920	2026-10-05T21:32:56+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_empirical_paper_updated_20261006.docx	文件	3210442	3211264	2026-10-06T11:06:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_empirical_paper_updated_20261006.md	文件	95251	98304	2026-10-06T11:06:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_en_20261006.docx	文件	537280	540672	2026-10-06T21:26:40+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_en_20261006.md	文件	45356	49152	2026-10-06T21:15:36+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_en_20261007.docx	文件	4391453	4395008	2026-10-07T12:02:49+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_en_20261007.md	文件	57653	61440	2026-10-07T12:02:49+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_materials_20261006.zip	文件	4287334	4288512	2026-10-06T21:26:42+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_supplement_20261006.docx	文件	52355	53248	2026-10-06T21:26:42+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_supplement_20261006.md	文件	20231	20480	2026-10-06T21:26:40+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_supplement_20261007.docx	文件	65251	65536	2026-10-07T12:02:54+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_supplement_20261007.md	文件	37679	40960	2026-10-07T12:02:49+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_zh_20261006.docx	文件	535352	536576	2026-10-06T21:26:40+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_zh_20261006.md	文件	33365	36864	2026-10-06T21:26:37+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_zh_20261007.docx	文件	4389477	4390912	2026-10-07T12:02:49+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_journal_zh_20261007.md	文件	43507	45056	2026-10-07T12:02:49+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_paper.docx	文件	3216305	3219456	2026-10-06T11:17:46+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_paper.md	文件	83000	86016	2026-10-06T11:17:46+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_paper_controls_20261006.docx	文件	3621695	3624960	2026-10-06T12:36:27+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_paper_controls_20261006.md	文件	91753	94208	2026-10-06T12:34:26+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_portable_reanalysis_20261007.zip	文件	52134311	52137984	2026-10-07T12:03:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_sqj_latex_20261006.zip	文件	99360	102400	2026-10-06T21:26:42+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_sqj_latex_20261007.zip	文件	3008826	3010560	2026-10-07T12:03:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/visual_state_testing_submission_materials_20261007.zip	文件	89532283	89534464	2026-10-07T12:03:01+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/优点.docx	文件	4582654	4583424	2026-10-07T12:02:55+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/优点.md	文件	11218	12288	2026-10-07T11:59:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/优点_20261007.docx	文件	4582654	4583424	2026-10-07T12:02:55+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/优点_20261007.md	文件	11218	12288	2026-10-07T11:59:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/八种模型_分层降幅对比_20261008.docx	文件	440921	442368	2026-10-08T14:46:22+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/八种模型_分层降幅对比_20261008.pdf	文件	505320	507904	2026-10-08T14:48:30+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/八种模型_分层降幅对比图与数据_20261008.zip	文件	832927	835584	2026-10-08T14:49:47+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/八种模型_对比图与数据_20261008.zip	文件	8817780	8818688	2026-10-08T14:39:53+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/八种模型_结果对比图_20261008.docx	文件	1465931	1466368	2026-10-08T14:38:11+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/八种模型_结果对比图_20261008.pdf	文件	1213156	1216512	2026-10-08T14:39:01+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/八种模型结果_图表与数据_20261008.zip	文件	10824060	10825728	2026-10-08T14:31:17+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/八种模型结果_逐模型讲解版_20261008.docx	文件	1368740	1372160	2026-10-08T14:31:16+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/八种模型结果_逐模型讲解版_20261008.md	文件	15424	16384	2026-10-08T14:31:16+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/其他目录占用与关联索引_20261009.tsv	文件	255377	258048	2026-10-09T14:57:05+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/分层进度汇报_可编辑图表素材_20261008.zip	文件	8271968	8273920	2026-10-08T09:52:41+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/复现入口说明_20261007.md	文件	3867	4096	2026-10-07T10:17:14+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/局限性.docx	文件	164649	167936	2026-10-07T12:02:55+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/局限性.md	文件	11639	12288	2026-10-07T11:59:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/局限性_20261007.docx	文件	164649	167936	2026-10-07T12:02:55+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/局限性_20261007.md	文件	11639	12288	2026-10-07T11:59:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_含最终结论与投稿依据_20261008.docx	文件	4264645	4268032	2026-10-08T21:19:17+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_含最终结论与投稿依据_20261008.md	文件	22561	24576	2026-10-08T21:19:17+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_含最终结论与投稿依据_20261008.pdf	文件	3241113	3244032	2026-10-08T21:19:53+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_含模型降幅多图版_20261008.docx	文件	4261890	4263936	2026-10-08T15:01:40+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_含模型降幅多图版_20261008.md	文件	21205	24576	2026-10-08T15:01:40+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_含模型降幅多图版_20261008.pdf	文件	3203840	3207168	2026-10-08T15:02:28+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_模型降幅多图素材_20261008.zip	文件	11572748	11575296	2026-10-08T15:03:09+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_正文整合版_20261008.docx	文件	4262067	4263936	2026-10-08T18:59:44+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_正文整合版_20261008.md	文件	18481	20480	2026-10-08T18:59:44+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_正文整合版_20261008.pdf	文件	3198834	3198976	2026-10-08T19:00:18+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_简单易懂版_20261008.docx	文件	192813	196608	2026-10-08T11:07:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_简单易懂版_20261008.md	文件	11983	12288	2026-10-08T11:07:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_逐图解释版_20261008.docx	文件	1873449	1875968	2026-10-08T14:19:17+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_逐图解释版_20261008.md	文件	17803	20480	2026-10-08T14:19:17+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_逐图解释版_20261008.pdf	文件	1298558	1302528	2026-10-08T14:20:02+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_逐图解释版_含八种模型结果_20261008.docx	文件	3203339	3207168	2026-10-08T14:31:16+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_逐图解释版_含八种模型结果_20261008.md	文件	33229	36864	2026-10-08T14:31:16+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/工作量_逐图解释版_图表素材_20261008.zip	文件	13041067	13041664	2026-10-08T14:21:19+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/投稿收口与尺度对照结果_20261007.docx	文件	3890912	3891200	2026-10-07T12:02:56+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/投稿收口与尺度对照结果_20261007.md	文件	7144	8192	2026-10-07T10:20:06+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/整合后试运行记录_20261009.md	文件	2883	4096	2026-10-09T14:28:28+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/期刊优化说明_20261006.docx	文件	41732	45056	2026-10-06T21:26:42+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/期刊优化说明_20261006.md	文件	5579	8192	2026-10-06T21:20:58+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/老师分层建议之后的工作与汇报讲稿_20261008.md	文件	17327	20480	2026-10-08T09:31:58+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/老师分层建议之后的进度汇报_图文讲解版_20261008.docx	文件	4880526	4882432	2026-10-08T09:50:37+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/老师分层建议之后的进度汇报_图文讲解版_20261008.md	文件	20369	20480	2026-10-08T09:50:37+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/老师分层建议之后的进度汇报_图文讲解版_20261008.pdf	文件	1619645	1622016	2026-10-08T09:50:56+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/视觉测试数据充分性_20篇文献综述_20260910.md	文件	28295	28672	2026-09-10T10:37:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/视觉测试数据充分性_20篇论文对照表_20260910.csv	文件	12407	16384	2026-09-10T10:30:09+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/视觉测试数据充分性_25篇文献综述_20260910.md	文件	35519	36864	2026-09-10T10:49:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/视觉测试数据充分性_25篇论文对照表_20260910.csv	文件	15553	16384	2026-09-10T10:37:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/视觉测试数据充分性_文献证据记录_20260910.md	文件	13080	16384	2026-09-10T10:49:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/视觉测试数据充分性研究_具体任务与预期效果_20260908.md	文件	30952	32768	2026-09-08T15:50:51+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/视觉测试数据覆盖与充分性评价研究综述_论文体_20260910.md	文件	32472	32768	2026-09-10T10:49:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/论文_最新.docx	文件	4389477	4390912	2026-10-07T12:02:49+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/docs/论文_最新.md	文件	43507	45056	2026-10-07T12:02:49+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog-pipeline-paper-figure-image2-4k.png	文件	3659433	3661824	2026-09-14T19:21:40+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog-pipeline-paper-figure-image2.png	文件	1582568	1585152	2026-09-14T19:14:22+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog-pipeline-step2-only-image2-preview.png	文件	46106	49152	2026-09-14T19:31:17+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog-pipeline-step2-only-image2.png	文件	297107	299008	2026-09-14T19:30:27+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog-pipeline-step2-original-photo-full-preview.png	文件	46886	49152	2026-09-14T19:37:42+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog-pipeline-step2-original-photo-full.png	文件	296918	299008	2026-09-14T19:37:42+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog-pipeline-step2-original-photo-preview.png	文件	51776	53248	2026-09-14T19:36:25+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog-pipeline-step2-original-photo.png	文件	299892	303104	2026-09-14T19:36:25+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog_v3_1_workflow.png	文件	1586810	1589248	2026-09-13T16:46:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog_v3_1_workflow_zh.png	文件	1431975	1433600	2026-09-13T16:49:44+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog_v3_1_workflow_zh_examples.png	文件	1450363	1454080	2026-09-13T16:53:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog_v3_1_workflow_zh_polished.png	文件	1713378	1716224	2026-09-13T19:22:27+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog_v3_1_workflow_zh_step2_original_4k-preview.png	文件	425894	425984	2026-09-14T20:18:56+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog_v3_1_workflow_zh_step2_original_4k.png	文件	4180547	4182016	2026-09-14T20:18:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog_v3_1_workflow_zh_step2_original_hd-preview.png	文件	166780	167936	2026-09-14T20:18:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog_v3_1_workflow_zh_step2_original_hd.png	文件	1621541	1622016	2026-09-14T20:18:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/dog_v3_1_workflow_zh_step2_source-preview.png	文件	159809	163840	2026-09-14T20:16:36+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/qe-visual-test-process-image2.png	文件	1499865	1503232	2026-09-12T16:43:47+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/imagegen/selected-dog-image2-cutout.png	文件	1147425	1150976	2026-09-14T19:27:52+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/research-figure-composer/dog-pipeline-paper-figure.png	文件	1185740	1187840	2026-09-14T19:09:20+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/research-figure-composer/draw_dog_pipeline_paper_png.py	文件	14936	16384	2026-09-14T19:09:01+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/research-figure-composer/draw_qe_model.py	文件	11151	12288	2026-09-12T23:46:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/research-figure-composer/draw_qe_paper_figure.py	文件	12703	16384	2026-09-12T23:56:56+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/research-figure-composer/fonts/NotoSansSC-Bold.ttf	文件	10530408	10530816	2026-09-14T19:04:50+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/research-figure-composer/fonts/NotoSansSC-Regular.ttf	文件	10540644	10543104	2026-09-14T19:04:48+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/research-figure-composer/qe-research-model.png	文件	301409	303104	2026-09-12T23:46:47+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/research-figure-composer/qe-research-model.spec.json	文件	929	4096	2026-09-12T23:46:46+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/research-figure-composer/qe-research-model.svg	文件	23055	24576	2026-09-12T23:46:46+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/research-figure-composer/qe-research-paper-figure.png	文件	404824	405504	2026-09-12T23:57:50+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/research-figure-composer/qe-research-paper-figure.spec.json	文件	704	4096	2026-09-12T23:57:23+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/output/research-figure-composer/qe-research-paper-figure.svg	文件	29359	32768	2026-09-12T23:57:23+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/cat_feature_annotation_v1_0.txt	文件	2401	4096	2026-09-20T11:14:59+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/category_discovery_v1.txt	文件	707	4096	2026-09-13T20:04:01+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/dog_feature_annotation_v1.txt	文件	1018	4096	2026-09-11T15:26:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/dog_feature_annotation_v2.txt	文件	848	4096	2026-09-11T23:01:02+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/dog_feature_annotation_v3.txt	文件	2919	4096	2026-09-13T13:44:51+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/dog_feature_annotation_v3_1.txt	文件	3017	4096	2026-09-13T14:49:25+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/dog_independent_classifier_v1.txt	文件	420	4096	2026-09-11T14:51:55+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/feature_annotation_auto_v1.txt	文件	811	4096	2026-09-13T20:04:01+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/feature_annotation_car_shared_v1_0.txt	文件	1818	4096	2026-10-04T12:57:47+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/feature_annotation_head_face_v1_0.txt	文件	1760	4096	2026-09-22T15:18:50+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/feature_annotation_multiclass_object_v1_0.txt	文件	1994	4096	2026-09-28T18:23:15+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/feature_annotation_person_surface_v2.txt	文件	1072	4096	2026-09-13T21:04:58+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/schema_generator_person_surface_v2.txt	文件	2113	4096	2026-09-13T21:04:58+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/schema_generator_v1.txt	文件	1302	4096	2026-09-13T20:04:01+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/vlm_prompt_v1.txt	文件	1030	4096	2026-09-10T16:58:09+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/prompts/vlm_prompt_v2_foreground.txt	文件	4906	8192	2026-09-10T23:10:30+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/__init__.py	文件	45	4096	2026-09-07T13:21:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/auto_feature/__init__.py	文件	333	4096	2026-09-13T20:03:33+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/auto_feature/category.py	文件	2874	4096	2026-09-13T20:03:33+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/auto_feature/pipeline.py	文件	19407	20480	2026-09-13T21:05:37+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/auto_feature/schema_generator.py	文件	816	4096	2026-09-13T20:03:33+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/auto_feature/schema_validator.py	文件	9752	12288	2026-09-13T21:04:58+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/difficulty/__init__.py	文件	111	4096	2026-09-07T13:21:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/difficulty/__main__.py	文件	2342	4096	2026-09-07T13:29:14+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/difficulty/inventory.py	文件	17362	20480	2026-09-07T13:40:14+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/difficulty/io.py	文件	2185	4096	2026-09-07T13:21:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/difficulty/metrics.py	文件	4446	8192	2026-09-07T13:21:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/difficulty/pipeline.py	文件	26722	28672	2026-09-07T13:42:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/difficulty/review.py	文件	2028	4096	2026-09-07T13:29:14+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/difficulty/scoring.py	文件	5641	8192	2026-09-07T13:21:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/dta/__init__.py	文件	115	4096	2026-09-10T16:40:30+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/dta/__main__.py	文件	1364	4096	2026-09-11T08:49:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/dta/clients.py	文件	6627	8192	2026-09-11T08:52:13+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/dta/geometry.py	文件	4834	8192	2026-09-10T17:11:58+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/dta/io.py	文件	2467	4096	2026-09-10T16:40:30+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/dta/pipeline.py	文件	10835	12288	2026-09-10T17:24:07+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/dta/reports.py	文件	14083	16384	2026-09-10T23:11:25+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/dta/review_app.html	文件	14483	16384	2026-09-11T08:49:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/dta/review_web.py	文件	7826	8192	2026-09-11T08:49:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/qe_quality/dta/schema.py	文件	6170	8192	2026-09-10T23:10:30+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/requirements-difficulty.txt	文件	88	4096	2026-09-07T13:31:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/requirements-dta.txt	文件	205	4096	2026-09-12T16:36:15+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/reviews/baseline_v1_visual_notes.json	文件	10403	12288	2026-09-07T13:35:34+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/reviews/baseline_v1_visual_reviews.csv	文件	25453	28672	2026-09-07T13:41:20+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/add_summary_to_final_ppt.py	文件	7098	8192	2026-09-15T20:45:45+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/add_workload_conclusions.py	文件	9560	12288	2026-10-08T21:19:17+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_automatic_strengthening.py	文件	23329	24576	2026-10-05T13:26:45+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_coco_openimages_gap_vs_random_gradient.py	文件	13204	16384	2026-09-19T20:39:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_coverage_batches_and_state_risk.py	文件	31995	32768	2026-09-20T14:07:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_dense_coverage_and_errors.py	文件	45261	49152	2026-09-21T14:20:10+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_dog_feature_coverage.py	文件	5832	8192	2026-09-12T13:44:50+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_dog_positive_pilot.py	文件	3810	4096	2026-09-12T14:11:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_dog_v3_distribution.py	文件	3704	4096	2026-09-13T13:53:11+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_dual_vlm_study.py	文件	44502	45056	2026-10-04T14:55:49+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_independent_sixclass.py	文件	27105	28672	2026-10-04T20:31:47+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_label_disagreement_sensitivity.py	文件	16331	16384	2026-10-05T20:33:50+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_objects365_confirmation.py	文件	10019	12288	2026-10-05T15:08:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_online_vlm_agreement.py	文件	20931	24576	2026-09-29T12:08:31+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_ranking_attribute_validation.py	文件	19596	20480	2026-10-05T21:20:28+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_sixclass_difficulty.py	文件	14243	16384	2026-10-04T18:11:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/analyze_sixclass_voc_external.py	文件	5166	8192	2026-10-05T10:21:35+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/annotate_car_online_resumable.py	文件	1781	4096	2026-10-04T13:48:06+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/annotate_dual_vlm.py	文件	7853	8192	2026-10-04T14:53:30+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/annotate_head_face_v1.py	文件	7698	8192	2026-09-28T17:37:29+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/annotate_independent_sixclass_pool.py	文件	889	4096	2026-10-04T20:10:42+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/annotate_multiclass_online_sensenova.py	文件	13841	16384	2026-09-29T09:32:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/assets/NotoSansSC-LICENSE.txt	文件	4388	8192	2026-09-13T10:25:19+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/assets/NotoSansSC-Regular.ttf	文件	10540644	10543104	2026-09-13T10:25:03+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_automatic_states.py	文件	9580	12288	2026-10-05T13:11:15+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_automatic_strengthening_results.py	文件	2967	4096	2026-10-05T13:36:59+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_controlled_risk_distribution.py	文件	12521	16384	2026-10-05T23:10:45+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_dual_vlm_replacements.py	文件	3516	4096	2026-10-04T17:56:50+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_head_face_annotations.py	文件	4254	8192	2026-09-22T15:54:15+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_integrated_visual_state_paper.py	文件	5296	8192	2026-10-05T20:44:44+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_multiclass_near_duplicates.py	文件	12019	12288	2026-09-29T00:29:03+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_objects365_confirmation_source.py	文件	13429	16384	2026-10-05T17:18:39+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_portable_submission.py	文件	3254	4096	2026-10-07T10:20:06+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_random_stratification_ablation.py	文件	12145	12288	2026-10-06T12:36:26+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_rank_validated_visual_state_paper.py	文件	5248	8192	2026-10-05T21:32:56+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_sixclass_stratified_paper.py	文件	6757	8192	2026-10-04T18:36:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_strengthening_results.py	文件	7468	8192	2026-09-29T12:14:56+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_updated_visual_state_paper.py	文件	8068	8192	2026-10-06T11:06:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/audit_visual_state_paper_20261005.py	文件	6810	8192	2026-10-05T12:01:23+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/automatic_strengthening_common.py	文件	4520	8192	2026-10-05T13:07:25+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_dog_v3_1_paper_docx.py	文件	6382	8192	2026-09-14T09:50:47+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_four_model_six_seed_evidence.py	文件	12754	16384	2026-09-17T14:05:23+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_group_meeting_ppt.js	文件	51366	53248	2026-09-15T16:08:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_illustrated_workload_word.py	文件	39406	40960	2026-10-08T14:19:16+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_journal_revision.py	文件	41032	45056	2026-10-07T09:51:13+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_limitations_word.py	文件	4442	8192	2026-10-06T19:26:22+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_model_comparison_figures.py	文件	8400	12288	2026-10-08T14:38:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_model_drop_comparison.py	文件	6804	8192	2026-10-08T14:46:20+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_model_results_word.py	文件	15933	16384	2026-10-08T14:31:12+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_multiclass_failure_atlas.py	文件	15328	16384	2026-09-29T00:32:02+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_positive_results_word.py	文件	39785	40960	2026-10-06T19:16:27+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_simple_workload_word.py	文件	22266	24576	2026-10-08T11:07:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_submission_closeout.py	文件	22550	24576	2026-10-07T12:00:28+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_submission_freeze.py	文件	12782	16384	2026-09-29T12:19:31+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_teacher_progress_word.py	文件	37265	40960	2026-10-08T09:50:34+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/build_workload_with_model_gaps.py	文件	14489	16384	2026-10-08T15:01:35+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/check_integrated_workspace.py	文件	8279	12288	2026-10-09T14:28:28+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/continue_openimages_v7_experiment.sh	文件	1407	4096	2026-09-17T18:46:56+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/dog_human_review_app.html	文件	9243	12288	2026-09-12T11:28:43+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/dog_human_review_server.py	文件	10305	12288	2026-09-12T11:26:14+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/dog_supplement_review_app.html	文件	15342	16384	2026-09-13T10:25:12+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/dog_supplement_review_server.py	文件	8069	8192	2026-09-13T10:25:12+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/download_sixclass_voc_sources.py	文件	4387	8192	2026-10-05T10:27:46+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/download_widerface_head_v1.sh	文件	2011	4096	2026-09-22T15:34:43+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/dual_vlm_common.py	文件	10671	12288	2026-10-04T14:38:41+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/estimate_openimages_state_utility_oof.py	文件	13497	16384	2026-09-18T14:24:22+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/evaluate_automatic_conditions.py	文件	8457	12288	2026-10-05T13:26:45+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/evaluate_coco_openimages_state_response.py	文件	20149	20480	2026-09-20T09:38:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/evaluate_dog_v3_1_supplement.py	文件	4383	8192	2026-09-13T16:41:14+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/export_controls_visual_state_paper.py	文件	675	4096	2026-10-06T12:36:26+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/export_empirical_paper_docx.py	文件	8256	12288	2026-09-29T08:41:53+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/export_integrated_visual_state_paper.py	文件	4259	8192	2026-10-05T20:51:47+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/export_rank_validated_visual_state_paper.py	文件	388	4096	2026-10-05T21:32:56+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/export_sixclass_stratified_paper.py	文件	1992	4096	2026-10-04T18:34:19+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/export_standard_visual_state_paper.py	文件	15226	16384	2026-10-06T11:17:46+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/export_updated_visual_state_paper.py	文件	484	4096	2026-10-06T10:58:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/extract_positive_models.py	文件	7670	8192	2026-09-17T13:41:22+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/fit_automatic_statistics.py	文件	11548	12288	2026-10-05T13:27:34+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/freeze_dog594_release.py	文件	19030	20480	2026-09-13T10:57:19+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/freeze_independent_sixclass_selection.py	文件	7960	8192	2026-10-04T20:10:42+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/independent_confirmation_common.py	文件	2006	4096	2026-10-04T20:08:22+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/integrate_motivation_slide.py	文件	7941	8192	2026-09-15T21:37:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/make_coco_openimages_gradient_figures.py	文件	12122	12288	2026-09-18T19:40:34+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/make_dog_error_review_html.py	文件	8908	12288	2026-09-12T10:11:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/make_dog_paper_figures.py	文件	4036	4096	2026-09-14T09:53:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/make_openimages_v7_result_figures.py	文件	14583	16384	2026-09-18T13:17:01+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/materialize_difficulty_reviews.py	文件	1904	4096	2026-09-07T13:35:34+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/modify_group_meeting_ppt_v3.py	文件	5887	8192	2026-09-15T13:00:18+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/modify_group_meeting_ppt_v4.py	文件	8690	12288	2026-09-15T13:33:06+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/monitor_cua_vsl_stage1.py	文件	2153	4096	2026-09-18T14:45:07+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/monitor_openimages_v7_training.py	文件	2221	4096	2026-09-18T10:48:19+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/objects365_confirmation_common.py	文件	2900	4096	2026-10-05T15:05:01+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/openimages_cua_vsl.py	文件	16717	20480	2026-09-18T14:20:12+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/package_submission_closeout.py	文件	15046	16384	2026-10-07T12:02:46+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/plot_dual_vlm_study.py	文件	9325	12288	2026-10-04T14:55:49+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/plot_label_disagreement_sensitivity.py	文件	2779	4096	2026-10-05T20:46:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/plot_ranking_attribute_validation.py	文件	10388	12288	2026-10-05T21:30:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/plot_sixclass_difficulty.py	文件	6953	8192	2026-10-04T18:32:23+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_automatic_strengthening.py	文件	15700	16384	2026-10-05T13:17:10+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_candidate_pool_expansion_v2.py	文件	27587	28672	2026-09-28T18:08:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_cat_blind_review.py	文件	4680	8192	2026-09-20T13:41:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_coco500.py	文件	4396	8192	2026-09-11T14:24:55+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_dog_candidate400.py	文件	6492	8192	2026-09-12T14:58:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_dog_feature_pipeline.py	文件	6113	8192	2026-09-12T15:20:53+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_independent_sixclass_pool.py	文件	12198	12288	2026-10-04T20:09:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_multiclass_object_candidate_pool.py	文件	20694	24576	2026-09-28T18:37:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_objects365_confirmation.py	文件	11202	12288	2026-10-05T15:08:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_online_reannotation_subset.py	文件	2482	4096	2026-09-29T09:13:40+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_openimages_cat_test_pool.py	文件	9685	12288	2026-09-20T11:17:26+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_openimages_state_test_inputs.py	文件	4271	8192	2026-09-18T14:28:54+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_openimages_v7_experiment.py	文件	22356	24576	2026-09-17T15:50:21+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_pascal_voc2012_dog_validation.py	文件	14941	16384	2026-09-20T17:20:55+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_person_dataset.py	文件	7424	8192	2026-09-13T20:14:35+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_sixclass_car_extension.py	文件	14515	16384	2026-10-04T12:57:47+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_sixclass_voc_external.py	文件	10610	12288	2026-10-05T10:27:46+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_voc2012_confirmation_pool.py	文件	13324	16384	2026-09-29T09:15:53+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/prepare_widerface_head_experiment.py	文件	17904	20480	2026-09-22T16:07:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/reaggregate_selection_evidence.py	文件	2817	4096	2026-10-07T10:11:20+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/record_objects365_progress_fix.py	文件	2265	4096	2026-10-05T17:18:39+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/reorder_workload_main_figures.py	文件	5746	8192	2026-10-08T18:59:44+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/repair_cat_feature_dependencies.py	文件	2932	4096	2026-09-20T11:58:30+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/replay_visual_regression_suite.py	文件	2877	4096	2026-10-05T13:24:17+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/report_coco_openimages_state_response.py	文件	17783	20480	2026-09-20T09:46:42+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/report_controlled_risk_distribution.py	文件	18420	20480	2026-10-05T23:13:14+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/report_fixed_train_cat_test_adequacy.py	文件	12366	16384	2026-09-20T12:03:25+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/report_fixed_train_test_adequacy.py	文件	15000	16384	2026-09-20T10:50:44+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/report_openimages_cua_vsl.py	文件	7120	8192	2026-09-18T14:35:06+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/report_openimages_v7_four_model_experiment.py	文件	11882	12288	2026-09-18T12:28:26+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/report_random_stratification_ablation.py	文件	17391	20480	2026-10-06T12:34:22+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/resume_ranking_attribute_validation.py	文件	3292	4096	2026-10-05T21:23:33+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/retry_dual_local_format.py	文件	2068	4096	2026-10-04T15:27:03+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_auto_feature_pipeline.py	文件	295	4096	2026-09-13T20:07:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_automatic_strengthening.py	文件	14918	16384	2026-10-05T13:25:06+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_candidate_pool_expansion_annotations.sh	文件	1231	4096	2026-10-09T14:19:02+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_class_stratified_error_controls.py	文件	14178	16384	2026-09-29T09:09:48+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_coco_openimages_external_gradient_8_models.py	文件	9056	12288	2026-09-18T15:42:11+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_coco_openimages_random_gradient_8_models.py	文件	13304	16384	2026-09-18T20:37:15+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_controlled_risk_distribution.py	文件	22768	24576	2026-10-05T22:55:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_coverage_incremental_value.py	文件	34285	36864	2026-09-29T08:36:23+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_cross_category_balanced_difficulty.py	文件	49045	49152	2026-09-28T16:01:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_cross_state_decoupled_diagnostics.py	文件	37083	40960	2026-09-29T00:02:28+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_cua_vsl_minimum_stage1.sh	文件	1229	4096	2026-09-18T14:38:34+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_cua_vsl_smoke_after_state_test.sh	文件	1238	4096	2026-09-18T14:44:28+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_dog_coverage_gradient_8_models.py	文件	9144	12288	2026-09-18T15:26:52+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_dog_local_pipeline.py	文件	19025	20480	2026-10-09T14:08:35+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_dog_online_benchmark.py	文件	9102	12288	2026-09-14T15:00:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_dog_targeted_supplement.py	文件	27046	28672	2026-09-12T16:37:38+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_dog_v3_1_900.sh	文件	1009	4096	2026-09-13T14:54:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_dual_vlm_replaced_study.py	文件	20638	24576	2026-10-04T17:55:25+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_dual_vlm_study.py	文件	7465	8192	2026-10-04T14:43:55+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_error_cluster_sensitivity.py	文件	14977	16384	2026-09-29T00:24:55+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_expanded_pool_selection_benchmark.py	文件	39800	40960	2026-09-28T18:03:50+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_fixed_train_cat_test_adequacy_experiment.py	文件	17209	20480	2026-09-20T11:21:53+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_fixed_train_test_adequacy_experiment.py	文件	24420	24576	2026-09-20T10:45:01+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_foundation_model_state_robustness.py	文件	31579	32768	2026-09-22T09:38:29+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_four_model_gap_vs_random.py	文件	23872	24576	2026-09-17T13:03:02+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_head_face_coverage_experiment.py	文件	26985	28672	2026-09-22T20:29:32+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_high_risk_state_challenge.py	文件	20247	20480	2026-09-22T14:30:28+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_modern_models_final_screen.py	文件	4679	8192	2026-09-17T13:03:02+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_modern_models_screen.py	文件	5642	8192	2026-09-17T12:21:05+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_modern_positive_replication.py	文件	4227	8192	2026-09-17T13:40:07+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_multiclass_object_annotations.sh	文件	952	4096	2026-10-09T14:19:02+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_multiclass_object_selection_benchmark.py	文件	44735	45056	2026-09-28T21:07:25+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_objects365_confirmation.py	文件	5590	8192	2026-10-05T15:10:13+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_openimages_dog_v3_1.sh	文件	890	4096	2026-09-17T15:56:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_openimages_v7_cua_vsl.py	文件	18166	20480	2026-09-18T14:33:05+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_openimages_v7_four_model_experiment.py	文件	16306	16384	2026-09-17T18:27:01+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_pascal_voc2012_risk_state_validation.py	文件	26155	28672	2026-09-20T19:43:17+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_positive_models_replication.py	文件	5278	8192	2026-09-17T11:55:54+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_random_stratification_ablation.py	文件	17152	20480	2026-10-06T12:30:05+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_resnet18_dog_coverage_comparison.py	文件	26675	28672	2026-09-16T14:47:15+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_resnet18_five_class_coverage_comparison.py	文件	21063	24576	2026-09-16T15:14:55+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_resnet18_five_class_random_control.py	文件	11799	12288	2026-09-16T15:33:27+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_scale_only_confirmation.py	文件	16346	16384	2026-10-07T09:50:48+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_semantic_test_selection_baselines.py	文件	46025	49152	2026-09-20T13:41:23+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_sixclass_car_extension.py	文件	22841	24576	2026-10-04T13:48:06+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_sixclass_independent_confirmation.py	文件	10648	12288	2026-10-04T20:16:59+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_sixclass_voc_external_confirmation.py	文件	8601	12288	2026-10-05T10:34:47+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_visual_state_progressive_difficulty_diagnostic.py	文件	52438	53248	2026-09-28T00:55:19+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/run_voc2012_confirmation_benchmark.py	文件	20151	20480	2026-09-29T10:13:02+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/select_dog_v3_1_supplement.py	文件	5463	8192	2026-09-13T16:37:49+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/select_openimages_cua_supplement.py	文件	11715	12288	2026-09-18T14:43:00+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/select_openimages_dog_supplements.py	文件	9064	12288	2026-09-17T18:25:02+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/sixclass_car_support.py	文件	21500	24576	2026-10-04T13:05:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/strengthen_empirical_evidence.py	文件	26167	28672	2026-10-05T10:35:42+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/summarize_coverage_incremental_value.py	文件	13130	16384	2026-09-29T08:45:57+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/sync_latest_reports.py	文件	6891	8192	2026-10-07T12:02:46+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/scripts/voc_external_common.py	文件	4772	8192	2026-10-05T10:40:36+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/tests/test_auto_feature_pipeline.py	文件	4054	4096	2026-09-13T20:06:07+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/tests/test_auto_feature_schema.py	文件	3363	4096	2026-09-13T20:09:39+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/tests/test_difficulty.py	文件	16745	20480	2026-09-07T13:42:04+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/tests/test_dog_supplement.py	文件	849	4096	2026-09-12T16:36:15+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/tests/test_dog_supplement_review.py	文件	1939	4096	2026-09-13T10:22:53+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/tests/test_dta.py	文件	7055	8192	2026-09-10T23:11:25+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/tests/test_dta_clients.py	文件	1943	4096	2026-09-11T08:52:43+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/tests/test_dta_review_web.py	文件	2442	4096	2026-09-11T08:49:08+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/tests/test_openimages_cua_vsl.py	文件	5903	8192	2026-09-18T14:43:11+08:00	QE 项目/研究支持	
+/home/hcf/project/QE/tests/test_openimages_dog_experiment.py	文件	3142	4096	2026-09-17T18:26:20+08:00	QE 项目/研究支持	
+/home/hcf/project/gate-agent/.env	文件	908	4096	2026-07-01T18:54:01+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/.env.email.example	文件	630	4096	2026-07-06T09:33:43+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/.env.example	文件	393	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/.env.lab-ollama	文件	336	4096	2026-06-28T14:08:23+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/.gitignore	文件	638	4096	2026-07-06T09:33:43+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/README.md	文件	19107	20480	2026-07-10T16:52:38+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/VERSION.md	文件	2327	4096	2026-07-10T16:52:38+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/README.md	文件	921	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/commit_regression/README.md	文件	1489	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/commit_regression/prompt.txt	文件	1726	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/commit_srg_fusion/prompts/fusion_generation_prompt.txt	文件	1677	4096	2026-06-25T10:07:01+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/commit_srg_fusion/prompts/targeted_repair_prompt.txt	文件	1789	4096	2026-06-25T10:07:13+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/graph/README.md	文件	551	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/graph/prompts/behavior_contrast_prompt.txt	文件	3103	4096	2026-06-22T14:42:28+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/graph/prompts/knowledge_selection_prompt.txt	文件	3750	4096	2026-06-22T14:42:28+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/graph/prompts/oracle_planning_prompt.txt	文件	6318	8192	2026-06-22T14:42:28+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/graph/prompts/regression_test_prompt.txt	文件	10348	12288	2026-06-29T10:30:45+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/graph/prompts/repair_test_prompt.txt	文件	26309	28672	2026-06-29T10:31:10+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg/README.md	文件	681	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg/prompts/behavior_contrast_prompt.txt	文件	3103	4096	2026-06-22T14:42:28+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg/prompts/compact_srg_oracle_prompt.txt	文件	2298	4096	2026-06-22T14:42:28+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg/prompts/knowledge_selection_prompt.txt	文件	3750	4096	2026-06-22T14:42:28+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg/prompts/regression_test_prompt.txt	文件	11459	12288	2026-06-29T10:30:45+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg/prompts/repair_test_prompt.txt	文件	27581	28672	2026-06-29T10:31:10+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg_multi_agent/prompts/oracle_synthesis_prompt.txt	文件	4218	8192	2026-06-28T15:12:50+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg_multi_agent/prompts/regression_test_prompt.txt	文件	4012	4096	2026-06-29T10:30:02+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg_multi_agent/prompts/repair_test_prompt.txt	文件	32837	36864	2026-07-05T14:49:28+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg_multi_agent/prompts/weak_test_critic_prompt.txt	文件	2092	4096	2026-06-27T12:26:26+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg_multi_agent_commit_guided/prompts/oracle_synthesis_prompt.txt	文件	5121	8192	2026-06-28T15:12:40+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg_multi_agent_commit_guided/prompts/regression_test_prompt.txt	文件	6794	8192	2026-07-01T20:46:45+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg_multi_agent_commit_guided/prompts/repair_test_prompt.txt	文件	42328	45056	2026-07-09T12:52:04+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/patch_srg_multi_agent_commit_guided/prompts/weak_test_critic_prompt.txt	文件	2887	4096	2026-06-28T12:26:47+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/plain/README.md	文件	551	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/plain/prompts/behavior_contrast_prompt.txt	文件	3103	4096	2026-06-22T14:42:28+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/plain/prompts/knowledge_selection_prompt.txt	文件	3750	4096	2026-06-22T14:42:28+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/plain/prompts/oracle_planning_prompt.txt	文件	6318	8192	2026-06-22T14:42:28+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/plain/prompts/regression_test_prompt.txt	文件	10348	12288	2026-06-29T10:30:45+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/baseline/plain/prompts/repair_test_prompt.txt	文件	26309	28672	2026-06-29T10:31:10+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/GATE_SWTBench_Modification_and_Experiment_Plan_zh.docx	文件	56009	57344	2026-07-10T15:52:22+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/README.md	文件	1601	4096	2026-07-07T11:06:25+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_a3test_style_framework_zh.png	文件	178458	180224	2026-07-09T12:37:17+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_agent_steps_zh.svg	文件	13471	16384	2026-06-23T18:42:48+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_chinese_overview.svg	文件	11204	12288	2026-06-23T18:29:59+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_current_detailed_model.svg	文件	19325	20480	2026-06-23T15:57:56+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_current_flow_matched_zh.png	文件	597192	598016	2026-07-09T13:48:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_overall_framework_zh_20260709.png	文件	725426	729088	2026-07-09T11:19:39+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_overall_framework_zh_20260709.svg	文件	18378	20480	2026-07-09T11:16:50+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_paper_architecture.svg	文件	15469	16384	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_paper_figure_compact.svg	文件	9664	12288	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_paper_style_detailed_zh.png	文件	268231	270336	2026-07-09T13:30:33+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_project_overview.svg	文件	31392	32768	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_readable_workflow_zh.png	文件	528430	532480	2026-07-09T12:48:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/figures/gate_agent_strategy.svg	文件	4877	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/gate_agent_scan_report_zh.md	文件	12566	16384	2026-07-10T10:01:12+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/gate_swtbench_integration_research_plan_zh.md	文件	28916	32768	2026-07-10T15:43:50+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/generate_gate_swtbench_word.py	文件	45376	49152	2026-07-10T15:52:14+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/local_artifacts_inventory.md	文件	1068	4096	2026-07-01T13:49:18+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/local_gate_daily_brief.md	文件	11533	12288	2026-10-09T09:05:11+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/local_recent_results.md	文件	5744	8192	2026-07-01T14:02:35+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/method_change_log.md	文件	6116	8192	2026-07-01T20:50:35+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/paper_experiment_protocol.md	文件	5231	8192	2026-07-01T19:07:35+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/paper_result_manifest.md	文件	5507	8192	2026-07-01T19:07:35+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/project_deep_dive_zh.md	文件	41966	45056	2026-07-02T09:58:52+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/project_navigation.md	文件	2110	4096	2026-07-01T14:02:22+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/project_overview_zh.md	文件	13655	16384	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/result_navigation.md	文件	2471	4096	2026-07-01T14:02:22+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/docs/swtbench_verified_zsp_guide.md	文件	13541	16384	2026-07-10T15:08:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/agent_purpose_and_research_problem.docx	文件	42177	45056	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/agent_purpose_and_research_problem.md	文件	9719	12288	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/br_agent_v0.docx	文件	42938	45056	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/br_agent_v0.md	文件	11210	12288	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/br_agent_v1.md	文件	4341	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/chat_records/2026-05-22_gate_agent_context.md	文件	4061	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/chat_records/README.md	文件	670	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/cleanup_20260614_benchmark_layout.json	文件	6723	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/day1_plan.md	文件	403	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_baseline_commit_regression_integration.md	文件	6095	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_commit_regression_baseline.md	文件	3505	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_current_vs_previous_diff.md	文件	0	0	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_execution_failure_refinement.md	文件	6103	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_failure_taxonomy_for_paper.md	文件	8012	8192	2026-07-06T10:02:30+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_graph_naming_guide.md	文件	7361	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_llm_io_trace.md	文件	0	0	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_research_significance.md	文件	7367	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v1_min.md	文件	7207	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v2_min_current_implementation.md	文件	20211	20480	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_1_context_comparison.md	文件	13942	16384	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_1_current_version.md	文件	12919	16384	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_4_1_weak_test_repair.md	文件	5071	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_4_repair_loop_plan.md	文件	7898	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_4_repair_loop_smoke_results.md	文件	6633	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_5_1_trigger_constraint_srg.md	文件	6904	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_5_2_self_consistency_repair.md	文件	6297	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_5_3_python_only_repair.md	文件	5980	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_5_4_runner_robustness.md	文件	5162	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_5_5_timeout_robustness.md	文件	3467	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_5_trigger_oracle_srg.md	文件	6014	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_6_1_weak_test_oracle_refinement.md	文件	4075	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_6_2_deterministic_weak_test_repair.md	文件	6415	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_6_2_observation_channel_refinement.md	文件	3979	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_6_3_observation_channel_inference.md	文件	4332	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_6_3_three_way_comparison.md	文件	0	0	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_6_4_domain_literal_grounding.md	文件	4414	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_6_6_srg_evidence_upgrade.md	文件	3226	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_6_robustness_and_api_aware_generation.md	文件	4733	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_7_srg_multi_agent_fast_dialogue.md	文件	16415	20480	2026-06-24T11:49:22+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/gate_v3_experiment_protocol.md	文件	11737	12288	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/graph_toy_cases.md	文件	3527	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/heldout_benchmark_candidates.md	文件	7036	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/lab_llm_usage.md	文件	4851	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/latest_results_and_overfitting_audit.md	文件	6045	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/mimo_baseline_and_local_ollama_findings.md	文件	12685	16384	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/patch_srg_method_explanation.md	文件	15977	16384	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/quixbugs_blind_smoke_commands.md	文件	1221	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/quixbugs_import.md	文件	3110	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/repo_and_results_organization.md	文件	1493	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/repo_and_script_organization.md	文件	2378	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/notes/task_file_organization.md	文件	1765	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/prompts/behavior_contrast_prompt.txt	文件	3103	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/prompts/compact_srg_oracle_prompt.txt	文件	2785	4096	2026-06-28T15:09:22+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/prompts/knowledge_selection_prompt.txt	文件	3750	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/prompts/oracle_planning_prompt.txt	文件	6318	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/prompts/regression_test_prompt.txt	文件	12087	12288	2026-07-01T20:46:45+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/prompts/repair_test_prompt.txt	文件	33827	36864	2026-07-09T12:51:57+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/pyproject.toml	文件	436	4096	2026-07-10T16:52:38+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/requirements-swtbench-local.txt	文件	244	4096	2026-07-10T15:08:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/requirements.txt	文件	68	4096	2026-07-08T09:17:21+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/README.md	文件	5595	8192	2026-07-10T15:08:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/check_bugsinpy_env.py	文件	176	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/check_llm_endpoint.sh	文件	146	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/compare_batch_results.py	文件	179	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/compare_experiment_durations.py	文件	186	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/compare_patch_srg_results.py	文件	498	4096	2026-06-28T14:34:26+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/compare_ready75_deepseek_three_methods.py	文件	207	4096	2026-06-28T11:21:07+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/daily_gate_brief.py	文件	185	4096	2026-07-06T09:20:43+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/download_external_benchmarks.py	文件	186	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/execution/run_agent_toy.sh	文件	83	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/execution/run_all_tasks.py	文件	18081	20480	2026-07-10T15:14:07+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/execution/run_clean_no_auto_fallback_suite.sh	文件	2314	4096	2026-07-06T15:08:18+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/execution/run_manual_toy.sh	文件	97	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/find_recent_results.py	文件	188	4096	2026-07-01T14:02:22+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/build_clean_heldout.py	文件	11557	12288	2026-07-01T14:52:29+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/cache_swtbench_repos.py	文件	4285	8192	2026-07-06T16:24:06+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/check_bugsinpy_env.py	文件	4016	4096	2026-07-01T14:44:40+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/check_llm_endpoint.sh	文件	5545	8192	2026-06-27T13:36:04+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/check_swtbench_env.py	文件	5366	8192	2026-07-08T09:15:04+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/compare_batch_results.py	文件	11975	12288	2026-06-27T13:36:04+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/compare_experiment_durations.py	文件	3475	4096	2026-06-27T13:36:04+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/compare_patch_srg_results.py	文件	8028	8192	2026-06-27T13:36:04+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/compare_ready75_deepseek_three_methods.py	文件	7221	8192	2026-06-28T11:21:29+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/daily_gate_brief.py	文件	28061	28672	2026-07-06T09:28:40+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/download_external_benchmarks.py	文件	49316	53248	2026-07-06T16:17:33+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/find_recent_results.py	文件	8806	12288	2026-07-01T14:02:22+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/import_quixbugs_case.py	文件	8408	12288	2026-06-27T13:36:04+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/materialize_swtbench_verified_zsp.py	文件	18969	20480	2026-07-07T11:03:12+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/merge_ready75_rerun_results.py	文件	3917	4096	2026-06-27T13:36:04+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/organize_results.py	文件	7409	8192	2026-06-27T13:36:04+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/plot_latest_results.py	文件	13819	16384	2026-06-27T13:36:04+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/stage_benchmark_data.py	文件	18749	20480	2026-06-30T17:48:56+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/stage_jkoppel_quixbugs.py	文件	23550	24576	2026-06-27T13:36:04+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/validate_staged_benchmarks.py	文件	3599	4096	2026-06-27T13:36:04+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/framework/validate_swtbench_gold.py	文件	10841	12288	2026-07-10T15:10:12+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/import_quixbugs_case.py	文件	178	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/install_daily_gate_brief_cron.sh	文件	1036	4096	2026-07-06T09:28:10+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/materialize_swtbench_verified_zsp.py	文件	191	4096	2026-07-06T22:40:26+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/merge_ready75_rerun_results.py	文件	185	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/organize_results.py	文件	174	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/plot_latest_results.py	文件	177	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/run_agent_toy.sh	文件	141	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/run_all_tasks.py	文件	171	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/run_daily_codex_brief.sh	文件	1204	4096	2026-07-06T09:33:43+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/run_manual_toy.sh	文件	142	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/send_daily_brief_email.py	文件	3615	4096	2026-07-06T09:33:43+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/stage_benchmark_data.py	文件	178	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/stage_jkoppel_quixbugs.py	文件	180	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/scripts/validate_staged_benchmarks.py	文件	184	4096	2026-06-27T13:36:32+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/__init__.py	文件	34	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/agent.py	文件	183629	184320	2026-07-09T12:58:37+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/api_grounding.py	文件	33009	36864	2026-07-08T22:07:53+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/baseline_commit_srg_fusion.py	文件	667	4096	2026-06-25T10:06:06+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/baseline_graph.py	文件	851	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/baseline_patch_srg.py	文件	867	4096	2026-06-25T16:58:23+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/baseline_patch_srg_candidate_parallel.py	文件	1131	4096	2026-07-08T16:23:11+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/baseline_patch_srg_multi_agent.py	文件	832	4096	2026-06-24T11:52:43+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/baseline_patch_srg_multi_agent_commit_guided.py	文件	896	4096	2026-06-25T16:40:05+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/baseline_plain.py	文件	851	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/baselines.py	文件	8715	12288	2026-07-08T19:38:43+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/baselines_commit_regression.py	文件	10008	12288	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/context_collector.py	文件	18150	20480	2026-07-08T19:39:06+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/knowledge_agent.py	文件	74236	77824	2026-07-08T22:17:49+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/logger.py	文件	7665	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/manual_test_runner.py	文件	2666	4096	2026-06-27T14:42:44+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/mini_pytest.py	文件	2220	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/patch_diff_utils.py	文件	2162	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/patch_quality.py	文件	7291	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/patch_srg.py	文件	67440	69632	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/repair_loop.py	文件	41779	45056	2026-07-09T12:58:44+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/source_roots.py	文件	3441	4096	2026-07-07T12:31:06+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/task_reader.py	文件	2459	4096	2026-07-07T12:55:25+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/test_code_guard.py	文件	75414	77824	2026-07-08T20:46:17+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/test_generator.py	文件	30063	32768	2026-07-02T19:51:05+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/test_runner.py	文件	19048	20480	2026-07-08T09:14:52+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/validator.py	文件	5256	8192	2026-07-08T11:03:03+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/src/version.py	文件	740	4096	2026-07-10T16:52:38+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/support/bugsinpy_compat/_black_version.py	文件	28	4096	2026-06-26T20:48:36+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/support/bugsinpy_compat/sitecustomize.py	文件	19104	20480	2026-07-08T09:17:16+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_api_grounding.py	文件	18971	20480	2026-07-08T22:08:12+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_api_refinement.py	文件	4196	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_batch_runner.py	文件	1569	4096	2026-07-10T15:14:07+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_commit_regression_baseline.py	文件	9973	12288	2026-06-25T17:06:12+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_commit_srg_fusion.py	文件	10908	12288	2026-06-25T17:06:12+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_compact_srg_prompts.py	文件	3942	4096	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_deterministic_repair.py	文件	9575	12288	2026-07-08T21:18:26+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_domain_literal_grounding.py	文件	7739	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_execution_failure_refinement.py	文件	85314	86016	2026-07-09T13:00:18+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_observation_channel.py	文件	7663	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_patch_srg.py	文件	25880	28672	2026-07-08T08:56:08+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_patch_srg_candidate_parallel.py	文件	7062	8192	2026-07-08T16:25:56+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_patch_srg_multi_agent.py	文件	15148	16384	2026-07-08T19:44:52+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_patch_srg_multi_agent_commit_guided.py	文件	9782	12288	2026-06-25T17:06:12+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_repair_loop.py	文件	33429	36864	2026-07-09T13:00:46+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_runner.py	文件	4427	8192	2026-07-05T16:10:37+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_srg_evidence_upgrade.py	文件	4368	8192	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_timeout_config.py	文件	4740	8192	2026-07-02T19:51:47+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_trigger_oracle_srg.py	文件	9056	12288	2026-06-22T14:42:27+08:00	独立项目：GATE 智能体	
+/home/hcf/project/gate-agent/tests/test_validate_swtbench_gold.py	文件	3234	4096	2026-07-10T15:10:35+08:00	独立项目：GATE 智能体	
+/home/hcf/project/protocol-test/.editorconfig	文件	418	4096	2026-08-01T14:42:27+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/.gitattributes	文件	230	4096	2026-08-01T14:42:27+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/.gitignore	文件	431	4096	2026-09-02T13:43:32+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/AGENTS.md	文件	1003	4096	2026-09-02T09:40:07+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/CLAIMS_FROM_RESULTS.md	文件	3644	4096	2026-09-02T20:32:01+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/Directory.Build.props	文件	296	4096	2026-08-01T14:42:27+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/EXPERIMENT_AUDIT.json	文件	2841	4096	2026-09-02T14:43:28+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/EXPERIMENT_AUDIT.md	文件	3700	4096	2026-09-02T14:43:28+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/IndependentProtocolTesting.slnx	文件	315	4096	2026-08-01T14:42:27+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/MANIFEST.md	文件	17272	20480	2026-09-03T13:24:49+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/NuGet.Config	文件	217	4096	2026-07-29T16:07:26+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/README.md	文件	9583	12288	2026-08-01T14:56:35+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/VERIFICATION.md	文件	4642	8192	2026-08-01T16:25:26+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/build-and-verify.ps1	文件	2121	4096	2026-08-01T15:18:45+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/build-and-verify.sh	文件	1434	4096	2026-08-01T15:18:45+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/claim_evidence.md	文件	5104	8192	2026-09-02T20:32:01+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/docs/受约束大模型协议测试总体模型.png	文件	125240	126976	2026-07-29T17:09:01+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/docs/受约束大模型协议测试总体模型.svg	文件	10210	12288	2026-07-29T17:08:35+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/docs/工具接入说明.md	文件	1583	4096	2026-07-29T15:22:41+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/docs/数据集与实验设计.md	文件	5733	8192	2026-07-30T09:46:42+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/docs/汇报提纲.md	文件	1196	4096	2026-07-29T15:22:42+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/docs/独立协议测试项目详细解读.docx	文件	172550	176128	2026-07-30T15:21:27+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/docs/论文实验执行说明.md	文件	8826	12288	2026-09-02T20:06:41+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/docs/项目文档.md	文件	18185	20480	2026-08-01T16:25:26+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/dotnet-env.sh	文件	504	4096	2026-08-01T13:56:20+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/findings.md	文件	8661	12288	2026-09-03T13:23:42+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/freeze-paper-corpus.mjs	文件	3553	4096	2026-09-02T21:13:00+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/freeze-paper-corpus.ps1	文件	2194	4096	2026-08-01T14:37:43+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/freeze-paper-corpus.sh	文件	2941	4096	2026-09-01T14:45:18+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/freeze-paper-v1.ps1	文件	2030	4096	2026-08-01T15:05:00+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/freeze-result-directory.mjs	文件	3549	4096	2026-09-03T11:50:30+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/get-paper-llm-status.ps1	文件	1729	4096	2026-07-30T15:21:59+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/get-paper-v2-pipeline-status.ps1	文件	2119	4096	2026-08-01T14:43:43+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/get-paper-v2-status.ps1	文件	2315	4096	2026-07-31T13:01:46+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/get-paper-v4-state-aware-status.sh	文件	1306	4096	2026-09-02T21:33:11+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/get-paper-v5-semantic-residual-status.sh	文件	2076	4096	2026-09-03T12:59:16+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/global.json	文件	104	4096	2026-08-01T15:22:24+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/llm-settings.example.json	文件	141	4096	2026-07-31T13:16:11+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/llm-settings.local.json	文件	150	4096	2026-07-30T09:58:40+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/package-source.sh	文件	1680	4096	2026-08-01T15:21:58+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/research_log.md	文件	11537	12288	2026-09-03T13:23:42+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/run-demo.ps1	文件	791	4096	2026-07-29T15:22:36+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/run-paper-experiments.ps1	文件	1977	4096	2026-07-30T15:12:23+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/run-paper-llm-resumable.ps1	文件	2372	4096	2026-07-30T15:21:57+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/run-paper-v2-analysis.ps1	文件	1919	4096	2026-08-01T13:25:41+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/run-paper-v2-collector.ps1	文件	2102	4096	2026-07-31T13:01:44+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/run-paper-v2-collector.sh	文件	2047	4096	2026-08-31T19:00:05+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/run-paper-v2-pipeline.ps1	文件	4985	8192	2026-08-01T15:05:00+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/run-paper-v4-ablation-background.sh	文件	3186	4096	2026-09-03T09:53:05+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/run-paper-v4-state-aware-background.sh	文件	2968	4096	2026-09-02T21:33:11+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/run-paper-v5-semantic-residual-background.sh	文件	4392	8192	2026-09-03T12:57:45+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/setup-dotnet.sh	文件	661	4096	2026-08-01T14:42:27+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Cli/.cache/appdata/NuGet/NuGet.Config	文件	210	4096	2026-07-30T14:35:02+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Cli/Program.cs	文件	41563	45056	2026-09-03T11:29:45+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Cli/ProtocolTesting.Cli.csproj	文件	390	4096	2026-07-29T15:15:50+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Cli/packages.lock.json	文件	665	4096	2026-08-01T14:42:46+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/.cache/appdata/NuGet/NuGet.Config	文件	210	4096	2026-07-30T14:35:02+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Benchmarking/DbcBenchmarkRunner.cs	文件	17091	20480	2026-08-01T14:54:27+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Benchmarking/DbcScaleBenchmarkRunner.cs	文件	11935	12288	2026-07-30T14:49:32+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Benchmarking/LlmCorpusCollector.cs	文件	24059	24576	2026-09-03T11:18:32+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Benchmarking/MethodBenchmarkRunner.cs	文件	75226	77824	2026-09-03T12:35:03+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Benchmarking/PictPlanGenerator.cs	文件	6745	8192	2026-09-02T14:15:44+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Benchmarking/ProtocolMutationGenerator.cs	文件	4490	8192	2026-08-01T14:25:32+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Benchmarking/ResearchStatistics.cs	文件	19460	20480	2026-09-03T11:20:15+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Benchmarking/SemanticFaultEvaluator.cs	文件	25091	28672	2026-09-02T19:23:57+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Execution/ExpectationCalculator.cs	文件	2611	4096	2026-08-01T15:17:03+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Execution/IProtocolTransport.cs	文件	402	4096	2026-07-29T15:13:11+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Execution/ProtocolTestRunner.cs	文件	7753	8192	2026-08-01T14:51:19+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Execution/ProtocolValue.cs	文件	7076	8192	2026-08-01T15:20:07+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Execution/SimulatedDeviceBehavior.cs	文件	1958	4096	2026-08-01T15:17:03+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Execution/SimulatedProtocolTransport.cs	文件	4803	8192	2026-08-01T15:02:32+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Execution/ValueComparer.cs	文件	3238	4096	2026-07-29T15:13:14+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Generation/CandidateGenerator.cs	文件	4639	8192	2026-09-03T11:03:31+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Generation/CoverageBuilder.cs	文件	64772	65536	2026-09-03T12:34:38+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Generation/StateAwareSequenceGenerator.cs	文件	8058	8192	2026-09-03T12:34:09+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Import/DbcProtocolImporter.cs	文件	11239	12288	2026-09-03T11:11:45+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Models/DbcBenchmarkModels.cs	文件	3262	4096	2026-08-01T14:54:27+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Models/ExecutionModels.cs	文件	2820	4096	2026-08-01T14:23:57+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Models/ExperimentModels.cs	文件	1230	4096	2026-08-01T14:53:00+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Models/LlmCorpusModels.cs	文件	5006	8192	2026-09-03T11:18:32+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Models/PaperExperimentModels.cs	文件	10053	12288	2026-09-03T12:11:14+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Models/PlanningModels.cs	文件	3579	4096	2026-09-03T12:33:41+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Models/ProtocolDefinition.cs	文件	2789	4096	2026-09-03T11:03:31+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Models/SemanticFaultModels.cs	文件	4767	8192	2026-09-02T19:16:57+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Planning/CompactLlmScenarioPlanner.cs	文件	27195	28672	2026-09-03T12:33:41+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Planning/FixtureScenarioPlanner.cs	文件	539	4096	2026-07-29T15:11:38+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Planning/HeuristicScenarioPlanner.cs	文件	1981	4096	2026-07-29T15:11:39+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Planning/IScenarioPlanner.cs	文件	343	4096	2026-07-29T15:11:36+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Planning/OpenAiCompatibleScenarioPlanner.cs	文件	10111	12288	2026-08-01T14:23:57+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/ProtocolTesting.Core.csproj	文件	405	4096	2026-08-01T14:34:35+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Reporting/CsvReportWriter.cs	文件	3075	4096	2026-07-29T15:14:31+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Reporting/PublicationTableWriter.cs	文件	10463	12288	2026-09-03T11:10:19+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Serialization/ProtocolJson.cs	文件	2998	4096	2026-08-01T14:23:57+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Traffic/TrafficBenchmarkRunner.cs	文件	10930	12288	2026-08-01T15:07:06+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Traffic/TrafficDetectionModels.cs	文件	1421	4096	2026-07-30T14:03:29+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Traffic/TrafficDetectionRunner.cs	文件	19597	20480	2026-08-01T15:06:22+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Traffic/TrafficLineParser.cs	文件	6797	8192	2026-07-30T14:01:44+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Traffic/TrafficModels.cs	文件	1922	4096	2026-07-30T14:01:43+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/Validation/ProtocolDefinitionValidator.cs	文件	16356	16384	2026-08-01T15:20:45+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/src/ProtocolTesting.Core/packages.lock.json	文件	540	4096	2026-08-01T14:42:46+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/start-paper-llm-background.ps1	文件	1536	4096	2026-07-30T15:18:52+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/start-paper-v2-collector-background.ps1	文件	2859	4096	2026-08-01T12:03:42+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/start-paper-v2-pipeline-background.ps1	文件	2143	4096	2026-08-01T15:05:00+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/start-paper-v4-ablation-background.sh	文件	980	4096	2026-09-03T09:52:08+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/start-paper-v4-state-aware-background.sh	文件	877	4096	2026-09-02T21:33:11+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/start-paper-v5-semantic-residual-background.sh	文件	1066	4096	2026-09-03T12:57:45+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/tests/ProtocolTesting.SelfTests/.cache/appdata/NuGet/NuGet.Config	文件	210	4096	2026-07-30T14:35:02+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/tests/ProtocolTesting.SelfTests/Program.cs	文件	73601	73728	2026-09-03T12:35:47+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/tests/ProtocolTesting.SelfTests/ProtocolTesting.SelfTests.csproj	文件	415	4096	2026-07-29T15:17:52+08:00	独立项目：协议组合测试	
+/home/hcf/project/protocol-test/tests/ProtocolTesting.SelfTests/packages.lock.json	文件	665	4096	2026-08-01T14:42:46+08:00	独立项目：协议组合测试	

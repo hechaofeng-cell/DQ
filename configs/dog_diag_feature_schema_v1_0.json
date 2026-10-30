@@ -1,0 +1,44 @@
+{
+  "schema_version": "dog_diag_v1.0",
+  "source_schema": "dog_v3.1",
+  "category": "dog",
+  "coverage_cap": 20,
+  "features": [
+    {"feature_id": "coat_primary_color", "source": "coat_primary_color", "possible_values": ["black", "white", "brown", "gray", "tan", "golden", "cream", "red", "mixed", "other", "unknown"]},
+    {"feature_id": "coat_pattern", "source": "coat_pattern", "possible_values": ["solid", "bicolor", "tricolor", "spotted", "striped", "patchy", "roan", "other", "unknown"]},
+    {"feature_id": "coat_texture", "source": "coat_texture", "possible_values": ["smooth", "wavy", "curly", "wiry", "fluffy", "unknown"]},
+    {"feature_id": "ear_shape", "source": "ear_shape", "possible_values": ["upright", "floppy", "semi_upright", "folded", "other", "not_visible", "unknown"]},
+    {"feature_id": "body_shape", "source": "body_shape", "possible_values": ["slender", "average", "broad", "rounded", "puppy_like", "unknown"]},
+    {"feature_id": "head_orientation", "source": "head_orientation", "possible_values": ["front", "left", "right", "back", "upward", "downward", "unknown"]},
+    {"feature_id": "body_orientation", "source": "body_orientation", "possible_values": ["front", "back", "left_side", "right_side", "left_front_three_quarter", "right_front_three_quarter", "left_back_three_quarter", "right_back_three_quarter", "unknown"]},
+    {"feature_id": "posture_action_state", "source": "posture_action_state", "possible_values": ["standing", "sitting", "lying", "prone", "walking", "running", "jumping", "playing", "eating", "drinking", "interacting", "sniffing", "barking", "sleeping", "unknown"]},
+    {"feature_id": "head_visibility", "source": "head_visibility", "possible_values": ["clear", "partial", "not_visible", "unknown"]},
+    {"feature_id": "critical_part_visibility", "source": "derived", "possible_values": ["clear", "partial", "severe_loss", "unknown"]},
+    {"feature_id": "leg_visibility_count", "source": "leg_visibility_count", "possible_values": ["four_or_more", "two_or_three", "one", "none", "unknown"]},
+    {"feature_id": "tail_visibility", "source": "tail_visibility", "possible_values": ["clear", "partial", "not_observable", "unknown"]},
+    {"feature_id": "occlusion_level", "source": "occlusion_level", "possible_values": ["none", "partial", "heavy", "unknown"]},
+    {"feature_id": "truncation_level", "source": "truncation_level", "possible_values": ["none", "partial", "heavy", "unknown"]},
+    {"feature_id": "dog_recognizability", "source": "dog_recognizability", "possible_values": ["reliably_identifiable", "partially_identifiable", "not_identifiable", "unknown"]},
+    {"feature_id": "scene", "source": "scene", "possible_values": ["indoor_home", "indoor_pet_store_or_clinic", "indoor_other", "outdoor_grass", "outdoor_street", "outdoor_park", "outdoor_forest_or_wild", "outdoor_beach", "outdoor_snow", "outdoor_water", "outdoor_other", "vehicle", "multiple_scenes", "unknown"]}
+  ],
+  "audit_only_features": [
+    "mouth_state",
+    "tongue_visibility",
+    "tail_posture",
+    "occlusion_parts",
+    "truncation_parts"
+  ],
+  "critical_part_rule": {
+    "severe_loss": "head_visibility=not_visible OR at least two of muzzle_visibility, mouth_visibility, eye_state are not_visible",
+    "partial": "one critical part is not_visible OR any critical part/head is partial",
+    "clear": "otherwise when the critical evidence is known",
+    "unknown": "critical evidence is insufficient"
+  },
+  "difficulty_score": {
+    "target_area_ratio": {">=0.10": 0, ">=0.03": 1, ">=0.01": 2, "<0.01": 3},
+    "visibility": {"clear": 0, "partial": 2, "severe_loss_or_not_visible": 3},
+    "occlusion_level": {"none": 0, "partial": 2, "heavy": 3},
+    "truncation_level": {"none": 0, "partial": 1, "heavy": 2},
+    "orientation": {"canonical": 0, "atypical": 1, "back_and_head_missing": 2}
+  }
+}

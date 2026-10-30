@@ -50,4 +50,5 @@ out/
 data/
 artifacts/
 output/
+results/
 models/*.pth

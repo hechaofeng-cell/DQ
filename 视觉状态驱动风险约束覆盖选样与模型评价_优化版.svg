@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2600" height="1450" viewBox="0 0 2600 1450">
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1F7AE8"/></marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#E97828"/></marker>
+    <marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#0E9C94"/></marker>
+    <style>
+      .title{font-family:"Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#173B68;font-weight:700}
+      .body{font-family:"Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#28435f}
+      .muted{font-family:"Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#718096}
+      .small{font-size:22px}.tiny{font-size:18px}.label{font-size:26px;font-weight:700}.section{font-size:34px;font-weight:700}
+      .panel{stroke-width:2.5}.card{stroke-width:2}.line{stroke:#B7C7D9;stroke-width:2}
+    </style>
+  </defs>
+
+  <rect width="2600" height="1450" fill="#FFFFFF"/>
+  <text x="1300" y="65" text-anchor="middle" class="title" font-size="46">视觉状态驱动的风险约束覆盖选样与分层模型评价</text>
+  <text x="1300" y="105" text-anchor="middle" class="muted" font-size="22">从细粒度状态编码出发，构建可解释的风险分层测试集</text>
+
+  <!-- stage ribbon -->
+  <line x1="290" y1="158" x2="2310" y2="158" stroke="#D5DFEA" stroke-width="4"/>
+  <circle cx="290" cy="158" r="24" fill="#1F7AE8"/><text x="290" y="166" text-anchor="middle" fill="white" font-size="22" class="body">1</text>
+  <text x="330" y="166" class="title" font-size="24">状态提取</text>
+  <circle cx="1260" cy="158" r="24" fill="#E97828"/><text x="1260" y="166" text-anchor="middle" fill="white" font-size="22" class="body">2</text>
+  <text x="1300" y="166" class="title" font-size="24">风险约束覆盖选样</text>
+  <circle cx="2240" cy="158" r="24" fill="#0E9C94"/><text x="2240" y="166" text-anchor="middle" fill="white" font-size="22" class="body">3</text>
+  <text x="2280" y="166" class="title" font-size="24">分层评价与报告</text>
+
+  <!-- left panel -->
+  <rect x="60" y="205" width="700" height="1160" rx="20" fill="#F5FAFF" stroke="#84BDFB" class="panel"/>
+  <text x="100" y="260" class="title section">① 视觉状态提取</text>
+  <text x="100" y="295" class="muted small">把图像中的可见性、姿态与场景质量转成结构化状态</text>
+
+  <rect x="100" y="330" width="290" height="250" rx="12" fill="#FFFFFF" stroke="#A9D1FA" class="card"/>
+  <text x="125" y="370" class="title label">输入与目标</text>
+  <rect x="125" y="400" width="98" height="82" rx="8" fill="#DCEEFF"/>
+  <rect x="142" y="418" width="64" height="43" rx="5" fill="#8DBEF0"/>
+  <rect x="250" y="400" width="98" height="82" rx="8" fill="#E8F3FF"/>
+  <circle cx="299" cy="434" r="18" fill="#80B4E8"/><rect x="273" y="452" width="52" height="17" rx="8" fill="#80B4E8"/>
+  <text x="125" y="525" class="body small">图像 + 目标框</text>
+  <text x="250" y="525" class="body small">目标实例</text>
+
+  <rect x="430" y="330" width="290" height="250" rx="12" fill="#FFFFFF" stroke="#A9D1FA" class="card"/>
+  <text x="455" y="370" class="title label">人工 + VLM 协同</text>
+  <circle cx="500" cy="442" r="27" fill="#173B68"/><rect x="470" y="475" width="60" height="40" rx="18" fill="#173B68"/>
+  <text x="550" y="454" fill="#1F7AE8" font-size="40" class="title">+</text>
+  <rect x="603" y="410" width="58" height="58" rx="10" fill="#EAF5FF" stroke="#1F7AE8" stroke-width="3"/>
+  <path d="M617 439h30M632 424v30M620 430l-10-12M647 430l10-12M620 448l-10 12M647 448l10 12" stroke="#1F7AE8" stroke-width="3" fill="none"/>
+  <text x="455" y="525" class="body small">统一判定标准</text>
+
+  <rect x="100" y="620" width="620" height="310" rx="12" fill="#FFFFFF" stroke="#A9D1FA" class="card"/>
+  <text x="125" y="665" class="title label">细粒度视觉状态字典</text>
+  <text x="125" y="705" class="muted small">每个目标编码为状态向量 z_i</text>
+  <rect x="125" y="740" width="112" height="68" rx="10" fill="#E9F4FF"/><text x="181" y="782" text-anchor="middle" class="title small">尺度</text><text x="181" y="802" text-anchor="middle" class="muted tiny">小 / 中 / 大</text>
+  <rect x="255" y="740" width="112" height="68" rx="10" fill="#E9F4FF"/><text x="311" y="782" text-anchor="middle" class="title small">可见性</text><text x="311" y="802" text-anchor="middle" class="muted tiny">清晰 / 缺失</text>
+  <rect x="385" y="740" width="112" height="68" rx="10" fill="#E9F4FF"/><text x="441" y="782" text-anchor="middle" class="title small">遮挡</text><text x="441" y="802" text-anchor="middle" class="muted tiny">无 / 部分 / 严重</text>
+  <rect x="515" y="740" width="82" height="68" rx="10" fill="#E9F4FF"/><text x="556" y="782" text-anchor="middle" class="title small">朝向</text><text x="556" y="802" text-anchor="middle" class="muted tiny">正 / 侧 / 背</text>
+  <rect x="615" y="740" width="82" height="68" rx="10" fill="#E9F4FF"/><text x="656" y="782" text-anchor="middle" class="title small">场景</text><text x="656" y="802" text-anchor="middle" class="muted tiny">光照/背景</text>
+  <text x="125" y="875" class="body small">输出：统一、可追溯的视觉状态编码</text>
+
+  <rect x="100" y="990" width="620" height="245" rx="12" fill="#E8F3FF" stroke="#74B4F5" class="card"/>
+  <text x="125" y="1040" class="title label">目标状态编码</text>
+  <text x="125" y="1085" class="body small">目标 1　[中, 清晰, 部分遮挡, 侧向, 室内]</text>
+  <text x="125" y="1125" class="body small">目标 2　[小, 局部不可见, 无遮挡, 背向, 逆光]</text>
+  <text x="125" y="1175" class="title small">→ 进入风险评分与覆盖选样</text>
+
+  <!-- connector left-center -->
+  <path d="M760 785 H820" stroke="#1F7AE8" stroke-width="4" fill="none" marker-end="url(#arrowBlue)"/>
+
+  <!-- center panel -->
+  <rect x="820" y="205" width="1010" height="1160" rx="20" fill="#FFFBF7" stroke="#F3A66B" class="panel"/>
+  <text x="860" y="260" class="title section">② 风险约束覆盖选样</text>
+  <text x="860" y="295" class="muted small">风险分层决定优先级，覆盖增益决定每轮选择</text>
+
+  <rect x="860" y="330" width="930" height="255" rx="12" fill="#FFFFFF" stroke="#F5BF91" class="card"/>
+  <text x="890" y="372" class="title label">五维风险评分</text>
+  <text x="890" y="412" class="body small">尺度　 可见性　 遮挡　 截断　 朝向</text>
+  <rect x="890" y="445" width="155" height="34" rx="17" fill="#D6F0DF"/><text x="968" y="469" text-anchor="middle" class="body small">低风险</text>
+  <rect x="1060" y="445" width="155" height="34" rx="17" fill="#FFF0B8"/><text x="1138" y="469" text-anchor="middle" class="body small">中风险</text>
+  <rect x="1230" y="445" width="155" height="34" rx="17" fill="#FFD0BE"/><text x="1308" y="469" text-anchor="middle" class="body small">高风险</text>
+  <text x="890" y="530" class="muted small">风险分数 r_i = f(z_i)　｜　按类别归一化，保留状态可解释性</text>
+  <rect x="1460" y="398" width="280" height="125" rx="10" fill="#FFF5EC" stroke="#F2B079"/>
+  <text x="1600" y="430" text-anchor="middle" class="title small">风险配额</text>
+  <text x="1600" y="470" text-anchor="middle" class="title" font-size="27">N1 · N2 · N3 · N4 · N5</text>
+  <text x="1600" y="505" text-anchor="middle" class="muted tiny">每个风险层的目标数量</text>
+
+  <rect x="860" y="625" width="930" height="245" rx="12" fill="#FFFFFF" stroke="#F5BF91" class="card"/>
+  <text x="890" y="667" class="title label">类别内排序与 Q1–Q5 分层</text>
+  <text x="890" y="708" class="muted small">同一类别内按风险分数排序，再切分为五个分位层</text>
+  <rect x="890" y="748" width="150" height="46" rx="9" fill="#BFE7D0"/><text x="965" y="778" text-anchor="middle" class="title small">Q1 低风险</text>
+  <rect x="1055" y="748" width="150" height="46" rx="9" fill="#E2EEA5"/><text x="1130" y="778" text-anchor="middle" class="title small">Q2</text>
+  <rect x="1220" y="748" width="150" height="46" rx="9" fill="#FFE39A"/><text x="1295" y="778" text-anchor="middle" class="title small">Q3</text>
+  <rect x="1385" y="748" width="150" height="46" rx="9" fill="#FFC5A9"/><text x="1460" y="778" text-anchor="middle" class="title small">Q4</text>
+  <rect x="1550" y="748" width="190" height="46" rx="9" fill="#F7A9B4"/><text x="1645" y="778" text-anchor="middle" class="title small">Q5 高风险</text>
+
+  <rect x="860" y="910" width="930" height="330" rx="12" fill="#FFF5EC" stroke="#F09A58" class="card"/>
+  <text x="890" y="955" class="title label">贪心覆盖选样（核心）</text>
+  <text x="890" y="995" class="muted small">每轮选择能带来最大新增覆盖的目标，并同步更新配额</text>
+  <rect x="890" y="1030" width="250" height="130" rx="10" fill="#FFFFFF" stroke="#F3B985"/>
+  <circle cx="925" cy="1070" r="20" fill="#E97828"/><text x="925" y="1078" text-anchor="middle" fill="white" class="body small">1</text>
+  <text x="960" y="1073" class="title small">筛选候选目标</text>
+  <text x="915" y="1115" class="muted tiny">未满足配额的 Q 层</text>
+  <rect x="1170" y="1030" width="250" height="130" rx="10" fill="#FFFFFF" stroke="#F3B985"/>
+  <circle cx="1205" cy="1070" r="20" fill="#E97828"/><text x="1205" y="1078" text-anchor="middle" fill="white" class="body small">2</text>
+  <text x="1240" y="1073" class="title small">计算覆盖增益</text>
+  <text x="1195" y="1115" class="muted tiny">gain = Δ覆盖 / 采样成本</text>
+  <rect x="1450" y="1030" width="290" height="130" rx="10" fill="#FFFFFF" stroke="#F3B985"/>
+  <circle cx="1485" cy="1070" r="20" fill="#E97828"/><text x="1485" y="1078" text-anchor="middle" fill="white" class="body small">3</text>
+  <text x="1520" y="1073" class="title small">选择并更新</text>
+  <text x="1475" y="1115" class="muted tiny">状态支持 +1；配额 −1</text>
+  <path d="M1140 1095 H1160" stroke="#E97828" stroke-width="3" marker-end="url(#arrowOrange)"/>
+  <path d="M1420 1095 H1440" stroke="#E97828" stroke-width="3" marker-end="url(#arrowOrange)"/>
+  <path d="M1745 1175 C1795 1175 1795 975 1745 975" stroke="#E97828" stroke-width="3" stroke-dasharray="9 8" fill="none" marker-end="url(#arrowOrange)"/>
+  <text x="1510" y="1200" class="muted tiny">循环更新：配额与状态支持</text>
+
+  <!-- connector center-right -->
+  <path d="M1830 785 H1890" stroke="#E97828" stroke-width="4" fill="none" marker-end="url(#arrowOrange)"/>
+
+  <!-- right panel -->
+  <rect x="1890" y="205" width="650" height="1160" rx="20" fill="#F5FCFB" stroke="#70CFC7" class="panel"/>
+  <text x="1930" y="260" class="title section">③ 分层评价与报告</text>
+  <text x="1930" y="295" class="muted small">把选出的样本转成可比较、可追溯的评测结果</text>
+
+  <rect x="1930" y="330" width="570" height="245" rx="12" fill="#FFFFFF" stroke="#9ADFD8" class="card"/>
+  <text x="1960" y="372" class="title label">风险分层测试集</text>
+  <text x="1960" y="412" class="muted small">按 Q1–Q5 组织测试样本，保持层间可比</text>
+  <rect x="1960" y="450" width="94" height="55" rx="8" fill="#BFE7D0"/><text x="2007" y="484" text-anchor="middle" class="title small">Q1</text>
+  <rect x="2064" y="450" width="94" height="55" rx="8" fill="#E2EEA5"/><text x="2111" y="484" text-anchor="middle" class="title small">Q2</text>
+  <rect x="2168" y="450" width="94" height="55" rx="8" fill="#FFE39A"/><text x="2215" y="484" text-anchor="middle" class="title small">Q3</text>
+  <rect x="2272" y="450" width="94" height="55" rx="8" fill="#FFC5A9"/><text x="2319" y="484" text-anchor="middle" class="title small">Q4</text>
+  <rect x="2376" y="450" width="94" height="55" rx="8" fill="#F7A9B4"/><text x="2423" y="484" text-anchor="middle" class="title small">Q5</text>
+  <text x="1960" y="542" class="muted tiny">输出：分层样本清单 + 状态覆盖统计</text>
+
+  <rect x="1930" y="620" width="570" height="330" rx="12" fill="#FFFFFF" stroke="#9ADFD8" class="card"/>
+  <text x="1960" y="662" class="title label">多模型分层评价</text>
+  <circle cx="2000" cy="730" r="22" fill="#1F7AE8"/><path d="M1984 730l12 12 22-28" stroke="white" stroke-width="5" fill="none"/>
+  <text x="2040" y="738" class="body small">模型 A</text>
+  <circle cx="2170" cy="730" r="22" fill="#E97828"/><path d="M2154 730l12 12 22-28" stroke="white" stroke-width="5" fill="none"/>
+  <text x="2210" y="738" class="body small">模型 B</text>
+  <circle cx="2340" cy="730" r="22" fill="#0E9C94"/><path d="M2324 730l12 12 22-28" stroke="white" stroke-width="5" fill="none"/>
+  <text x="2380" y="738" class="body small">模型 C</text>
+  <line x1="1990" y1="870" x2="2460" y2="870" stroke="#9FB3C8" stroke-width="2"/>
+  <line x1="1990" y1="770" x2="1990" y2="870" stroke="#9FB3C8" stroke-width="2"/>
+  <polyline points="2010,795 2110,810 2210,828 2310,840 2410,850" fill="none" stroke="#1F7AE8" stroke-width="4"/>
+  <polyline points="2010,815 2110,828 2210,840 2310,850 2410,858" fill="none" stroke="#E97828" stroke-width="4"/>
+  <polyline points="2010,830 2110,842 2210,852 2310,860 2410,865" fill="none" stroke="#0E9C94" stroke-width="4"/>
+  <text x="2000" y="900" class="muted tiny">Macro-F1 / Recall / 风险层差异</text>
+
+  <rect x="1930" y="995" width="570" height="240" rx="12" fill="#EAF9F7" stroke="#79CEC6" class="card"/>
+  <text x="1960" y="1040" class="title label">视觉状态覆盖报告</text>
+  <text x="1960" y="1085" class="body small">✓ 出现覆盖：各风险层是否被覆盖</text>
+  <text x="1960" y="1125" class="body small">✓ 支持完成度：状态支持是否达到阈值</text>
+  <text x="1960" y="1165" class="body small">✓ 模型差异：性能随风险层如何变化</text>
+
+  <!-- footer legend -->
+  <line x1="100" y1="1395" x2="2500" y2="1395" stroke="#D5DFEA" stroke-width="2"/>
+  <circle cx="120" cy="1425" r="7" fill="#1F7AE8"/><text x="140" y="1432" class="muted tiny">蓝色：状态提取与风险建模</text>
+  <circle cx="470" cy="1425" r="7" fill="#E97828"/><text x="490" y="1432" class="muted tiny">橙色：覆盖选样与反馈更新</text>
+  <circle cx="850" cy="1425" r="7" fill="#0E9C94"/><text x="870" y="1432" class="muted tiny">青绿色：测试集与模型评价</text>
+  <text x="2500" y="1432" text-anchor="end" class="muted tiny">优化稿：突出主流程，压缩辅助信息</text>
+</svg>

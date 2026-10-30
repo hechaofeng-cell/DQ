@@ -1,0 +1,541 @@
+#!/usr/bin/env python3
+"""Independent arithmetic and provenance audit for the QE three-strategy test.
+
+This checker deliberately does not import the experiment's selection or metrics
+functions. It reconstructs state activation, risk intervals and confusion
+matrices from frozen source records and raw cached classifier outputs.
+"""
+from __future__ import annotations
+
+import csv
+import hashlib
+import itertools
+import json
+import math
+from collections import Counter
+from pathlib import Path
+
+import numpy as np
+
+ROOT = Path(__file__).resolve().parents[1]
+BASE = ROOT / 'artifacts/QE_VisualState_CoverRisk_v1_20261013'
+OUT = ROOT / 'artifacts/QE_ThreeStrategy_Full_20261013'
+CLASSES = ('dog', 'cat', 'horse', 'sheep', 'person', 'car')
+BUDGETS = (20, 40, 100, 200, 400, 600, 800, 1000, 1200, 1300)
+
+
+def read_csv(path):
+    with Path(path).open(encoding='utf-8-sig', newline='') as stream:
+        return list(csv.DictReader(stream))
+
+
+def digest(path):
+    hasher = hashlib.sha256()
+    with Path(path).open('rb') as stream:
+        for chunk in iter(lambda: stream.read(1024 * 1024), b''):
+            hasher.update(chunk)
+    return hasher.hexdigest()
+
+
+def close(actual, expected, label):
+    assert np.isclose(float(actual), float(expected), atol=1e-9, rtol=0), (label, actual, expected)
+
+
+def verify_source_arrays():
+    state_rows = json.loads((BASE / 'coverage_dictionary.json').read_text())['states']
+    states = [tuple(s) for s in state_rows]
+    assert len(states) == len(set(states)) == 71
+    risk_config = json.loads((BASE / 'risk_protocol.json').read_text())
+    records = {r['sample_id']: r for r in map(json.loads, (BASE / 'prepared/records.jsonl').read_text().splitlines())}
+    arrays = {}
+    for source in ('local', 'online'):
+        root = BASE if source == 'local' else BASE / 'online_analysis'
+        arrays[source] = {}
+        for c in CLASSES:
+            z = dict(np.load(root / 'prepared' / f'{c}.npz', allow_pickle=False))
+            assert z['matrix'].shape == (1300, 71)
+            assert len(set(z['sample_ids'])) == 1300
+            for i, sid in enumerate(z['sample_ids']):
+                record = records[str(sid)]
+                assert record['class_name'] == c
+                features = record['annotations'][source]['native']['features']
+                area = float(record['bbox_area_ratio'])
+                scale = 'tiny' if area < .01 else 'small' if area < .03 else 'medium' if area < .1 else 'large'
+                expected = []
+                for field, state in states:
+                    value = scale if field == 'target_scale' else features[field]
+                    expected.append(int(state in value if isinstance(value, list) else state == value))
+                assert np.array_equal(z['matrix'][i], expected), (source, c, sid, 'activation')
+                lows = [sum(area < e for e in risk_config['scale_edges']) / 3]
+                highs = lows.copy()
+                for field in ('body_visibility', 'occlusion_level', 'truncation_level', 'body_orientation'):
+                    mapping = risk_config['maps'][field]
+                    lows.append(mapping.get(features[field], 0))
+                    highs.append(mapping.get(features[field], 1))
+                weights = [risk_config['dimension_weights'][name] for name in ('scale', 'visibility', 'occlusion', 'truncation', 'orientation')]
+                lo = float(np.dot(lows, weights) * 100)
+                hi = float(np.dot(highs, weights) * 100)
+                for key, value in zip(('risk_lower', 'risk_midpoint', 'risk_upper'), (lo, (lo + hi) / 2, hi)):
+                    close(z[key][i], value, (source, c, sid, key))
+            arrays[source][c] = z
+    return arrays, records
+
+
+def state_metrics(z, indices):
+    indices = np.asarray(indices, dtype=int)
+    assert len(set(indices.tolist())) == len(indices)
+    assert indices.min() >= 0 and indices.max() < 1300
+    counts = z['matrix'][indices].sum(axis=0)
+    lower = z['risk_lower'][indices]
+    upper = z['risk_upper'][indices]
+    return dict(presence_coverage=float(np.count_nonzero(counts) / 71),
+                support_completion=float(np.minimum(counts, 20).sum() / (71 * 20)),
+                risk_lower=float(lower.mean()), risk_midpoint=float(z['risk_midpoint'][indices].mean()),
+                risk_upper=float(upper.mean()), high_risk_q5_fraction=float(z['high_risk'][indices].mean()),
+                unknown_target_fraction=float(np.mean(upper > lower + 1e-8)),
+                unknown_dimension_fraction=float(np.mean((upper - lower) / 100)))
+
+
+def confusion_metrics(predictions, labels):
+    confusion = np.zeros((6, 6), dtype=np.int64)
+    np.add.at(confusion, (labels, predictions), 1)
+    tp = confusion.diagonal()
+    den = confusion.sum(axis=0) + confusion.sum(axis=1)
+    f1 = np.divide(2 * tp, den, out=np.zeros(6, dtype=float), where=den != 0)
+    errors = int(confusion.sum() - tp.sum())
+    pairs = confusion.copy()
+    np.fill_diagonal(pairs, 0)
+    return dict(accuracy=float(tp.sum() / confusion.sum()), macro_f1=float(f1.mean()),
+                error_count=errors, error_rate=float(errors / confusion.sum()),
+                confusion_pair_coverage=float(np.count_nonzero(pairs) / 30))
+
+
+def rarefied_breadth(counts, q):
+    """Exact finite-population expected distinct wrong labels / five.
+
+    q is matched per true class between compared strategies; q == 0 yields 0
+    rather than an invented positive diagnosis.
+    """
+    counts = np.asarray(counts, dtype=np.int64)
+    n = int(counts.sum())
+    q = int(q)
+    assert 0 <= q <= n
+    if q == 0:
+        return 0.
+    denom = math.comb(n, q)
+    return sum(1 - (math.comb(n - int(k), q) / denom if n - int(k) >= q else 0) for k in counts if k > 0) / 5
+
+
+def selfcheck():
+    values = (0, 0, 1, 2)
+    exact = np.mean([len({values[i] for i in indices}) / 5 for indices in itertools.combinations(range(4), 2)])
+    close(rarefied_breadth([2, 1, 1, 0, 0], 2), exact, 'independent rarefaction exhaustive check')
+    metrics = confusion_metrics(np.array([0, 1, 1, 3, 5, 5]), np.arange(6))
+    close(metrics['error_count'], 2, 'toy confusion')
+
+
+def independent_structure(z, budget):
+    order = sorted(range(1300), key=lambda i: (z['risk_midpoint'][i], str(z['sample_ids'][i])))
+    tiers = np.zeros(1300, dtype=int)
+    for rank, index in enumerate(order):
+        tiers[index] = rank // 260 + 1
+    unknown = np.rint((z['risk_upper'] - z['risk_lower']) / 20).astype(int)
+    groups = {}
+    for i in range(1300):
+        key = (int(tiers[i]), float(z['risk_midpoint'][i]), int(unknown[i]))
+        groups.setdefault(key, []).append(i)
+    quotas = {}
+    for tier in range(1, 6):
+        keys = sorted(k for k in groups if k[0] == tier)
+        b = budget // 5
+        for k in keys:
+            quotas[k] = len(groups[k]) * b // 260
+        left = b - sum(quotas[k] for k in keys)
+        priorities = sorted(keys, key=lambda k: (-(len(groups[k]) * b % 260), k))
+        for key in priorities[:left]:
+            quotas[key] += 1
+    index_keys = {i: k for k, ids in groups.items() for i in ids}
+    return tiers, groups, quotas, index_keys
+
+
+def audit_selections(arrays):
+    verified = []
+    quota_rows = read_csv(OUT / 'selection/quotas.csv')
+    trace_rows = read_csv(OUT / 'selection/greedy_trace.csv')
+    trace_index = {(r['source'], int(r['budget_per_class']), r['category'], r['method'], int(r['rank'])): r for r in trace_rows}
+    for source in ('local', 'online'):
+        previous_coverage = None
+        for budget in BUDGETS:
+            selections = dict(np.load(OUT / 'selection' / f'{source}_n{budget * 6}.npz'))
+            assert set(selections) == {'coverage', 'risk', 'risk_coverage'}
+            if previous_coverage is not None:
+                assert np.array_equal(selections['coverage'][:, :previous_coverage.shape[-1]], previous_coverage), (source, budget, 'unconstrained greedy prefix consistency')
+            previous_coverage = selections['coverage']
+            for c, category in enumerate(CLASSES):
+                z = arrays[source][category]
+                tiers, groups, quotas, index_keys = independent_structure(z, budget)
+                recorded = [r for r in quota_rows if r['source'] == source and int(r['budget_per_class']) == budget and r['category'] == category]
+                expected = {(int(r['tier']), float(r['risk_midpoint']), int(r['unknown_count'])): int(r['quota']) for r in recorded}
+                assert expected == quotas
+                rng = np.random.default_rng(20261013 + (0 if source == 'local' else 100000) + budget * 100 + c)
+                repeats = 1 if budget == 1300 else 1000
+                assert selections['risk'].shape == (repeats, 6, budget)
+                for repeat in range(repeats):
+                    chosen = []
+                    for k in sorted(groups):
+                        if quotas[k]:
+                            chosen.extend(rng.choice(groups[k], quotas[k], replace=False).tolist())
+                    assert np.array_equal(selections['risk'][repeat, c], chosen), (source, budget, category, repeat, 'random replay')
+                for method in ('coverage', 'risk_coverage'):
+                    ids = selections[method][c]
+                    assert len(ids) == len(set(ids.tolist())) == budget
+                    assert int(ids.min()) >= 0 and int(ids.max()) < 1300
+                    if method == 'risk_coverage':
+                        observed = Counter(index_keys[int(i)] for i in ids)
+                        assert observed == Counter({k: v for k, v in quotas.items() if v})
+                    counts = np.zeros(71, dtype=int)
+                    used = Counter()
+                    available = set(range(1300))
+                    for rank, index in enumerate(ids, 1):
+                        feasible = np.asarray([i for i in sorted(available) if method == 'coverage' or used[index_keys[i]] < quotas[index_keys[i]]], dtype=int)
+                        weight = np.zeros(71)
+                        mask = counts < 20
+                        weight[mask] = np.log1p(1 / (counts[mask] + 1))
+                        gains = z['matrix'][feasible].astype(float) @ weight
+                        maximum = gains.max()
+                        tied = feasible[np.abs(gains - maximum) <= 1e-12]
+                        chosen = min(tied, key=lambda i: str(z['sample_ids'][i]))
+                        assert chosen == int(index), (source, budget, category, method, 'greedy maximal feasible gain')
+                        trace = trace_index[(source, budget, category, method, rank)]
+                        assert trace['sample_id'] == str(z['sample_ids'][chosen])
+                        close(trace['concave_gain'], maximum, (source, budget, category, method, rank, 'gain'))
+                        before = np.minimum(counts, 20).sum() / 1420
+                        available.remove(chosen)
+                        used[index_keys[chosen]] += 1
+                        counts += z['matrix'][chosen]
+                        completion = np.minimum(counts, 20).sum() / 1420
+                        close(trace['frequency_coverage_gain'], completion - before, (source, budget, category, method, rank, 'completion gain'))
+                        close(trace['support_completion'], completion, (source, budget, category, method, rank, 'completion'))
+                        close(trace['presence_coverage'], np.count_nonzero(counts) / 71, (source, budget, category, method, rank, 'presence'))
+            verified.append(dict(source=source, budget_per_class=budget, fixed_methods=2, random_repeats=repeats))
+            print(f'Selection audit passed: {source}, {budget}/class', flush=True)
+    return verified
+
+
+def independent_condition(arrays, selection):
+    result = {}
+    for c, category in enumerate(CLASSES):
+        z = arrays[category]
+        ids = selection[:, c]
+        counts = z['matrix'][ids].sum(axis=1)
+        other = z['online_matrix'][ids].sum(axis=1)
+        parts = dict(presence_coverage=np.count_nonzero(counts, axis=1) / 71,
+                     support_completion=np.minimum(counts, 20).sum(axis=1) / 1420,
+                     other_label_presence_coverage=np.count_nonzero(other, axis=1) / 71,
+                     other_label_support_completion=np.minimum(other, 20).sum(axis=1) / 1420,
+                     risk_unknown_fraction=(z['risk_upper'][ids] > z['risk_lower'][ids] + 1e-8).mean(axis=1))
+        for suffix in ('lower', 'midpoint', 'upper'):
+            parts['risk_' + suffix] = z['risk_' + suffix][ids].mean(axis=1)
+        tiers, _, _, _ = independent_structure(z, selection.shape[-1])
+        for t in range(1, 6):
+            parts[f'q{t}_fraction'] = (tiers[ids] == t).mean(axis=1)
+        for key, value in parts.items():
+            result[key] = result.get(key, np.zeros(len(selection))) + value / 6
+    return result
+
+
+def independent_model_metrics(predictions, selections, budget):
+    global_ids = selections + np.arange(6)[None, :, None] * 1300
+    chosen = predictions[:, global_ids.reshape(len(selections), -1)].reshape(24, len(selections), 6, budget)
+    counts = np.zeros((24, len(selections), 6, 6), dtype=int)
+    for label in range(6):
+        counts[:, :, :, label] = np.count_nonzero(chosen == label, axis=-1)
+    correct = np.diagonal(counts, axis1=-2, axis2=-1)
+    denominators = counts.sum(-2) + counts.sum(-1)
+    f1 = np.divide(2 * correct, denominators, out=np.zeros_like(correct, dtype=float), where=denominators > 0)
+    wrong = counts.copy()
+    wrong[:, :, np.arange(6), np.arange(6)] = 0
+    metrics = dict(accuracy=correct.sum(-1) / (6 * budget), macro_f1=f1.mean(-1),
+                   errors=6 * budget - correct.sum(-1), confusion_type_count=np.count_nonzero(wrong, axis=(-2, -1)),
+                   confusion_breadth=np.count_nonzero(wrong, axis=(-2, -1)) / 30)
+    for c, category in enumerate(CLASSES):
+        metrics[f'{category}_recall'] = correct[:, :, c] / budget
+    return metrics, wrong
+
+
+def independent_rarefaction(counts, q):
+    """Product of sequential non-hit probabilities, independent of log-gamma."""
+    n = counts.sum(-1)
+    absent = np.ones(counts.shape, dtype=float)
+    for draw in range(int(q.max(initial=0))):
+        active = (q > draw)[..., None]
+        den = (n - draw)[..., None]
+        num = np.maximum(0, den - counts)
+        fraction = np.divide(num, den, out=np.ones_like(num, dtype=float), where=den > 0)
+        absent *= np.where(active, fraction, 1)
+    return np.sum(1 - absent, axis=-1) / 5
+
+
+def audit_results(arrays):
+    merged = dict(np.load(OUT / 'merged_predictions.npz', allow_pickle=False))
+    assert merged['predictions'].shape == (24, 7800)
+    master_ids = [str(s) for c in CLASSES for s in arrays['local'][c]['sample_ids']]
+    assert merged['sample_ids'].tolist() == master_ids
+    summary = read_csv(OUT / 'summary.csv')
+    run_rows = read_csv(OUT / 'model_run_metrics.csv')
+    paired_rows = read_csv(OUT / 'paired_model_run_metrics.csv')
+    condition_rows = read_csv(OUT / 'condition_metrics.csv')
+    expected_settings = len(BUDGETS) * 2
+    expected_conditions = 2 * ((len(BUDGETS) - 1) * 1002 + 3)
+    assert len(summary) == expected_settings * 3 and len(run_rows) == expected_settings * 3 * 24
+    assert len(paired_rows) == expected_settings * 2 * 24 and len(condition_rows) == expected_conditions
+    conditions_by_key = {(r['source'], int(r['budget_per_class']), r['method'], int(r['repetition'])): r for r in condition_rows}
+    runs_by_key = {(r['source'], int(r['budget_per_class']), r['method'], r['model'], int(r['seed'])): r for r in run_rows}
+    paired_by_key = {(r['source'], int(r['budget_per_class']), r['contrast'], r['model'], int(r['seed'])): r for r in paired_rows}
+    audit_count = 0
+    for source in ('local', 'online'):
+        for budget in BUDGETS:
+            saved = dict(np.load(OUT / 'selection' / f'{source}_n{budget * 6}.npz'))
+            raw = dict(np.load(OUT / 'raw' / f'{source}_n{budget * 6}.npz'))
+            metrics = {}
+            wrong = {}
+            for method, selection in saved.items():
+                if selection.ndim == 2:
+                    selection = selection[None]
+                condition = independent_condition(arrays[source], selection)
+                metrics[method], wrong[method] = independent_model_metrics(merged['predictions'], selection, budget)
+                assert np.array_equal(wrong[method], raw[f'wrong_counts_{method}'])
+                row = next(r for r in summary if r['source'] == source and int(r['budget_per_class']) == budget and r['method'] == method)
+                for key, values in condition.items():
+                    assert np.allclose(values, raw[f'condition_{method}_{key}'], atol=1e-9, rtol=0), (source, budget, method, key)
+                    close(row[key], values.mean(), (source, budget, method, key, 'summary'))
+                    for repeat, value in enumerate(values):
+                        close(conditions_by_key[(source, budget, method, repeat)][key], value, ('condition', source, budget, method, repeat, key))
+                    if method == 'risk':
+                        for quantile, suffix in ((.025, '_selection_p025'), (.975, '_selection_p975')):
+                            close(row[key + suffix], np.quantile(values, quantile), (source, budget, method, key, suffix))
+                for key, values in metrics[method].items():
+                    assert np.allclose(values, raw[f'metrics_{method}_{key}'], atol=1e-9, rtol=0), (source, budget, method, key)
+                    close(row[key], values.mean(), (source, budget, method, key, 'summary'))
+                    for r in range(24):
+                        model = str(merged['models'][r]);seed = int(merged['seeds'][r])
+                        close(runs_by_key[(source, budget, method, model, seed)][key], values[r].mean(), ('model row', source, budget, method, model, seed, key))
+                    if method == 'risk':
+                        for quantile, suffix in ((.025, '_selection_p025'), (.975, '_selection_p975')):
+                            close(row[key + suffix], np.quantile(values.mean(0), quantile), (source, budget, method, key, suffix))
+                audit_count += values.size
+            for left in ('coverage', 'risk_coverage'):
+                fixed = wrong[left][:, 0]
+                random = wrong['risk']
+                q = np.minimum(fixed.sum(-1)[:, None], random.sum(-1))
+                fixed_breadth = independent_rarefaction(np.broadcast_to(fixed[:, None], random.shape), q).mean(-1)
+                random_breadth = independent_rarefaction(random, q).mean(-1)
+                delta = fixed_breadth - random_breadth
+                evidence = (q > 0).mean(-1)
+                expected = dict(equal_error_confusion_delta=delta, evaluable_class_fraction=evidence,
+                                left_equal_error_breadth=fixed_breadth, right_equal_error_breadth=random_breadth)
+                for key, value in expected.items():
+                    assert np.allclose(raw[f'paired_{left}_{key}'], value, atol=1e-9, rtol=0), (source, budget, left, key, 'rarefaction')
+                for r in range(24):
+                    model = str(merged['models'][r]);seed = int(merged['seeds'][r])
+                    recorded = paired_by_key[(source, budget, left + '_minus_risk', model, seed)]
+                    close(recorded['equal_error_confusion_delta'], delta[r].mean(), ('paired', source, budget, left, r))
+                    close(recorded['evaluable_class_fraction'], evidence[r].mean(), ('paired evidence', source, budget, left, r))
+                    for column, key in [('error_delta', 'errors'), ('raw_confusion_breadth_delta', 'confusion_breadth'), ('macro_f1_delta', 'macro_f1')]:
+                        close(recorded[column], metrics[left][key][r, 0] - metrics['risk'][key][r].mean(), (source, budget, left, r, column))
+            for key in ('risk_lower', 'risk_midpoint', 'risk_upper', 'risk_unknown_fraction', 'q1_fraction', 'q2_fraction', 'q3_fraction', 'q4_fraction', 'q5_fraction'):
+                close(raw['condition_risk_' + key].mean(), raw['condition_risk_coverage_' + key].mean(), (source, budget, 'risk matching', key))
+            if budget == 1300:
+                for method in ('coverage', 'risk', 'risk_coverage'):
+                    values = saved[method]
+                    if values.ndim == 2:
+                        values = values[None]
+                    for c in range(6):
+                        assert set(values[0, c].tolist()) == set(range(1300)), (source, method, 'full pool equality')
+                for key in metrics['coverage']:
+                    assert np.allclose(metrics['coverage'][key], metrics['risk'][key], atol=1e-10, rtol=0)
+                    assert np.allclose(metrics['coverage'][key], metrics['risk_coverage'][key], atol=1e-10, rtol=0)
+                for key in raw:
+                    if key.startswith('paired_') and key.endswith('_delta'):
+                        assert np.allclose(raw[key], 0, atol=1e-10, rtol=0), (source, key, 'full diagnostics equality')
+            print(f'Result arithmetic audit passed: {source}, {budget}/class', flush=True)
+    return dict(settings=expected_settings, summary_rows=len(summary), model_rows=len(run_rows), paired_rows=len(paired_rows),
+                condition_rows=len(condition_rows), raw_observations_recomputed=audit_count,
+                full_pool_three_strategies_identical=True)
+
+
+def audit_tests():
+    pairs = read_csv(OUT / 'paired_model_run_metrics.csv')
+    tests = read_csv(OUT / 'primary_tests.csv')
+    assert len(tests) == 2 * (len(BUDGETS) - 1)
+    probabilities = []
+    for row in tests:
+        chosen = [r for r in pairs if r['source'] == row['source'] and r['budget_per_class'] == row['budget_per_class'] and r['contrast'] == 'risk_coverage_minus_risk']
+        architectures = sorted({r['model'] for r in chosen})
+        assert len(architectures) == 8
+        values = np.array([np.mean([float(r['equal_error_confusion_delta']) for r in chosen if r['model'] == m]) for m in architectures])
+        observed = abs(values.mean())
+        null = [abs(np.dot(values, signs) / 8) for signs in itertools.product((-1, 1), repeat=8)]
+        probability = sum(value >= observed - 1e-12 for value in null) / 256
+        probabilities.append(probability)
+        close(row['signflip_two_sided_p'], probability, ('signflip', row['source'], row['budget_per_class']))
+        close(row['mean_equal_error_delta'], values.mean(), ('delta', row['source'], row['budget_per_class']))
+        assert int(row['positive_architectures']) == np.count_nonzero(values > 0)
+    previous = 0.
+    for rank, i in enumerate(sorted(range(len(tests)), key=lambda i: probabilities[i])):
+        previous = max(previous, min(1, (len(tests) - rank) * probabilities[i]))
+        column = 'holm_eighteen_p' if 'holm_eighteen_p' in tests[i] else 'holm_p'
+        close(tests[i][column], previous, ('Holm eighteen', i))
+
+
+def audit_final_report():
+    from docx import Document
+    summary = read_csv(OUT / 'summary.csv')
+    lookup = {(r['source'], int(r['budget_per_class']), r['method']): r for r in summary}
+    full = read_csv(OUT / 'full_pool_metrics.csv')
+    assert len(full) == 6
+    for row in full:
+        expected = lookup[(row['source'], 1300, row['method'])]
+        assert int(row['total_targets']) == 7800
+        for key in row:
+            if key not in ('source', 'method', 'total_targets'):
+                close(row[key], expected[key], ('full report metrics', row['source'], row['method'], key))
+    reference = json.loads((OUT / 'independent_full_pool_reference.json').read_text())
+    for source in ('local', 'online'):
+        row = lookup[source, 1300, 'coverage']
+        for key in ('accuracy', 'macro_f1', 'errors', 'confusion_type_count'):
+            close(row[key], reference[key], ('independent full-pool reference', source, key))
+        for key in ('presence_coverage', 'support_completion', 'risk_midpoint'):
+            close(row[key], reference['annotation_sources'][source][key], ('independent source reference', source, key))
+    efficiencies = read_csv(OUT / 'coverage_efficiency.csv')
+    assert len(efficiencies) == 24
+    for row in efficiencies:
+        source, method, key = row['source'], row['method'], row['metric']
+        fraction = float(row['fraction_of_full_pool_endpoint'])
+        endpoint = float(lookup[source, 1300, method][key])
+        first = next(b for b in BUDGETS if float(lookup[source, b, method][key]) >= fraction * endpoint - 1e-10)
+        assert int(row['first_observed_budget_per_class']) == first
+        assert int(row['first_observed_total_targets']) == first * 6
+        assert int(row['saved_targets_vs_full_pool']) == 7800 - first * 6
+        close(row['full_pool_endpoint'], endpoint, ('efficiency endpoint', source, method, key))
+        close(row['threshold_value'], endpoint * fraction, ('efficiency threshold', source, method, key))
+        close(row['first_observed_metric_value'], lookup[source, first, method][key], ('efficiency first value', source, method, key))
+    architecture_rows = read_csv(OUT / 'model_summary.csv')
+    runs = read_csv(OUT / 'model_run_metrics.csv')
+    assert len(architecture_rows) == 480
+    for row in architecture_rows:
+        chosen = [r for r in runs if all(r[key] == row[key] for key in ('source', 'budget_per_class', 'method', 'model'))]
+        assert len(chosen) == 3
+        for key in ('accuracy', 'macro_f1', 'errors', 'confusion_type_count', 'confusion_breadth') + tuple(c + '_recall' for c in CLASSES):
+            close(row[key], np.mean([float(r[key]) for r in chosen]), ('architecture mean', row['source'], row['model'], key))
+    category_rows = read_csv(OUT / 'category_recall_summary.csv')
+    assert len(category_rows) == 360
+    for row in category_rows:
+        expected = lookup[row['source'], int(row['budget_per_class']), row['method']]
+        key = row['category'] + '_recall'
+        close(row['recall'], expected[key], ('category recall', row['source'], row['category']))
+        for suffix, column in (('_selection_p025', 'selection_p025'), ('_selection_p975', 'selection_p975')):
+            assert row[column] == expected.get(key + suffix, '')
+    tests = read_csv(OUT / 'primary_tests.csv')
+    test_map = {(r['source'], int(r['budget_per_class'])): r for r in tests}
+    deltas = read_csv(OUT / 'combo_vs_risk_deltas.csv')
+    assert len(deltas) == 20
+    for row in deltas:
+        source, budget = row['source'], int(row['budget_per_class'])
+        left, right = lookup[source, budget, 'risk_coverage'], lookup[source, budget, 'risk']
+        for column, key, factor in (('presence_coverage_delta_pp', 'presence_coverage', 100),
+                                    ('support_completion_delta_pp', 'support_completion', 100),
+                                    ('other_label_support_delta_pp', 'other_label_support_completion', 100),
+                                    ('macro_f1_delta_pp', 'macro_f1', 100),
+                                    ('additional_errors', 'errors', 1),
+                                    ('additional_confusion_types', 'confusion_type_count', 1)):
+            close(row[column], factor * (float(left[key]) - float(right[key])), ('final delta', source, budget, column))
+        if budget == 1300:
+            assert row['holm_18_p'] == ''
+            close(row['equal_error_breadth_delta_pp'], 0, ('full zero difference', source))
+        else:
+            expected = test_map[source, budget]
+            close(row['equal_error_breadth_delta_pp'], 100 * float(expected['mean_equal_error_delta']), ('final equal errors', source, budget))
+            close(row['holm_18_p'], expected['holm_eighteen_p'], ('final Holm', source, budget))
+    report = (OUT / 'report.md').read_text()
+    names = {'coverage': '覆盖选样', 'risk': '风险配额随机', 'risk_coverage': '风险＋覆盖'}
+    for source in ('local', 'online'):
+        row = lookup[source, 1300, 'coverage']
+        cells = [source, '7800', f"{float(row['presence_coverage']):.4%}", f"{float(row['support_completion']):.4%}", f"{float(row['risk_midpoint']):.4f}", f"{float(row['macro_f1']):.4%}"]
+        assert '| ' + ' | '.join(cells) + ' |' in report
+        for method in names:
+            chosen = {float(r['fraction_of_full_pool_endpoint']): r for r in efficiencies if r['source'] == source and r['method'] == method and r['metric'] == 'support_completion'}
+            cells = [source, names[method], chosen[.95]['first_observed_total_targets'], chosen[1.]['first_observed_total_targets']]
+            assert '| ' + ' | '.join(cells) + ' |' in report
+    for row in summary:
+        cells = [row['source'], row['total_targets'], names[row['method']], f"{float(row['presence_coverage']):.3%}",
+                 f"{float(row['support_completion']):.3%}", f"{float(row['risk_midpoint']):.3f}", f"{float(row['macro_f1']):.3%}"]
+        assert '| ' + ' | '.join(cells) + ' |' in report
+    significant = [r for r in tests if float(r['holm_eighteen_p']) < .05]
+    positive = [r for r in significant if float(r['mean_equal_error_delta']) > 0]
+    assert f'本轮18项检验中，{len(significant)}项达到Holm校正p＜0.05，其中{len(positive)}项' in report
+    assert '没有新模型推理、训练或微调' in report
+    assert '0.0078125' in report and '0.05/18' in report and '分辨率' in report
+    document = Document(OUT / 'report.docx')
+    assert len(document.tables) >= 4
+    cells = [cell.text for table in document.tables for row in table.rows for cell in row.cells]
+    for source in ('local', 'online'):
+        assert f"{float(lookup[source,1300,'coverage']['macro_f1']):.4%}" in cells
+        assert f"{float(lookup[source,1300,'coverage']['support_completion']):.4%}" in cells
+    return dict(full_endpoint_rows=6, coverage_efficiency_rows=24, architecture_rows=480, category_rows=360,
+                final_delta_rows=20, report_all_60_budget_rows_verified=True, significant_holm_tests=len(significant),
+                word_report_readable=True)
+
+
+def main():
+    selfcheck()
+    freeze_counts = {}
+    for name in ('selection/input_freeze.sha256.json', 'prediction_input_freeze.sha256.json', 'analysis_result_freeze.sha256.json', 'full_report_freeze.sha256.json'):
+        mapping = json.loads((OUT / name).read_text())
+        for path, expected in mapping.items():
+            assert digest(path) == expected, (name, path, 'freeze changed')
+        freeze_counts[name] = len(mapping)
+    arrays, records = verify_source_arrays()
+    selections = audit_selections(arrays)
+    result = audit_results(arrays)
+    audit_tests()
+    result['final_report'] = audit_final_report()
+    result.update(status='pass', state_matrices_rebuilt=12, source_risks_recomputed=15600,
+                  selection_settings=selections, frozen_paths_verified=freeze_counts,
+                  rarefaction='independent sequential-probability product, full 24 by 1000 by 6 counts',
+                  tests='8 architecture units, 256 sign flips, eighteen nonfull tests Holm independently recomputed',
+                  semantic_label_accuracy_verified=False, classifier_retraining=False,
+                  classifier_reinference=False, cached_prediction_binding_audit='see separate prediction audit')
+    (OUT / 'independent_result_audit.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
+    (OUT / 'independent_result_audit_freeze.sha256.json').write_text(json.dumps({str(Path(__file__).resolve()): digest(__file__), str(OUT / 'analysis_result_freeze.sha256.json'): digest(OUT / 'analysis_result_freeze.sha256.json')}, indent=2) + '\n')
+    print(json.dumps(result, ensure_ascii=False, indent=2), flush=True)
+
+
+def refresh_final_report():
+    """Refresh presentation audit only after proving core analysis unchanged."""
+    previous = json.loads((OUT / 'independent_result_audit.json').read_text())
+    recorded = json.loads((OUT / 'independent_result_audit_freeze.sha256.json').read_text())
+    analysis_path = str(OUT / 'analysis_result_freeze.sha256.json')
+    assert previous['status'] == 'pass' and digest(analysis_path) == recorded[analysis_path]
+    for name in previous['frozen_paths_verified']:
+        mapping = json.loads((OUT / name).read_text())
+        for path, expected in mapping.items():
+            assert digest(path) == expected, (name, path, 'freeze changed')
+        previous['frozen_paths_verified'][name] = len(mapping)
+    previous['final_report'] = audit_final_report()
+    previous['presentation_refresh'] = 'Core frozen analysis unchanged; final midpoint-score report, efficiency tables, significance-resolution wording and Word independently reverified.'
+    (OUT / 'independent_result_audit.json').write_text(json.dumps(previous, ensure_ascii=False, indent=2) + '\n')
+    frozen_paths = [Path(__file__).resolve(), OUT / 'analysis_result_freeze.sha256.json', OUT / 'full_report_freeze.sha256.json']
+    (OUT / 'independent_result_audit_freeze.sha256.json').write_text(json.dumps({str(p): digest(p) for p in frozen_paths}, indent=2) + '\n')
+    print(json.dumps(dict(status='pass', core_analysis_unchanged=True, final_report=previous['final_report']), ensure_ascii=False, indent=2))
+
+
+if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--report-only', action='store_true')
+    args = parser.parse_args()
+    if args.report_only:
+        refresh_final_report()
+    else:
+        main()
