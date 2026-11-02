@@ -1,0 +1,120 @@
+{
+  "status": "pass",
+  "manifest_files_verified": 1854,
+  "csv_tables": [
+    {
+      "file": "annotation_repeat_pairs.csv",
+      "rows": 1120,
+      "columns": 12
+    },
+    {
+      "file": "annotation_repeat_summary.csv",
+      "rows": 4,
+      "columns": 7
+    },
+    {
+      "file": "automatic_robustness/condition_checks.csv",
+      "rows": 9822,
+      "columns": 38
+    },
+    {
+      "file": "automatic_robustness/deduplicated_conditions.csv",
+      "rows": 208,
+      "columns": 6
+    },
+    {
+      "file": "automatic_robustness/external_risk_scores.csv",
+      "rows": 800,
+      "columns": 31
+    },
+    {
+      "file": "automatic_robustness/group_checks.csv",
+      "rows": 4160,
+      "columns": 16
+    },
+    {
+      "file": "automatic_robustness/summary.csv",
+      "rows": 10,
+      "columns": 14
+    },
+    {
+      "file": "automatic_robustness/unique_state_model_checks.csv",
+      "rows": 440,
+      "columns": 21
+    },
+    {
+      "file": "coverage_metrics.csv",
+      "rows": 1404,
+      "columns": 12
+    },
+    {
+      "file": "coverage_runs.csv",
+      "rows": 48228,
+      "columns": 8
+    },
+    {
+      "file": "discovered_conditions.csv",
+      "rows": 9822,
+      "columns": 14
+    },
+    {
+      "file": "discovery_groups.csv",
+      "rows": 4160,
+      "columns": 6
+    },
+    {
+      "file": "external_condition_results.csv",
+      "rows": 9822,
+      "columns": 21
+    },
+    {
+      "file": "external_diagnostic_groups.csv",
+      "rows": 4160,
+      "columns": 13
+    },
+    {
+      "file": "external_diagnostic_summary.csv",
+      "rows": 10,
+      "columns": 12
+    },
+    {
+      "file": "quotas.csv",
+      "rows": 1036,
+      "columns": 6
+    },
+    {
+      "file": "synthetic_missingness.csv",
+      "rows": 240,
+      "columns": 6
+    }
+  ],
+  "npz_files": [
+    {
+      "file": "external_car_matrix.npz",
+      "arrays": 2
+    },
+    {
+      "file": "external_horse_matrix.npz",
+      "arrays": 2
+    },
+    {
+      "file": "external_person_matrix.npz",
+      "arrays": 2
+    },
+    {
+      "file": "external_sheep_matrix.npz",
+      "arrays": 2
+    },
+    {
+      "file": "selections.npz",
+      "arrays": 92
+    }
+  ],
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.5.2",
+  "elapsed_seconds": 7.14,
+  "scope": "Frozen-label, embedding and prediction reanalysis only",
+  "training_inference_vlm_calls": 0,
+  "historical_inputs_modified": false,
+  "human_semantic_accuracy_validated": false
+}

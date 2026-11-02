@@ -2,6 +2,15 @@
 
 Project workspace for QE.
 
+## 最新结果便携复算
+
+2026-10-18 覆盖与诊断分析的冻结标签、预测、特征缓存和统一复算入口见
+[复算说明](docs/latest_coverage_reanalysis_20261018.md)及
+[便携复算包](docs/coverage_diagnostic_reanalysis_20261018.zip)。
+解压后安装包内 `requirements.txt`，运行 `python reproduce.py --output reproduced`，
+会重新计算并核对 17 张结果表和 5 个数组文件。只需 CPU，无需原图、模型权重或 API；
+适用范围是冻结缓存上的统计复算，不是从零重训、重新标注或全部历史实验复现。
+
 ## 整合后的六分类试运行
 
 2026-10-09 在此目录完成小规模验证：现有55项单元测试通过；B池缓存分层复算通过；三确认池各抽六类目标各一个，用八种架构各一份已有权重实际推理，144次分类预测与历史缓存一致。
