@@ -22,7 +22,7 @@ training, inference, or annotation. The code reads only the frozen inputs bundle
 with the archive; the original project was left intact.
 
 The full generated check record is available in
-[coverage_diagnostic_reanalysis_verification_20261102.json](coverage_diagnostic_reanalysis_verification_20261102.json).
+[coverage_diagnostic_reanalysis_verification_20261102.json](../archive/coverage_diagnostic_reanalysis_verification_20261102.json).
 Every replay creates its own equivalent `verification.json`, including table row
 counts, the actual environment, elapsed time and scope.
 

@@ -8,7 +8,7 @@ classifier inference, VLM annotation, or network requests.
 
 ## Run
 
-Download `docs/coverage_diagnostic_reanalysis_20261018.zip` from the GitHub
+Download `docs/archive/coverage_diagnostic_reanalysis_20261018.zip` from the GitHub
 repository and extract it into an empty directory. In the extracted directory:
 
 ```bash

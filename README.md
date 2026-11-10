@@ -5,8 +5,8 @@ Project workspace for QE.
 ## 最新结果便携复算
 
 2026-10-18 覆盖与诊断分析的冻结标签、预测、特征缓存和统一复算入口见
-[复算说明](docs/latest_coverage_reanalysis_20261018.md)及
-[便携复算包](docs/coverage_diagnostic_reanalysis_20261018.zip)。
+[复算说明](docs/实验方案与结果/latest_coverage_reanalysis_20261018.md)及
+[便携复算包](docs/archive/coverage_diagnostic_reanalysis_20261018.zip)。
 解压后安装包内 `requirements.txt`，运行 `python reproduce.py --output reproduced`，
 会重新计算并核对 17 张结果表和 5 个数组文件。只需 CPU，无需原图、模型权重或 API；
 适用范围是冻结缓存上的统计复算，不是从零重训、重新标注或全部历史实验复现。
@@ -25,17 +25,17 @@ OMP_NUM_THREADS=2 MKL_NUM_THREADS=2 .venv/bin/python scripts/check_integrated_wo
 
 第二个命令要求输出目录尚不存在。它检查三池图片路径、抽样图片哈希、八架构权重加载及推理；不重新训练或调用VLM。抽样使用18个不同目标，补齐到历史96输入批次，补齐样本不计入144次对照。CUDA/TF32设置下此次分类一致，不代表不同设备、精度或批次下logits逐位相同；CPU/小批次探测曾出现一条边界预测差异。
 
-历史冻结清单仍保存旧工作目录的绝对路径。此检查在内存中转换路径，并将新清单另存到输出目录，不改写历史清单和哈希记录。旧全量入口尚未全部迁移为只依赖新目录；本次通过不等于全工程迁移完成。详细记录见 [整合后试运行记录](docs/整合后试运行记录_20261009.md)。
+历史冻结清单仍保存旧工作目录的绝对路径。此检查在内存中转换路径，并将新清单另存到输出目录，不改写历史清单和哈希记录。旧全量入口尚未全部迁移为只依赖新目录；本次通过不等于全工程迁移完成。详细记录见 [整合后试运行记录](docs/archive/整合后试运行记录_20261009.md)。
 
 ## 自动类别与特征流水线
 
-对于已有目标标注的数据集，可不再手写类别特征字典。流程会先用 VLM 独立判断类别，再自动生成、校验并冻结 schema，最后进行特征识别。首版 person 策略和输入协议见 [自动特征流程](docs/auto_feature_workflow.md)。
+对于已有目标标注的数据集，可不再手写类别特征字典。流程会先用 VLM 独立判断类别，再自动生成、校验并冻结 schema，最后进行特征识别。首版 person 策略和输入协议见 [自动特征流程](docs/archive/auto_feature_workflow.md)。
 
 ## DTA 第一阶段
 
 `qe_quality.dta` 在 Imagenette 100 张上运行本地 Qwen3-VL、SAM vit_h 和在线
 VLM 对照。每张结果独立落盘，使用相同协议与 `--resume` 可断点续跑。
-当前配置使用 [主体选择协议 v8](docs/dta_subject_selection_v8.md)：前景中被展示或被操作的对象优先于人物，旧 v7 结果不复用。
+当前配置使用 [主体选择协议 v8](docs/archive/dta_subject_selection_v8.md)：前景中被展示或被操作的对象优先于人物，旧 v7 结果不复用。
 
 先运行三张真实 smoke：
 
@@ -75,7 +75,7 @@ watch -n 5 '/home/hcf/project/QE/.venv/bin/python -m json.tool /home/hcf/project
 
 新增 CPU 评分与验证模块复用已有 GPU 输出，只处理基准原图。工程完成与评分有效性分别验收；不划分易中难、不调整分布、不运行蜕变测试。
 
-协议和证据边界见 [评分协议](docs/difficulty_protocol.md)。仅需 Python 3.12 与 Pillow；现有 `.venv` 可直接使用。独立安装依赖可运行 `python -m pip install -r requirements-difficulty.txt`。
+协议和证据边界见 [评分协议](docs/archive/difficulty_protocol.md)。仅需 Python 3.12 与 Pillow；现有 `.venv` 可直接使用。独立安装依赖可运行 `python -m pip install -r requirements-difficulty.txt`。
 
 ```bash
 .venv/bin/python -m qe_quality.difficulty prepare --config configs/difficulty_baseline_v1.json --output artifacts/my_run/prepared
@@ -100,4 +100,4 @@ watch -n 5 '/home/hcf/project/QE/.venv/bin/python -m json.tool /home/hcf/project
 
 未分配开发/验证数据或缺少审核有效样本时，冻结会拒绝执行。历史结果已经被查看过，事后冻结不能使其成为盲测数据。
 
-本轮实际产物与结论见 [运行记录](docs/difficulty_research_log.md) 和 [证据表](docs/difficulty_claim_evidence.md)。历史 `data/` 文件保留不覆盖。
+本轮实际产物与结论见 [运行记录](docs/archive/difficulty_research_log.md) 和 [证据表](docs/archive/difficulty_claim_evidence.md)。历史 `data/` 文件保留不覆盖。
