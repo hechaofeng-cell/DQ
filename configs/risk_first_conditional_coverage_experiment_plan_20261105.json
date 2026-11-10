@@ -1,0 +1,391 @@
+{
+  "plan_id": "risk_first_conditional_coverage_20261105",
+  "status": "draft_not_executed_not_preregistered",
+  "document": "/home/hcf/project/QE/docs/风险先行条件覆盖替换_详细实验方案_20261105.md",
+  "scope": {
+    "selection_classes": [
+      "horse",
+      "sheep",
+      "person",
+      "car"
+    ],
+    "fixed_background_classes": [
+      "dog",
+      "cat"
+    ],
+    "classification_classes": [
+      "dog",
+      "cat",
+      "horse",
+      "sheep",
+      "person",
+      "car"
+    ],
+    "automatic_annotation_only": true,
+    "new_conditional_algorithm_implemented": false
+  },
+  "research_questions": [
+    "coverage_and_constraints",
+    "selection_cost_including_calibration",
+    "independently_confirmed_diagnostics",
+    "comparison_with_simple_strong_baselines"
+  ],
+  "inputs": {
+    "historical_manifest": "/home/hcf/project/QE/artifacts/coco_five_dimension_fine_selection_20261015/manifest.csv",
+    "historical_risk": "/home/hcf/project/QE/artifacts/other_classes_specific_experiment_20261018/risk_scores_and_tiers.csv",
+    "historical_full_state_root": "/home/hcf/project/QE/artifacts/other_classes_specific_experiment_20261018",
+    "historical_background_selection": "/home/hcf/project/QE/artifacts/coco_five_dimension_fine_selection_20261015/selection.npz",
+    "historical_background_selection_key": "E4",
+    "historical_model_prediction_root": "/home/hcf/project/QE/artifacts/recent_five_models_20261009/runs",
+    "historical_model_prediction_split": "B",
+    "existing_baseline_code": "/home/hcf/project/QE/scripts/coverage_validation_common_20261018.py",
+    "historical_external_role": "retrospective_debug_only_not_new_confirmation"
+  },
+  "phases": {
+    "engineering": {
+      "synthetic_checks_required": true,
+      "debug_selection_seeds": [
+        2026110000,
+        2026110001,
+        2026110002,
+        2026110003,
+        2026110004
+      ],
+      "use_classifier_predictions_for_tuning": false
+    },
+    "retrospective": {
+      "candidate_targets_per_class": 400,
+      "selection_seeds": [
+        2026110500,
+        2026110501,
+        2026110502,
+        2026110503,
+        2026110504,
+        2026110505,
+        2026110506,
+        2026110507,
+        2026110508,
+        2026110509,
+        2026110510,
+        2026110511,
+        2026110512,
+        2026110513,
+        2026110514,
+        2026110515,
+        2026110516,
+        2026110517,
+        2026110518,
+        2026110519,
+        2026110520,
+        2026110521,
+        2026110522,
+        2026110523,
+        2026110524,
+        2026110525,
+        2026110526,
+        2026110527,
+        2026110528,
+        2026110529,
+        2026110530,
+        2026110531,
+        2026110532,
+        2026110533,
+        2026110534,
+        2026110535,
+        2026110536,
+        2026110537,
+        2026110538,
+        2026110539,
+        2026110540,
+        2026110541,
+        2026110542,
+        2026110543,
+        2026110544,
+        2026110545,
+        2026110546,
+        2026110547,
+        2026110548,
+        2026110549
+      ],
+      "role": "historical_analysis_not_unseen_validation"
+    },
+    "fresh_confirmation": {
+      "enabled_after_retrospective_review": true,
+      "candidate_pool_name": "C-select",
+      "reference_pool_name": "C-ref",
+      "candidate_targets_per_class": 400,
+      "reference_targets_per_class": 400,
+      "total_new_targets": 4800,
+      "selection_seeds": [
+        2026110600,
+        2026110601,
+        2026110602,
+        2026110603,
+        2026110604,
+        2026110605,
+        2026110606,
+        2026110607,
+        2026110608,
+        2026110609,
+        2026110610,
+        2026110611,
+        2026110612,
+        2026110613,
+        2026110614,
+        2026110615,
+        2026110616,
+        2026110617,
+        2026110618,
+        2026110619,
+        2026110620,
+        2026110621,
+        2026110622,
+        2026110623,
+        2026110624,
+        2026110625,
+        2026110626,
+        2026110627,
+        2026110628,
+        2026110629
+      ],
+      "thresholds": "reuse_frozen_historical_absolute_values_no_recalibration",
+      "candidate_reference_split_unit": "original_image",
+      "exclude_historical_images_and_near_duplicates": true,
+      "classifier_target_model_seed_evaluations": 72000,
+      "adaptive_sampling_after_predictions": false,
+      "insufficient_support_policy": "retain_and_report_no_primary_top_up",
+      "fixed_background_selection": {
+        "method": "same_cell_random_shared_risk_quotas",
+        "seed": 2026110699,
+        "fixed_across_methods_and_selection_seeds": true
+      }
+    }
+  },
+  "models": [
+    "yolo26s_cls",
+    "pe_core_b16",
+    "siglip2_base",
+    "mobileclip2_s0",
+    "aimv2_large"
+  ],
+  "prediction_seeds": [
+    20260916,
+    20260917,
+    20260918
+  ],
+  "primary_setting": {
+    "budget_per_class": 200,
+    "Q_tiers": 5,
+    "targets_per_tier_per_class": 40,
+    "final_six_class_targets": 1200,
+    "support_cap": 20,
+    "risk_scheme": "equal_parts",
+    "risk_cell": [
+      "class",
+      "Q",
+      "score_midpoint_rounded_1e8",
+      "uncertainty_width_rounded_1e8"
+    ],
+    "quota_allocation": "largest_remainder_within_Q_existing_tie_rule",
+    "unknown": "not_a_valid_state_not_a_known_absent_diagnostic_control",
+    "declared_but_unobserved_states": "retain_in_coverage_denominator",
+    "joint_coverage_scope": "all_declared_shared_and_specific_states",
+    "report_shared_specific_separately": true
+  },
+  "methods": {
+    "R": {
+      "name": "same_cell_random",
+      "quality_repeats": "one_per_selection_seed"
+    },
+    "G": {
+      "name": "full_dictionary_capped_log_greedy",
+      "quality_repeats": 1,
+      "tie_rule": "sample_id"
+    },
+    "SR": {
+      "name": "static_rarity",
+      "quality_repeats": 1,
+      "tie_rule": "sample_id"
+    },
+    "KC": {
+      "name": "frozen_ViT_kcenter",
+      "quality_repeats": 1,
+      "tie_rule": "sample_id"
+    },
+    "CS": {
+      "name": "conditional_swap",
+      "initial_set": "paired_R",
+      "trigger": "only_failing_class",
+      "stop_on_joint_coverage": true
+    },
+    "AS": {
+      "name": "always_swap",
+      "initial_set": "paired_R",
+      "trigger": "all_classes",
+      "stop_on_joint_coverage": false,
+      "search_acceptance_and_limits": "identical_to_CS"
+    }
+  },
+  "thresholds": {
+    "calibration_pool": "historical_only",
+    "witness_method": "G",
+    "calibration_budget": 200,
+    "calibration_support_cap": 20,
+    "occurrence_fraction_of_witness": 0.95,
+    "support_completion_fraction_of_witness": 0.95,
+    "freeze_actual_values_per_class": true,
+    "fresh_pool_recalibration": false,
+    "universal_adequacy_claim": false,
+    "include_calibration_time_in_cold_start": true,
+    "amortization_scenarios_new_tasks": [
+      1,
+      10,
+      100
+    ],
+    "amortization_scenarios_are_not_observed_datasets": true
+  },
+  "swap": {
+    "candidate_scope": "same_class_and_exact_risk_cell",
+    "decrement_outgoing_before_incrementing_incoming": true,
+    "primary_merit": "sum_of_normalized_positive_occurrence_and_support_threshold_deficits",
+    "secondary_merit": "normalized_capped_log_state_support",
+    "acceptance": "strictly_reduce_deficit_or_equal_deficit_and_strictly_increase_secondary_merit",
+    "protect_already_satisfied_metric": true,
+    "numeric_tolerance": 1e-12,
+    "tie_rule": [
+      "outgoing_sample_id",
+      "incoming_sample_id"
+    ],
+    "scan": "best_improvement_full_legal_pair_scan",
+    "max_accepted_swaps_per_class": "budget_per_class",
+    "max_pair_evaluations_per_class": 2000000,
+    "partial_scan_at_budget_cap": "discard_partial_best_candidate_keep_current_selection_and_stop",
+    "validate_full_counts_after_each_accepted_swap": true
+  },
+  "information_boundaries": [
+    "freeze_selection_before_prediction_read",
+    "freeze_diagnostic_candidates_before_reference_prediction_read",
+    "no_classifier_predictions_in_selection_or_thresholds",
+    "no_retuning_based_on_Q1_Q5_decline"
+  ],
+  "diagnostics": {
+    "scope_primary": "all_frozen_states",
+    "scope_secondary": "specific_only",
+    "candidate_per_class_model_max": 3,
+    "support_targets_each_group_min": 20,
+    "support_unique_images_each_group_min": 20,
+    "control": "same_class_same_field_known_and_not_in_state",
+    "unknown_control_allowed": false,
+    "discovery_recall_gap_pp_max": -10,
+    "external_confirmation_recall_gap_pp_max": -10,
+    "seed_aggregation": "mean_across_three_prediction_seeds_before_ranking_conditions",
+    "diagnostic_unit": "class_model_state_instance",
+    "report_cross_model_deduplicated_types": true,
+    "insufficient_support": "separate_status_zero_confirmed_count_exclude_from_evaluable_rate_denominator",
+    "causal_independence_claim": false,
+    "historical_condition_counts_reused_as_new_results": false
+  },
+  "reporting_metrics": {
+    "coverage": [
+      "occurrence",
+      "support_completion",
+      "support_threshold_fraction"
+    ],
+    "cost": [
+      "cold_wall_time",
+      "warm_wall_time",
+      "calibration_wall_time",
+      "add_candidate_scores",
+      "swap_pair_scores",
+      "full_scans",
+      "accepted_swaps",
+      "peak_memory"
+    ],
+    "classifier": [
+      "precision",
+      "recall",
+      "f1",
+      "one_vs_rest_accuracy",
+      "six_class_top1_accuracy",
+      "four_target_class_macro_f1",
+      "six_class_macro_f1"
+    ],
+    "diagnostics": [
+      "proposed",
+      "evaluable",
+      "confirmed",
+      "insufficient",
+      "confirmation_rate_among_evaluable",
+      "deduplicated_confirmed_state_types"
+    ]
+  },
+  "timing": {
+    "warmup": true,
+    "all_selection_seeds_timed": true,
+    "timing_replay_seed_count": 10,
+    "total_replays_per_timing_seed": 3,
+    "deterministic_baseline_timing_replays": 3,
+    "randomize_method_execution_order": true,
+    "technical_replays_are_not_new_quality_replicates": true,
+    "fixed_threads": true,
+    "cached_prediction_read_is_not_inference_runtime": true
+  },
+  "statistics": {
+    "interval_level": 0.95,
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 2026110599,
+    "external_bootstrap": "paired_across_methods_class_stratified_original_image_cluster_bootstrap",
+    "recompute_support_eligibility_and_confirmation_per_resample": true,
+    "optional_nested_selection_seed_bootstrap": true,
+    "classes_and_models_are_fixed_not_independent_dataset_repeats": true,
+    "formal_multiple_primary_comparison_correction": "Holm_if_formal_p_values_reported",
+    "noninferiority_test": "one_sided_95_percent_lower_bound_for_CS_minus_G_confirmed_count_above_minus_2"
+  },
+  "decision_rules": {
+    "all_emitted_selections_pass_budget_and_cell_audit": true,
+    "CS_joint_all_four_class_success_fraction_min": 0.95,
+    "warm_median_selection_time_reduction_vs_G_and_AS_min": 0.3,
+    "diagnostic_count_noninferiority_margin": 2,
+    "G_confirmed_count_event_floor": 10,
+    "evaluable_target_class_count_min": 3,
+    "simple_baseline_dominance_blocks_general_superiority_claim": true,
+    "wide_intervals": "inconclusive_not_noninferior",
+    "cold_start_including_calibration_must_be_reported": true,
+    "values_are_proposed_operational_thresholds_not_established_standards": true,
+    "warm_time_ratio_95pct_upper_must_be_below": 1.0
+  },
+  "sensitivity": {
+    "one_factor_at_a_time": true,
+    "budgets": [
+      50,
+      100,
+      200,
+      300
+    ],
+    "budget_sweep_thresholds": "fixed_budget_200_primary_values",
+    "witness_fraction_values": [
+      0.9,
+      0.95,
+      1.0
+    ],
+    "support_caps": [
+      10,
+      20,
+      30
+    ],
+    "support_cap_sweep_thresholds": "recompute_by_frozen_rule_on_same_historical_witness_then_cross_evaluate_at_common_K20",
+    "dictionary": [
+      "shared",
+      "full"
+    ],
+    "external_gap_pp": [
+      5,
+      10,
+      20
+    ],
+    "automatic_reannotation_or_missingness_checks": true,
+    "selecting_best_sensitivity_as_primary": false
+  },
+  "implementation_entrypoints_status": "planned_not_implemented",
+  "result_output_template": "/home/hcf/project/QE/artifacts/risk_first_conditional_coverage_<run_id>"
+}
