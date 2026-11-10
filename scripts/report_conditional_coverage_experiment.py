@@ -272,7 +272,8 @@ def make_report(out,summary,ds,dd,costs,ss,gates):
       '',f'![四指标分层表现]({out}/figures/four_metrics_grid.svg)',
       '',f'![敏感性]({out}/figures/sensitivity.svg)']
     (out/'report_zh.md').write_text('\n'.join(lines)+'\n')
-    report_path=cc.ROOT/'docs/风险先行条件覆盖替换_实验结果_20261105.md'
+    # 2026-11-10 docs 重组：实验结果文档移至 docs/实验方案与结果/。
+    report_path=cc.ROOT/'docs/实验方案与结果/风险先行条件覆盖替换_实验结果_20261105.md'
     shutil.copyfile(out/'report_zh.md',report_path)
     claims=['# Claim–evidence ledger','',
       '| ID | 主张 | 状态 | 证据与边界 |','|---|---|---|---|',

@@ -69,7 +69,7 @@ def build(destination):
     config = Path("configs/category_five_dimension_pilot_v1.json")
     copy(config, Path("snapshot") / config)
     copy(Path("scripts/replay_coverage_diagnostic_bundle.py"), Path("reproduce.py"))
-    copy(Path("docs/latest_coverage_reanalysis_20261018.md"), Path("README.md"))
+    copy(Path("docs/实验方案与结果/latest_coverage_reanalysis_20261018.md"), Path("README.md"))
     for name in ("protocol.json", "external_manifest.csv", "repeat_manifest.csv",
                  "automatic_robustness/protocol.json"):
         input_file(STUDY / name)
@@ -131,7 +131,8 @@ def build(destination):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, default=ROOT / "docs/coverage_diagnostic_reanalysis_20261018.zip")
+    # 2026-11-10 docs 重组：既有打包件归档于 docs/archive/。
+    parser.add_argument("--output", type=Path, default=ROOT / "docs/archive/coverage_diagnostic_reanalysis_20261018.zip")
     args = parser.parse_args()
     args.output.parent.mkdir(parents=True, exist_ok=True)
     if args.output.exists():
