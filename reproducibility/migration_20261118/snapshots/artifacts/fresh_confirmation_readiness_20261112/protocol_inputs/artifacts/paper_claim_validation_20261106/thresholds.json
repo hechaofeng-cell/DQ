@@ -1,0 +1,26 @@
+{
+  "dog": {
+    "occurrence": 0.8708333333333332,
+    "support_completion": 0.7543452380952379
+  },
+  "cat": {
+    "occurrence": 0.8482142857142857,
+    "support_completion": 0.6830952380952381
+  },
+  "horse": {
+    "occurrence": 0.8378472222222222,
+    "support_completion": 0.6626909722222223
+  },
+  "sheep": {
+    "occurrence": 0.7928571428571428,
+    "support_completion": 0.6296428571428572
+  },
+  "person": {
+    "occurrence": 0.8972222222222221,
+    "support_completion": 0.6933680555555555
+  },
+  "car": {
+    "occurrence": 0.8609374999999999,
+    "support_completion": 0.7314257812499999
+  }
+}

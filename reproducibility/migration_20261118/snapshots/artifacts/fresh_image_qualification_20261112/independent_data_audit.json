@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "independent_membership_and_pixel_audit": true,
+  "accepted_originals": 4800,
+  "actual_image_and_view_files_rehashed": 19200,
+  "perceptual_hashes_recomputed": true,
+  "historical_unique_contents": 68463,
+  "full_original_dhash_rechecked": true,
+  "confirmed_crop_exclusions_checked": true,
+  "manifest_sha256": "3dea78780baf2b1a563078928279a240454732b95d8e53cbab0ffb78eb349cc7",
+  "human_review": false,
+  "new_VLM_calls": 0,
+  "target_classifier_calls": 0,
+  "boundary": "Crop ViT decisions use the frozen qualification evidence; this is not semantic ground-truth certification."
+}

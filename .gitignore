@@ -52,3 +52,6 @@ artifacts/
 output/
 results/
 models/*.pth
+
+# Small migration manifests and frozen metadata (no image/model payloads).
+!reproducibility/migration_20261118/**

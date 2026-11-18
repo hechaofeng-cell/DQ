@@ -1,0 +1,1872 @@
+{
+  "status": "pass",
+  "package": "v2/patch48",
+  "mode": "validated_ranges_complete_gzip_tar",
+  "archive_bytes": 9075419050,
+  "archive_sha256": "3c1dcc4207195e85eecf28ce295d581b413480a4697d7f9c6e90639bfd23a5fc",
+  "targets": 372,
+  "found": {
+    "objects365_v2_02161649.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02161649.jpg",
+      "sha256": "ca7117ae79b7c88d2170daa75b99686abff593dee6feb65a8fa5c38dcb864fe0",
+      "bytes": 108869
+    },
+    "objects365_v2_02161685.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02161685.jpg",
+      "sha256": "1488a059e4ee908ad39fea9e28dc366217744a9d4b4175bca7db53e00b447f8d",
+      "bytes": 89846
+    },
+    "objects365_v2_02161730.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02161730.jpg",
+      "sha256": "66ed28bef8989d688c04ccb1405f55d0382e9faacbed4ae3de2ee5b7ad7acb8d",
+      "bytes": 63203
+    },
+    "objects365_v2_02161877.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02161877.jpg",
+      "sha256": "4505ef8362bd757301743aa92c3d995ca498d8cff29deacfedc0d6ddf4e511f6",
+      "bytes": 394148
+    },
+    "objects365_v2_02161966.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02161966.jpg",
+      "sha256": "ec1af790f447f05afda3b76207e6964a35b50e3d2e0b0e2b81ac5d1185eaabdd",
+      "bytes": 94751
+    },
+    "objects365_v2_02162030.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162030.jpg",
+      "sha256": "30fd3ef7a574c2da6f3381a6396e28b9d718a26ee0431ec60d0dfdcd3aa93068",
+      "bytes": 483855
+    },
+    "objects365_v2_02162048.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162048.jpg",
+      "sha256": "b6b828f6d5eac969d1823bb6587072451de92e8a0d1f0c82251dcb2d878b30c2",
+      "bytes": 73779
+    },
+    "objects365_v2_02162114.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162114.jpg",
+      "sha256": "2e647283525cfd746658d5d5b5e3d96825fa48c7fd2fd55a9168dc2c0de05fa8",
+      "bytes": 235611
+    },
+    "objects365_v2_02162150.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162150.jpg",
+      "sha256": "e8b8b75ba266a70e1ee6ebd3f7a88b6fe86065ecb84c684a9ae91fcb044e148b",
+      "bytes": 209730
+    },
+    "objects365_v2_02162199.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162199.jpg",
+      "sha256": "315509728eb2cbeede5e9a2e7274c44888af61cbc17f3adbaaac2edfb55ae7f3",
+      "bytes": 58898
+    },
+    "objects365_v2_02162295.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162295.jpg",
+      "sha256": "fcc617596931a143d8fae50009d2aa99893404fb474175d8a233af5bcea0e5f0",
+      "bytes": 64471
+    },
+    "objects365_v2_02162336.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162336.jpg",
+      "sha256": "1d40cb73d1b3a054e7cfd6d1951d05c6fa601db7cf8b5738e61b02ef3629ab20",
+      "bytes": 161690
+    },
+    "objects365_v2_02162343.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162343.jpg",
+      "sha256": "ccb86d6c4abf29e5732a038fbd57c25c2c13668348a498b7f12f2bf3bebd2ec4",
+      "bytes": 125540
+    },
+    "objects365_v2_02162457.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162457.jpg",
+      "sha256": "eb2b69424a5a118f9121e4ef4984629bf09bd3430a491f1edcb53c93d15fffaa",
+      "bytes": 298722
+    },
+    "objects365_v2_02162578.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162578.jpg",
+      "sha256": "a279af8a0da9adf1c73f42d0f9abcd50a485e3a3bace0810f1c8172b7bfe77e3",
+      "bytes": 211183
+    },
+    "objects365_v2_02162687.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162687.jpg",
+      "sha256": "450c00f9979d104b0506c33d84fde1d619ac25a5549ed5a9147a46cf11f7936b",
+      "bytes": 254029
+    },
+    "objects365_v2_02162888.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162888.jpg",
+      "sha256": "9c659aade36ac748240793eebc14aa8e57a61e542c8dc9e114a18ca20d129dab",
+      "bytes": 66427
+    },
+    "objects365_v2_02162898.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162898.jpg",
+      "sha256": "bc48c6ca5ceaa727f01ce6f2b2953299c2ab84c2a8d14a28c9dd93e299ec29ba",
+      "bytes": 389186
+    },
+    "objects365_v2_02162918.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162918.jpg",
+      "sha256": "6f567039b4a8a6af218f9df8cbe5d178cb6caae6ba05d6137139a479684828bc",
+      "bytes": 116069
+    },
+    "objects365_v2_02162924.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02162924.jpg",
+      "sha256": "00e8f9e530e148dd87f69db952b30bb1f1cf1e6e5ad2ab6eda9532a4c8b4ccee",
+      "bytes": 90491
+    },
+    "objects365_v2_02163060.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163060.jpg",
+      "sha256": "22b0f774cee9ca58302c9961239b761566f84a6045e1cbedc05840820c5f8889",
+      "bytes": 86730
+    },
+    "objects365_v2_02163064.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163064.jpg",
+      "sha256": "80005ae3c0184c20bf389e17eb24e7c7405ff8fca0b0f6db3fc72ebfd3499eb5",
+      "bytes": 94942
+    },
+    "objects365_v2_02163097.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163097.jpg",
+      "sha256": "b19c8c4f5b2cc5f9d4c2b80480460b2f23cc935634a91dff5f5241e337c265c5",
+      "bytes": 93823
+    },
+    "objects365_v2_02163203.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163203.jpg",
+      "sha256": "e6045c59d34170cbccd624c450b03c37a5d9dac670b4abbcca63c7946654158d",
+      "bytes": 51820
+    },
+    "objects365_v2_02163288.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163288.jpg",
+      "sha256": "cf09ac717a9105b9dd81062002ef0e8ac0091989c2030a14ceb229da6cf055b6",
+      "bytes": 113467
+    },
+    "objects365_v2_02163329.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163329.jpg",
+      "sha256": "4dc0a03b9ed92fc086e78a31ac83644216337d42863c5ecfb82d89ee462ebc28",
+      "bytes": 94293
+    },
+    "objects365_v2_02163516.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163516.jpg",
+      "sha256": "afd2e8c1cf87acc4dd7144f641dacde232229e8a5b56674a4494fd65387a4675",
+      "bytes": 146207
+    },
+    "objects365_v2_02163520.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163520.jpg",
+      "sha256": "9464f5fbbbcff8fd370e684c1b84f9c1fc0cf222a5c7a58307ad76586fc85af9",
+      "bytes": 113145
+    },
+    "objects365_v2_02163614.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163614.jpg",
+      "sha256": "63646851c0d26209bf152e83b386965bf50a8e287121a36b2e66447c337257a4",
+      "bytes": 83566
+    },
+    "objects365_v2_02163729.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163729.jpg",
+      "sha256": "8c6712dd8333352e2878524eb5d83b2349f3325b06d4d7083cd12461e9cc86e5",
+      "bytes": 69412
+    },
+    "objects365_v2_02163821.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163821.jpg",
+      "sha256": "c7f2f85292c499bde5f3b1d85a3bdd128ac12378cf19d79c60fce2656b5e551b",
+      "bytes": 67495
+    },
+    "objects365_v2_02163840.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163840.jpg",
+      "sha256": "a1701cacfecd460abe3142f842a8468b236ca0ff9ca3ad956c8c00af5a987174",
+      "bytes": 248287
+    },
+    "objects365_v2_02163897.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163897.jpg",
+      "sha256": "c533c0bd8fe9083fb0ba48797731830d8276f62158f96f20b3fb55cb303eed9c",
+      "bytes": 57141
+    },
+    "objects365_v2_02163907.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163907.jpg",
+      "sha256": "0d3e26b73f29969826e2d40aecb45607f37e2f4c5ea56f14e29a8a4d032a78fb",
+      "bytes": 71892
+    },
+    "objects365_v2_02163914.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02163914.jpg",
+      "sha256": "bf48c47e941a4151663c1a3a7fcbc0086273e0084cd98cb4a7f46723470ad4b8",
+      "bytes": 219015
+    },
+    "objects365_v2_02164061.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02164061.jpg",
+      "sha256": "5837f24766c4cfe1840e1127dfbde47d398a2f00dc98672b81b4936e80f97350",
+      "bytes": 89999
+    },
+    "objects365_v2_02164509.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02164509.jpg",
+      "sha256": "00bbb77bc3c9f6b3844aae8947d1712eb0833a30c0aa42932b88e636d97329b8",
+      "bytes": 139610
+    },
+    "objects365_v2_02164539.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02164539.jpg",
+      "sha256": "d490628d063a080c84495bf4a1ed912dbd0d94833d57795801136bb8a64154a1",
+      "bytes": 92524
+    },
+    "objects365_v2_02164591.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02164591.jpg",
+      "sha256": "d05dc4c12693d9ae6f37d790b6dc91315abbdebfc393902367d481ba3a35371a",
+      "bytes": 83993
+    },
+    "objects365_v2_02164593.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02164593.jpg",
+      "sha256": "cab085c393fcd444fca86d1f392c3d0563a05aeb33e5e7605b322dabd9a78179",
+      "bytes": 2407328
+    },
+    "objects365_v2_02164788.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02164788.jpg",
+      "sha256": "ef8bcb7a2318ebbbeeea278c7e6dfd147c47301065dd7a7421ceef589ab188e6",
+      "bytes": 140426
+    },
+    "objects365_v2_02165007.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165007.jpg",
+      "sha256": "9d8d6eabcc90c6d436d0fadd43d2f0bc23eb325703cbfd5566d6eba32973d7db",
+      "bytes": 130908
+    },
+    "objects365_v2_02165034.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165034.jpg",
+      "sha256": "8677acfddaa0ac566adcc29adaa0ab0108e7054faf8ea8f279b7ff4aecc899ec",
+      "bytes": 278331
+    },
+    "objects365_v2_02165049.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165049.jpg",
+      "sha256": "05626b993d272cfb9923d223d0ab76687d9d94970833f4272ca0bc185f6e441e",
+      "bytes": 326727
+    },
+    "objects365_v2_02165109.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165109.jpg",
+      "sha256": "495359521c3baf8e690b4ffd98a69d12391bceededd751c6192f9c719aa9131f",
+      "bytes": 92692
+    },
+    "objects365_v2_02165274.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165274.jpg",
+      "sha256": "fd36754d658ed21cb119830d9394e821c01d4d3082d29b53e5077bec1a46feea",
+      "bytes": 120192
+    },
+    "objects365_v2_02165457.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165457.jpg",
+      "sha256": "31e14a895bd6047cdd243cabd668baea54d87d0e5f74cfa82242985f2fe463e5",
+      "bytes": 385534
+    },
+    "objects365_v2_02165504.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165504.jpg",
+      "sha256": "ee2b487d7dcaba23f7bc9726353623be25f68088b87b500d446b8a1381145013",
+      "bytes": 59807
+    },
+    "objects365_v2_02165715.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165715.jpg",
+      "sha256": "c9fabae587549f77fb9d95746d5a8e0c918509b97b979ce633494d2529196c98",
+      "bytes": 69037
+    },
+    "objects365_v2_02165823.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165823.jpg",
+      "sha256": "52d6f56b21829615601ef8d4f590cd53b824ac3d11d0fb8631c149b80d68c569",
+      "bytes": 85300
+    },
+    "objects365_v2_02165856.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165856.jpg",
+      "sha256": "7c4ebd9a7d897112eb37e50d00cd5368ab90bbc8e76ac635904e16caee4b15b2",
+      "bytes": 56679
+    },
+    "objects365_v2_02165893.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165893.jpg",
+      "sha256": "c606688342206516a491e8c393610f9429b59270f219f5b2984ab93d45cad161",
+      "bytes": 208063
+    },
+    "objects365_v2_02165924.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165924.jpg",
+      "sha256": "ba4b96c92176d82a4e007c984f5c2cdd5dc6fcf905174b3caef442763d515980",
+      "bytes": 93614
+    },
+    "objects365_v2_02165994.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02165994.jpg",
+      "sha256": "f8e219f6cc1df0082861156d07722a805d0b277d8f33b8ac38b60fb7aede600d",
+      "bytes": 65543
+    },
+    "objects365_v2_02166049.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02166049.jpg",
+      "sha256": "42963c656a0d9be2104d3ca42d650343c24a345805f31be49c449948c7107577",
+      "bytes": 74596
+    },
+    "objects365_v2_02166199.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02166199.jpg",
+      "sha256": "11fb092ea4e756d38f12fdb20843d1329c704361f85ea7c34a0ddb3e29ffcdd9",
+      "bytes": 68660
+    },
+    "objects365_v2_02166446.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02166446.jpg",
+      "sha256": "54ac5483a11fa8e3270e46e45b1b26cc51116aaf86cc6d73674814d75bbd116d",
+      "bytes": 424380
+    },
+    "objects365_v2_02166631.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02166631.jpg",
+      "sha256": "d7400ac28c580893a582e5404fedef602da4470a932c238d17bd61a1d529ac4d",
+      "bytes": 1737420
+    },
+    "objects365_v2_02166714.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02166714.jpg",
+      "sha256": "6bd0022b26f7daf0309b465af68fb04bf961acb357b989b58ba95be5c9f092cc",
+      "bytes": 391129
+    },
+    "objects365_v2_02166843.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02166843.jpg",
+      "sha256": "71414459d6da7eac34142a0268aa8e37787af4ec8d4dd78c63406dfcf107195b",
+      "bytes": 109592
+    },
+    "objects365_v2_02166864.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02166864.jpg",
+      "sha256": "111b14dfb878a358ccada4097e79bd8fcc17e93ec366c08c9b6bd8924fe0f5cd",
+      "bytes": 115095
+    },
+    "objects365_v2_02166965.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02166965.jpg",
+      "sha256": "dec34656e3d6465f0d19be232c1982a1c753ac7b10c97adb3801cea68429cf64",
+      "bytes": 124264
+    },
+    "objects365_v2_02167174.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02167174.jpg",
+      "sha256": "f89a4b28d73028b3c6884599bba447f227e57eaa8780a8d91d9d3bfc4f9727e8",
+      "bytes": 93449
+    },
+    "objects365_v2_02167276.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02167276.jpg",
+      "sha256": "0b45fb2e5d5f21c816a0f35bcd49eae916a0c10232430feecfd5f18cab620ab8",
+      "bytes": 51369
+    },
+    "objects365_v2_02167643.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02167643.jpg",
+      "sha256": "e0d538f8d76594dcc775fc32bd1f1a443f1513d81fda81e98673610f180efd08",
+      "bytes": 167218
+    },
+    "objects365_v2_02167751.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02167751.jpg",
+      "sha256": "36e95202334b322009babd1cdeeaa94c0530b2f4c71a490a1011701154759797",
+      "bytes": 135323
+    },
+    "objects365_v2_02167834.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02167834.jpg",
+      "sha256": "922f1588189a74188fb21388aa1296a5ce70cca62c44661ef3035273b958dd87",
+      "bytes": 49274
+    },
+    "objects365_v2_02167860.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02167860.jpg",
+      "sha256": "90496d04dabd537ee9ca405a3ee46672bcfce2b4227e3812bdfcc37617544d33",
+      "bytes": 84106
+    },
+    "objects365_v2_02167919.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02167919.jpg",
+      "sha256": "6d28bd2f009a82ee4c4722db58980e308b6fa8b1327ee2831a1cd0c4302649d2",
+      "bytes": 385529
+    },
+    "objects365_v2_02168071.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02168071.jpg",
+      "sha256": "b5f173837ca23249abf055f1989bd6ce0f3aa15ec098f4f7e3a12d265daf34c9",
+      "bytes": 165799
+    },
+    "objects365_v2_02168146.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02168146.jpg",
+      "sha256": "63963cf768c872671dd9fd6ec8268a005af8922b81432604e3ee3f4f9acdebb0",
+      "bytes": 81015
+    },
+    "objects365_v2_02168230.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02168230.jpg",
+      "sha256": "6307bd7f7e394b1bb1749bd43a4df64d0ce6d5cc9c0a736fe7a03a2ebefdb1e7",
+      "bytes": 60385
+    },
+    "objects365_v2_02168354.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02168354.jpg",
+      "sha256": "231835c1842aca25cfb6faca8c0c8df79f53329c287a9dc90ae919456aeae935",
+      "bytes": 464606
+    },
+    "objects365_v2_02168367.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02168367.jpg",
+      "sha256": "7b0444a6f49c3e1d87ff4a083bbe91336d74ef823b0a5c8e9e93fdd8a9539151",
+      "bytes": 135985
+    },
+    "objects365_v2_02168398.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02168398.jpg",
+      "sha256": "e0c1682e019c82802c9f053f467e783d29f2987834ecc8ca34a67b6fd2b3e014",
+      "bytes": 96954
+    },
+    "objects365_v2_02168468.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02168468.jpg",
+      "sha256": "a1e87d2191805df1c8bdbedfcbba577772cc8f1c3cdcacbb437282ab9852f7fd",
+      "bytes": 94498
+    },
+    "objects365_v2_02168597.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02168597.jpg",
+      "sha256": "31c5333a641090473e89d73dda44c615b31a107b29014fd67116c9725273f89f",
+      "bytes": 241555
+    },
+    "objects365_v2_02168689.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02168689.jpg",
+      "sha256": "dba32b68f144588e3ed3f6732bed6f5f2ba9479a7c77c1a6db81f060763abf8c",
+      "bytes": 131065
+    },
+    "objects365_v2_02168746.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02168746.jpg",
+      "sha256": "6832a768fe383a5800760e176a2b2429386e74970327863cc31a13233f2c4be4",
+      "bytes": 106638
+    },
+    "objects365_v2_02168860.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02168860.jpg",
+      "sha256": "c710809e9390681db86890675de20e14941c72de7cf4e25cc6cbf482ebb21b22",
+      "bytes": 330955
+    },
+    "objects365_v2_02168896.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02168896.jpg",
+      "sha256": "1bb1e0b23d3b82afa383f24b9579d899fc0d6cf5cc6e5d13e35ecf0b6f8cb727",
+      "bytes": 286771
+    },
+    "objects365_v2_02169145.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02169145.jpg",
+      "sha256": "4f3457bffcf6377e7002dc0a0381b3e2fa9f19d8c34651b2b4587de5b074ab5d",
+      "bytes": 242583
+    },
+    "objects365_v2_02169256.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02169256.jpg",
+      "sha256": "e5be0ba6cf17beec1c18bd5bc423006f17645e3d99c41683a4fbf30c2b7c9efe",
+      "bytes": 42133
+    },
+    "objects365_v2_02169421.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02169421.jpg",
+      "sha256": "ce28934faf828469c15f0a7e55f225913b1b7a40bc5ecb3357626c44e3d32e55",
+      "bytes": 218478
+    },
+    "objects365_v2_02169566.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02169566.jpg",
+      "sha256": "748cf4900a699c5e4256ba184b2dc850d8ad3f23392f975e71d055b999ce4ca6",
+      "bytes": 54557
+    },
+    "objects365_v2_02169607.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02169607.jpg",
+      "sha256": "05cfd10ba98b4b054d9e7daa020846e73e03f25c19fd566663c82ec8c83affa2",
+      "bytes": 115589
+    },
+    "objects365_v2_02169849.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02169849.jpg",
+      "sha256": "593e53401d8d191e27df2bf53b9ed4907bda390e75d0cfc96de0be38cdcd6373",
+      "bytes": 333944
+    },
+    "objects365_v2_02169938.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02169938.jpg",
+      "sha256": "fa60660e49caf54b952bfbd7db0ca730821f0f97585b4ca8fb30612935490737",
+      "bytes": 57828
+    },
+    "objects365_v2_02169961.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02169961.jpg",
+      "sha256": "9e0681f1b740264606ccf490a60d6cac648645ef2273f5f4b6d01905ce838616",
+      "bytes": 91160
+    },
+    "objects365_v2_02170264.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02170264.jpg",
+      "sha256": "379b049b68dc2e4dba16cda5317f10cf89d6f47387292465e0b334f1a1fe2948",
+      "bytes": 102519
+    },
+    "objects365_v2_02170300.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02170300.jpg",
+      "sha256": "bbdf5abac8b6ec57a0f4914b085c90b7c4beaf8c1d16bd0e68650c391b0ebac6",
+      "bytes": 88155
+    },
+    "objects365_v2_02170356.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02170356.jpg",
+      "sha256": "6179429c68096fff85c02f38ffc4b08245a92c99c02859ee8061a7a64c5d207d",
+      "bytes": 237190
+    },
+    "objects365_v2_02170361.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02170361.jpg",
+      "sha256": "f2055b8ae64662884008f75b77ff9fea229cbed8a169f1cf9cd12e1374187f77",
+      "bytes": 71371
+    },
+    "objects365_v2_02170405.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02170405.jpg",
+      "sha256": "b0bca8a5408b6027feeaf0b80ad5bbfb129bd531f6e669cf15c20e293213da3b",
+      "bytes": 90439
+    },
+    "objects365_v2_02170463.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02170463.jpg",
+      "sha256": "dce7d25721e246590b395c93ed37b66306be4b8fc227c504e9cbaa1c0d7e37d4",
+      "bytes": 123617
+    },
+    "objects365_v2_02170683.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02170683.jpg",
+      "sha256": "d4a5be4a793df274a6bc054d33db92222d3b06ec7819441b77b5281c7e0af5f3",
+      "bytes": 81843
+    },
+    "objects365_v2_02170731.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02170731.jpg",
+      "sha256": "d1bdfb88993f50f0fdbb42148bc34be4d9ad39325b231125b1568a20e9e1d476",
+      "bytes": 81051
+    },
+    "objects365_v2_02170796.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02170796.jpg",
+      "sha256": "6341b070b586237aae154a55dc5e086138d23ded080f4fdb636a40979b0009b8",
+      "bytes": 321822
+    },
+    "objects365_v2_02170893.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02170893.jpg",
+      "sha256": "7985e632cd1f0fb835f6c290d24c5ef0ee6a9c6c9d51d273e97c2d1f94ade9f5",
+      "bytes": 65172
+    },
+    "objects365_v2_02171061.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02171061.jpg",
+      "sha256": "6cae3b640d352b14ca4258e3a63cd5eb46170f4255cdbbf117fd0276106cb9ef",
+      "bytes": 115510
+    },
+    "objects365_v2_02171224.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02171224.jpg",
+      "sha256": "a63871540ad23d203c2fd244d5ce72a86dc026338f6f03efa0d32d6e0bea105e",
+      "bytes": 212034
+    },
+    "objects365_v2_02171380.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02171380.jpg",
+      "sha256": "aa4a1bf4e9a3c3fc5347ccb243900b9a0549a539348537987af8b2a8815bf1f5",
+      "bytes": 80256
+    },
+    "objects365_v2_02171519.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02171519.jpg",
+      "sha256": "623b041adb973ecbf9106fdeb48962e7d26179c132bb0a9af2a3c2243a41940f",
+      "bytes": 358528
+    },
+    "objects365_v2_02171524.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02171524.jpg",
+      "sha256": "5449b6529b93e38ab13acca030a8110b19d0b9b97acfa366319f06e86dea6d3e",
+      "bytes": 112569
+    },
+    "objects365_v2_02171603.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02171603.jpg",
+      "sha256": "5b113093e3de5b4c048a7ee2eb6a395eb7102b478a31b21f68a1d85cec770f25",
+      "bytes": 90631
+    },
+    "objects365_v2_02171676.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02171676.jpg",
+      "sha256": "bc63237b5849dd63d0f95d2725625cd68a90bc1da24a3d3fc5df2bd4d1ca55ee",
+      "bytes": 149990
+    },
+    "objects365_v2_02171770.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02171770.jpg",
+      "sha256": "8cdf49290411165257b3f6c4f1d28f3c50e22a6c2b56f739bd35534f633f3a12",
+      "bytes": 115350
+    },
+    "objects365_v2_02171785.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02171785.jpg",
+      "sha256": "91d04f176654e6b7f3e5fe37994a817d0acb47e0cb90aeadc1406d4a50e76e82",
+      "bytes": 340274
+    },
+    "objects365_v2_02171814.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02171814.jpg",
+      "sha256": "d8cca8b8d136d9049a786160468d4587b3a4c196e396d0c24bb71606f283390e",
+      "bytes": 165893
+    },
+    "objects365_v2_02171866.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02171866.jpg",
+      "sha256": "5b7f421a917a1c82db888e26e7e9e329e3d28dc6b83596c7982d12091b7432d0",
+      "bytes": 61247
+    },
+    "objects365_v2_02172406.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02172406.jpg",
+      "sha256": "2248b0e684980088d008b9bd028009314a6f3ff7f4742c9d958b1ccf29b9e025",
+      "bytes": 104805
+    },
+    "objects365_v2_02172450.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02172450.jpg",
+      "sha256": "0bf7a79826a496b9756a524fb8585f4205677c409bec1a4362b2e1530541630d",
+      "bytes": 167792
+    },
+    "objects365_v2_02172583.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02172583.jpg",
+      "sha256": "bc21bca5636d034c1f377d4215ff0ea80ee750d9bfb7bfc75567441688a2ec3e",
+      "bytes": 104163
+    },
+    "objects365_v2_02172966.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02172966.jpg",
+      "sha256": "5b3c79870be6db0d6c155e65a76bf28de0a6447d7343b263db21932574bdd19d",
+      "bytes": 101943
+    },
+    "objects365_v2_02173124.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02173124.jpg",
+      "sha256": "45aa87ad7fdd1e3c74326f8efb75291040fac0a35b50a98a27ec6fd86ff0d92b",
+      "bytes": 104390
+    },
+    "objects365_v2_02173354.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02173354.jpg",
+      "sha256": "c5fd6a9d8c8db45d4bd5a7898171e9e976e881ccfb3fe3d2005d95eeddeaf94c",
+      "bytes": 93901
+    },
+    "objects365_v2_02173785.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02173785.jpg",
+      "sha256": "cfeed357d12ca9817889379bb467b28ce02292a2fb524dcb1194e22d14b72af9",
+      "bytes": 71881
+    },
+    "objects365_v2_02173831.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02173831.jpg",
+      "sha256": "98eb59a4f77a9d3e7c4581350920e6584693675140a24682e12cb9a6099acff4",
+      "bytes": 75805
+    },
+    "objects365_v2_02173840.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02173840.jpg",
+      "sha256": "91cf933d03d345bce2239d25c66ffaff47142acdfb00fb155ca409bcc0b57163",
+      "bytes": 87587
+    },
+    "objects365_v2_02173843.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02173843.jpg",
+      "sha256": "67fcd8eb77a5ffc69fbca9524db0961a97b551ab638322e478740d006f301fa6",
+      "bytes": 87765
+    },
+    "objects365_v2_02173944.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02173944.jpg",
+      "sha256": "bf8a2cc4e822fff6f1f977fcf4972718d9118c5d25678766c5afdbd266acdcf9",
+      "bytes": 78676
+    },
+    "objects365_v2_02173976.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02173976.jpg",
+      "sha256": "e9b91a3b007b804f02891209ddae995971207cda8819a6eacbc0349cebf6bb10",
+      "bytes": 277780
+    },
+    "objects365_v2_02174558.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02174558.jpg",
+      "sha256": "a94ce5d1146eac44244b7fb4aaadf99d805c438d7456a9def00667b638b34cfa",
+      "bytes": 125437
+    },
+    "objects365_v2_02174585.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02174585.jpg",
+      "sha256": "a6aa0857f37b83d6d07b11772927a544d04ecc1c7b8ea8f12e826b04845cc178",
+      "bytes": 117838
+    },
+    "objects365_v2_02175063.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02175063.jpg",
+      "sha256": "cc72cba6803797acd64fdbe4d3f0df78716fcaf2fc0d289316056a1bf35a7f80",
+      "bytes": 134780
+    },
+    "objects365_v2_02175277.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02175277.jpg",
+      "sha256": "8686e1783d4e83b36180dcc52a51e4ae3d5c09a01027b9d29cc38fef88d0a5fb",
+      "bytes": 64680
+    },
+    "objects365_v2_02175480.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02175480.jpg",
+      "sha256": "7464fc984be38ae16aeed8f6f14796227596e60262cc746e385bd5f540f10a6e",
+      "bytes": 71401
+    },
+    "objects365_v2_02175550.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02175550.jpg",
+      "sha256": "4cb40bf393f5921a868286c263a2735739190a24a711f50e3d828bf6153ac0a4",
+      "bytes": 2288740
+    },
+    "objects365_v2_02175768.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02175768.jpg",
+      "sha256": "4b55de18b577033e6e73001174944fb8000ed35e2025aa2c8cd10806458775c2",
+      "bytes": 99758
+    },
+    "objects365_v2_02176107.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02176107.jpg",
+      "sha256": "43ed0c6b2d58bb16a32acac7a25bc6ea980726fa1965c4b8bf798eeeaa93d766",
+      "bytes": 89429
+    },
+    "objects365_v2_02176286.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02176286.jpg",
+      "sha256": "a117bbf57cac884b8a046507a006fe912675a6b7c9a93fe4a7688956c31a0e9b",
+      "bytes": 68650
+    },
+    "objects365_v2_02176540.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02176540.jpg",
+      "sha256": "6384b0ef633c0d64b28092eefddeebaae7031d9baade4d5f3d84c9c93f79f36c",
+      "bytes": 283676
+    },
+    "objects365_v2_02176785.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02176785.jpg",
+      "sha256": "6ba13bf7391718e450d1349821bac7ad79c21a5f43915b976ecea9e36973aec9",
+      "bytes": 116830
+    },
+    "objects365_v2_02176851.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02176851.jpg",
+      "sha256": "d65864445c0f4d2af4e403c95f8480bd08708389795557f06f43ed7d8cb94fe1",
+      "bytes": 118240
+    },
+    "objects365_v2_02177115.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02177115.jpg",
+      "sha256": "9cde3531999b8c8d584fcf05e372223c54db4c52f5c3c2f819250b8f10186d97",
+      "bytes": 110249
+    },
+    "objects365_v2_02177135.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02177135.jpg",
+      "sha256": "a3e2a216fb1359988bd2b3a204f77d05c23b17d7778d951c68c388ea2cb2b41f",
+      "bytes": 89365
+    },
+    "objects365_v2_02177189.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02177189.jpg",
+      "sha256": "6ac59ccf6fb7460a851f6134389a589ff6e16a264e69e2a35e4b5f0ec7ed48e8",
+      "bytes": 119424
+    },
+    "objects365_v2_02177279.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02177279.jpg",
+      "sha256": "42bc5083567c10346264159e9c4d801895b276188807acfea3fff28ad2869e26",
+      "bytes": 107166
+    },
+    "objects365_v2_02177297.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02177297.jpg",
+      "sha256": "154337cf1cf9cbb39229626f702a5ef01f40e9371970d956ba80760603f51143",
+      "bytes": 114873
+    },
+    "objects365_v2_02177395.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02177395.jpg",
+      "sha256": "8805741b045c0407a8b4f465af79083d9b0e451901404f42e8dd6b9cbfb3c3a9",
+      "bytes": 78269
+    },
+    "objects365_v2_02177659.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02177659.jpg",
+      "sha256": "bf6df5a517975020b3385e56457d6eed6146576b17e445a7f5e9bb991bbfd293",
+      "bytes": 107921
+    },
+    "objects365_v2_02177775.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02177775.jpg",
+      "sha256": "a1652b3c96014a5589f88a811b741a1794489892849ea09dfb60601bbd99db42",
+      "bytes": 97094
+    },
+    "objects365_v2_02177814.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02177814.jpg",
+      "sha256": "5367f908553f5cba5674dd8945d382c40fe68f03ecc2299c8a4a9947cbed3ed9",
+      "bytes": 68810
+    },
+    "objects365_v2_02177974.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02177974.jpg",
+      "sha256": "9140791c01328e4c291d37aa7303216cf7ad21265232c13da7dc4152038ead4b",
+      "bytes": 362764
+    },
+    "objects365_v2_02177984.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02177984.jpg",
+      "sha256": "8233896427a5d03b9f36d39540d8733cf0f7ff4a966c5e4ecc4b9473ede62934",
+      "bytes": 344342
+    },
+    "objects365_v2_02178015.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178015.jpg",
+      "sha256": "faf7c9608550aa641aa40c5e0708759452092919fdc847495b3aba14be8a5757",
+      "bytes": 132624
+    },
+    "objects365_v2_02178180.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178180.jpg",
+      "sha256": "fd13d0d908e37f8c10b2ac2640c68b4f0a18c7c04a7b8212ca562be2e278b5c5",
+      "bytes": 70367
+    },
+    "objects365_v2_02178200.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178200.jpg",
+      "sha256": "331749f80b2f314547d2347fe71ac0937ac9b0fea8c7b4d8a907788d71ab9878",
+      "bytes": 99173
+    },
+    "objects365_v2_02178306.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178306.jpg",
+      "sha256": "d0b86dd317fca845db76275e415c40ff365f61d2b3a98e689c299ee3ad46c11c",
+      "bytes": 141747
+    },
+    "objects365_v2_02178340.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178340.jpg",
+      "sha256": "a3908309cdef22f0eea2bf1906031a20d7e4f42b5f463f0507b87ba9d9f046ff",
+      "bytes": 81128
+    },
+    "objects365_v2_02178433.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178433.jpg",
+      "sha256": "bec95a47eb592dd39c7a1455b93c586f811ab3db021b06d69a436d79ffed2bf1",
+      "bytes": 82401
+    },
+    "objects365_v2_02178438.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178438.jpg",
+      "sha256": "d3d18ead29962b43e9dd46dbfed97adf082e93f8fe0fe025383d14f8961ca247",
+      "bytes": 36819
+    },
+    "objects365_v2_02178501.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178501.jpg",
+      "sha256": "226edda8e4424ae36e2277ceb7231b92eeac1b372a3db2e17fd3e8fdbcf77c0d",
+      "bytes": 84212
+    },
+    "objects365_v2_02178669.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178669.jpg",
+      "sha256": "6d1e1c6cd185fae79a4763d29f6dbec4748478809fdd990386e0a6cc07c24de0",
+      "bytes": 95107
+    },
+    "objects365_v2_02178764.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178764.jpg",
+      "sha256": "df8a24ef417af8de1dfec89e8a145cb98d07cf8272c1c6914972651c7d54861a",
+      "bytes": 239251
+    },
+    "objects365_v2_02178769.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178769.jpg",
+      "sha256": "a5e742ff03d98598c4d6b1daa586d10bb31d06f6938ddc58db17ca765637a5b8",
+      "bytes": 93848
+    },
+    "objects365_v2_02178848.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178848.jpg",
+      "sha256": "0868b67a5f8816aa179fc659bc2ca85446da0bafcc611468b804603355c400be",
+      "bytes": 64508
+    },
+    "objects365_v2_02178978.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178978.jpg",
+      "sha256": "c8a611e94b93ce3dbcadea47a92f82d9df7fcfbf0ee80217ed26d33eba80a7b2",
+      "bytes": 61919
+    },
+    "objects365_v2_02178981.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02178981.jpg",
+      "sha256": "dfa6dcadcf4eef8815bac4e545b3f59b73ea10803a0e6ed784fa242e8126fc3b",
+      "bytes": 145622
+    },
+    "objects365_v2_02179148.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02179148.jpg",
+      "sha256": "a62e3512a4c268479d62b89e4f4bde6e46c6b6976c63b4082dc368afbac27f33",
+      "bytes": 238541
+    },
+    "objects365_v2_02179151.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02179151.jpg",
+      "sha256": "d2670056cc45bda943ae4063ceb609190cceec9d864a39020f9545bb05f5be21",
+      "bytes": 101330
+    },
+    "objects365_v2_02179204.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02179204.jpg",
+      "sha256": "4ef3679228ad1dadb3d930856de3a9b5191035db6c766997cf8c628e72758199",
+      "bytes": 90247
+    },
+    "objects365_v2_02179330.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02179330.jpg",
+      "sha256": "c0cf38a9c86b70e01f5d5ecde3a34f3577f68f1212c16fbf9de2a4117bb6f80a",
+      "bytes": 62846
+    },
+    "objects365_v2_02179427.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02179427.jpg",
+      "sha256": "fbc848d29abeb645235d44caa7e95a06d0c14f36f3877a673ffc6d42f7f221b8",
+      "bytes": 537969
+    },
+    "objects365_v2_02179446.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02179446.jpg",
+      "sha256": "8bd49591e1c90d9e1ac557fbb0da4349e235cc7e0237f3c0765fdd56b9d6174d",
+      "bytes": 275443
+    },
+    "objects365_v2_02179649.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02179649.jpg",
+      "sha256": "c7a29bcd378298848ba73216bdcdbed99056e6b5342a3aa77548b4e512426540",
+      "bytes": 109382
+    },
+    "objects365_v2_02179653.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02179653.jpg",
+      "sha256": "ea8a5e0499d58382bcbf091c3a194a3d1f9e0c8d81a6eee703e1d56c95a61228",
+      "bytes": 44434
+    },
+    "objects365_v2_02179663.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02179663.jpg",
+      "sha256": "295045a09a35c121e9fb8481e424db7ed6046509efdebc578f45a72e56ae78d0",
+      "bytes": 104180
+    },
+    "objects365_v2_02179889.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02179889.jpg",
+      "sha256": "f0058de1b6e5fac34a6f41c95ac6ee2455a9008ef6bcf3c91651f6fd78118cb9",
+      "bytes": 70742
+    },
+    "objects365_v2_02180133.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180133.jpg",
+      "sha256": "9f0cc3fe54f9f434c4debbaf460ce1ed49274edd8405f56844e39b5d15e3e97c",
+      "bytes": 117169
+    },
+    "objects365_v2_02180228.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180228.jpg",
+      "sha256": "76f43a030317448553bd0c944d4f27ed266f8128c89e040412c8fa0ef5283afd",
+      "bytes": 80155
+    },
+    "objects365_v2_02180409.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180409.jpg",
+      "sha256": "3644907e3745921f5e1c5b0e5dacdf03dca52b44e1f568c07e7880a0ea231d50",
+      "bytes": 141478
+    },
+    "objects365_v2_02180469.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180469.jpg",
+      "sha256": "4a96addc7e2cee072d2db59aa09de9f694ffc70a97cae11c15be67d5bc99bfcb",
+      "bytes": 64611
+    },
+    "objects365_v2_02180506.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180506.jpg",
+      "sha256": "3a212cf6a1bb8a57f2f95cc5db316a70bc39736b2599d0a056c527d1841d9d6b",
+      "bytes": 85755
+    },
+    "objects365_v2_02180527.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180527.jpg",
+      "sha256": "9642b95366fbdc93e94e11f8dfe02fceb90052b8b7d176baa144ffd6913fafc9",
+      "bytes": 120237
+    },
+    "objects365_v2_02180551.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180551.jpg",
+      "sha256": "06646605ea1cb3a4995df81937693ff6b6e23dca9bdb7d15d0f9552ef249dbba",
+      "bytes": 263481
+    },
+    "objects365_v2_02180583.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180583.jpg",
+      "sha256": "6e908ee04e1dc4c0853cf573b0badb8830fb3bc5298729833a913f09adc45881",
+      "bytes": 313709
+    },
+    "objects365_v2_02180655.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180655.jpg",
+      "sha256": "fe9379b376a644f317ad2b9a9c47d7ef80ca22685aa90d8feb844a97894c9ed0",
+      "bytes": 127880
+    },
+    "objects365_v2_02180788.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180788.jpg",
+      "sha256": "9ee336b6551a26d6fbeb8b283920ba26b1e700ebe2fc31bf1ecd6d79292304fe",
+      "bytes": 121634
+    },
+    "objects365_v2_02180894.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180894.jpg",
+      "sha256": "6223d7820b6df0429e9d64932822bbbe5c81c393bed545b336d76d58ccff5b69",
+      "bytes": 89047
+    },
+    "objects365_v2_02180938.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180938.jpg",
+      "sha256": "a7b7e05a2724d101c733160e4487360f468ed35a7804eaf730e83cd94e08c6b8",
+      "bytes": 92510
+    },
+    "objects365_v2_02180988.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02180988.jpg",
+      "sha256": "0fd6ed61b0c8e3ee5d27c54c97e2658588cacfe586f72fb0120d3b96c77af80d",
+      "bytes": 102013
+    },
+    "objects365_v2_02181014.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02181014.jpg",
+      "sha256": "6a406b206466155cad234860f28134cbaf641c9543ddd6d2da0baddc4c93ed5e",
+      "bytes": 78392
+    },
+    "objects365_v2_02181053.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02181053.jpg",
+      "sha256": "ba29fe0caad454f9b42f1408d22307b14370ee0bd5ebf019a84c4e47d3251f11",
+      "bytes": 99049
+    },
+    "objects365_v2_02181146.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02181146.jpg",
+      "sha256": "deb787aa32ccbe7a03d280abc851353b01a96cd72dfd12c82520f17c60fbe89d",
+      "bytes": 77957
+    },
+    "objects365_v2_02181180.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02181180.jpg",
+      "sha256": "f3c25d6726eb5ecb58aeb45be7a6614730402448d58c037306dbe5422300a164",
+      "bytes": 85773
+    },
+    "objects365_v2_02181216.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02181216.jpg",
+      "sha256": "04c18e807eef73efcd299efa678e0a58f5eeed6c6d93ebba951dc458216089ed",
+      "bytes": 82357
+    },
+    "objects365_v2_02181416.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02181416.jpg",
+      "sha256": "c46fa7a3f5d269f6adc75c6413067efecc5138d0e5fec9b647c506e3acb9899a",
+      "bytes": 50832
+    },
+    "objects365_v2_02181601.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02181601.jpg",
+      "sha256": "870ea8807d7a3f23eefc239edccef2ed29e8e75bab5d6d3b0e895b15b7e38acd",
+      "bytes": 244703
+    },
+    "objects365_v2_02181651.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02181651.jpg",
+      "sha256": "8d2374f6f47dea330316c63891f4013592b1da8b6dd57fd8cb39d5a02b0cbc95",
+      "bytes": 104125
+    },
+    "objects365_v2_02181666.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02181666.jpg",
+      "sha256": "93fcfba76840527befa8d57c48913c293c7066734412ae7235abcfbb577c3ae7",
+      "bytes": 136213
+    },
+    "objects365_v2_02181986.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02181986.jpg",
+      "sha256": "e4aaa7200124e1bcef2cf8cc822fe47c466aff9b48eb272414aa86638fcd1411",
+      "bytes": 49138
+    },
+    "objects365_v2_02182114.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182114.jpg",
+      "sha256": "a1b3231cf79a049da20084fc0787cbc7da15520fb19df8b85925579c9fddae41",
+      "bytes": 82922
+    },
+    "objects365_v2_02182119.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182119.jpg",
+      "sha256": "4871026d4d923a49fb055859004fadfff8c4f1c5300dc6723ac6bcce7fb41e5c",
+      "bytes": 70517
+    },
+    "objects365_v2_02182185.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182185.jpg",
+      "sha256": "cb597ca06f7c4a31c06da3b0ac2e98a8dbee9eacf83d488316e9b055bfefc34d",
+      "bytes": 82620
+    },
+    "objects365_v2_02182188.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182188.jpg",
+      "sha256": "9ef08929475b71f5263847525250deaa2ebe6e2149348dd07406e42504ed5f9f",
+      "bytes": 80195
+    },
+    "objects365_v2_02182294.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182294.jpg",
+      "sha256": "9085ac617295f7d538f5238381e150b7367824ebb8ea159244f36b3943a07933",
+      "bytes": 80225
+    },
+    "objects365_v2_02182424.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182424.jpg",
+      "sha256": "4ea2582186fb05c4d0216c8a16d79548d6c7ebd89c1e2feee0ea6d88b342e79a",
+      "bytes": 63371
+    },
+    "objects365_v2_02182457.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182457.jpg",
+      "sha256": "966ff44dc1619d6f08b1bb81132e7ba93a966633bf97969110143b75659b67ac",
+      "bytes": 310003
+    },
+    "objects365_v2_02182507.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182507.jpg",
+      "sha256": "7419db552f9d5caf3292b1fc5511e6c965636dd76d17d7279f2cb64c2e23302b",
+      "bytes": 83614
+    },
+    "objects365_v2_02182576.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182576.jpg",
+      "sha256": "84bba32b6ade5cfedcc2692000991eae329da2570e5f05de5bd30b38b1126058",
+      "bytes": 80080
+    },
+    "objects365_v2_02182595.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182595.jpg",
+      "sha256": "b68fc49004a41650aa8aa91fe27e7685e76e6fb1ac9fd68a315c2f076e69d0cf",
+      "bytes": 81776
+    },
+    "objects365_v2_02182726.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182726.jpg",
+      "sha256": "4b28cdcb717c3293a0e4268008c507c6fa40174b96ea714218a94d1a365aa23c",
+      "bytes": 85001
+    },
+    "objects365_v2_02182793.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182793.jpg",
+      "sha256": "b106cc55e53132e586e5119dcdd9c8c9882f05bb16efe43b5e4fa3c0f3fefb20",
+      "bytes": 122023
+    },
+    "objects365_v2_02182873.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182873.jpg",
+      "sha256": "e1f724cb27953a199b97c18ff18dc5ee8fb02e6e59ac1b5a537c05563a6c0b6c",
+      "bytes": 84379
+    },
+    "objects365_v2_02182983.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02182983.jpg",
+      "sha256": "4dd1d95c0cf6e384fdbdd5e3f6b935b0288d82693a632f779730a82539d6fa06",
+      "bytes": 52689
+    },
+    "objects365_v2_02183064.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02183064.jpg",
+      "sha256": "47fffb3b8ab60c07613368624e3e7f42215c1c52324a594a77a86f534deee691",
+      "bytes": 267808
+    },
+    "objects365_v2_02183367.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02183367.jpg",
+      "sha256": "18714dc9110a5cdc9ab02a7ebbea4d9cfaf4a0c7813845bb5fbcdd055ee79d13",
+      "bytes": 55651
+    },
+    "objects365_v2_02183475.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02183475.jpg",
+      "sha256": "218472ecb0eb7f16e37362c3f17afd12a0cc5629d96b2ce6eff1a0ca46f1f910",
+      "bytes": 110645
+    },
+    "objects365_v2_02183551.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02183551.jpg",
+      "sha256": "ffda5d80d2a66ad6bdac6ef484b7f240365bdfeb8bdbf30df282bde44344d52b",
+      "bytes": 2392533
+    },
+    "objects365_v2_02183731.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02183731.jpg",
+      "sha256": "fb2e6292dddf7c2d7816c810e9b6b4af29c3de91a1017b4ff1631f9acc33458d",
+      "bytes": 116041
+    },
+    "objects365_v2_02184198.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02184198.jpg",
+      "sha256": "41ad8e5109231c1cfb75bfdf0f66cbeeb771b761941ecbed4a9288329d94e6cc",
+      "bytes": 94296
+    },
+    "objects365_v2_02184240.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02184240.jpg",
+      "sha256": "9a836487a1ef6e45cde0a4f7e0e92420af142d3e5320743b6aa2163366d22bf6",
+      "bytes": 238923
+    },
+    "objects365_v2_02184321.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02184321.jpg",
+      "sha256": "18b64e2accbdc007b3faa5ecda594e9d9433051a2cab251051f506f93a357f65",
+      "bytes": 74167
+    },
+    "objects365_v2_02184333.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02184333.jpg",
+      "sha256": "c079d6c9635ac8506e26a4a43a89fa62e51b9d008736128d198670512fda54a1",
+      "bytes": 128541
+    },
+    "objects365_v2_02184423.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02184423.jpg",
+      "sha256": "5592e55567fb03813649ffe8145fcb3fc842335f54f3621865af8bc01ab27747",
+      "bytes": 202577
+    },
+    "objects365_v2_02184558.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02184558.jpg",
+      "sha256": "bd13aec5526868a8a1a99431ef7555149858df3654a70b518fe31f2652db2895",
+      "bytes": 274973
+    },
+    "objects365_v2_02184618.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02184618.jpg",
+      "sha256": "c143299e7ee06259f72487936911ab44cdd3fd3f2a0392de8cb93c332fb4769d",
+      "bytes": 71384
+    },
+    "objects365_v2_02184639.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02184639.jpg",
+      "sha256": "4c3ddbd70a578aaab84ff6d25ed2b6b27bb1468d8865a158123106d861ec6747",
+      "bytes": 82679
+    },
+    "objects365_v2_02184647.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02184647.jpg",
+      "sha256": "5327f58a7eeb0fcbccf976d9a1fcd89b4b7896e77af074bd78064db8ea264182",
+      "bytes": 90873
+    },
+    "objects365_v2_02184728.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02184728.jpg",
+      "sha256": "d4d8d1b1d70d9cc7905743e9043c43c113d94d283b95a17beea80939e2a47cea",
+      "bytes": 123989
+    },
+    "objects365_v2_02184935.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02184935.jpg",
+      "sha256": "3e697a7a33cc064c1a260854c49ecb170946074845196c6c1f37c49d4c63f39e",
+      "bytes": 221286
+    },
+    "objects365_v2_02184954.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02184954.jpg",
+      "sha256": "d2290e48a985d75c54233e703cea04a38226b1eb6859673768186f7710eadec3",
+      "bytes": 119317
+    },
+    "objects365_v2_02185087.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02185087.jpg",
+      "sha256": "32d24027b929843d9297143986ba2139e239391a951e87b8167bd456a62e585f",
+      "bytes": 51821
+    },
+    "objects365_v2_02185230.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02185230.jpg",
+      "sha256": "cf6ee8d4a5660ac757d46c897f9d9ea44911a51e06311153290d775f366c8162",
+      "bytes": 107870
+    },
+    "objects365_v2_02185356.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02185356.jpg",
+      "sha256": "85e885016e003815450b15cd243c47b1cf7501907ee57efa6927067d190616d3",
+      "bytes": 106291
+    },
+    "objects365_v2_02185459.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02185459.jpg",
+      "sha256": "802f5c109c0580c5ca8288bbcb6d898f4c9d1a64dba2af8a4db4931825fedddd",
+      "bytes": 99295
+    },
+    "objects365_v2_02185467.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02185467.jpg",
+      "sha256": "55736a95e5b3e08f2d48877594ac0d6b8cd7410c3805fa3c54acff7ed13ad2df",
+      "bytes": 89950
+    },
+    "objects365_v2_02185726.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02185726.jpg",
+      "sha256": "d00e81ca5fc84a5f589915aaf48c6b635f2fa2a6806df09a481287406aa87ca1",
+      "bytes": 92261
+    },
+    "objects365_v2_02185826.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02185826.jpg",
+      "sha256": "50c2a2e26c3dd0198e9c93d5d96639995b31fa200b4d696ff5acce61147ff3ec",
+      "bytes": 68795
+    },
+    "objects365_v2_02185830.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02185830.jpg",
+      "sha256": "da3ebed6159ffc553c151f826fc19fd9ca9c14a87271c50bd05f75860fe19ed3",
+      "bytes": 255024
+    },
+    "objects365_v2_02185866.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02185866.jpg",
+      "sha256": "7c43a16d406a0c4646c27d39356812995a94c2a688fe79f9425395e366f19697",
+      "bytes": 94124
+    },
+    "objects365_v2_02186098.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02186098.jpg",
+      "sha256": "54402ea491265746a50434adfdd7473f174da854e842836339a29c5ee6c1b611",
+      "bytes": 82092
+    },
+    "objects365_v2_02186197.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02186197.jpg",
+      "sha256": "b4f80ee9efc9ada691350848d2b35999b2a94a0e63e625134092ab894f519808",
+      "bytes": 246730
+    },
+    "objects365_v2_02186229.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02186229.jpg",
+      "sha256": "2aa73b12d1f07ac4db52c8a43b3bdc27440f244b2faea8a15b59e81ae648ee31",
+      "bytes": 57840
+    },
+    "objects365_v2_02186230.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02186230.jpg",
+      "sha256": "0248a5c87a4cbba97b60a0c1bc66ab254d4ef409d5f73089c3f6737379d16bb7",
+      "bytes": 218219
+    },
+    "objects365_v2_02186451.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02186451.jpg",
+      "sha256": "bd274748289e771e64f4747547f1804f691172de5177112f17260f71a414b088",
+      "bytes": 79964
+    },
+    "objects365_v2_02186471.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02186471.jpg",
+      "sha256": "a5e2d3c9b7bed8c86f8312f0ab567dbfb906f6ecb52c259839fbcda2ec51785b",
+      "bytes": 172482
+    },
+    "objects365_v2_02186551.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02186551.jpg",
+      "sha256": "b9037413841fda3faa3506db0dcb93147aa00703611b646e0be7223d7dc79dac",
+      "bytes": 831064
+    },
+    "objects365_v2_02186564.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02186564.jpg",
+      "sha256": "6226d5a2e3a676e2649b2cbd5b9485161eebce974843e43211fb00f4b415ae5a",
+      "bytes": 58303
+    },
+    "objects365_v2_02186708.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02186708.jpg",
+      "sha256": "f8d6eb6471b417f40cea283415322bd6099309beff76db7432e949bf82744e37",
+      "bytes": 88602
+    },
+    "objects365_v2_02186771.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02186771.jpg",
+      "sha256": "b1d27db658892409dc3cb3816e1584c2ac5fffa5cc1748210c9921f5917fc8dd",
+      "bytes": 82332
+    },
+    "objects365_v2_02186859.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02186859.jpg",
+      "sha256": "cf421fff53a7599178416fa84408d43db4f4e54249840b363604ad34285694b7",
+      "bytes": 111453
+    },
+    "objects365_v2_02187035.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02187035.jpg",
+      "sha256": "5645510e9085530fadf69e41d8e71f408cdc0ed712b506f4aba2eb8273392b99",
+      "bytes": 261261
+    },
+    "objects365_v2_02187055.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02187055.jpg",
+      "sha256": "84b5bd124f6f6c94dd75447de1bd44345f1db493f023afc48a8e9a5c7200a538",
+      "bytes": 132697
+    },
+    "objects365_v2_02187346.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02187346.jpg",
+      "sha256": "f88f66e25db07d244116dc444943abacbb62f3579b118d93baba2fcb74b5791b",
+      "bytes": 42910
+    },
+    "objects365_v2_02187357.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02187357.jpg",
+      "sha256": "4e3d261fc3fe5edc63b73f9e454165e45fddf1842cb6e42a0ded17946a7c6322",
+      "bytes": 99238
+    },
+    "objects365_v2_02187375.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02187375.jpg",
+      "sha256": "6d7a26293e7c8949e03bdc7830ed85836fd632ee450c658d1820ff3975858919",
+      "bytes": 66532
+    },
+    "objects365_v2_02187584.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02187584.jpg",
+      "sha256": "40f3f5ee39f36b3bb65dec4443e8ac230bd5e99780c669ac4281923380e138cd",
+      "bytes": 126310
+    },
+    "objects365_v2_02187603.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02187603.jpg",
+      "sha256": "8c8fdc0c75ef601560557002a3cac07950a56fe367e9976c0197730e77a7a3ff",
+      "bytes": 370191
+    },
+    "objects365_v2_02187969.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02187969.jpg",
+      "sha256": "660e636a1caf5251c67393086efab09766207e140ab57a3618c943a84d8e3363",
+      "bytes": 88032
+    },
+    "objects365_v2_02187987.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02187987.jpg",
+      "sha256": "663eb7f36b7a95333711aaac021cbfbab100dc5e1af0901df0781520fecfae74",
+      "bytes": 406061
+    },
+    "objects365_v2_02188469.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02188469.jpg",
+      "sha256": "efa7192f1092279964677c9de8b6b85572e69d6d5b7deefe4254b1fa3a0838da",
+      "bytes": 117142
+    },
+    "objects365_v2_02188564.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02188564.jpg",
+      "sha256": "63c164e6e1ad6e767f06ee909b47afd840f4fdb97da3e898166bbca443ce1049",
+      "bytes": 60362
+    },
+    "objects365_v2_02188703.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02188703.jpg",
+      "sha256": "e487af80dc36657ffcee6532ec5c473077c3b00fdecb423e0b91e04c5fc580df",
+      "bytes": 320694
+    },
+    "objects365_v2_02188784.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02188784.jpg",
+      "sha256": "61f6e6943eeaa14f6e8516a193f3925ba205b2db07e17bb50c3f8b4870e4f971",
+      "bytes": 90182
+    },
+    "objects365_v2_02188791.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02188791.jpg",
+      "sha256": "667c8de284864c6b8502f569aebd43c8210f648ef8b0a4474dcca35aa59f0d9d",
+      "bytes": 122691
+    },
+    "objects365_v2_02188881.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02188881.jpg",
+      "sha256": "4fbed4f4db3ce4d64e1e657d06f2b68f9676b37cc3f1613bd70396a6cc2f81c1",
+      "bytes": 75238
+    },
+    "objects365_v2_02188928.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02188928.jpg",
+      "sha256": "3f1ae6c3806a52e770587d8508d031bd48b799294055ce099477ca06392d65fd",
+      "bytes": 122819
+    },
+    "objects365_v2_02189311.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02189311.jpg",
+      "sha256": "66fc5ee914af36854da72af47a95d959f2abf448a17774cdb02cae19944e9a23",
+      "bytes": 3463943
+    },
+    "objects365_v2_02189581.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02189581.jpg",
+      "sha256": "e7952f972663db4722ca3289489a19143a582b2eff809621aef36d17fb438585",
+      "bytes": 59929
+    },
+    "objects365_v2_02189778.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02189778.jpg",
+      "sha256": "456204253ae5b55c9ba82895afda56aada454c507f34022ed6ed93ad8b02e33d",
+      "bytes": 90229
+    },
+    "objects365_v2_02189959.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02189959.jpg",
+      "sha256": "d9c3a5b2c1fe632c3ea98c3d6bdc24c16ccbe49c06ae94e948707fee49ac2a37",
+      "bytes": 60039
+    },
+    "objects365_v2_02189999.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02189999.jpg",
+      "sha256": "efe8391fb58f6cdaaf5295b53c2efff6dbacaebbef1bdc6d0e712b0e29b275c4",
+      "bytes": 96844
+    },
+    "objects365_v2_02190014.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02190014.jpg",
+      "sha256": "9b743c81a5b8e7a72453cb301785f22884ce66e325acb16a86f54fa2341b09ab",
+      "bytes": 64251
+    },
+    "objects365_v2_02190030.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02190030.jpg",
+      "sha256": "36e60523bf1294b88d4ffc846c2012105a2f78c12a87815383229c56d80313fc",
+      "bytes": 192626
+    },
+    "objects365_v2_02190054.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02190054.jpg",
+      "sha256": "a933c41e0ed989e46937039bda9168eb22ec3445cce29b2644f936d70081fe6b",
+      "bytes": 97487
+    },
+    "objects365_v2_02190339.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02190339.jpg",
+      "sha256": "d2285b6c70a50f64a530fc54b725f5aa8173c57b1fd32ab67bd7728925fd6ed2",
+      "bytes": 94681
+    },
+    "objects365_v2_02190393.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02190393.jpg",
+      "sha256": "eac4421938bdcb5b071df2f781005c1e09b2302bb9ac4f63cb4d2fa12b2d467b",
+      "bytes": 116319
+    },
+    "objects365_v2_02190465.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02190465.jpg",
+      "sha256": "7df1fd08d46297cf71fff0dbbb43c0231ebb34914db7cb29cd34bf2d94c44454",
+      "bytes": 85356
+    },
+    "objects365_v2_02190631.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02190631.jpg",
+      "sha256": "427a9c7505b09b7375392ea1254e47c3a94bf02cb9b962682387e21cd80fbf5b",
+      "bytes": 116222
+    },
+    "objects365_v2_02191098.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02191098.jpg",
+      "sha256": "4ba1a7ee3c879ef1e509572de00ff5ad0cb33ebf69c0997502eec41a7316f504",
+      "bytes": 86018
+    },
+    "objects365_v2_02191160.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02191160.jpg",
+      "sha256": "6865fcd99c9887ab49b9f4f70164e8c174daf179acdb11a355aefcc68c705a16",
+      "bytes": 88347
+    },
+    "objects365_v2_02191165.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02191165.jpg",
+      "sha256": "2df8319423d4d1ea5e2059274f4e24de6d7293d085a0b499ad4e7ad326ca9685",
+      "bytes": 385704
+    },
+    "objects365_v2_02191249.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02191249.jpg",
+      "sha256": "1d61aefdb3f93a1bb59aafaceec8e18244676c65d47ddc35bcc88334453ebdc3",
+      "bytes": 170759
+    },
+    "objects365_v2_02191267.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02191267.jpg",
+      "sha256": "1ff148fdd6a6cefd9e3cf52ac1812a34793c9e9f53dbd0ae12fa7e806d6235ef",
+      "bytes": 328207
+    },
+    "objects365_v2_02191365.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02191365.jpg",
+      "sha256": "8b4725e7238b04c0b75a50983c436c844f3efea919f9ac2195d09492d97c0673",
+      "bytes": 59201
+    },
+    "objects365_v2_02191678.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02191678.jpg",
+      "sha256": "abc28ddce0d419d6217df89158b678b44a8fb0451d646699a6fd8a444b361bf2",
+      "bytes": 76994
+    },
+    "objects365_v2_02191794.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02191794.jpg",
+      "sha256": "ad7afdea15dce1855d3ad38b62cff3dfc2e2616b009bbbdfd980674daf885135",
+      "bytes": 101864
+    },
+    "objects365_v2_02191843.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02191843.jpg",
+      "sha256": "b0f41b72e608f7005440250d8cda68dea63795078510884467b0ab2889ace047",
+      "bytes": 70695
+    },
+    "objects365_v2_02191938.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02191938.jpg",
+      "sha256": "89c27318ba03960c6f49893395f5585b3098e209c8a07a0b5745aeb3c95f5777",
+      "bytes": 3729501
+    },
+    "objects365_v2_02191987.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02191987.jpg",
+      "sha256": "52a4ad2f56abe16d45a04466b79581a4ca4c588a4f400b43d4fd268220543d1e",
+      "bytes": 105874
+    },
+    "objects365_v2_02192060.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02192060.jpg",
+      "sha256": "46f5be2c28f942d30ad1a157a2b5a688894249cc57f426fb6a3b96d611732ffc",
+      "bytes": 77686
+    },
+    "objects365_v2_02192075.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02192075.jpg",
+      "sha256": "9ec3ce8d8dd8544537cd682a45197da4211068c85443336c9096cc4a1d58949c",
+      "bytes": 47597
+    },
+    "objects365_v2_02192124.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02192124.jpg",
+      "sha256": "b702cc4457cf270086aade7393f26b9e2ca6305f20657a0887bc48446fd5329b",
+      "bytes": 88936
+    },
+    "objects365_v2_02192326.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02192326.jpg",
+      "sha256": "f13c6511dacfad6ccb6d83c8c9d35fc5ffc3e65c195ad2c796493c65e816e9bb",
+      "bytes": 121170
+    },
+    "objects365_v2_02192334.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02192334.jpg",
+      "sha256": "d34eea0688685a12f4ea3988bc59a9bce6db51f8849e218093cbe2ccecfd4b8b",
+      "bytes": 97335
+    },
+    "objects365_v2_02192606.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02192606.jpg",
+      "sha256": "430aaaa4a9423011bd4cfa482a17e2c3d83b9d8afec043e595b04e776e250553",
+      "bytes": 181639
+    },
+    "objects365_v2_02192724.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02192724.jpg",
+      "sha256": "bc622b5bcb628ceeac1a4f490c6ec87453e556f2327ce5577f9aeb7b33cc4d79",
+      "bytes": 134823
+    },
+    "objects365_v2_02192795.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02192795.jpg",
+      "sha256": "e2b7a6798af08de2c6b3d472acd6e34947393d31134e4230819fddb76618ef29",
+      "bytes": 98039
+    },
+    "objects365_v2_02192849.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02192849.jpg",
+      "sha256": "cae13dd036ae9913c6d01d1909cd0dd6622b528564c1b9221881b2a73de80684",
+      "bytes": 98710
+    },
+    "objects365_v2_02192998.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02192998.jpg",
+      "sha256": "89f04a9227c2f4f5269ea5955a240138c99ed7fa3e4bb6f7a18f7957c3d2c63d",
+      "bytes": 65800
+    },
+    "objects365_v2_02193077.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02193077.jpg",
+      "sha256": "5a9a210ba813ae982d2890e5b67f7c03f3aec50ab6c5421bd8241ba8263ea8ff",
+      "bytes": 139330
+    },
+    "objects365_v2_02193121.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02193121.jpg",
+      "sha256": "52aa03d95ce6ead44fa8b3571e4852d4fdfef0a69d2b62bcd73ef11d680f0536",
+      "bytes": 125224
+    },
+    "objects365_v2_02193124.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02193124.jpg",
+      "sha256": "1b99bbc115bb373c1e3fdc37b5c2e35a13d098569cc097d4ee4b4a8265eec7b5",
+      "bytes": 564125
+    },
+    "objects365_v2_02193260.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02193260.jpg",
+      "sha256": "67d9b0c72e30871f4841db0fdcd1b41d71c7f21a5ce5880da0632652f7818bd8",
+      "bytes": 62306
+    },
+    "objects365_v2_02193343.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02193343.jpg",
+      "sha256": "e359870c548b17a698000ee1ede19ecf23572ea19bce74050d1540c4c6b749d7",
+      "bytes": 96377
+    },
+    "objects365_v2_02193428.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02193428.jpg",
+      "sha256": "fc9172e1f406421d1920bc89667c833ab406ec22670ae75a692db25c95f3b2e5",
+      "bytes": 106688
+    },
+    "objects365_v2_02193719.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02193719.jpg",
+      "sha256": "d83d199c47e9276282f640e688eb780fce8fe4ddd24efb5a9ea47b178b3c326a",
+      "bytes": 316280
+    },
+    "objects365_v2_02193857.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02193857.jpg",
+      "sha256": "7cdbcf34a979c95a44eeae2edab32804dd7f079b2b189fdcdd9df7be7a8df998",
+      "bytes": 206677
+    },
+    "objects365_v2_02194117.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194117.jpg",
+      "sha256": "f1fb4cdb2f7a97785aeb629c669dcb2c5bc284b90cd826008c5ba6fd115bb77d",
+      "bytes": 59020
+    },
+    "objects365_v2_02194371.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194371.jpg",
+      "sha256": "f37807e7917d6f706d656b16d7a7046e9204c004d530b1e9d5ff4c107458e34c",
+      "bytes": 300368
+    },
+    "objects365_v2_02194375.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194375.jpg",
+      "sha256": "a7f46f2636eb19bda734f7989ad19132ebfee964e7e55ca9d1efce7854c55f5f",
+      "bytes": 81372
+    },
+    "objects365_v2_02194435.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194435.jpg",
+      "sha256": "f25ba45ed820d753e2c4defacdb05dc097128702ecd9c5433b0ef5e9514a5fda",
+      "bytes": 109190
+    },
+    "objects365_v2_02194488.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194488.jpg",
+      "sha256": "0c620b0bfafb54678bf571e616fc2e126cca3d1a5b5edbd1d942af9884202075",
+      "bytes": 86569
+    },
+    "objects365_v2_02194520.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194520.jpg",
+      "sha256": "0e335ff18dfa6b9f3723400156a004cd8bc7617597df45f95c3ec078ccac41b5",
+      "bytes": 61833
+    },
+    "objects365_v2_02194573.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194573.jpg",
+      "sha256": "2b6156a5e0ff23bb0a0e70cbe119de909a7a2ae2fb2485afa279ad70fc5380dc",
+      "bytes": 290056
+    },
+    "objects365_v2_02194710.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194710.jpg",
+      "sha256": "3d8f5b8c028a7eb3e20e7e66fe0afd2600e421fb563a77a21106b3f9ae160407",
+      "bytes": 188445
+    },
+    "objects365_v2_02194777.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194777.jpg",
+      "sha256": "283f4929e4ff40cfadddc1b15dace383b48935f5b8b3c1787c2f2e9b34f000a1",
+      "bytes": 99889
+    },
+    "objects365_v2_02194800.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194800.jpg",
+      "sha256": "e65f7d2c145d38d6e058d7b74e87d19887b2f77eca754e1837fe20b15a954eca",
+      "bytes": 63872
+    },
+    "objects365_v2_02194833.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194833.jpg",
+      "sha256": "fbad6d439efaffa3af536da8e80b428a7949ad7e1c2ee367c4b80b114d8dbe26",
+      "bytes": 90815
+    },
+    "objects365_v2_02194937.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194937.jpg",
+      "sha256": "150c9afa8fe8974bdcea36752fe1e46f213837798a23b833c781cbc976d65c81",
+      "bytes": 77785
+    },
+    "objects365_v2_02194950.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02194950.jpg",
+      "sha256": "60be502b17223e2faa200825b5bf38c5dae71df5c92c293d7d15aea0f1b8750b",
+      "bytes": 71037
+    },
+    "objects365_v2_02195193.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02195193.jpg",
+      "sha256": "9ab483850b825c6be477381e58abdecc51aaf5009a41f664cb4b85446560004f",
+      "bytes": 130028
+    },
+    "objects365_v2_02195278.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02195278.jpg",
+      "sha256": "d515469ad6bda30ef125a96e4a1778fdd18354724f574332677fa32715e3e758",
+      "bytes": 86067
+    },
+    "objects365_v2_02195370.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02195370.jpg",
+      "sha256": "c68d0c55bcd24ae5a2a1c64310a2db74d01d1a9cd984aa53cad9a342981bf291",
+      "bytes": 93505
+    },
+    "objects365_v2_02195441.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02195441.jpg",
+      "sha256": "e7900bd2dc6ef0a042a3f9dbc9dedee98d2ffdd834629f84ab467f6dc855a36f",
+      "bytes": 122287
+    },
+    "objects365_v2_02195495.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02195495.jpg",
+      "sha256": "d235c412b8519a8c25dc93a3aa2f2c6d2a5cd5c8b9e0add12f850f2d3a83d72b",
+      "bytes": 108728
+    },
+    "objects365_v2_02195497.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02195497.jpg",
+      "sha256": "3c6994f78abc6dd53b84a9a26128b6474044689b016957cff83ff138711851c9",
+      "bytes": 351357
+    },
+    "objects365_v2_02195565.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02195565.jpg",
+      "sha256": "1694a9bf7c65b4c5f607d2dd07a229318df6215a2b32fb7198c35b2b87301dea",
+      "bytes": 371765
+    },
+    "objects365_v2_02195735.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02195735.jpg",
+      "sha256": "a81d9a24f8095afa06e558ace4373e395ebcd9974a0ca1dad360ed1b987ad5ad",
+      "bytes": 118226
+    },
+    "objects365_v2_02195785.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02195785.jpg",
+      "sha256": "6d0704b203b42fd47ab42131712c463cf643a78b37660ff4c428be160842b9a9",
+      "bytes": 42675
+    },
+    "objects365_v2_02196190.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02196190.jpg",
+      "sha256": "a74fc7032a96886a8dc2ec73de38f53fb7667fdf7caa36f5ab70642101f56d7b",
+      "bytes": 76356
+    },
+    "objects365_v2_02196266.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02196266.jpg",
+      "sha256": "b5d1eb93bac98adecb57685225d5151fef0d1d45111dd45856e7bf1e96047342",
+      "bytes": 102774
+    },
+    "objects365_v2_02196361.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02196361.jpg",
+      "sha256": "e708a82bcdff7770b6f1bad3466b213cc6fccc78e7bd6667a714758800fff63e",
+      "bytes": 114592
+    },
+    "objects365_v2_02196600.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02196600.jpg",
+      "sha256": "cffac405129856d592d16a869fb9f7963db3a6cd30e2245bbca74c5bddffe0ea",
+      "bytes": 60359
+    },
+    "objects365_v2_02196776.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02196776.jpg",
+      "sha256": "b7fa778e1fdceca912d4774b1354e4b9c2af9e8e60187118c9822c471c63b32f",
+      "bytes": 131667
+    },
+    "objects365_v2_02196894.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02196894.jpg",
+      "sha256": "c1e05edf87fa16ca1f54704943d93b4197caa790e7972bf64c30eed3eb472a9a",
+      "bytes": 121770
+    },
+    "objects365_v2_02196926.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02196926.jpg",
+      "sha256": "06c0a3c15b793c84576390aba04779ab421e2bc761118982263a75e89d0a94a6",
+      "bytes": 78540
+    },
+    "objects365_v2_02197067.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02197067.jpg",
+      "sha256": "1f4b8ae3fced3130390d44d899831eedee85aaa261101bb645be37167325f0f4",
+      "bytes": 235742
+    },
+    "objects365_v2_02197080.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02197080.jpg",
+      "sha256": "da3f372c2acca84edcb3c290019937b33bb62233f4aef308ec61d25168ebc053",
+      "bytes": 17759
+    },
+    "objects365_v2_02197238.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02197238.jpg",
+      "sha256": "80e71aa4e28dd6faf3fc678602ca938729ef299116694ab6cf0d0ca3bacb643c",
+      "bytes": 81190
+    },
+    "objects365_v2_02197944.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02197944.jpg",
+      "sha256": "e0cab119d26b823f971188ddaf817f98ebc375cd8f4f50da86b123dc5df468b4",
+      "bytes": 92348
+    },
+    "objects365_v2_02197955.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02197955.jpg",
+      "sha256": "925e8f22963aa974011f30263ca7a9e13ee9d02f9628c7565d34dc7b92b8c29b",
+      "bytes": 88023
+    },
+    "objects365_v2_02198165.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02198165.jpg",
+      "sha256": "c6e96bf26798068008a48b50773d361267ad195e926161efbe2a191dcc2e8b15",
+      "bytes": 61396
+    },
+    "objects365_v2_02198287.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02198287.jpg",
+      "sha256": "99baf6f6909667da63c86b88368d6cd201cc9aa0dd6922f60835ccd88a996836",
+      "bytes": 94434
+    },
+    "objects365_v2_02198407.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02198407.jpg",
+      "sha256": "33cde58645057a27af68bb96cbaf148648724dd9e168c4264aeb56318eb736fe",
+      "bytes": 227646
+    },
+    "objects365_v2_02198430.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02198430.jpg",
+      "sha256": "7eecc5c77f2f423e771457c1bc282b707d5ccf30b85a6bd47011ba2ebf1319a0",
+      "bytes": 63584
+    },
+    "objects365_v2_02198796.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02198796.jpg",
+      "sha256": "7c475ebb2d62039292d085637b332105992389958725b80a1af2a88fff01b95d",
+      "bytes": 124381
+    },
+    "objects365_v2_02198829.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02198829.jpg",
+      "sha256": "453a48bbec5f4dcd4f0790ecd12876632d15411590d1c3093a5823f3cb2aa6e2",
+      "bytes": 151502
+    },
+    "objects365_v2_02198843.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02198843.jpg",
+      "sha256": "bc9e1eef65b0c08d9222ee6159488dff0bceb4e4f067c71d53e45e227011b02b",
+      "bytes": 71678
+    },
+    "objects365_v2_02198850.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02198850.jpg",
+      "sha256": "48627d17b2f0eec4de16f2666edd615232c2cc47f5b5fee9040287b237441b52",
+      "bytes": 83800
+    },
+    "objects365_v2_02198931.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02198931.jpg",
+      "sha256": "418e1b3b8541b18a59ed11d16cbe42a676ea3bc3b1a4945c30f5cc93b4177e0a",
+      "bytes": 121668
+    },
+    "objects365_v2_02199291.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02199291.jpg",
+      "sha256": "a10fd9818a51397ef06391b7202429323e840517d24eebe34b92f73da35e4449",
+      "bytes": 135304
+    },
+    "objects365_v2_02199294.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02199294.jpg",
+      "sha256": "e14e69dcd9e7aba7af4ecd7c77af4c1136747ff04ac382cb6cf3ef13c3b17e36",
+      "bytes": 102736
+    },
+    "objects365_v2_02199321.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02199321.jpg",
+      "sha256": "4951dd63d24bd2ceac5c7da8062e704b219ea53a9bd85c3f281067cfaf98d99b",
+      "bytes": 75047
+    },
+    "objects365_v2_02199419.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02199419.jpg",
+      "sha256": "71b1ac366eb1cc47e6a3c9d6fbd09e651f3257ff6e8dc83f1cb772202246ca11",
+      "bytes": 93564
+    },
+    "objects365_v2_02199539.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02199539.jpg",
+      "sha256": "1f9453b00b75b4f5cd2f890a999ff7853ce51c4460a83f2e0f5ded3dffc8829b",
+      "bytes": 63885
+    },
+    "objects365_v2_02199541.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02199541.jpg",
+      "sha256": "543ec0d312ddff86e0a231078d1934a80294edcc90ac6bfba05330ab2d3bb5f9",
+      "bytes": 117679
+    },
+    "objects365_v2_02199666.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02199666.jpg",
+      "sha256": "8cb995e370b5c482ed9228b1be22e296b8a7309194cb3d1dda9917a7407e9b06",
+      "bytes": 309814
+    },
+    "objects365_v2_02200146.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200146.jpg",
+      "sha256": "5c680bcf7b8ff4902f5126b208b5ddb24ca75a4d9b3333e8fc4147a23abff815",
+      "bytes": 81321
+    },
+    "objects365_v2_02200303.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200303.jpg",
+      "sha256": "8cff44023930f70bc933c752d952a0c80c922f7f4602497fbed11c083f4fc021",
+      "bytes": 85508
+    },
+    "objects365_v2_02200321.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200321.jpg",
+      "sha256": "5d6d9897c7fcd382b0d8ba76f19677ee54b3bd18ee9accc73dd271092545306c",
+      "bytes": 94147
+    },
+    "objects365_v2_02200343.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200343.jpg",
+      "sha256": "1e4150d965c85a575ac41f51e9bb3b18e93a7eb16bf3a137f0d6389760f2949d",
+      "bytes": 50159
+    },
+    "objects365_v2_02200534.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200534.jpg",
+      "sha256": "686afa48a2978e0c423a5608805438fff455b37cc4ba822a836cebb1992200d5",
+      "bytes": 143048
+    },
+    "objects365_v2_02200543.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200543.jpg",
+      "sha256": "025c9486d21e469dbc05e6bf3de738fbacbf16b695802cc826c2261a00f9aa14",
+      "bytes": 103061
+    },
+    "objects365_v2_02200544.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200544.jpg",
+      "sha256": "e17d092ab4f9a883d0861714817388b3e953d4d0406d13bcf0e5e39f159c8870",
+      "bytes": 84214
+    },
+    "objects365_v2_02200547.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200547.jpg",
+      "sha256": "2dbce6572cc40739963709302fec865349f4b8c2352702462a27a9f2d1aca5e0",
+      "bytes": 128282
+    },
+    "objects365_v2_02200667.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200667.jpg",
+      "sha256": "8991ad3451ee9198cf00b78ce417b308de701b9259daaa5154a6135783be1925",
+      "bytes": 246200
+    },
+    "objects365_v2_02200679.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200679.jpg",
+      "sha256": "934a6acabd3d8ed68bd463c63d5476730f3a7211ae6ea3d7cb545058ba16a78e",
+      "bytes": 80089
+    },
+    "objects365_v2_02200785.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200785.jpg",
+      "sha256": "fa9b7ab34fa20bb2a4bd4d5fc822e670ae03db65f193e18bf12e8dd6c0baac08",
+      "bytes": 50136
+    },
+    "objects365_v2_02200847.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200847.jpg",
+      "sha256": "23fa5adc34b20c9044d6030feda007228d0b154c63d6b13b3572e9b8feb32c14",
+      "bytes": 249622
+    },
+    "objects365_v2_02200895.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200895.jpg",
+      "sha256": "7c38998639196963de90d80acaec79c104b4e360df2982b75e6c9bc6bc420268",
+      "bytes": 95648
+    },
+    "objects365_v2_02200901.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200901.jpg",
+      "sha256": "3d2e4f623286e51f1583f918fa2b647ee289105079b709140e70e3534b636c1b",
+      "bytes": 212650
+    },
+    "objects365_v2_02200996.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02200996.jpg",
+      "sha256": "61839d791133df9e39a5814e5d242a5ac97218d06e415d50994f0294ed97eafe",
+      "bytes": 81590
+    },
+    "objects365_v2_02201045.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02201045.jpg",
+      "sha256": "acff8fdbbcbd04d4f63e7462fdd28f95c83091ac1ece6e3baff2706e9948df32",
+      "bytes": 82687
+    },
+    "objects365_v2_02201049.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02201049.jpg",
+      "sha256": "b4cc04348ba7688fd4b045fa3db4931dcb4ed9c473b072e74fcf0fdcdb4c37eb",
+      "bytes": 231421
+    },
+    "objects365_v2_02201088.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02201088.jpg",
+      "sha256": "292147761a53bd7e032b22eaf5be1030e86e90418980523dc5d3da7e9da18292",
+      "bytes": 108938
+    },
+    "objects365_v2_02201161.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02201161.jpg",
+      "sha256": "c72c047bd1828d64d279a53f2e660cf86a83d41d3af59c2bc5852f23ee55d9e3",
+      "bytes": 96391
+    },
+    "objects365_v2_02201171.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02201171.jpg",
+      "sha256": "c91f5b5936f0681d4be6c5afc9bf573aab586bc44551edd6702d20409809e0f6",
+      "bytes": 256276
+    },
+    "objects365_v2_02201374.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02201374.jpg",
+      "sha256": "3c48c86cf4e516e53c3c588a13939d9e6908a4f17f43627846b8e3887fbf8f03",
+      "bytes": 158224
+    },
+    "objects365_v2_02201431.jpg": {
+      "path": "/home/hcf/project/QE/artifacts/fresh_image_qualification_20261112/images/objects365_v2_02201431.jpg",
+      "sha256": "15895d6e7bbc958465f23a9d949eaba3930aa470a9ec7ae5c9edc410b5d09c13",
+      "bytes": 87618
+    }
+  },
+  "seconds": 1087.348,
+  "network_reserved_bytes": 118922503192
+}

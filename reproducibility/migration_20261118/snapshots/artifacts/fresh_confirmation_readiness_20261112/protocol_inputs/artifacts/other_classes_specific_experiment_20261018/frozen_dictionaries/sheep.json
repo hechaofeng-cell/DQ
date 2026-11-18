@@ -1,0 +1,619 @@
+{
+  "version": "specific-coverage-v2",
+  "category": "sheep",
+  "features": [
+    {
+      "feature_id": "head_visibility",
+      "name_zh": "头部可见性",
+      "major_group": "可见性与完整性",
+      "definition_zh": "观察头部整体在当前视角通常应呈现部分的可见完整性。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "clear",
+          "label_zh": "清楚可见",
+          "criterion_zh": "应呈现部分均能辨认，无可见外部遮挡或原图截断。"
+        },
+        {
+          "value_id": "partial",
+          "label_zh": "部分可见",
+          "criterion_zh": "可见外部物体或原图边界造成部分缺失，但仍能辨认该区域。"
+        },
+        {
+          "value_id": "not_visible",
+          "label_zh": "应见但不可见",
+          "criterion_zh": "有证据表明该区域应呈现，却被外物遮蔽或原图边界截去。"
+        },
+        {
+          "value_id": "not_in_view",
+          "label_zh": "正常视角不呈现",
+          "criterion_zh": "仅在头部与躯干的姿态关系足以证明头部正常藏于自身之后时使用；仅头部出画归截断。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "分辨率、模糊或证据不足，无法区分上述状态。"
+        }
+      ],
+      "applicability_zh": "先判断视角适用性，再判断头部整体是否受遮挡或原图截断。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不能依据目标裁剪边界判断截断；正常自身遮蔽不当作外部遮挡；部件不存在或无法确认其存在时用unknown。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "head_visibility",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "修订LLM候选",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "torso_visibility",
+      "name_zh": "躯干可见性",
+      "major_group": "可见性与完整性",
+      "definition_zh": "观察胸腹与躯干主体在当前视角通常应呈现部分的可见完整性。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "clear",
+          "label_zh": "清楚可见",
+          "criterion_zh": "应呈现部分均能辨认，无可见外部遮挡或原图截断。"
+        },
+        {
+          "value_id": "partial",
+          "label_zh": "部分可见",
+          "criterion_zh": "可见外部物体或原图边界造成部分缺失，但仍能辨认该区域。"
+        },
+        {
+          "value_id": "not_visible",
+          "label_zh": "应见但不可见",
+          "criterion_zh": "有证据表明该区域应呈现，却被外物遮蔽或原图边界截去。"
+        },
+        {
+          "value_id": "not_in_view",
+          "label_zh": "正常视角不呈现",
+          "criterion_zh": "仅在自然姿态足以证明躯干正常藏于自身之后时使用；特写使躯干出画归原图截断。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "分辨率、模糊或证据不足，无法区分上述状态。"
+        }
+      ],
+      "applicability_zh": "先判断视角适用性，再判断胸腹与躯干主体是否受遮挡或原图截断。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不能依据目标裁剪边界判断截断；正常自身遮蔽不当作外部遮挡；部件不存在或无法确认其存在时用unknown。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "torso_visibility",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "修订LLM候选",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "limb_visibility",
+      "name_zh": "适用肢体可见性",
+      "major_group": "可见性与完整性",
+      "definition_zh": "观察当前视角应呈现的肢体区域在当前视角通常应呈现部分的可见完整性。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "clear",
+          "label_zh": "清楚可见",
+          "criterion_zh": "应呈现部分均能辨认，无可见外部遮挡或原图截断。"
+        },
+        {
+          "value_id": "partial",
+          "label_zh": "部分可见",
+          "criterion_zh": "可见外部物体或原图边界造成部分缺失，但仍能辨认该区域。"
+        },
+        {
+          "value_id": "not_visible",
+          "label_zh": "应见但不可见",
+          "criterion_zh": "有证据表明该区域应呈现，却被外物遮蔽或原图边界截去。"
+        },
+        {
+          "value_id": "not_in_view",
+          "label_zh": "正常视角不呈现",
+          "criterion_zh": "正常姿态下隐藏在身体后的远侧肢体不单独扣缺失；整块肢体区域正常不呈现才使用。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "分辨率、模糊或证据不足，无法区分上述状态。"
+        }
+      ],
+      "applicability_zh": "先判断视角适用性，再判断当前视角应呈现的肢体区域是否受遮挡或原图截断。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不能依据目标裁剪边界判断截断；正常自身遮蔽不当作外部遮挡；部件不存在或无法确认其存在时用unknown。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "limb_visibility",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "修订LLM候选",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "head_orientation",
+      "name_zh": "头部朝向",
+      "major_group": "朝向与姿态",
+      "definition_zh": "相对相机观察头面部朝向，与身体朝向分开。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "front",
+          "label_zh": "正面",
+          "criterion_zh": "鼻口区域大致朝向镜头，左右面部均可见。"
+        },
+        {
+          "value_id": "profile",
+          "label_zh": "侧面",
+          "criterion_zh": "主要呈一侧头面部轮廓。"
+        },
+        {
+          "value_id": "oblique",
+          "label_zh": "斜面",
+          "criterion_zh": "介于正面和侧面，部分双侧结构可见。"
+        },
+        {
+          "value_id": "back",
+          "label_zh": "背面",
+          "criterion_zh": "主要见头后部，面部背离镜头。"
+        },
+        {
+          "value_id": "up_or_down",
+          "label_zh": "明显仰俯",
+          "criterion_zh": "头部明显仰起或俯下，使常规头面结构发生投影变化。"
+        },
+        {
+          "value_id": "other",
+          "label_zh": "其他可辨朝向",
+          "criterion_zh": "清楚可见但不属于上述取向。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "清晰度、视角或可见证据不足，不猜测。"
+        }
+      ],
+      "applicability_zh": "头部方向有可靠视觉依据时填写；不要求远侧眼或耳可见。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不从头部方向推断情绪、意图；本候选尚未确定风险映射。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "head_orientation",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "修订LLM候选",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "coat_primary_color",
+      "name_zh": "被毛可见主色",
+      "major_group": "外观与形态",
+      "definition_zh": "描述可见被毛区域的主色，不推断隐藏区域。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "black",
+          "label_zh": "黑色",
+          "criterion_zh": "清楚可见被毛以黑色为主。"
+        },
+        {
+          "value_id": "white",
+          "label_zh": "白色",
+          "criterion_zh": "清楚可见被毛以白色为主。"
+        },
+        {
+          "value_id": "brown",
+          "label_zh": "棕褐色",
+          "criterion_zh": "清楚可见被毛以棕或褐色为主。"
+        },
+        {
+          "value_id": "gray",
+          "label_zh": "灰色",
+          "criterion_zh": "清楚可见被毛以灰色为主。"
+        },
+        {
+          "value_id": "tan_or_cream",
+          "label_zh": "浅黄或米色",
+          "criterion_zh": "清楚可见被毛以浅黄、米色为主。"
+        },
+        {
+          "value_id": "mixed",
+          "label_zh": "多色",
+          "criterion_zh": "可见区域多种主色并存，难以归为单一主色。"
+        },
+        {
+          "value_id": "other",
+          "label_zh": "其他",
+          "criterion_zh": "清楚可见但不属于上述颜色。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "清晰度、视角或可见证据不足，不猜测。"
+        }
+      ],
+      "applicability_zh": "可见被毛足以判断，且光照未严重改变颜色；灰度照片无法恢复真实毛色时unknown。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "颜色无天然难度顺序；黑白图、暗光与强色偏不强行分类。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "coat_primary_color",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "修订LLM候选",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "wool_texture",
+      "name_zh": "被毛可见纹理",
+      "major_group": "外观与形态",
+      "definition_zh": "描述可见被毛表面的纹理，不推断品种或纤维性质。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "close_smooth",
+          "label_zh": "贴体平顺",
+          "criterion_zh": "被毛贴近身体，表面较平顺。"
+        },
+        {
+          "value_id": "wavy",
+          "label_zh": "波状",
+          "criterion_zh": "可见较宽松的波状起伏。"
+        },
+        {
+          "value_id": "curled",
+          "label_zh": "卷曲",
+          "criterion_zh": "可见密集弯曲或卷团纹理。"
+        },
+        {
+          "value_id": "long_locks",
+          "label_zh": "长束",
+          "criterion_zh": "可见较长悬垂毛束。"
+        },
+        {
+          "value_id": "mixed_or_other",
+          "label_zh": "混合或其他",
+          "criterion_zh": "纹理清楚但不属于上述类别。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "清晰度、视角或可见证据不足，不猜测。"
+        }
+      ],
+      "applicability_zh": "须能分辨局部毛发纹理，远景或过曝时unknown。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不从外观判断触感、真实密度或品种。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "coat_texture / wool_texture",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "本助手补充或重命名，参考旧草案及当前样例",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "wool_coverage",
+      "name_zh": "被毛覆盖形态",
+      "major_group": "外观与形态",
+      "definition_zh": "描述可见躯干的被毛外突与覆盖形态。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "close_lying",
+          "label_zh": "贴体",
+          "criterion_zh": "被毛整体贴体，躯干轮廓较直接。"
+        },
+        {
+          "value_id": "projecting",
+          "label_zh": "明显外突",
+          "criterion_zh": "被毛明显外突，使可见轮廓蓬松。"
+        },
+        {
+          "value_id": "mixed",
+          "label_zh": "区域不同",
+          "criterion_zh": "不同可见区域呈明显不同的覆盖形态。"
+        },
+        {
+          "value_id": "other",
+          "label_zh": "其他",
+          "criterion_zh": "形态清楚但不属于上述类型。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "清晰度、视角或可见证据不足，不猜测。"
+        }
+      ],
+      "applicability_zh": "躯干轮廓可见且清晰；不以绝对厘米长度分类。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不推断是否剪毛、年龄、健康或生长史。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "wool_length",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "本助手补充或重命名，参考旧草案及当前样例",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "horn_observation",
+      "name_zh": "可见角的数量",
+      "major_group": "外观与形态",
+      "definition_zh": "记录画面中能辨认的角，不推断隐藏或天然缺失。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "one",
+          "label_zh": "可辨1只",
+          "criterion_zh": "能可靠辨认1只角。"
+        },
+        {
+          "value_id": "two",
+          "label_zh": "可辨2只",
+          "criterion_zh": "能可靠辨认2只角。"
+        },
+        {
+          "value_id": "more",
+          "label_zh": "可辨多于2只",
+          "criterion_zh": "能可靠辨认多于2只角。"
+        },
+        {
+          "value_id": "none_observed",
+          "label_zh": "未观察到",
+          "criterion_zh": "头顶相关区域清楚，但未观察到角；不等于天然无角。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "清晰度、视角或可见证据不足，不猜测。"
+        }
+      ],
+      "applicability_zh": "头部区域具有足够分辨率；头部被遮、出画或角与背景无法分开时unknown。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不推断性别、品种或天然无角。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "horn_visibility",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "本助手补充或重命名，参考旧草案及当前样例",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "facial_wool_extent",
+      "name_zh": "面部被毛分布",
+      "major_group": "外观与形态",
+      "definition_zh": "观察额部、脸颊与口鼻邻域的可见被毛覆盖。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "muzzle_exposed",
+          "label_zh": "口鼻区域明显露出",
+          "criterion_zh": "可见口鼻区域较少受蓬松被毛覆盖。"
+        },
+        {
+          "value_id": "face_woolly",
+          "label_zh": "面部明显被毛覆盖",
+          "criterion_zh": "额部或脸颊可见明显蓬松被毛覆盖。"
+        },
+        {
+          "value_id": "mixed_or_other",
+          "label_zh": "混合或其他",
+          "criterion_zh": "可见分布明确但不属于上述类型。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "清晰度、视角或可见证据不足，不猜测。"
+        }
+      ],
+      "applicability_zh": "面部局部足够清楚；背面、远景或严重遮挡时unknown。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "仅描述外观，不推断品种或生理特征。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "facial_wool_extent",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "本助手补充或重命名，参考旧草案及当前样例",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "ear_posture",
+      "name_zh": "耳部可见姿态",
+      "major_group": "朝向与姿态",
+      "definition_zh": "只记录可见耳廓的几何姿态。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "upright",
+          "label_zh": "竖立",
+          "criterion_zh": "耳廓主要朝上伸展。"
+        },
+        {
+          "value_id": "forward",
+          "label_zh": "向前",
+          "criterion_zh": "可见耳廓主要偏向头前方。"
+        },
+        {
+          "value_id": "backward",
+          "label_zh": "向后",
+          "criterion_zh": "可见耳廓主要偏向头后方。"
+        },
+        {
+          "value_id": "lateral_or_down",
+          "label_zh": "外展或下垂",
+          "criterion_zh": "可见耳廓主要向侧方或下方。"
+        },
+        {
+          "value_id": "asymmetric",
+          "label_zh": "两侧明显不同",
+          "criterion_zh": "两耳可见且呈不同主要方向。"
+        },
+        {
+          "value_id": "other",
+          "label_zh": "其他",
+          "criterion_zh": "可见姿态不属于上述类型。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "清晰度、视角或可见证据不足，不猜测。"
+        }
+      ],
+      "applicability_zh": "耳廓方向可观察；只见一耳时可描述该耳，但不能判双侧不对称。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不解释为警觉、紧张、攻击或放松等情绪；朝向不清用unknown。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "ear_posture",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "本助手补充或重命名，参考旧草案及当前样例",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "static_body_pose",
+      "name_zh": "静态身体姿态",
+      "major_group": "朝向与姿态",
+      "definition_zh": "描述单幅图中能直接观察到的支撑与肢体布局。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "standing_support",
+          "label_zh": "直立支撑",
+          "criterion_zh": "身体直立且可辨支撑肢体，没有清楚的抬肢或腾空证据。"
+        },
+        {
+          "value_id": "raised_limb",
+          "label_zh": "明显抬肢",
+          "criterion_zh": "身体直立且至少一条肢体明显抬起或前伸，存在静态姿态证据。"
+        },
+        {
+          "value_id": "recumbent",
+          "label_zh": "卧姿",
+          "criterion_zh": "躯干与地面或支撑面接触，呈侧卧或伏卧。"
+        },
+        {
+          "value_id": "sitting",
+          "label_zh": "坐姿",
+          "criterion_zh": "躯干较直立，臀部区域有直接可见的支撑关系；不只凭腿弯判断。"
+        },
+        {
+          "value_id": "airborne",
+          "label_zh": "清楚腾空",
+          "criterion_zh": "所有可辨支撑部位与地面分离，且有足够证据确认腾空。"
+        },
+        {
+          "value_id": "other",
+          "label_zh": "其他",
+          "criterion_zh": "姿态清楚但不属于上述类别。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "清晰度、视角或可见证据不足，不猜测。"
+        }
+      ],
+      "applicability_zh": "支撑关系和肢体布局有可见依据；仅由模糊或裁剪不能判断腾空。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不能从单幅图判定速度；骑乘、马具和交互关系另记，避免与静态姿态互斥分类混用。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "pose_action / static_body_pose",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "修订LLM候选",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "horn_shape",
+      "name_zh": "可见角形态",
+      "definition_zh": "只描述可辨角的轮廓；看不见角不能推断无角；多个可辨角形态不同时记混合。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "straight",
+          "label_zh": "近直形",
+          "criterion_zh": "主体近直，无明显弯曲或旋绕。"
+        },
+        {
+          "value_id": "curved",
+          "label_zh": "弧曲形",
+          "criterion_zh": "明显弯曲但无清楚旋绕结构。"
+        },
+        {
+          "value_id": "spiral",
+          "label_zh": "旋绕形",
+          "criterion_zh": "可见清楚卷曲或旋绕轮廓。"
+        },
+        {
+          "value_id": "mixed",
+          "label_zh": "混合形态",
+          "criterion_zh": "不同可辨角分属不同类型。"
+        },
+        {
+          "value_id": "other",
+          "label_zh": "其他可辨形态",
+          "criterion_zh": "角轮廓清楚但不符合上述类型。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "未知",
+          "criterion_zh": "所需区域不可见、证据不足或无法可靠区分。"
+        }
+      ],
+      "unknown_rule_zh": "不可见、出画、遮挡、模糊或无法可靠区分时记unknown；不能将未知当作没有。",
+      "applicability_zh": "仅在定义所需区域和参照可辨时适用；否则unknown。",
+      "limitations_zh": "只描述可见部分，不推断隐藏属性、品种、身份或视觉难度。",
+      "semantic_revision_by": "assistant; not human-reviewed",
+      "major_group": "外观与形态",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "provenance": "本地Qwen3-VL候选，经助手语义修订；尚未人工审查",
+      "scoring_policy": "类别专属外观，仅覆盖；不排序为视觉风险。"
+    },
+    {
+      "feature_id": "ear_shape",
+      "name_zh": "可见耳廓形态",
+      "definition_zh": "描述耳廓末端轮廓，不用缺少参照的大小或厚度；多耳形态不同记混合。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "tapered",
+          "label_zh": "渐窄尖端",
+          "criterion_zh": "耳廓向末端渐窄，末端偏尖。"
+        },
+        {
+          "value_id": "rounded",
+          "label_zh": "圆钝末端",
+          "criterion_zh": "末端呈圆弧，无明显尖端。"
+        },
+        {
+          "value_id": "mixed",
+          "label_zh": "混合轮廓",
+          "criterion_zh": "不同可辨耳廓分别属于以上两类。"
+        },
+        {
+          "value_id": "other",
+          "label_zh": "其他可辨轮廓",
+          "criterion_zh": "轮廓清楚但不符合上述类型。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "未知",
+          "criterion_zh": "所需区域不可见、证据不足或无法可靠区分。"
+        }
+      ],
+      "unknown_rule_zh": "不可见、出画、遮挡、模糊或无法可靠区分时记unknown；不能将未知当作没有。",
+      "applicability_zh": "仅在定义所需区域和参照可辨时适用；否则unknown。",
+      "limitations_zh": "只描述可见部分，不推断隐藏属性、品种、身份或视觉难度。",
+      "semantic_revision_by": "assistant; not human-reviewed",
+      "major_group": "外观与形态",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "provenance": "本地Qwen3-VL候选，经助手语义修订；尚未人工审查",
+      "scoring_policy": "类别专属外观，仅覆盖；不排序为视觉风险。"
+    }
+  ],
+  "status": "definition_candidates_ready_for_review",
+  "user_direction_confirmed": true,
+  "human_definition_review_completed": false,
+  "risk_scoring_changed": false,
+  "encoding_namespace": "coverage_features",
+  "shared_reference": "../shared_features_reference.json"
+}

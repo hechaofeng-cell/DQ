@@ -8,3 +8,6 @@
 *.ico binary
 *.pdf binary
 *.zip binary
+
+# Preserve historical metadata bytes, including BOM/CRLF, for SHA256 checks.
+reproducibility/migration_20261118/** -text

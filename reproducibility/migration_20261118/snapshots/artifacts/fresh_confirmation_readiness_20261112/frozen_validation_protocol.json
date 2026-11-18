@@ -1,0 +1,203 @@
+{
+  "version": "fresh-confirmation-v1-20261112",
+  "frozen_at": "2026-11-12T08:11:32.728030+00:00",
+  "current_stage": "design_frozen_data_not_qualified",
+  "human_verification": false,
+  "scientific_question": "Does risk-constrained selection increase label-defined evaluability on project-unseen images, and does P20 add useful benefit over exact Greedy20?",
+  "thesis_change": false,
+  "sources": {
+    "primary_same_source_COCO": "infeasible_under_current_conservative_exclusions",
+    "alternative": "Objects365-v2 train; external-source confirmation track, not COCO same-source replication",
+    "alternative_status": "metadata_feasible_image_gate_pending",
+    "plan": "alternative_provisional_plan.csv",
+    "no_claim_of_global_pretraining_independence": true
+  },
+  "sampling": {
+    "seed": 2026111201,
+    "classes": [
+      "dog",
+      "cat",
+      "horse",
+      "sheep",
+      "person",
+      "car"
+    ],
+    "selection_per_class": 400,
+    "reference_per_class": 400,
+    "total_primary_images": 4800,
+    "technical_reserves_per_class": 100,
+    "role_rule": "hash rank 1..400 selection; 401..800 reference; 801..850 selection technical reserve; 851..900 reference technical reserve",
+    "one_original_image_one_role_and_one_class": true,
+    "allowed_reserve_use": "in frozen rank order for download/decode/official-box/exact-or-near-duplicate failures only, before annotations/predictions",
+    "forbidden_reserve_use": "no replacement for model disagreement, unknown labels, poor support or classifier results",
+    "stop_if_qualified_supply_insufficient": true
+  },
+  "data_gate": {
+    "required": [
+      "all planned originals decoded and official dimensions/bounds checked",
+      "all bound paths SHA256 verified against historical registry and actual available historical original/crop content",
+      "all selection/reference/train/development exact and near duplicates excluded at original-image level",
+      "cross-class and cross-role duplicates excluded before any annotation",
+      "manifest and source archives/range-download checks frozen; no unresolved lineage/input failures"
+    ],
+    "near_duplicate_rule": "Conservative full-original dHash64<=4 including horizontal mirror; target-crop pHash<=4 and frozen ViT cosine>=0.980 OR pHash<=8 and cosine>=0.995; exact SHA always excluded. Apply against accessible historical originals/crops and within the new pools; missing historical originals prevent certification.",
+    "threshold_source": "existing project acquisition and near-duplicate rules; no tuning using new outputs",
+    "maximum_simultaneous_staged_archive_bytes": 85899345920,
+    "maximum_network_payload_bytes": 128849018880,
+    "minimum_free_disk_after_staging_bytes": 21474836480,
+    "acquisition": "Sequential package streaming/extraction of frozen target basenames; do not retain full new archives or duplicate range chunks. Preserve verified target files and acquisition provenance. This changes storage strategy, not target membership.",
+    "package_sizes_must_be_verified_before_download": true
+  },
+  "annotations": {
+    "models": {
+      "A": "qwen3-vl:30b-a3b-instruct",
+      "B": "sensenova-6.8-flash-lite"
+    },
+    "frozen_native_model_A_digest": "c871fc73fabc5516500b70a298ea25fd44a6a23d5cffc46c63b50302543e3915",
+    "protocol": "original native old/car schemas and templates; original independent-named-v2 fine schemas/prompts for horse/sheep/person/car",
+    "revised_pilot_prompt_used": false,
+    "backend_symmetry": "same task text, schema and evidence bytes for A/B; transport-only differences logged; no first-model answer sharing",
+    "native_evidence": "original + marked original + feature crop, frozen ensure_views geometry",
+    "fine_evidence": "original+official-target-crop contact sheet, original renderer",
+    "sampling": {
+      "temperature": 0,
+      "native_seed": 20260911,
+      "fine_seed": 20261018,
+      "native_num_ctx": 8192,
+      "native_num_predict": 2600,
+      "fine_num_ctx": 16384,
+      "fine_num_predict": 2000
+    },
+    "max_attempts_per_job": 3,
+    "failure": "retain raw responses and schema failures; formatting reminder only, no label remapping/adjudication or prompt redesign; unresolved jobs block affected class/source",
+    "unknown": "excluded from positive states and from known-negative controls",
+    "disagreement": "retain both independent versions; report agreement/unknown; no third-model majority substituted for truth",
+    "semantic_scope": "native old/car truncation semantics are historical and differ; no claim of unified or corrected visual truth",
+    "base_semantic_jobs": 16000,
+    "maximum_attempts": 48000
+  },
+  "selection": {
+    "methods": [
+      "R",
+      "Greedy20",
+      "P20"
+    ],
+    "budget_per_class": 200,
+    "risk": "equal_parts midpoint/uncertainty from frozen five-dimension config; quintiles from C_select only with sample-ID tie rule",
+    "cell": "(class,Q,round(midpoint*1e8),round(uncertainty_width*1e8))",
+    "quotas": "same class/Q/fine-cell quota vector for all three methods, largest remainder within Q; 40 selected per Q",
+    "starts": [
+      2026110600,
+      2026110601,
+      2026110602,
+      2026110603,
+      2026110604,
+      2026110605,
+      2026110606,
+      2026110607,
+      2026110608,
+      2026110609,
+      2026110610,
+      2026110611,
+      2026110612,
+      2026110613,
+      2026110614,
+      2026110615,
+      2026110616,
+      2026110617,
+      2026110618,
+      2026110619,
+      2026110620,
+      2026110621,
+      2026110622,
+      2026110623,
+      2026110624,
+      2026110625,
+      2026110626,
+      2026110627,
+      2026110628,
+      2026110629,
+      2026110630,
+      2026110631,
+      2026110632,
+      2026110633,
+      2026110634,
+      2026110635,
+      2026110636,
+      2026110637,
+      2026110638,
+      2026110639,
+      2026110640,
+      2026110641,
+      2026110642,
+      2026110643,
+      2026110644,
+      2026110645,
+      2026110646,
+      2026110647,
+      2026110648,
+      2026110649
+    ],
+    "R": "same-cell random initial200, shared by Greedy20/P20 at each start",
+    "edits": "at most20 original members removed; exact frozen Greedy and P20 implementations",
+    "P20": "historical support-first/occurrence-second formulation and finite-solver fallback; any execution adapter must reproduce historical fixtures before use",
+    "solver": {
+      "time_limit_per_stage_seconds": 20,
+      "mip_rel_gap": 0,
+      "threads": 1,
+      "random_seed": 2026110600
+    },
+    "original_numeric_thresholds": "copied historical thresholds.json, no new-source recalibration",
+    "selection_sources": "A primary; B own-source predefined robustness, reported as a change of the whole risk/coverage/initialization bundle",
+    "freeze_before_classifier_outputs": true,
+    "reference_not_used_for_selection": true
+  },
+  "endpoints": {
+    "primary": "per-class mean number of evaluable state predicates: state-positive and known same-field complement each >=20 distinct originals; macro-average six classes, then paired50 starts",
+    "coverage_secondary": "capped-support completion mean(min(n_state/20,1)), fixed state dictionary and denominator; plus occurrence/dual-pass",
+    "label_evaluation": "report A and B separately for fixed A selections; agreement-core separately. B own-source sets separately; no source pooling or best-source selection",
+    "P20_vs_R_support_rule": "positive primary macro mean difference under both A and B evaluators; report every class and label source even when mixed",
+    "P20_vs_Greedy_rule": "report primary/coverage difference together with runtime, solver statuses and constraint failures; no post-hoc minimal-useful-effect or universal superiority claim",
+    "inference": "one new image realization;50 starts share data and are not independent datasets. Report paired distributions/min/median/max and class-specific results; no significance claim from seeds as independent replicates"
+  },
+  "diagnosis": {
+    "role": "secondary",
+    "classifiers": [
+      "yolo26s_cls",
+      "pe_core_b16",
+      "siglip2_base",
+      "mobileclip2_s0",
+      "aimv2_large"
+    ],
+    "prediction_seeds": [
+      20260916,
+      20260917,
+      20260918
+    ],
+    "weights": "15 best.pt SHA bindings in checkpoint_lineage.csv; no retraining",
+    "preprocessing": "each model's frozen run_recent_five_models.py/model.json inference transform; preserve historical input sizes/normalization",
+    "correctness": "float mean of three seed-wise correct indicators, not majority-vote label",
+    "weak": "positive-vs-known-negative recall gap <=-0.10, both supports>=20",
+    "confirmed": "same predicate weak on independent complete C_ref under same annotation source/classifier",
+    "main_comparison": "intersection of evaluable state predicates for R/Greedy/P20 and C_ref, same universe for all method comparisons",
+    "additional": "all-eligible counts with exact new/lost eligibility vs common-gap decomposition; raw selected error rates, Q gradients, runtime",
+    "no_outcome_matching_as_primary": true,
+    "maximum_target_model_seed_predictions": 72000
+  },
+  "sequence": [
+    "qualify and bind data",
+    "automatic six-class smoke with frozen protocols; these targets remain in their frozen pools and cannot be tuned against",
+    "complete two-model annotation and freeze all labels/masks",
+    "compute risk and freeze R/Greedy/P20 selections without classifier outcomes",
+    "infer frozen15 checkpoints on both new pools",
+    "independent numerical audit and report all predefined endpoints"
+  ],
+  "stop_rules": [
+    "unresolved lineage/hash/near-duplicate failures block data qualification",
+    "annotation smoke may repair transport/schema formatting only; semantic changes require a new version and separate pilot, and invalidate this confirmatory run",
+    "no adaptive samples, thresholds, dictionaries, classifiers, seed subsets or label source after seeing outcomes",
+    "insufficient support is reported as unevaluable, never filled after predictions",
+    "failed or mixed outcomes are reported and bounded; no automatic relabeling/retry-until-positive"
+  ],
+  "result_claim_status": "no new empirical efficacy results; readiness/metadata only"
+}

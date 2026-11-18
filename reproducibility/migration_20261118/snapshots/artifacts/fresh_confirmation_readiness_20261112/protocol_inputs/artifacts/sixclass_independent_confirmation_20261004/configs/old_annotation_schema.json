@@ -1,0 +1,123 @@
+{
+  "schema_version": "object_state_v1.0",
+  "category": "object",
+  "universal_features": [
+    {
+      "feature_id": "body_visibility",
+      "group": "visibility",
+      "value_type": "enum",
+      "possible_values": ["full", "most", "partial", "minimal", "unknown"]
+    },
+    {
+      "feature_id": "head_visibility",
+      "group": "visibility",
+      "value_type": "enum",
+      "possible_values": ["clear", "partial", "not_visible", "unknown"]
+    },
+    {
+      "feature_id": "body_orientation",
+      "group": "orientation",
+      "value_type": "enum",
+      "possible_values": ["front", "back", "left_side", "right_side", "three_quarter", "overhead_or_unusual", "unknown"]
+    },
+    {
+      "feature_id": "head_orientation",
+      "group": "orientation",
+      "value_type": "enum",
+      "possible_values": ["front", "back", "left", "right", "up", "down", "unknown"]
+    },
+    {
+      "feature_id": "pose_action",
+      "group": "pose_action",
+      "value_type": "enum",
+      "possible_values": ["standing", "sitting", "lying", "walking", "running", "jumping", "riding_or_being_ridden", "interacting", "other", "unknown"]
+    },
+    {
+      "feature_id": "leg_visibility",
+      "group": "visibility",
+      "value_type": "enum",
+      "possible_values": ["all_expected", "some", "one", "none", "unknown"]
+    },
+    {
+      "feature_id": "occlusion_level",
+      "group": "occlusion",
+      "value_type": "enum",
+      "possible_values": ["none", "light", "moderate", "heavy", "unknown"]
+    },
+    {
+      "feature_id": "occluder_type",
+      "group": "occlusion",
+      "value_type": "set",
+      "possible_values": ["none", "person", "same_class_object", "other_object", "vegetation", "frame_or_structure", "image_boundary", "multiple", "unknown"],
+      "exclusive_values": ["none", "unknown"]
+    },
+    {
+      "feature_id": "truncation_level",
+      "group": "truncation",
+      "value_type": "enum",
+      "possible_values": ["none", "light", "moderate", "heavy", "unknown"]
+    },
+    {
+      "feature_id": "truncation_parts",
+      "group": "truncation",
+      "value_type": "set",
+      "possible_values": ["none", "head", "torso", "legs", "tail_or_rear", "multiple", "unknown"],
+      "exclusive_values": ["none", "unknown"]
+    },
+    {
+      "feature_id": "group_context",
+      "group": "context",
+      "value_type": "enum",
+      "possible_values": ["single", "multiple_separated", "multiple_overlapping", "crowd_or_group", "unknown"]
+    },
+    {
+      "feature_id": "interaction_context",
+      "group": "context",
+      "value_type": "enum",
+      "possible_values": ["none", "with_person", "with_same_class", "with_other_animal", "with_object", "multiple", "unknown"]
+    },
+    {
+      "feature_id": "scene_environment",
+      "group": "scene",
+      "value_type": "enum",
+      "possible_values": ["indoor", "outdoor_urban", "outdoor_natural", "farm_or_field", "road_or_vehicle", "water_or_beach", "snow", "other", "unknown"]
+    },
+    {
+      "feature_id": "background_complexity",
+      "group": "scene",
+      "value_type": "enum",
+      "possible_values": ["simple", "moderate", "complex", "unknown"]
+    },
+    {
+      "feature_id": "blur_level",
+      "group": "image_quality",
+      "value_type": "enum",
+      "possible_values": ["clear", "mild", "severe", "unknown"]
+    },
+    {
+      "feature_id": "illumination",
+      "group": "image_quality",
+      "value_type": "enum",
+      "possible_values": ["normal", "low_light", "backlit", "strong_shadow", "overexposed", "mixed_or_colored", "unknown"]
+    },
+    {
+      "feature_id": "target_background_contrast",
+      "group": "image_quality",
+      "value_type": "enum",
+      "possible_values": ["high", "medium", "low", "unknown"]
+    },
+    {
+      "feature_id": "target_recognizability",
+      "group": "overall",
+      "value_type": "enum",
+      "possible_values": ["high", "medium", "low", "unrecognizable", "unknown"]
+    },
+    {
+      "feature_id": "visual_representation",
+      "group": "representation",
+      "value_type": "enum",
+      "possible_values": ["natural_photo", "screen_or_print", "illustration_or_artwork", "statue_or_toy", "unknown"]
+    }
+  ],
+  "category_specific_features": []
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "scope": "Latest fresh run and six-class historical pools; old exploratory DTA/Imagenette/head-face branches are not required for this scope",
+  "datasets": [
+    {
+      "id": "fresh_objects365",
+      "name": "Objects365 v2 train",
+      "official_page": "https://www.objects365.org/download.html",
+      "frozen_originals": 5400,
+      "qualified_targets": 4800,
+      "precise_download_manifest": "objects365_fresh_downloads.json",
+      "restore": "python3 scripts/restore_qe_data.py download",
+      "annotation_archive": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/zhiyuan_objv2_train.tar.gz",
+      "annotation_sha256": "d5c10d84863718a332421c2aeaa0563a1dc3d6ce9c4b20f680cb4dd239da8e21",
+      "scope": "Restorer needs frozen image members only, not the full official annotation JSON"
+    },
+    {
+      "id": "historical_coco_B",
+      "name": "COCO 2017 train",
+      "frozen_targets": 2400,
+      "manifest": "manifests/artifacts/sixclass_independent_confirmation_20261004/manifests/candidate_pool.csv",
+      "per_image_url": "http://images.cocodataset.org/{source_split}/{image_id}.jpg",
+      "official_annotations": "http://images.cocodataset.org/annotations/annotations_trainval2017.zip",
+      "restore": "Use exact image_id/source_split/image_sha256 in the manifest; regenerate views using the frozen bbox, never resample",
+      "existing_code": "scripts/prepare_independent_sixclass_pool.py"
+    },
+    {
+      "id": "historical_openimages_A",
+      "name": "Open Images V7 plus 111 VOC2012 sheep targets",
+      "frozen_targets": 2400,
+      "manifest": "manifests/artifacts/sixclass_dual_vlm_replaced_20261004/manifests/candidate_pool.csv",
+      "openimages_image_url": "https://open-images-dataset.s3.amazonaws.com/{source_split}/{image_id}.jpg",
+      "split_rule": "Use only train/validation/test rows for the Open Images URL; voc2012 rows come from the VOC2012 archive",
+      "metadata_config": "configs/openimages_v7_dog_gap_experiment_v1.json",
+      "existing_code": "scripts/prepare_openimages_v7_experiment.py"
+    },
+    {
+      "id": "historical_voc2012",
+      "name": "PASCAL VOC2012 trainval",
+      "archive": "http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar",
+      "archive_member": "VOCdevkit/VOC2012/JPEGImages/{image_id_without_voc2012_prefix}.jpg",
+      "existing_code": "scripts/prepare_pascal_voc2012_dog_validation.py"
+    },
+    {
+      "id": "historical_voc2007_C",
+      "name": "PASCAL VOC2007 trainval and test",
+      "frozen_targets": 600,
+      "manifest": "manifests/artifacts/sixclass_voc_external_confirmation_20261005/manifests/candidate_pool.csv",
+      "checksum_record": "snapshots/artifacts/sixclass_voc_external_confirmation_20261005/download_audit.json",
+      "archives": [
+        "https://thor.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar",
+        "https://thor.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar"
+      ],
+      "existing_code": "scripts/download_sixclass_voc_sources.py"
+    },
+    {
+      "id": "historical_objects365_D",
+      "name": "Objects365 v2 train historical confirmation",
+      "frozen_targets": 2400,
+      "manifest": "manifests/artifacts/objects365_independent_confirmation_20261005/manifests/candidate_pool.csv",
+      "source_record": "snapshots/artifacts/objects365_independent_confirmation_20261005/metadata/source_audit.json",
+      "archive_url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/{patch_name}.tar.gz",
+      "note": "These 2400 members are a different pool; the fresh-only restorer does not restore them. Use the source_file_name/package records from this pool."
+    },
+    {
+      "id": "classifier_training",
+      "name": "Six-class COCO training and validation",
+      "train_targets": 1800,
+      "validation_targets": 390,
+      "manifests": [
+        "manifests/artifacts/sixclass_car_extension_20261004/manifests/train.csv",
+        "manifests/artifacts/sixclass_car_extension_20261004/manifests/eval.csv"
+      ],
+      "precise_crop_bindings": "training_crops.json",
+      "note": "Originals can be reacquired from COCO, but some old rows lack crop geometry. Transfer the exact crops and the original YOLO-format coco2017labels.zip if preserving historical training inputs."
+    }
+  ]
+}

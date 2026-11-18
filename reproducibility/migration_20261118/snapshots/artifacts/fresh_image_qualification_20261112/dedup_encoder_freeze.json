@@ -1,0 +1,9 @@
+{
+  "model": "torchvision ViT_B_16_Weights.IMAGENET1K_V1",
+  "weight_path": "/home/hcf/.cache/torch/hub/checkpoints/vit_b_16-c867db91.pth",
+  "sha256": "c867db91d3e12c6cbadabb610d73c24a546bf82d8c03a9fea34f43a712ddb0e9",
+  "transform": "ImageClassification(\n    crop_size=[224]\n    resize_size=[256]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+  "precision": "float32",
+  "batch_size": 48,
+  "role": "near-duplicate embedding only, not target-classifier predictions"
+}

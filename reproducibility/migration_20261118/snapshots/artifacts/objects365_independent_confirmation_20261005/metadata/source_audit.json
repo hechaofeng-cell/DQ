@@ -1,0 +1,312 @@
+{
+  "status": "pass",
+  "source": "Objects365 v2 train",
+  "split": "train",
+  "annotation": {
+    "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/zhiyuan_objv2_train.tar.gz",
+    "bytes": 1336483164,
+    "sha256": "d5c10d84863718a332421c2aeaa0563a1dc3d6ce9c4b20f680cb4dd239da8e21",
+    "complete": true,
+    "downloaded_at": "2026-10-05T15:04:47+0800"
+  },
+  "annotation_json_sha256": "413b172b6a5fa075eab105cc4b0754de995812823242e988adc14e1380742b22",
+  "images": 1742292,
+  "annotations": 25407633,
+  "mapping": {
+    "dog": 93,
+    "cat": 140,
+    "horse": 79,
+    "sheep": 100,
+    "person": 1,
+    "car": 6
+  },
+  "qualified_image_counts": {
+    "dog": 4590,
+    "cat": 1048,
+    "horse": 5201,
+    "sheep": 649,
+    "person": 289599,
+    "car": 43667
+  },
+  "train_package_prefix": {
+    "rule": "SHA256 package order; first prefix with >=600 eligible images per class; <=80GiB",
+    "steps": [
+      {
+        "package": "v2/patch46",
+        "bytes": 9579677223,
+        "cumulative_counts": {
+          "person": 19706,
+          "dog": 533,
+          "car": 3215,
+          "horse": 263,
+          "cat": 235,
+          "sheep": 68
+        }
+      },
+      {
+        "package": "v1/patch7",
+        "bytes": 3668268422,
+        "cumulative_counts": {
+          "person": 42159,
+          "dog": 853,
+          "car": 6666,
+          "horse": 818,
+          "cat": 283,
+          "sheep": 115
+        }
+      },
+      {
+        "package": "v1/patch5",
+        "bytes": 3668334883,
+        "cumulative_counts": {
+          "person": 64867,
+          "dog": 1174,
+          "car": 9989,
+          "horse": 1403,
+          "cat": 328,
+          "sheep": 173
+        }
+      },
+      {
+        "package": "v2/patch24",
+        "bytes": 8191360061,
+        "cumulative_counts": {
+          "person": 89544,
+          "dog": 1577,
+          "car": 14099,
+          "horse": 1653,
+          "cat": 439,
+          "sheep": 219
+        }
+      },
+      {
+        "package": "v1/patch10",
+        "bytes": 3665281260,
+        "cumulative_counts": {
+          "person": 112197,
+          "dog": 1917,
+          "car": 17096,
+          "horse": 2221,
+          "cat": 478,
+          "sheep": 274
+        }
+      },
+      {
+        "package": "v2/patch28",
+        "bytes": 7948184422,
+        "cumulative_counts": {
+          "person": 136930,
+          "dog": 2306,
+          "car": 21205,
+          "horse": 2474,
+          "cat": 569,
+          "sheep": 323
+        }
+      },
+      {
+        "package": "v1/patch3",
+        "bytes": 3698690868,
+        "cumulative_counts": {
+          "person": 160382,
+          "dog": 2636,
+          "car": 24424,
+          "horse": 3049,
+          "cat": 615,
+          "sheep": 379
+        }
+      },
+      {
+        "package": "v2/patch17",
+        "bytes": 8196642348,
+        "cumulative_counts": {
+          "person": 184954,
+          "dog": 3050,
+          "car": 28678,
+          "horse": 3333,
+          "cat": 726,
+          "sheep": 428
+        }
+      },
+      {
+        "package": "v2/patch18",
+        "bytes": 8239012244,
+        "cumulative_counts": {
+          "person": 209494,
+          "dog": 3468,
+          "car": 32820,
+          "horse": 3578,
+          "cat": 841,
+          "sheep": 475
+        }
+      },
+      {
+        "package": "v2/patch45",
+        "bytes": 4656815126,
+        "cumulative_counts": {
+          "person": 223310,
+          "dog": 3681,
+          "car": 35001,
+          "horse": 3710,
+          "cat": 912,
+          "sheep": 502
+        }
+      },
+      {
+        "package": "v1/patch9",
+        "bytes": 3726836684,
+        "cumulative_counts": {
+          "person": 245472,
+          "dog": 3936,
+          "car": 37207,
+          "horse": 4150,
+          "cat": 945,
+          "sheep": 541
+        }
+      },
+      {
+        "package": "v1/patch1",
+        "bytes": 3835218513,
+        "cumulative_counts": {
+          "person": 267772,
+          "dog": 4270,
+          "car": 40163,
+          "horse": 4665,
+          "cat": 991,
+          "sheep": 582
+        }
+      },
+      {
+        "package": "v1/patch6",
+        "bytes": 3683660250,
+        "cumulative_counts": {
+          "person": 289599,
+          "dog": 4590,
+          "car": 43667,
+          "horse": 5201,
+          "cat": 1048,
+          "sheep": 649
+        }
+      }
+    ],
+    "selected_packages": [
+      "v2/patch46",
+      "v1/patch7",
+      "v1/patch5",
+      "v2/patch24",
+      "v1/patch10",
+      "v2/patch28",
+      "v1/patch3",
+      "v2/patch17",
+      "v2/patch18",
+      "v2/patch45",
+      "v1/patch9",
+      "v1/patch1",
+      "v1/patch6"
+    ],
+    "bytes": 72757982304,
+    "full_qualified_counts": {
+      "person": 1169815,
+      "car": 182287,
+      "dog": 21594,
+      "cat": 7604,
+      "horse": 18043,
+      "sheep": 3514
+    }
+  },
+  "image_disjoint_available_counts": {
+    "sheep": 649,
+    "cat": 1045,
+    "dog": 4506,
+    "horse": 5158,
+    "car": 43457,
+    "person": 287037
+  },
+  "allocation_order": [
+    "sheep",
+    "cat",
+    "dog",
+    "horse",
+    "car",
+    "person"
+  ],
+  "qualified_filters": {
+    "invalid_bbox": 877948,
+    "crowd_or_ignore": 952773,
+    "area_below_0.001": 709824
+  },
+  "plan_count": 5149,
+  "plan_sha256": "08a3c345dbe19ba756f09f87869fd1f8417de36e985881164cc74756b1d19ba9",
+  "packages": [
+    {
+      "name": "v2/patch46",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch46.tar.gz",
+      "bytes": 9579677223
+    },
+    {
+      "name": "v2/patch28",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch28.tar.gz",
+      "bytes": 7948184422
+    },
+    {
+      "name": "v1/patch7",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch7.tar.gz",
+      "bytes": 3668268422
+    },
+    {
+      "name": "v1/patch5",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch5.tar.gz",
+      "bytes": 3668334883
+    },
+    {
+      "name": "v1/patch6",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch6.tar.gz",
+      "bytes": 3683660250
+    },
+    {
+      "name": "v1/patch1",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch1.tar.gz",
+      "bytes": 3835218513
+    },
+    {
+      "name": "v1/patch9",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch9.tar.gz",
+      "bytes": 3726836684
+    },
+    {
+      "name": "v1/patch3",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch3.tar.gz",
+      "bytes": 3698690868
+    },
+    {
+      "name": "v1/patch10",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch10.tar.gz",
+      "bytes": 3665281260
+    },
+    {
+      "name": "v2/patch45",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch45.tar.gz",
+      "bytes": 4656815126
+    },
+    {
+      "name": "v2/patch18",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch18.tar.gz",
+      "bytes": 8239012244
+    },
+    {
+      "name": "v2/patch17",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch17.tar.gz",
+      "bytes": 8196642348
+    },
+    {
+      "name": "v2/patch24",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch24.tar.gz",
+      "bytes": 8191360061
+    }
+  ],
+  "required_archive_bytes": 72757982304,
+  "max_archive_bytes": 85899345920,
+  "history_dedup_pending": true,
+  "prediction_read": false,
+  "manual_review": false,
+  "completed_at": "2026-10-05T15:12:04+0800"
+}

@@ -1,0 +1,29 @@
+{
+  "experiment": "recent_five_models_20261009",
+  "classes": ["dog", "cat", "horse", "sheep", "person", "car"],
+  "models": ["yolo26s_cls", "pe_core_b16", "siglip2_base", "mobileclip2_s0", "aimv2_large"],
+  "seeds": [20260916, 20260917, 20260918],
+  "epochs": 20,
+  "samples_per_epoch": 3000,
+  "micro_batch": 8,
+  "effective_batch": 64,
+  "workers": 4,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "scheduler": "CosineAnnealingLR",
+  "train_mode": "full_finetune",
+  "checkpoint_selection": "validation_macro_f1_first_max",
+  "mixture_total": 120,
+  "mixture_repeats": 1000,
+  "mixture_high_per_class": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+  "train_manifest": "artifacts/sixclass_car_extension_20261004/manifests/train.csv",
+  "eval_manifest": "artifacts/sixclass_car_extension_20261004/manifests/eval.csv",
+  "portable_states": "artifacts/scale_only_confirmation_20261007/portable_inputs",
+  "pools": {
+    "B": "artifacts/sixclass_independent_confirmation_20261004/manifests/candidate_pool.csv",
+    "C": "artifacts/sixclass_voc_external_confirmation_20261005/manifests/candidate_pool.csv",
+    "D": "artifacts/objects365_independent_confirmation_20261005/manifests/candidate_pool.csv"
+  },
+  "input_sizes": {"yolo26s_cls": 224, "pe_core_b16": 224, "siglip2_base": 224, "mobileclip2_s0": 256, "aimv2_large": 224}
+}

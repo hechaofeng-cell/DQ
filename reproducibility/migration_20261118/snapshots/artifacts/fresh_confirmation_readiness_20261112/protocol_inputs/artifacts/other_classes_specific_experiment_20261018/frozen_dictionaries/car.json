@@ -1,0 +1,596 @@
+{
+  "version": "specific-coverage-v2",
+  "category": "car",
+  "features": [
+    {
+      "feature_id": "front_visibility",
+      "name_zh": "车头区域可见性",
+      "major_group": "可见性与完整性",
+      "definition_zh": "观察前保险杠、格栅等前端区域在当前视角通常应呈现部分的可见完整性。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "clear",
+          "label_zh": "清楚可见",
+          "criterion_zh": "应呈现部分均能辨认，无可见外部遮挡或原图截断。"
+        },
+        {
+          "value_id": "partial",
+          "label_zh": "部分可见",
+          "criterion_zh": "可见外部物体或原图边界造成部分缺失，但仍能辨认该区域。"
+        },
+        {
+          "value_id": "not_visible",
+          "label_zh": "应见但不可见",
+          "criterion_zh": "有证据表明该区域应呈现，却被外物遮蔽或原图边界截去。"
+        },
+        {
+          "value_id": "not_in_view",
+          "label_zh": "正常视角不呈现",
+          "criterion_zh": "清楚后视时车头正常不呈现。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "分辨率、模糊或证据不足，无法区分上述状态。"
+        }
+      ],
+      "applicability_zh": "先判断视角适用性，再判断前保险杠、格栅等前端区域是否受遮挡或原图截断。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不能依据目标裁剪边界判断截断；正常自身遮蔽不当作外部遮挡；部件不存在或无法确认其存在时用unknown。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "front_visibility",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "修订LLM候选",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "rear_visibility",
+      "name_zh": "车尾区域可见性",
+      "major_group": "可见性与完整性",
+      "definition_zh": "观察后保险杠、尾部等后端区域在当前视角通常应呈现部分的可见完整性。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "clear",
+          "label_zh": "清楚可见",
+          "criterion_zh": "应呈现部分均能辨认，无可见外部遮挡或原图截断。"
+        },
+        {
+          "value_id": "partial",
+          "label_zh": "部分可见",
+          "criterion_zh": "可见外部物体或原图边界造成部分缺失，但仍能辨认该区域。"
+        },
+        {
+          "value_id": "not_visible",
+          "label_zh": "应见但不可见",
+          "criterion_zh": "有证据表明该区域应呈现，却被外物遮蔽或原图边界截去。"
+        },
+        {
+          "value_id": "not_in_view",
+          "label_zh": "正常视角不呈现",
+          "criterion_zh": "清楚正视时车尾正常不呈现。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "分辨率、模糊或证据不足，无法区分上述状态。"
+        }
+      ],
+      "applicability_zh": "先判断视角适用性，再判断后保险杠、尾部等后端区域是否受遮挡或原图截断。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不能依据目标裁剪边界判断截断；正常自身遮蔽不当作外部遮挡；部件不存在或无法确认其存在时用unknown。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "rear_visibility",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "修订LLM候选",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "side_visibility",
+      "name_zh": "车身侧面可见性",
+      "major_group": "可见性与完整性",
+      "definition_zh": "观察当前可见一侧的侧面区域在当前视角通常应呈现部分的可见完整性。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "clear",
+          "label_zh": "清楚可见",
+          "criterion_zh": "应呈现部分均能辨认，无可见外部遮挡或原图截断。"
+        },
+        {
+          "value_id": "partial",
+          "label_zh": "部分可见",
+          "criterion_zh": "可见外部物体或原图边界造成部分缺失，但仍能辨认该区域。"
+        },
+        {
+          "value_id": "not_visible",
+          "label_zh": "应见但不可见",
+          "criterion_zh": "有证据表明该区域应呈现，却被外物遮蔽或原图边界截去。"
+        },
+        {
+          "value_id": "not_in_view",
+          "label_zh": "正常视角不呈现",
+          "criterion_zh": "清楚正视或后视、侧面正常不呈现时使用。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "分辨率、模糊或证据不足，无法区分上述状态。"
+        }
+      ],
+      "applicability_zh": "先判断视角适用性，再判断当前可见一侧的侧面区域是否受遮挡或原图截断。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不能依据目标裁剪边界判断截断；正常自身遮蔽不当作外部遮挡；部件不存在或无法确认其存在时用unknown。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "side_visibility",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "修订LLM候选",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "roof_visibility",
+      "name_zh": "车顶区域可见性",
+      "major_group": "可见性与完整性",
+      "definition_zh": "观察车顶区域在当前视角通常应呈现部分的可见完整性。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "clear",
+          "label_zh": "清楚可见",
+          "criterion_zh": "应呈现部分均能辨认，无可见外部遮挡或原图截断。"
+        },
+        {
+          "value_id": "partial",
+          "label_zh": "部分可见",
+          "criterion_zh": "可见外部物体或原图边界造成部分缺失，但仍能辨认该区域。"
+        },
+        {
+          "value_id": "not_visible",
+          "label_zh": "应见但不可见",
+          "criterion_zh": "有证据表明该区域应呈现，却被外物遮蔽或原图边界截去。"
+        },
+        {
+          "value_id": "not_in_view",
+          "label_zh": "正常视角不呈现",
+          "criterion_zh": "低视角使车顶正常不呈现时使用；不能从看不见推断无车顶。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "分辨率、模糊或证据不足，无法区分上述状态。"
+        }
+      ],
+      "applicability_zh": "先判断视角适用性，再判断车顶区域是否受遮挡或原图截断。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不能依据目标裁剪边界判断截断；正常自身遮蔽不当作外部遮挡；部件不存在或无法确认其存在时用unknown。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "roof_visibility",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "本助手补充或重命名，参考旧草案及当前样例",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "windshield_visibility",
+      "name_zh": "前风挡区域可见性",
+      "major_group": "可见性与完整性",
+      "definition_zh": "观察前风挡区域在当前视角通常应呈现部分的可见完整性。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "clear",
+          "label_zh": "清楚可见",
+          "criterion_zh": "应呈现部分均能辨认，无可见外部遮挡或原图截断。"
+        },
+        {
+          "value_id": "partial",
+          "label_zh": "部分可见",
+          "criterion_zh": "可见外部物体或原图边界造成部分缺失，但仍能辨认该区域。"
+        },
+        {
+          "value_id": "not_visible",
+          "label_zh": "应见但不可见",
+          "criterion_zh": "有证据表明该区域应呈现，却被外物遮蔽或原图边界截去。"
+        },
+        {
+          "value_id": "not_in_view",
+          "label_zh": "正常视角不呈现",
+          "criterion_zh": "清楚后视使前风挡正常不呈现时使用。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "分辨率、模糊或证据不足，无法区分上述状态。"
+        }
+      ],
+      "applicability_zh": "先判断视角适用性，再判断前风挡区域是否受遮挡或原图截断。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不能依据目标裁剪边界判断截断；正常自身遮蔽不当作外部遮挡；部件不存在或无法确认其存在时用unknown。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "windshield_visibility",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "本助手补充或重命名，参考旧草案及当前样例",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "wheels_visibility",
+      "name_zh": "适用车轮区域可见性",
+      "major_group": "可见性与完整性",
+      "definition_zh": "观察当前视角应呈现的轮胎与轮辋区域在当前视角通常应呈现部分的可见完整性。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "clear",
+          "label_zh": "清楚可见",
+          "criterion_zh": "应呈现部分均能辨认，无可见外部遮挡或原图截断。"
+        },
+        {
+          "value_id": "partial",
+          "label_zh": "部分可见",
+          "criterion_zh": "可见外部物体或原图边界造成部分缺失，但仍能辨认该区域。"
+        },
+        {
+          "value_id": "not_visible",
+          "label_zh": "应见但不可见",
+          "criterion_zh": "有证据表明该区域应呈现，却被外物遮蔽或原图边界截去。"
+        },
+        {
+          "value_id": "not_in_view",
+          "label_zh": "正常视角不呈现",
+          "criterion_zh": "正常视角隐藏的远侧车轮不计缺失；不要求可见四轮。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "分辨率、模糊或证据不足，无法区分上述状态。"
+        }
+      ],
+      "applicability_zh": "先判断视角适用性，再判断当前视角应呈现的轮胎与轮辋区域是否受遮挡或原图截断。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不能依据目标裁剪边界判断截断；正常自身遮蔽不当作外部遮挡；部件不存在或无法确认其存在时用unknown。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "wheels_visibility",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "本助手补充或重命名，参考旧草案及当前样例",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "windows_visibility",
+      "name_zh": "适用车窗区域可见性",
+      "major_group": "可见性与完整性",
+      "definition_zh": "观察当前视角应呈现的车窗区域在当前视角通常应呈现部分的可见完整性。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "clear",
+          "label_zh": "清楚可见",
+          "criterion_zh": "应呈现部分均能辨认，无可见外部遮挡或原图截断。"
+        },
+        {
+          "value_id": "partial",
+          "label_zh": "部分可见",
+          "criterion_zh": "可见外部物体或原图边界造成部分缺失，但仍能辨认该区域。"
+        },
+        {
+          "value_id": "not_visible",
+          "label_zh": "应见但不可见",
+          "criterion_zh": "有证据表明该区域应呈现，却被外物遮蔽或原图边界截去。"
+        },
+        {
+          "value_id": "not_in_view",
+          "label_zh": "正常视角不呈现",
+          "criterion_zh": "视角明确导致该区域正常不呈现时使用。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "分辨率、模糊或证据不足，无法区分上述状态。"
+        }
+      ],
+      "applicability_zh": "先判断视角适用性，再判断当前视角应呈现的车窗区域是否受遮挡或原图截断。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不能依据目标裁剪边界判断截断；正常自身遮蔽不当作外部遮挡；部件不存在或无法确认其存在时用unknown。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "windows_visibility",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "本助手补充或重命名，参考旧草案及当前样例",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "lights_visibility",
+      "name_zh": "适用灯具区域可见性",
+      "major_group": "可见性与完整性",
+      "definition_zh": "观察当前视角应呈现的前灯或尾灯区域在当前视角通常应呈现部分的可见完整性。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "clear",
+          "label_zh": "清楚可见",
+          "criterion_zh": "应呈现部分均能辨认，无可见外部遮挡或原图截断。"
+        },
+        {
+          "value_id": "partial",
+          "label_zh": "部分可见",
+          "criterion_zh": "可见外部物体或原图边界造成部分缺失，但仍能辨认该区域。"
+        },
+        {
+          "value_id": "not_visible",
+          "label_zh": "应见但不可见",
+          "criterion_zh": "有证据表明该区域应呈现，却被外物遮蔽或原图边界截去。"
+        },
+        {
+          "value_id": "not_in_view",
+          "label_zh": "正常视角不呈现",
+          "criterion_zh": "视角明确导致相关灯具正常不呈现时使用；不判断开灯状态。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "分辨率、模糊或证据不足，无法区分上述状态。"
+        }
+      ],
+      "applicability_zh": "先判断视角适用性，再判断当前视角应呈现的前灯或尾灯区域是否受遮挡或原图截断。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不能依据目标裁剪边界判断截断；正常自身遮蔽不当作外部遮挡；部件不存在或无法确认其存在时用unknown。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "lights_visibility",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "本助手补充或重命名，参考旧草案及当前样例",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "car_color",
+      "name_zh": "车身可见主色",
+      "major_group": "外观与形态",
+      "definition_zh": "描述可见车身涂装的主色，排除车窗、轮胎与强反光。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "white",
+          "label_zh": "白色",
+          "criterion_zh": "可见涂装以白色为主。"
+        },
+        {
+          "value_id": "black",
+          "label_zh": "黑色",
+          "criterion_zh": "可见涂装以黑色为主。"
+        },
+        {
+          "value_id": "gray_silver",
+          "label_zh": "灰或银色",
+          "criterion_zh": "可见涂装以灰色或银色为主。"
+        },
+        {
+          "value_id": "red",
+          "label_zh": "红色",
+          "criterion_zh": "可见涂装以红色为主。"
+        },
+        {
+          "value_id": "blue",
+          "label_zh": "蓝色",
+          "criterion_zh": "可见涂装以蓝色为主。"
+        },
+        {
+          "value_id": "mixed_or_other",
+          "label_zh": "多色或其他",
+          "criterion_zh": "可见多色涂装或其他主色。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "清晰度、视角或可见证据不足，不猜测。"
+        }
+      ],
+      "applicability_zh": "车身表面足以观察；灰度照片、强色偏或夜间无法判断真实颜色时unknown。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不推断品牌、价格或难度顺序。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "car_color",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "修订LLM候选",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "body_profile",
+      "name_zh": "车身可见轮廓",
+      "major_group": "外观与形态",
+      "definition_zh": "仅依据完整可见侧向或斜向轮廓描述车厢与尾部形态。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "separate_rear_section",
+          "label_zh": "尾部独立段",
+          "criterion_zh": "可见乘员舱后方有明确独立尾部段。"
+        },
+        {
+          "value_id": "continuous_rear_section",
+          "label_zh": "尾部连续",
+          "criterion_zh": "车厢轮廓延伸至后端，无明确独立尾部段。"
+        },
+        {
+          "value_id": "open_cargo_section",
+          "label_zh": "可见开放载物段",
+          "criterion_zh": "车厢后方有直接可见的开放载物段。"
+        },
+        {
+          "value_id": "other",
+          "label_zh": "其他轮廓",
+          "criterion_zh": "轮廓清楚但不属于上述类型。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "无法判断",
+          "criterion_zh": "清晰度、视角或可见证据不足，不猜测。"
+        }
+      ],
+      "applicability_zh": "足够侧向或斜向车身轮廓可见；仅正面、后面或局部车身时unknown。",
+      "unknown_rule_zh": "证据不足用unknown，不用未知替代“无”，也不从隐藏区域推断状态。",
+      "limitations_zh": "不作车型型号、品牌或年份识别；尚需审查该轮廓划分是否值得保留。",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "origin_reference": "body_profile",
+      "provenance": "Codex语义修订候选；Qwen原稿与旧草案另存，未人工确认。",
+      "revision_type": "修订LLM候选",
+      "scoring_policy": "只用于覆盖，不参与原风险评分；即使字段同名也不覆盖risk_features。"
+    },
+    {
+      "feature_id": "light_shape",
+      "name_zh": "可见灯具形态",
+      "definition_zh": "记录可辨灯具外轮廓，可多选；前后灯可同时贡献状态，不推断未见灯具。",
+      "value_type": "set",
+      "values": [
+        {
+          "value_id": "round",
+          "label_zh": "圆形或椭圆形",
+          "criterion_zh": "外轮廓主要为连续圆弧。"
+        },
+        {
+          "value_id": "elongated",
+          "label_zh": "细长条形",
+          "criterion_zh": "长宽比至少3，无明显折角。"
+        },
+        {
+          "value_id": "rectangular",
+          "label_zh": "近矩形",
+          "criterion_zh": "近四边形且长宽比小于3。"
+        },
+        {
+          "value_id": "angular",
+          "label_zh": "折角形",
+          "criterion_zh": "轮廓呈L形等明显折角。"
+        },
+        {
+          "value_id": "other",
+          "label_zh": "其他可辨形态",
+          "criterion_zh": "灯具清楚但不属于上述类型。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "未知",
+          "criterion_zh": "所需区域不可见、证据不足或无法可靠区分。"
+        }
+      ],
+      "unknown_rule_zh": "不可见、出画、遮挡、模糊或无法可靠区分时记unknown；不能将未知当作没有。",
+      "applicability_zh": "仅在定义所需区域和参照可辨时适用；否则unknown。",
+      "limitations_zh": "只描述可见部分，不推断隐藏属性、品种、身份或视觉难度。",
+      "semantic_revision_by": "assistant; not human-reviewed",
+      "major_group": "外观与形态",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "provenance": "本地Qwen3-VL候选，经助手语义修订；尚未人工审查",
+      "scoring_policy": "类别专属外观，仅覆盖；不排序为视觉风险。",
+      "exclusive_values": [
+        "unknown"
+      ]
+    },
+    {
+      "feature_id": "grille_shape",
+      "name_zh": "可见格栅形态",
+      "definition_zh": "只在格栅区域本身可辨时描述内部结构；不能因车头看似封闭就推断没有格栅。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "horizontal",
+          "label_zh": "横向条结构",
+          "criterion_zh": "主要为横向平行条，非网格。"
+        },
+        {
+          "value_id": "vertical",
+          "label_zh": "竖向条结构",
+          "criterion_zh": "主要为竖向平行条，非网格。"
+        },
+        {
+          "value_id": "mesh",
+          "label_zh": "网格结构",
+          "criterion_zh": "可辨相交或重复网孔结构。"
+        },
+        {
+          "value_id": "mixed",
+          "label_zh": "混合结构",
+          "criterion_zh": "同一可见格栅有不同结构分区。"
+        },
+        {
+          "value_id": "other",
+          "label_zh": "其他可辨结构",
+          "criterion_zh": "格栅清楚但不属于上述类型。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "未知",
+          "criterion_zh": "所需区域不可见、证据不足或无法可靠区分。"
+        }
+      ],
+      "unknown_rule_zh": "不可见、出画、遮挡、模糊或无法可靠区分时记unknown；不能将未知当作没有。",
+      "applicability_zh": "仅在定义所需区域和参照可辨时适用；否则unknown。",
+      "limitations_zh": "只描述可见部分，不推断隐藏属性、品种、身份或视觉难度。",
+      "semantic_revision_by": "assistant; not human-reviewed",
+      "major_group": "外观与形态",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "provenance": "本地Qwen3-VL候选，经助手语义修订；尚未人工审查",
+      "scoring_policy": "类别专属外观，仅覆盖；不排序为视觉风险。"
+    },
+    {
+      "feature_id": "wheel_design",
+      "name_zh": "可见轮辋样式",
+      "definition_zh": "描述可见轮辋或轮罩结构，不将颜色与结构混作单选；先判断交叉网状，再数可辨独立辐条。",
+      "value_type": "enum",
+      "values": [
+        {
+          "value_id": "mesh",
+          "label_zh": "交叉网状",
+          "criterion_zh": "可见辐条形成明确交叉网络。"
+        },
+        {
+          "value_id": "few_spokes",
+          "label_zh": "少辐结构",
+          "criterion_zh": "非交叉网状，可辨独立辐条不超过5根。"
+        },
+        {
+          "value_id": "many_spokes",
+          "label_zh": "多辐结构",
+          "criterion_zh": "非交叉网状，可辨独立辐条至少6根。"
+        },
+        {
+          "value_id": "disc",
+          "label_zh": "盘面结构",
+          "criterion_zh": "以连续盘面为主，无开放辐条。"
+        },
+        {
+          "value_id": "mixed_or_other",
+          "label_zh": "混合或其他可辨结构",
+          "criterion_zh": "多个轮辋结构不同或清楚但不属于上述类型。"
+        },
+        {
+          "value_id": "unknown",
+          "label_zh": "未知",
+          "criterion_zh": "所需区域不可见、证据不足或无法可靠区分。"
+        }
+      ],
+      "unknown_rule_zh": "不可见、出画、遮挡、模糊或无法可靠区分时记unknown；不能将未知当作没有。",
+      "applicability_zh": "仅在定义所需区域和参照可辨时适用；否则unknown。",
+      "limitations_zh": "只描述可见部分，不推断隐藏属性、品种、身份或视觉难度。",
+      "semantic_revision_by": "assistant; not human-reviewed",
+      "major_group": "外观与形态",
+      "purpose": "coverage_only",
+      "risk_score_enabled": false,
+      "provenance": "本地Qwen3-VL候选，经助手语义修订；尚未人工审查",
+      "scoring_policy": "类别专属外观，仅覆盖；不排序为视觉风险。"
+    }
+  ],
+  "status": "definition_candidates_ready_for_review",
+  "user_direction_confirmed": true,
+  "human_definition_review_completed": false,
+  "risk_scoring_changed": false,
+  "encoding_namespace": "coverage_features",
+  "shared_reference": "../shared_features_reference.json"
+}

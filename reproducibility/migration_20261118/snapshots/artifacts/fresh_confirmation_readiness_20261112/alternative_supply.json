@@ -1,0 +1,71 @@
+{
+  "completed_at": "2026-11-12T08:04:15.281774+00:00",
+  "status": "metadata_feasible_image_gate_pending",
+  "source_metadata_sha256": "413b172b6a5fa075eab105cc4b0754de995812823242e988adc14e1380742b22",
+  "annotations_scanned": 25407633,
+  "historical_train_ID_exclusions": 5156,
+  "unused_qualified_ID_upper_bounds": {
+    "dog": 20583,
+    "cat": 6699,
+    "horse": 17085,
+    "sheep": 2865,
+    "person": 1166350,
+    "car": 181093
+  },
+  "selected_package_prefix": [
+    "v2/patch29",
+    "v1/patch0",
+    "v2/patch19",
+    "v1/patch4",
+    "v2/patch40",
+    "v2/patch38",
+    "v1/patch2",
+    "v2/patch25",
+    "v2/patch26",
+    "v2/patch17",
+    "v2/patch27",
+    "v1/patch14",
+    "v2/patch20",
+    "v2/patch37",
+    "v1/patch3",
+    "v2/patch31",
+    "v1/patch9",
+    "v2/patch48"
+  ],
+  "globally_disjoint_availability": {
+    "sheep": 1040,
+    "cat": 2252,
+    "horse": 6364,
+    "dog": 7107,
+    "car": 65523,
+    "person": 420508
+  },
+  "provisional_targets": 5400,
+  "provisional_role_counts": {
+    "selection": 2400,
+    "reference": 2400,
+    "technical_reserve": 600
+  },
+  "required_packages": 18,
+  "missing_local_archives": [
+    "v2/patch29",
+    "v1/patch0",
+    "v2/patch19",
+    "v1/patch4",
+    "v2/patch40",
+    "v2/patch38",
+    "v1/patch2",
+    "v2/patch25",
+    "v2/patch26",
+    "v2/patch27",
+    "v1/patch14",
+    "v2/patch20",
+    "v2/patch37",
+    "v2/patch31",
+    "v2/patch48"
+  ],
+  "unavailable_package_sizes_are_not_zero": true,
+  "image_SHA_and_near_duplicate_audit_completed": false,
+  "no_new_image_download_or_model_calls": true,
+  "interpretation": "A feasible source-ID plan only. Source switch is an external-source confirmation track, not a new COCO same-source replication. No fresh efficacy result exists."
+}

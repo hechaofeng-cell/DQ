@@ -2,6 +2,24 @@
 
 Project workspace for QE.
 
+## 换机器恢复与数据下载
+
+精确数据来源、最新 5400 张 Objects365 候选原图（最终 4800 个目标）的下载清单、
+历史六分类池成员、15 份训练权重和迁移步骤见
+[换机器恢复说明](docs/工程与复现/换机器恢复与数据下载_20261118.md)。
+原图/权重仍不随 Git 入库；公开数据可重下，自己的训练权重、裁剪及标注记录需单独迁移。
+
+```bash
+python3 scripts/restore_qe_data.py verify-bundle
+python3 scripts/restore_qe_data.py plan
+# 需要恢复最新候选原图时再运行（完整源包约 114.14 GiB 网络读取）：
+python3 scripts/restore_qe_data.py download
+python3 scripts/restore_qe_data.py check
+```
+
+下载工具仅依赖 Python 标准库。上面的 download 恢复最新候选原图；
+它不代表重新训练、标注和全部历史实验的一键恢复。
+
 ## 设计稳健性补全
 
 2026-11-10 已完成含风险字段与门槛传导的标签翻转、L与配额结构敏感性、固定资格图像簇bootstrap；

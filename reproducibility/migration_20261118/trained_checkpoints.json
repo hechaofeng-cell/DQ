@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "checkpoints": [
+    {
+      "model": "yolo26s_cls",
+      "seed": 20260916,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/yolo26s_cls/20260916/best.pt",
+      "bytes": 21956615,
+      "sha256": "b074118c0981226ff98cb97e56fc950f9cd1c63bf800bcc13ef19f3f8daac3ff",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "yolo26s_cls",
+      "seed": 20260917,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/yolo26s_cls/20260917/best.pt",
+      "bytes": 21956615,
+      "sha256": "239cf5aee611950b269f7eb36ee8fe0f84e494ad4948551a152140b3ace06a27",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "yolo26s_cls",
+      "seed": 20260918,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/yolo26s_cls/20260918/best.pt",
+      "bytes": 21956615,
+      "sha256": "6972c7afa404d20cab9d4d1e2632a6c6e7ba57a8c92f90e48ee43b3bfe6862a3",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "pe_core_b16",
+      "seed": 20260916,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/pe_core_b16/20260916/best.pt",
+      "bytes": 374779946,
+      "sha256": "c94d3d79b659b519313eb79f177e9e1f2657f7a99758ab2bbf7ffbcdf10f9851",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "pe_core_b16",
+      "seed": 20260917,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/pe_core_b16/20260917/best.pt",
+      "bytes": 374779946,
+      "sha256": "6482386a5dc4b7789ea5526cbe06324328b045b7a508168d78c6e81696436d1d",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "pe_core_b16",
+      "seed": 20260918,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/pe_core_b16/20260918/best.pt",
+      "bytes": 374779946,
+      "sha256": "cae508d7d587eda29f0bf80a490baa38dd68e2b91aa82abe4158bb5120551291",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "siglip2_base",
+      "seed": 20260916,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/siglip2_base/20260916/best.pt",
+      "bytes": 371627529,
+      "sha256": "b63aa35f123f4a653fa2e82fef864f45c8a391bcd6a87aed3a1fa4eef9e75e60",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "siglip2_base",
+      "seed": 20260917,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/siglip2_base/20260917/best.pt",
+      "bytes": 371627529,
+      "sha256": "4e5eee46ecd2a4439aa1f04090690493928c7c988201810f0670414031ef7e44",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "siglip2_base",
+      "seed": 20260918,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/siglip2_base/20260918/best.pt",
+      "bytes": 371627529,
+      "sha256": "94a5b73f9797e614d58d7876f9f9f916f491a2bd0871df6cc1f2aaf0900e60fa",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "mobileclip2_s0",
+      "seed": 20260916,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/mobileclip2_s0/20260916/best.pt",
+      "bytes": 46135945,
+      "sha256": "8b17a446fa4f9283736e577cbdd70d2ca08ff162f9bc2370de4fe291bbb22ff1",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "mobileclip2_s0",
+      "seed": 20260917,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/mobileclip2_s0/20260917/best.pt",
+      "bytes": 46135945,
+      "sha256": "56e9ba3c9713b1063f2c8465a83d1b3e0a9901db00bd1e0a989c62b80837729e",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "mobileclip2_s0",
+      "seed": 20260918,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/mobileclip2_s0/20260918/best.pt",
+      "bytes": 46135945,
+      "sha256": "fd68b8ad5bcd41b3bc277f7881737f7b345f57d6f594f343a88b95b4b4853adb",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "aimv2_large",
+      "seed": 20260916,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/aimv2_large/20260916/best.pt",
+      "bytes": 1236904648,
+      "sha256": "d42430b282cc4a1ea36a2c0533066c1b87ee89cc7799a20d27ce0fb3a5c9d55b",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "aimv2_large",
+      "seed": 20260917,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/aimv2_large/20260917/best.pt",
+      "bytes": 1236904648,
+      "sha256": "34d03976c557da4e53e5baa44085fc17b9019a71dcf798a56de3073bdbf11a24",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    },
+    {
+      "model": "aimv2_large",
+      "seed": 20260918,
+      "relative_path": "artifacts/recent_five_models_20261009/runs/aimv2_large/20260918/best.pt",
+      "bytes": 1236904648,
+      "sha256": "85ab04bfdd4564c7728259c013f1e4f309f8a33df95fffb2cc3264a6a94877c1",
+      "acquisition": "Transfer the original trained checkpoint; public pretrained weights are not a substitute"
+    }
+  ],
+  "total_bytes": 6154214049,
+  "public_download_available": false
+}

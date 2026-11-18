@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "data_qualified": true,
+  "accepted": 4800,
+  "counts": {
+    "dog": {
+      "selection": 400,
+      "reference": 400
+    },
+    "cat": {
+      "selection": 400,
+      "reference": 400
+    },
+    "horse": {
+      "selection": 400,
+      "reference": 400
+    },
+    "sheep": {
+      "selection": 400,
+      "reference": 400
+    },
+    "person": {
+      "selection": 400,
+      "reference": 400
+    },
+    "car": {
+      "selection": 400,
+      "reference": 400
+    }
+  },
+  "technical_replacements": 21,
+  "exclusions": 21,
+  "official_box_failures": 2,
+  "planned_originals_accounted": 5400,
+  "historical_unresolved": 0,
+  "historical_hash_mismatches": 0,
+  "target_classifier_calls": 0,
+  "VLM_calls": 0,
+  "near_duplicate_encoder_images": 75,
+  "boundary": "Project-accessible content checked; foundation pretraining independence and semantic label truth are not certified."
+}

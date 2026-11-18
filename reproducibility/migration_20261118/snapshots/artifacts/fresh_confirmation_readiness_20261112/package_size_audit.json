@@ -1,0 +1,158 @@
+{
+  "completed_at": "2026-11-12T08:09:31.168366+00:00",
+  "records": [
+    {
+      "package": "v2/patch29",
+      "archive_exists": false,
+      "bytes": 8423120986,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch29.tar.gz"
+    },
+    {
+      "package": "v1/patch0",
+      "archive_exists": false,
+      "bytes": 3850237397,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch0.tar.gz"
+    },
+    {
+      "package": "v2/patch19",
+      "archive_exists": false,
+      "bytes": 8158257134,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch19.tar.gz"
+    },
+    {
+      "package": "v1/patch4",
+      "archive_exists": false,
+      "bytes": 3706974043,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch4.tar.gz"
+    },
+    {
+      "package": "v2/patch40",
+      "archive_exists": false,
+      "bytes": 8209327654,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch40.tar.gz"
+    },
+    {
+      "package": "v2/patch38",
+      "archive_exists": false,
+      "bytes": 8318395028,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch38.tar.gz"
+    },
+    {
+      "package": "v1/patch2",
+      "archive_exists": false,
+      "bytes": 3851635927,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch2.tar.gz"
+    },
+    {
+      "package": "v2/patch25",
+      "archive_exists": false,
+      "bytes": 8211621520,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch25.tar.gz"
+    },
+    {
+      "package": "v2/patch26",
+      "archive_exists": false,
+      "bytes": 8088005702,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch26.tar.gz"
+    },
+    {
+      "package": "v2/patch17",
+      "archive_exists": true,
+      "bytes": 8196642348,
+      "basis": "historical source audit; no new HTTP probe",
+      "status": "recorded"
+    },
+    {
+      "package": "v2/patch27",
+      "archive_exists": false,
+      "bytes": 8149828852,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch27.tar.gz"
+    },
+    {
+      "package": "v1/patch14",
+      "archive_exists": false,
+      "bytes": 4166963795,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch14.tar.gz"
+    },
+    {
+      "package": "v2/patch20",
+      "archive_exists": false,
+      "bytes": 8354168935,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch20.tar.gz"
+    },
+    {
+      "package": "v2/patch37",
+      "archive_exists": false,
+      "bytes": 8140732124,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch37.tar.gz"
+    },
+    {
+      "package": "v1/patch3",
+      "archive_exists": true,
+      "bytes": 3698690868,
+      "basis": "historical source audit; no new HTTP probe",
+      "status": "recorded"
+    },
+    {
+      "package": "v2/patch31",
+      "archive_exists": false,
+      "bytes": 8230494213,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch31.tar.gz"
+    },
+    {
+      "package": "v1/patch9",
+      "archive_exists": true,
+      "bytes": 3726836684,
+      "basis": "historical source audit; no new HTTP probe",
+      "status": "recorded"
+    },
+    {
+      "package": "v2/patch48",
+      "archive_exists": false,
+      "bytes": 9075419050,
+      "basis": "HTTP response headers only; streamed body closed unread",
+      "status": "verified_headers",
+      "url": "https://dorc.ks3-cn-beijing.ksyun.com/data-set/2020Objects365%E6%95%B0%E6%8D%AE%E9%9B%86/train/patch48.tar.gz"
+    }
+  ],
+  "header_requests": 15,
+  "all_missing_package_sizes_resolved": true,
+  "verified_missing_bytes": 106935182360,
+  "bytes_are_lower_bound_if_unresolved": false,
+  "free_disk_bytes": 115863691264,
+  "staging_budget_bytes": 85899345920,
+  "reserve_free_disk_bytes": 21474836480,
+  "within_80GiB_download_budget": false,
+  "can_stage_all_missing_archives_with_20GiB_free": false,
+  "dataset_payload_downloaded": false,
+  "new_VLM_calls": 0,
+  "new_classifier_calls": 0
+}

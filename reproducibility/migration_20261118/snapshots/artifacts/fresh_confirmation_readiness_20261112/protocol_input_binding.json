@@ -1,0 +1,140 @@
+{
+  "files": [
+    {
+      "original": "/home/hcf/project/QE/configs/category_five_dimension_pilot_v1.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/configs/category_five_dimension_pilot_v1.json",
+      "sha256": "cccfef96f464ff915455a5b3af3ed14c4eddc2be561664f87a05db893b5c8bd1"
+    },
+    {
+      "original": "/home/hcf/project/QE/configs/recent_five_models_20261009.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/configs/recent_five_models_20261009.json",
+      "sha256": "9d073518903a57a110c937f75e5f6dfccaf983fb3f62410c21e352d21bc4f7ef"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/paper_claim_validation_20261106/thresholds.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/thresholds.json",
+      "sha256": "17f438974318a4ecc3d5c1bd1b120c4936a0e09e1c63136fdbfbfb1648e52d79"
+    },
+    {
+      "original": "/home/hcf/project/QE/scripts/prepare_multiclass_object_candidate_pool.py",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/prepare_multiclass_object_candidate_pool.py",
+      "sha256": "6cc05248ee9492bf03fab314f0d79352e43fc929e913299917ea676d469b53a2"
+    },
+    {
+      "original": "/home/hcf/project/QE/scripts/annotate_other_classes_specific_v2_20261018.py",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/annotate_other_classes_specific_v2_20261018.py",
+      "sha256": "cec001be302f2f930172cabb3b41af6adbb1400dee231b668fc8e62147f911c6"
+    },
+    {
+      "original": "/home/hcf/project/QE/scripts/annotate_dual_vlm.py",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/annotate_dual_vlm.py",
+      "sha256": "2fcc9c97c77204de78b908f4dc02d40a2f131cc8c572fa06ce0b7a4bd33b3134"
+    },
+    {
+      "original": "/home/hcf/project/QE/scripts/run_dog_local_pipeline.py",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/run_dog_local_pipeline.py",
+      "sha256": "3743033e2c4af9ff22ca6bdd18b3a641e6e0dd688ccdff685c9ea409ed127dae"
+    },
+    {
+      "original": "/home/hcf/project/QE/scripts/run_design_robustness_20261110.py",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/run_design_robustness_20261110.py",
+      "sha256": "227df056df5aed73a071fee2abddf7fbf213040e1eae8ba6914af74c6b4d2752"
+    },
+    {
+      "original": "/home/hcf/project/QE/scripts/verify_cross_vlm_analysis_20261112.py",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/verify_cross_vlm_analysis_20261112.py",
+      "sha256": "e222df99d887b08c759cc921d4d9561bbfd3417e975020e8d471a6e6a99d6949"
+    },
+    {
+      "original": "/home/hcf/project/QE/scripts/audit_multiclass_near_duplicates.py",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/audit_multiclass_near_duplicates.py",
+      "sha256": "8644cc7ab7b4c986b01207605d877dfbffc0d062b90af1d21dae15447e7d2c86"
+    },
+    {
+      "original": "/home/hcf/project/QE/scripts/run_recent_five_models.py",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/run_recent_five_models.py",
+      "sha256": "8a39295c29f27506b28065594d3eeab7020f9ec9d47961bf5c481274ab1ecfc0"
+    },
+    {
+      "original": "/home/hcf/project/QE/output/experiments/论文关键结论验证_20261106/common.py",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/output/experiments/论文关键结论验证_20261106/common.py",
+      "sha256": "1628a3169350dd4c2d56b0c887af55e33255419bd892da4d83837fe17d2aec97"
+    },
+    {
+      "original": "/home/hcf/project/QE/output/experiments/实证论文补全_20261108/execute.py",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/output/experiments/实证论文补全_20261108/execute.py",
+      "sha256": "f0416e4b308c842245d7daf5cfb25fc3e2e8e3200f79337e9b651fe6a640c98d"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/configs/old_annotation_schema.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/sixclass_independent_confirmation_20261004/configs/old_annotation_schema.json",
+      "sha256": "59f10ee8a204d88596959bc8bd4c961de865fe1af03c6a57801a8252bd580436"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/prompts/old.txt",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/sixclass_independent_confirmation_20261004/prompts/old.txt",
+      "sha256": "e60983ee14342b9ea63225dfee90be6eab11b398f8249adbe879808cc63f4ff8"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/configs/car_annotation_schema.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/sixclass_independent_confirmation_20261004/configs/car_annotation_schema.json",
+      "sha256": "640dcf842848341a99a6d62831edbf3d43764e2b5e0d1463c1ec9b134c982a18"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/sixclass_independent_confirmation_20261004/prompts/car.txt",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/sixclass_independent_confirmation_20261004/prompts/car.txt",
+      "sha256": "90649557044383cee424b715f3e4c8e690bde7d79cc0be73010ccd8f1a119549"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/paper_claim_validation_20261106/dog_dictionary.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/dog_dictionary.json",
+      "sha256": "e039270b9680e13b238fb587871ff9f52a64dd56f957fc06dd0ed6fe13843feb"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/paper_claim_validation_20261106/cat_dictionary.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/cat_dictionary.json",
+      "sha256": "e039270b9680e13b238fb587871ff9f52a64dd56f957fc06dd0ed6fe13843feb"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/paper_claim_validation_20261106/horse_dictionary.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/horse_dictionary.json",
+      "sha256": "20722f3be633e0eb65228eb3eca6197654d2b27463c31869cf6ee030a9f4a7e9"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/paper_claim_validation_20261106/sheep_dictionary.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/sheep_dictionary.json",
+      "sha256": "8dc1188c92b3a363afcacff9b00c4a30986478f380f6133cfdbe23ba96a32c03"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/paper_claim_validation_20261106/person_dictionary.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/person_dictionary.json",
+      "sha256": "a4fed8c4cfe7cee11d5f8c165eb635cd0817388a487caf4f1097fff0181e0aa0"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/paper_claim_validation_20261106/car_dictionary.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/car_dictionary.json",
+      "sha256": "2e841b52134a9a17ffd23fc6d7af811118f3ae1868cafdcac1e350386ffbfe7d"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/other_classes_specific_experiment_20261018/frozen_dictionaries/horse.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/other_classes_specific_experiment_20261018/frozen_dictionaries/horse.json",
+      "sha256": "e1af35d098527439434385b682f017dc585a4aaf7468159f8721a69ece52dfc4"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/other_classes_specific_experiment_20261018/frozen_dictionaries/sheep.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/other_classes_specific_experiment_20261018/frozen_dictionaries/sheep.json",
+      "sha256": "aaf2d7283d1d051085a466cb457888a5be652ba696a7bd17bcdea9c08c8bfb61"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/other_classes_specific_experiment_20261018/frozen_dictionaries/person.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/other_classes_specific_experiment_20261018/frozen_dictionaries/person.json",
+      "sha256": "2ad38d673e65ad9fc53abbc999bc73952dbc6c68e2740ba3c5b8d58497e13f5b"
+    },
+    {
+      "original": "/home/hcf/project/QE/artifacts/other_classes_specific_experiment_20261018/frozen_dictionaries/car.json",
+      "snapshot": "/home/hcf/project/QE/artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/other_classes_specific_experiment_20261018/frozen_dictionaries/car.json",
+      "sha256": "b503c8482c60f133ec3740c87425a215f25da7e80bc9c5093a89b0ed7b48cfbe"
+    }
+  ],
+  "inherited_code_role": "Frozen algorithm definitions and annotation templates; a new-manifest execution adapter must pass smoke checks before the full run."
+}

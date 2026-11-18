@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "source": "official Oxford VOC2007 trainval/test",
+  "archives": [
+    {
+      "path": "/home/hcf/project/QE/data/pascal_voc2007_external_confirmation_v1/raw/VOCtrainval_06-Nov-2007.tar",
+      "bytes": 460032000,
+      "md5": "c52e279531787c972589f7e41ab4ae64",
+      "sha256": "7d8cd951101b0957ddfd7a530bdc8a94f06121cfc1e511bb5937e973020c7508"
+    },
+    {
+      "path": "/home/hcf/project/QE/data/pascal_voc2007_external_confirmation_v1/raw/VOCtest_06-Nov-2007.tar",
+      "bytes": 451020800,
+      "md5": "b6e924de25625d8de591ea690078ad9f",
+      "sha256": "6836888e2e01dca84577a849d339fa4f73e1e4f135d312430c4856b5609b4892"
+    }
+  ]
+}

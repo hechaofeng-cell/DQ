@@ -1,0 +1,13 @@
+{
+  "config": "/home/hcf/project/QE/configs/recent_five_models_20261009.json",
+  "config_sha256": "9d073518903a57a110c937f75e5f6dfccaf983fb3f62410c21e352d21bc4f7ef",
+  "train_manifest": "/home/hcf/project/QE/artifacts/sixclass_car_extension_20261004/manifests/train.csv",
+  "train_manifest_sha256": "e2a3980341de6ddcf0bc81cf0d871e6953d5097fa1f1b51962322a754b90a437",
+  "targets": 1800,
+  "bound_image_paths": 2100,
+  "missing_paths": [],
+  "outside_project_paths": [],
+  "checkpoints": 15,
+  "all_checkpoints_exist": true,
+  "boundary": "Project fine-tuning inputs only; unavailable foundation-model pretraining manifests and unrelated locations are not certified."
+}

@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "exported_date": "2026-11-18",
+  "historical_project_root": "/home/hcf/project/QE",
+  "legacy_path_pattern": "/home/hcf/.codex/worktrees/*/QE/",
+  "scope": "Latest frozen fresh data, six-class historical pool membership, protocol inputs and 15 trained checkpoint bindings; not every historical dataset",
+  "snapshots": [
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/alternative_packages.csv",
+      "bytes": 4274,
+      "sha256": "675c71a911079097d76211c0432573811df9bdca235a6f24d490ba88621721b8"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/alternative_provisional_plan.csv",
+      "bytes": 1567859,
+      "sha256": "f2e0c62adff28cd8dfa3636af96ec2eec82f46fa8f29f4584368cc635f317175"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/alternative_supply.json",
+      "bytes": 1759,
+      "sha256": "e33fff6c24d067f9e4b591fb64af59cdde8720cf86963286022d96fa4cb36b3e"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/checkpoint_lineage.csv",
+      "bytes": 2833,
+      "sha256": "00d121cd2608a9d69a11681c5a9cb96c01d9962be2c3416f828c3c63bbdc40c2"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/final_freeze.json",
+      "bytes": 10233,
+      "sha256": "1aed1507a839fc05276759ab0e279ca6e446078fad17b1230f9e4cd60eff7e1f"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/frozen_validation_protocol.json",
+      "bytes": 10237,
+      "sha256": "8b124f6bc0b0e9cb9b4fde6378355e56a02da7e31e2de90aca6f74ca6154a95a"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/package_size_audit.json",
+      "bytes": 6157,
+      "sha256": "cef6a01d3a7dab681f816aee103147f05a2068e4974ddded24796d74fd3f0adf"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_input_binding.json",
+      "bytes": 10028,
+      "sha256": "5a17aa6768a8e2cb48b93e4e95342ab8f4640ab244e42767f9bef8c48ed44062"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/other_classes_specific_experiment_20261018/frozen_dictionaries/car.json",
+      "bytes": 27207,
+      "sha256": "b503c8482c60f133ec3740c87425a215f25da7e80bc9c5093a89b0ed7b48cfbe"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/other_classes_specific_experiment_20261018/frozen_dictionaries/horse.json",
+      "bytes": 31810,
+      "sha256": "e1af35d098527439434385b682f017dc585a4aaf7468159f8721a69ece52dfc4"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/other_classes_specific_experiment_20261018/frozen_dictionaries/person.json",
+      "bytes": 31624,
+      "sha256": "2ad38d673e65ad9fc53abbc999bc73952dbc6c68e2740ba3c5b8d58497e13f5b"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/other_classes_specific_experiment_20261018/frozen_dictionaries/sheep.json",
+      "bytes": 26609,
+      "sha256": "aaf2d7283d1d051085a466cb457888a5be652ba696a7bd17bcdea9c08c8bfb61"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/car_dictionary.json",
+      "bytes": 9380,
+      "sha256": "2e841b52134a9a17ffd23fc6d7af811118f3ae1868cafdcac1e350386ffbfe7d"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/cat_dictionary.json",
+      "bytes": 6141,
+      "sha256": "e039270b9680e13b238fb587871ff9f52a64dd56f957fc06dd0ed6fe13843feb"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/dog_dictionary.json",
+      "bytes": 6141,
+      "sha256": "e039270b9680e13b238fb587871ff9f52a64dd56f957fc06dd0ed6fe13843feb"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/horse_dictionary.json",
+      "bytes": 10604,
+      "sha256": "20722f3be633e0eb65228eb3eca6197654d2b27463c31869cf6ee030a9f4a7e9"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/person_dictionary.json",
+      "bytes": 10668,
+      "sha256": "a4fed8c4cfe7cee11d5f8c165eb635cd0817388a487caf4f1097fff0181e0aa0"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/sheep_dictionary.json",
+      "bytes": 9690,
+      "sha256": "8dc1188c92b3a363afcacff9b00c4a30986478f380f6133cfdbe23ba96a32c03"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/paper_claim_validation_20261106/thresholds.json",
+      "bytes": 604,
+      "sha256": "17f438974318a4ecc3d5c1bd1b120c4936a0e09e1c63136fdbfbfb1648e52d79"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/sixclass_independent_confirmation_20261004/configs/car_annotation_schema.json",
+      "bytes": 5103,
+      "sha256": "640dcf842848341a99a6d62831edbf3d43764e2b5e0d1463c1ec9b134c982a18"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/sixclass_independent_confirmation_20261004/configs/old_annotation_schema.json",
+      "bytes": 4210,
+      "sha256": "59f10ee8a204d88596959bc8bd4c961de865fe1af03c6a57801a8252bd580436"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/sixclass_independent_confirmation_20261004/prompts/car.txt",
+      "bytes": 1818,
+      "sha256": "90649557044383cee424b715f3e4c8e690bde7d79cc0be73010ccd8f1a119549"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/artifacts/sixclass_independent_confirmation_20261004/prompts/old.txt",
+      "bytes": 1994,
+      "sha256": "e60983ee14342b9ea63225dfee90be6eab11b398f8249adbe879808cc63f4ff8"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/configs/category_five_dimension_pilot_v1.json",
+      "bytes": 3418,
+      "sha256": "cccfef96f464ff915455a5b3af3ed14c4eddc2be561664f87a05db893b5c8bd1"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/configs/recent_five_models_20261009.json",
+      "bytes": 1392,
+      "sha256": "9d073518903a57a110c937f75e5f6dfccaf983fb3f62410c21e352d21bc4f7ef"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/output/experiments/实证论文补全_20261108/execute.py",
+      "bytes": 30678,
+      "sha256": "f0416e4b308c842245d7daf5cfb25fc3e2e8e3200f79337e9b651fe6a640c98d"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/output/experiments/论文关键结论验证_20261106/common.py",
+      "bytes": 10069,
+      "sha256": "1628a3169350dd4c2d56b0c887af55e33255419bd892da4d83837fe17d2aec97"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/annotate_dual_vlm.py",
+      "bytes": 7853,
+      "sha256": "2fcc9c97c77204de78b908f4dc02d40a2f131cc8c572fa06ce0b7a4bd33b3134"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/annotate_other_classes_specific_v2_20261018.py",
+      "bytes": 6761,
+      "sha256": "cec001be302f2f930172cabb3b41af6adbb1400dee231b668fc8e62147f911c6"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/audit_multiclass_near_duplicates.py",
+      "bytes": 12019,
+      "sha256": "8644cc7ab7b4c986b01207605d877dfbffc0d062b90af1d21dae15447e7d2c86"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/prepare_multiclass_object_candidate_pool.py",
+      "bytes": 20694,
+      "sha256": "6cc05248ee9492bf03fab314f0d79352e43fc929e913299917ea676d469b53a2"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/run_design_robustness_20261110.py",
+      "bytes": 44706,
+      "sha256": "227df056df5aed73a071fee2abddf7fbf213040e1eae8ba6914af74c6b4d2752"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/run_dog_local_pipeline.py",
+      "bytes": 19025,
+      "sha256": "3743033e2c4af9ff22ca6bdd18b3a641e6e0dd688ccdff685c9ea409ed127dae"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/run_recent_five_models.py",
+      "bytes": 28328,
+      "sha256": "8a39295c29f27506b28065594d3eeab7020f9ec9d47961bf5c481274ab1ecfc0"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/protocol_inputs/scripts/verify_cross_vlm_analysis_20261112.py",
+      "bytes": 29937,
+      "sha256": "e222df99d887b08c759cc921d4d9561bbfd3417e975020e8d471a6e6a99d6949"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_confirmation_readiness_20261112/training_lineage.json",
+      "bytes": 668,
+      "sha256": "5dd10486813103b435bec33145c269b1a0d1abb8d362d17ec59f8367b6132e94"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/dedup_encoder_freeze.json",
+      "bytes": 540,
+      "sha256": "a99e8918d4700ceb40f7efaabd36a808a5c73245473c17773eb74b4eb7ef3210"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/independent_data_audit.json",
+      "bytes": 609,
+      "sha256": "af6f3955fdf8c99462c5a434996f6cff082caae06149d7382606968526934e6e"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/near_duplicate_evidence.csv",
+      "bytes": 242,
+      "sha256": "f396d726afbf89f21de448591b4881a25dfc35e76c7060402d3dac8c0eb08e08"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/official_box_technical_exclusions.csv",
+      "bytes": 199,
+      "sha256": "3f89340185ad870a97e3340125f800f4c974ec654903a06f7551d612c715fb0c"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v1_patch0.json",
+      "bytes": 73127,
+      "sha256": "dea6099576d02b940dc48e47cd955194ad81bf2671373f29a78af7a60c46ae03"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v1_patch14.json",
+      "bytes": 250409,
+      "sha256": "746596d40f4837d791b44b7e0c38992a508f2a47d11b0d462c7379ce1d52e4f1"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v1_patch2.json",
+      "bytes": 65690,
+      "sha256": "9731f9773a6e9358da095620ce5bd7bddb6f713e44ed915ecbb945981b9b57e2"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v1_patch3.json",
+      "bytes": 45722,
+      "sha256": "dfb110e88b3270c473a596ec2eebcc6542b463f3bd0d26fa74d27ffdab8d79a8"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v1_patch4.json",
+      "bytes": 77375,
+      "sha256": "360063644fce2706dd57f67a203b4cfe11135107e44e1ab300e20b5cd7230254"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v1_patch9.json",
+      "bytes": 37226,
+      "sha256": "77f72595fe8ff8acf390a83a77b225410bdf277a84d42762c509636e36786a87"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v2_patch17.json",
+      "bytes": 57156,
+      "sha256": "5f196a8903ab71da4f1fa333de137767be2fedb41a4259be4874aaf7d0819e99"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v2_patch19.json",
+      "bytes": 80820,
+      "sha256": "ae90f848a01a203d6bd6cf34fc1d7c4b6219755cbef24c58e13257ed0221b09f"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v2_patch20.json",
+      "bytes": 75239,
+      "sha256": "2c0c28ca906df5c57b874a340204ba15c1318c1f0aceeeb5eab75c9440821338"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v2_patch25.json",
+      "bytes": 74971,
+      "sha256": "5758596fdb30a7d75a003357e2b57c7a4333688d810c294227830d3af778bc86"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v2_patch26.json",
+      "bytes": 68862,
+      "sha256": "8793bfb4b628860b2b398264a1f1c0c4841b304179d7753d98c801651dbfb0ca"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v2_patch27.json",
+      "bytes": 71267,
+      "sha256": "5cdccf74b56fc9e394edd559b549b27684471d4959cfc73cad8a118ad53cc059"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v2_patch29.json",
+      "bytes": 76303,
+      "sha256": "1d347117b57e6b1af8997451a1d92b4d9da64eca2985b933cf3594acb9c13069"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v2_patch31.json",
+      "bytes": 67795,
+      "sha256": "d8808f1ef9a29628efcd499a5991dfb32df070ae36fa22578bd600d4cc0792fb"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v2_patch37.json",
+      "bytes": 73117,
+      "sha256": "7a81866f26a82a8dac0e67195726af8b8ae28a01fb6c1121bc039ae7dde5a840"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v2_patch38.json",
+      "bytes": 71507,
+      "sha256": "bfec2696522fdeb1470d7e56d78e10f4faae71a01529e64f2b390c353e5ed2f1"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v2_patch40.json",
+      "bytes": 74723,
+      "sha256": "681aef77a8a01bcf190a16133a9cb995cc1550072cd911a82539dd1bc017f1e6"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/package_audits/v2_patch48.json",
+      "bytes": 99085,
+      "sha256": "496b4fff6b1e689a4b05dfbef88df97998c92efae23c39c2f8a20632698cd7ca"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/qualification_exclusions.csv",
+      "bytes": 1750,
+      "sha256": "fbf137ae93be8d8ce79eb7ecfd3670b91289e1a520be370b667962b5386ee7f7"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/qualification_summary.json",
+      "bytes": 904,
+      "sha256": "e094dcd2f7b68b5a2f87b9dbbf94eaf40523a916b6602c61b637b29aa43ed53f"
+    },
+    {
+      "project_relative_path": "artifacts/fresh_image_qualification_20261112/qualified_manifest.csv",
+      "bytes": 5439705,
+      "sha256": "3dea78780baf2b1a563078928279a240454732b95d8e53cbab0ffb78eb349cc7"
+    },
+    {
+      "project_relative_path": "artifacts/objects365_independent_confirmation_20261005/manifests/candidate_pool.csv",
+      "bytes": 2437534,
+      "sha256": "8f2ebea5d51ebb3a80ba715647266de3a74c88035f4cccda5bd1af9f66bbe151"
+    },
+    {
+      "project_relative_path": "artifacts/objects365_independent_confirmation_20261005/metadata/source_audit.json",
+      "bytes": 8083,
+      "sha256": "76d1cbb65e4242a4cb6eab2bb1622c309af9ef3db35e4aa362827e98f483cde0"
+    },
+    {
+      "project_relative_path": "artifacts/sixclass_car_extension_20261004/manifests/eval.csv",
+      "bytes": 89103,
+      "sha256": "aabb4464cf1aba9df8cab7200fb75f7d8b7cc8fa409719060651fe8211331fe8"
+    },
+    {
+      "project_relative_path": "artifacts/sixclass_car_extension_20261004/manifests/train.csv",
+      "bytes": 401073,
+      "sha256": "e2a3980341de6ddcf0bc81cf0d871e6953d5097fa1f1b51962322a754b90a437"
+    },
+    {
+      "project_relative_path": "artifacts/sixclass_dual_vlm_replaced_20261004/manifests/candidate_pool.csv",
+      "bytes": 2051972,
+      "sha256": "484d09fc7e512dfdc7c35a32f81472c9da374afa1a9a9e06e37fe2ad4eb5b4d5"
+    },
+    {
+      "project_relative_path": "artifacts/sixclass_independent_confirmation_20261004/manifests/candidate_pool.csv",
+      "bytes": 2200720,
+      "sha256": "7e756f5010c4513901437a44df8e97d0adc68e09b868e8df598b362ee7eedae4"
+    },
+    {
+      "project_relative_path": "artifacts/sixclass_voc_external_confirmation_20261005/download_audit.json",
+      "bytes": 664,
+      "sha256": "c74b34d05f49d91a8943a01b324b5ee2526124ca1727842b7be4171aacf9ce4a"
+    },
+    {
+      "project_relative_path": "artifacts/sixclass_voc_external_confirmation_20261005/manifests/candidate_pool.csv",
+      "bytes": 506975,
+      "sha256": "8b112c40e03242caa40150022a441d9e2b218d65ff45ed01be46e3e7370b50da"
+    }
+  ],
+  "portable_manifests": [
+    "manifests/artifacts/fresh_image_qualification_20261112/qualified_manifest.csv",
+    "manifests/artifacts/sixclass_car_extension_20261004/manifests/train.csv",
+    "manifests/artifacts/sixclass_car_extension_20261004/manifests/eval.csv",
+    "manifests/artifacts/sixclass_dual_vlm_replaced_20261004/manifests/candidate_pool.csv",
+    "manifests/artifacts/sixclass_independent_confirmation_20261004/manifests/candidate_pool.csv",
+    "manifests/artifacts/sixclass_voc_external_confirmation_20261005/manifests/candidate_pool.csv",
+    "manifests/artifacts/objects365_independent_confirmation_20261005/manifests/candidate_pool.csv"
+  ],
+  "boundary": "Historical freezes refer to additional local files not all included. Relocated copies do not certify a new independent data audit. No image pixels, API credentials, checkpoints or raw API responses are in this bundle."
+}

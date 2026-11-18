@@ -1,0 +1,24 @@
+{
+  "annotation": {
+    "A": "qwen3-vl:30b-a3b-instruct",
+    "B": "sensenova-6.8-flash-lite"
+  },
+  "annotation_A_digest": "c871fc73fabc5516500b70a298ea25fd44a6a23d5cffc46c63b50302543e3915",
+  "annotation_A_install": "ollama pull qwen3-vl:30b-a3b-instruct",
+  "annotation_B": "Online API, configure URL/model/key locally; no credential is included",
+  "supplemental_C": "gemma3:12b; only used in the explicitly separate 2026-11-18 supplemental check",
+  "public_classifier_backbones": {
+    "yolo26s_cls": "Ultralytics/assets/yolo26s-cls.pt",
+    "pe_core_b16": "facebook/PE-Core-B16-224; additionally needs perception_models source code",
+    "siglip2_base": "google/siglip2-base-patch16-224",
+    "mobileclip2_s0": "timm/MobileCLIP2-S0-OpenCLIP/open_clip_pytorch_model.bin; needs open_clip",
+    "aimv2_large": "apple/aimv2-large-patch14-224"
+  },
+  "dedup_encoder": {
+    "model": "torchvision ViT_B_16_Weights.IMAGENET1K_V1",
+    "sha256": "c867db91d3e12c6cbadabb610d73c24a546bf82d8c03a9fea34f43a712ddb0e9",
+    "url": "https://download.pytorch.org/models/vit_b_16-c867db91.pth",
+    "cache_relative_to_home": ".cache/torch/hub/checkpoints/vit_b_16-c867db91.pth"
+  },
+  "trained_models": "trained_checkpoints.json"
+}
