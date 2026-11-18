@@ -91,9 +91,9 @@ def load_evidence():
 
 
 def charts(random, panel, scores):
-    font_path = Path('/home/hcf/project/AiMac/assets/fonts/NotoSansCJKsc-Regular.otf')
+    font_path = Path('/home/hcf/project/QE/assets/fonts/NotoSansCJKsc-Regular.otf')
     font_manager.fontManager.addfont(str(font_path))
-    font_manager.fontManager.addfont('/home/hcf/project/AiMac/assets/fonts/NotoSansCJKsc-Bold.otf')
+    font_manager.fontManager.addfont('/home/hcf/project/QE/assets/fonts/NotoSansCJKsc-Bold.otf')
     family = font_manager.FontProperties(fname=str(font_path)).get_name()
     plt.rcParams.update({'font.family': family, 'font.size': 12, 'svg.fonttype': 'none',
                          'axes.spines.top': False, 'axes.spines.right': False,

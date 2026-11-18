@@ -1,0 +1,4 @@
+﻿method_A,method_B,mean_difference,positive_starts,tie_starts,negative_starts
+P20,R,17.94,48,2,0
+Greedy20,R,15.94,47,1,2
+P20,Greedy20,2.0,31,2,17

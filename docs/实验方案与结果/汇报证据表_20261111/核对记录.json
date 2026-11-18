@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "method_rows": 1500,
+  "diagnostic_start_rows": 250,
+  "axes_rows": 1500,
+  "noise_rows": 2880,
+  "expansion_rows": 1200,
+  "paired_starts": 50,
+  "example_class": "car",
+  "example_field": "windshield_visibility",
+  "example_state": "not_visible",
+  "sources": [
+    "/home/hcf/project/QE/artifacts/empirical_completion_20261108/coverage_runs.csv",
+    "/home/hcf/project/QE/artifacts/empirical_completion_20261108/per_start_totals.csv",
+    "/home/hcf/project/QE/artifacts/design_robustness_20261110_v2/axes_runs.csv",
+    "/home/hcf/project/QE/artifacts/design_robustness_20261110_v2/label_perturbation_runs.csv"
+  ]
+}

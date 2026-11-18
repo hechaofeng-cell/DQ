@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1860" viewBox="0 0 2400 1860">
+  <defs>
+    <marker id="aBlue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1F7AE8"/></marker>
+    <marker id="aTeal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#0E9C94"/></marker>
+    <marker id="aOrange" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#E97828"/></marker>
+    <marker id="aGreen" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#2E7D46"/></marker>
+    <marker id="aSlate" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5A6B7B"/></marker>
+    <style>
+      .title{font-family:"Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#173B68;font-weight:700}
+      .body{font-family:"Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#28435f}
+      .muted{font-family:"Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#718096}
+      .small{font-size:22px}.tiny{font-size:20px}
+      .label{font-size:26px;font-weight:700}
+      .section{font-size:34px;font-weight:700}
+      .steptitle{font-family:"Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#173B68;font-size:22px;font-weight:700}
+      .stepcap{font-family:"Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#718096;font-size:18px}
+      .panel{stroke-width:2.5}.card{stroke-width:2}.line{stroke:#B7C7D9;stroke-width:2}
+      .flowlabel{font-family:"Noto Sans CJK SC","Microsoft YaHei",Arial,sans-serif;fill:#5A6B7B;font-size:18px}
+    </style>
+  </defs>
+
+  <rect width="2400" height="1860" fill="#FFFFFF"/>
+
+  <!-- ===== 标题 ===== -->
+  <text x="1200" y="62" text-anchor="middle" class="title" font-size="46">QE 项目工程架构图</text>
+  <text x="1200" y="104" text-anchor="middle" class="muted" font-size="22">数据 · 模型 · 核心工具包 · 实验主线 · 产出 · 质量文档 的分层组织（工程结构视图，与方法总图互补）</text>
+
+  <!-- ===== ① 配置层 ===== -->
+  <circle cx="95" cy="192" r="22" fill="#7C3AED"/><text x="95" y="200" text-anchor="middle" fill="white" font-size="22" class="body">1</text>
+  <rect x="150" y="150" width="1870" height="170" rx="20" fill="#F5F3FF" stroke="#A78BFA" class="panel"/>
+  <text x="180" y="194" class="title section">① 配置层 · configs/ + prompts/</text>
+  <text x="1990" y="194" text-anchor="end" class="muted tiny">横向约束 → ③ 模型 · ⑤ 主线</text>
+
+  <rect x="180" y="225" width="586" height="70" rx="12" fill="#FFFFFF" stroke="#A78BFA" class="card"/>
+  <text x="204" y="255" class="title label">状态字典与特征 Schema</text>
+  <text x="204" y="283" class="muted tiny">dog v1–v3.1 · cat · head_face · car · 六类多状态</text>
+
+  <rect x="791" y="225" width="586" height="70" rx="12" fill="#FFFFFF" stroke="#A78BFA" class="card"/>
+  <text x="815" y="255" class="title label">实验方案与策略</text>
+  <text x="815" y="283" class="muted tiny">风险先行条件覆盖 · 稳健性 · 评价策略</text>
+
+  <rect x="1402" y="225" width="586" height="70" rx="12" fill="#FFFFFF" stroke="#A78BFA" class="card"/>
+  <text x="1426" y="255" class="title label">VLM 提示词协议 prompts/</text>
+  <text x="1426" y="283" class="muted tiny">类别发现 · 特征标注 · 状态提取</text>
+
+  <!-- ===== ② 数据层 ===== -->
+  <circle cx="95" cy="412" r="22" fill="#1F7AE8"/><text x="95" y="420" text-anchor="middle" fill="white" font-size="22" class="body">2</text>
+  <rect x="150" y="370" width="1870" height="200" rx="20" fill="#F5FAFF" stroke="#84BDFB" class="panel"/>
+  <text x="180" y="414" class="title section">② 数据层 · data/ + reviews/</text>
+  <text x="1990" y="414" text-anchor="end" class="muted tiny">供 ③ 目标实例 · ④ 审核记录 · ⑧ 冻结缓存</text>
+
+  <rect x="180" y="445" width="436" height="100" rx="12" fill="#FFFFFF" stroke="#84BDFB" class="card"/>
+  <text x="204" y="477" class="title label">公开数据集</text>
+  <text x="204" y="507" class="muted tiny">COCO 2017/128 · ImageNetV2 · Objects365</text>
+  <text x="204" y="535" class="muted tiny">OpenImages v7 · WIDER FACE · Pascal VOC</text>
+
+  <rect x="638" y="445" width="436" height="100" rx="12" fill="#FFFFFF" stroke="#84BDFB" class="card"/>
+  <text x="662" y="477" class="title label">候选目标池</text>
+  <text x="662" y="507" class="muted tiny">六类三确认池 + 新采集补充</text>
+  <text x="662" y="535" class="muted tiny">观察单位 = 原图 + 目标框 + 真值</text>
+
+  <rect x="1096" y="445" width="436" height="100" rx="12" fill="#FFFFFF" stroke="#84BDFB" class="card"/>
+  <text x="1120" y="477" class="title label">冻结预测缓存</text>
+  <text x="1120" y="507" class="muted tiny">full_gpu_20260905 八架构逐目标预测</text>
+  <text x="1120" y="535" class="muted tiny">标签与特征缓存</text>
+
+  <rect x="1554" y="445" width="436" height="100" rx="12" fill="#FFFFFF" stroke="#84BDFB" class="card"/>
+  <text x="1578" y="477" class="title label">人工审核 reviews/</text>
+  <text x="1578" y="507" class="muted tiny">审核表 · 划分表</text>
+  <text x="1578" y="535" class="muted tiny">human_review.csv</text>
+
+  <!-- ===== ③ 模型层 ===== -->
+  <circle cx="95" cy="662" r="22" fill="#0E9C94"/><text x="95" y="670" text-anchor="middle" fill="white" font-size="22" class="body">3</text>
+  <rect x="150" y="620" width="1870" height="180" rx="20" fill="#F0FBFA" stroke="#70CFC7" class="panel"/>
+  <text x="180" y="664" class="title section">③ 模型层</text>
+  <text x="1990" y="664" text-anchor="end" class="muted tiny">输入：目标实例（②）· 提示词（①） ｜ 状态记录 → ⑤</text>
+
+  <rect x="180" y="695" width="586" height="80" rx="12" fill="#FFFFFF" stroke="#70CFC7" class="card"/>
+  <text x="204" y="725" class="title label">VLM（状态描述者）</text>
+  <text x="204" y="751" class="muted tiny">本地 Qwen3-VL + 在线 SenseNova 对照</text>
+  <text x="204" y="773" class="muted tiny">输出不替代官方类别真值</text>
+
+  <rect x="791" y="695" width="586" height="80" rx="12" fill="#FFFFFF" stroke="#70CFC7" class="card"/>
+  <text x="815" y="725" class="title label">SAM vit_h / vit_b</text>
+  <text x="815" y="751" class="muted tiny">主体掩码与几何证据</text>
+
+  <rect x="1402" y="695" width="586" height="80" rx="12" fill="#FFFFFF" stroke="#70CFC7" class="card"/>
+  <text x="1426" y="725" class="title label">被测分类器（八架构）</text>
+  <text x="1426" y="751" class="muted tiny">参数与预处理固定</text>
+  <text x="1426" y="773" class="muted tiny">预测不参与风险计算与选样</text>
+
+  <!-- ===== ④ 核心工具包 ===== -->
+  <circle cx="95" cy="892" r="22" fill="#E97828"/><text x="95" y="900" text-anchor="middle" fill="white" font-size="22" class="body">4</text>
+  <rect x="150" y="850" width="1870" height="180" rx="20" fill="#FFFBF7" stroke="#F3A66B" class="panel"/>
+  <text x="180" y="894" class="title section">④ 核心工具包 qe_quality/ · 可复现研究工具</text>
+  <text x="1990" y="894" text-anchor="end" class="muted tiny">输入：SAM 掩码（③）· 审核记录（②） ｜ 工具 → ⑤</text>
+
+  <rect x="180" y="925" width="586" height="80" rx="12" fill="#FFFFFF" stroke="#F3A66B" class="card"/>
+  <text x="204" y="955" class="title label">dta · 主体选择协议 v8</text>
+  <text x="204" y="981" class="muted tiny">本地 / SAM / 在线 三路对照</text>
+  <text x="204" y="1003" class="muted tiny">断点续跑 · 人工复核 Web</text>
+
+  <rect x="791" y="925" width="586" height="80" rx="12" fill="#FFFFFF" stroke="#F3A66B" class="card"/>
+  <text x="815" y="955" class="title label">auto_feature · 自动特征流水线</text>
+  <text x="815" y="981" class="muted tiny">类别发现 → Schema 生成 / 校验 / 冻结</text>
+  <text x="815" y="1003" class="muted tiny">→ 特征识别</text>
+
+  <rect x="1402" y="925" width="586" height="80" rx="12" fill="#FFFFFF" stroke="#F3A66B" class="card"/>
+  <text x="1426" y="955" class="title label">difficulty · 原图难度评分</text>
+  <text x="1426" y="981" class="muted tiny">纯 CPU · 审核队列</text>
+  <text x="1426" y="1003" class="muted tiny">规则冻结 · 盲测验证</text>
+
+  <!-- ===== ⑤ 实验主线 ===== -->
+  <circle cx="95" cy="1122" r="22" fill="#C2410C"/><text x="95" y="1130" text-anchor="middle" fill="white" font-size="22" class="body">5</text>
+  <rect x="150" y="1080" width="1870" height="250" rx="20" fill="#FFF7F2" stroke="#F09A58" class="panel"/>
+  <text x="180" y="1124" class="title section">⑤ 实验主线 scripts/（340+ 脚本）</text>
+  <text x="1990" y="1124" text-anchor="end" class="muted tiny">输入：状态记录（③）· 状态字典/参数（①）· 工具（④）· 冻结缓存（②）</text>
+
+  <!-- pipeline step boxes -->
+  <rect x="180" y="1165" width="213" height="110" rx="12" fill="#FFFFFF" stroke="#F09A58" class="card"/>
+  <text x="286" y="1199" text-anchor="middle" class="steptitle">① 多视图</text>
+  <text x="286" y="1225" text-anchor="middle" class="steptitle">状态提取</text>
+  <text x="286" y="1255" text-anchor="middle" class="stepcap">原图·标记图·裁剪</text>
+
+  <rect x="407" y="1165" width="213" height="110" rx="12" fill="#FFFFFF" stroke="#F09A58" class="card"/>
+  <text x="513" y="1199" text-anchor="middle" class="steptitle">② 目标—状态</text>
+  <text x="513" y="1225" text-anchor="middle" class="steptitle">二值矩阵 X</text>
+  <text x="513" y="1255" text-anchor="middle" class="stepcap">结构检查·语义核查</text>
+
+  <rect x="634" y="1165" width="213" height="110" rx="12" fill="#FFFFFF" stroke="#F09A58" class="card"/>
+  <text x="740" y="1199" text-anchor="middle" class="steptitle">③ 五维风险</text>
+  <text x="740" y="1225" text-anchor="middle" class="steptitle">评分</text>
+  <text x="740" y="1255" text-anchor="middle" class="stepcap">中点排序·区间宽度</text>
+
+  <rect x="861" y="1165" width="213" height="110" rx="12" fill="#FFFFFF" stroke="#F09A58" class="card"/>
+  <text x="967" y="1199" text-anchor="middle" class="steptitle">④ Q1–Q5</text>
+  <text x="967" y="1225" text-anchor="middle" class="steptitle">分层配额</text>
+  <text x="967" y="1255" text-anchor="middle" class="stepcap">最大余数法·随机</text>
+
+  <rect x="1088" y="1165" width="213" height="110" rx="12" fill="#FFFFFF" stroke="#F09A58" class="card"/>
+  <text x="1194" y="1199" text-anchor="middle" class="steptitle">⑤ 覆盖支持</text>
+  <text x="1194" y="1225" text-anchor="middle" class="steptitle">检查</text>
+  <text x="1194" y="1255" text-anchor="middle" class="stepcap">C_occ·C_sup·C_thr</text>
+
+  <rect x="1315" y="1165" width="213" height="110" rx="12" fill="#FFFFFF" stroke="#F09A58" class="card"/>
+  <text x="1421" y="1199" text-anchor="middle" class="steptitle">⑥ 有限成员</text>
+  <text x="1421" y="1225" text-anchor="middle" class="steptitle">调整（≤L）</text>
+  <text x="1421" y="1255" text-anchor="middle" class="stepcap">同配额补缺口·复查</text>
+
+  <rect x="1542" y="1165" width="213" height="110" rx="12" fill="#FFFFFF" stroke="#F09A58" class="card"/>
+  <text x="1648" y="1199" text-anchor="middle" class="steptitle">⑦ 固定测试集</text>
+  <text x="1648" y="1225" text-anchor="middle" class="steptitle">S_c</text>
+  <text x="1648" y="1255" text-anchor="middle" class="stepcap">成员·风险构成·支持</text>
+
+  <rect x="1769" y="1165" width="213" height="110" rx="12" fill="#FFFFFF" stroke="#F09A58" class="card"/>
+  <text x="1875" y="1199" text-anchor="middle" class="steptitle">⑧ 模型评价</text>
+  <text x="1875" y="1225" text-anchor="middle" class="steptitle">条件复核</text>
+  <text x="1875" y="1255" text-anchor="middle" class="stepcap">冻结预测×状态关联</text>
+
+  <text x="180" y="1302" class="muted tiny">主流程：⑤ 覆盖未达参照 95% 门槛 → ⑥ 有限调整 → 复查（同配额约束，≤L 移出）</text>
+  <text x="1988" y="1302" text-anchor="end" class="muted tiny">稳健性分支：标签翻转 · L/配额敏感性 · bootstrap · 双 VLM 一致性</text>
+
+  <!-- ===== ⑥ 产出层 ===== -->
+  <circle cx="95" cy="1424" r="22" fill="#2E7D46"/><text x="95" y="1432" text-anchor="middle" fill="white" font-size="22" class="body">6</text>
+  <rect x="150" y="1380" width="1870" height="200" rx="20" fill="#F3FAF4" stroke="#7BC79A" class="panel"/>
+  <text x="180" y="1424" class="title section">⑥ 产出层</text>
+  <text x="1990" y="1424" text-anchor="end" class="muted tiny">由 ⑤ 实验主线生成</text>
+
+  <rect x="180" y="1455" width="586" height="100" rx="12" fill="#FFFFFF" stroke="#7BC79A" class="card"/>
+  <text x="204" y="1487" class="title label">冻结数据集与产物</text>
+  <text x="204" y="1517" class="muted tiny">data/QE_VisualState_CoverRisk_v1</text>
+  <text x="204" y="1545" class="muted tiny">artifacts/ 各轮实验件（本地留存·不入 Git）</text>
+
+  <rect x="791" y="1455" width="586" height="100" rx="12" fill="#FFFFFF" stroke="#7BC79A" class="card"/>
+  <text x="815" y="1487" class="title label">便携复算包</text>
+  <text x="815" y="1517" class="muted tiny">reproduce.py + requirements</text>
+  <text x="815" y="1545" class="muted tiny">仅 CPU 复算 17 张结果表 + 5 个数组文件</text>
+
+  <rect x="1402" y="1455" width="586" height="100" rx="12" fill="#FFFFFF" stroke="#7BC79A" class="card"/>
+  <text x="1426" y="1487" class="title label">results/ · output/</text>
+  <text x="1426" y="1517" class="muted tiny">结果表 · 报告 · 图表 · 汇报材料</text>
+  <text x="1426" y="1545" class="muted tiny">最新汇总 20261018</text>
+
+  <!-- ===== ⑦ 质量与文档层 ===== -->
+  <circle cx="95" cy="1674" r="22" fill="#5A6B7B"/><text x="95" y="1682" text-anchor="middle" fill="white" font-size="22" class="body">7</text>
+  <rect x="150" y="1630" width="1870" height="160" rx="20" fill="#F7F8FA" stroke="#B7C2CE" class="panel"/>
+  <text x="180" y="1674" class="title section">⑦ 质量与文档层</text>
+  <text x="1990" y="1674" text-anchor="end" class="muted tiny">全程质量门与证据沉淀</text>
+
+  <rect x="180" y="1705" width="890" height="60" rx="12" fill="#FFFFFF" stroke="#B7C2CE" class="card"/>
+  <text x="204" y="1735" class="title label">tests/ · 55+ 单元测试</text>
+  <text x="204" y="1757" class="muted tiny">回归门：覆盖 qe_quality 核心包与实验脚本</text>
+
+  <rect x="1100" y="1705" width="890" height="60" rx="12" fill="#FFFFFF" stroke="#B7C2CE" class="card"/>
+  <text x="1124" y="1735" class="title label">docs/ · 论文与实验文档</text>
+  <text x="1124" y="1757" class="muted tiny">方法论 · 论文 · 实验方案与结果 · 图表与流程图 · archive · 00_INDEX</text>
+
+  <!-- ===== 层间主流程箭头 ===== -->
+  <line x1="1085" y1="570" x2="1085" y2="616" stroke="#1F7AE8" stroke-width="4" marker-end="url(#aBlue)"/>
+  <text x="1105" y="600" class="flowlabel">目标实例：原图 · 目标框 · 真值 → ③</text>
+
+  <line x1="1085" y1="800" x2="1085" y2="846" stroke="#0E9C94" stroke-width="4" stroke-dasharray="9 8" marker-end="url(#aTeal)"/>
+  <text x="1105" y="830" class="flowlabel">SAM 主体掩码 → dta</text>
+
+  <line x1="1085" y1="1030" x2="1085" y2="1076" stroke="#E97828" stroke-width="4" marker-end="url(#aOrange)"/>
+  <text x="1105" y="1060" class="flowlabel">qe_quality 工具复用 → ⑤</text>
+
+  <line x1="1085" y1="1330" x2="1085" y2="1376" stroke="#2E7D46" stroke-width="4" marker-end="url(#aGreen)"/>
+  <text x="1105" y="1360" class="flowlabel">冻结数据集 · 复算包 · 结果表 → ⑥</text>
+
+  <line x1="1085" y1="1580" x2="1085" y2="1626" stroke="#5A6B7B" stroke-width="4" marker-end="url(#aSlate)"/>
+  <text x="1105" y="1610" class="flowlabel">实验证据与结论 → ⑦</text>
+
+  <!-- ===== 图例 ===== -->
+  <line x1="150" y1="1800" x2="2360" y2="1800" stroke="#D5DFEA" stroke-width="2"/>
+  <circle cx="180" cy="1830" r="7" fill="#7C3AED"/><text x="200" y="1837" class="muted tiny">紫：配置（状态字典·方案·提示词）</text>
+  <circle cx="560" cy="1830" r="7" fill="#1F7AE8"/><text x="580" y="1837" class="muted tiny">蓝：数据与输入</text>
+  <circle cx="800" cy="1830" r="7" fill="#0E9C94"/><text x="820" y="1837" class="muted tiny">青：模型层</text>
+  <circle cx="1000" cy="1830" r="7" fill="#E97828"/><text x="1020" y="1837" class="muted tiny">橙：核心包与实验主线</text>
+  <circle cx="1320" cy="1830" r="7" fill="#2E7D46"/><text x="1340" y="1837" class="muted tiny">绿：产出</text>
+  <circle cx="1520" cy="1830" r="7" fill="#5A6B7B"/><text x="1540" y="1837" class="muted tiny">灰：质量与文档</text>
+  <text x="2360" y="1837" text-anchor="end" class="muted tiny">工程结构视图 · 与「视觉状态驱动风险约束覆盖选样」方法总图互补 · 20261116</text>
+</svg>

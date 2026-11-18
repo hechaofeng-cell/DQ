@@ -1,0 +1,3 @@
+﻿class_name,model,selection_seed,namespace,field,value,method,state_targets,control_targets,state_recall_pct,control_recall_pct,delta_pp,proposed
+car,aimv2_large,2026110600,specific,windshield_visibility,not_visible,R,27,161,86.41975308641975,92.13250517598345,-5.7127520895637,False
+car,aimv2_large,2026110600,specific,windshield_visibility,not_visible,P20,33,156,81.81818181818183,92.0940170940171,-10.275835275835288,True
